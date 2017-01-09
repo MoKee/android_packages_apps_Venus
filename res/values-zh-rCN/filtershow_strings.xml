@@ -327,6 +327,8 @@
   <string name="color">滤镜</string>
   <string name="frames">相框</string>
   <string name="beautify">美肤</string>
+    <string name="dual_camera_effects">双摄像头效果</string>
+    <string name="dual_camera_effects_intro">此功能可将双摄像头效果应用到背景上，如动态模糊和素描。.你可以将两张照片合并到一起来创建一个有趣的效果。这个功能在你的摄像头和照片的主体有一个短距离时效果最好。</string>
   <string name="dualcam">双摄像头</string>
   <string name="trueportrait">真实肖像</string>
   <string name="foreground">前景区域</string>

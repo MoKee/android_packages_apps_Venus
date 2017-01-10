@@ -18,25 +18,25 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">Galeria</string>
+  <string name="app_name">Galeria Snapdragon</string>
   <!-- Title for picture frame gadget to show in list of all available gadgets -->
   <string name="gadget_title">Moldura da imagem</string>
   <!-- Used to format short video duration in Details dialog. minutes:seconds e.g. 00:30 -->
   <!-- Used to format video duration in Details dialog. hours:minutes:seconds e.g. 0:21:30 -->
   <!-- Activity label. This might show up in the activity-picker -->
-  <string name="movie_view_label">Leitor de vídeo</string>
+  <string name="movie_view_label">Reprodutor de vídeo</string>
   <!-- shown in the video player view while the video is being loaded, before it starts playing -->
-  <string name="loading_video">A carregar vídeo...</string>
-  <string name="loading_image">A carregar imagem...</string>
+  <string name="loading_video">Carregando vídeo\u2026</string>
+  <string name="loading_image">Carregando imagem\u2026</string>
   <!-- Message shown on the progress dialog to indicate we're loading the
             account info [CHAR LIMIT=30] -->
-  <string name="loading_account">A carregar conta...</string>
+  <string name="loading_account">Carregando conta\u2026</string>
   <!-- Movie View Resume Playing dialog title -->
-  <string name="resume_playing_title">Retomar o vídeo</string>
+  <string name="resume_playing_title">Continuar</string>
   <!-- Movie View Start Playing dialog title -->
-  <string name="resume_playing_message">Retomar reprodução a partir de %s?</string>
+  <string name="resume_playing_message">Continuar a reprodução a partir de %s ?</string>
   <!-- Movie View Start Playing button "Resume from bookmark" -->
-  <string name="resume_playing_resume">Retomar a reprodução</string>
+  <string name="resume_playing_resume">Retomar reprodução</string>
   <!-- Displayed in the title of those albums that are being loaded -->
   <string name="loading">Carregando\u2026</string>
   <!-- Displayed in the title of those pictures that fails to be loaded
@@ -60,22 +60,22 @@
   <!-- Hint that appears when cropping an image with more than one face -->
   <string name="multiface_crop_help">Toque num rosto para começar.</string>
   <!-- Toast/alert that the image is being saved to the SD card -->
-  <string name="saving_image">A guardar imagem...</string>
+  <string name="saving_image">Salvando foto\u2026</string>
   <!-- Toast/alert that the image is being saved after editing in filtershow [CHAR LIMIT=40]-->
-  <string name="filtershow_saving_image">A guardar imagem em <xliff:g id="ALBUM_NAME">%1$s</xliff:g>…</string>
+  <string name="filtershow_saving_image">Salvando foto em <xliff:g id="album_name">%1$s</xliff:g>\u2026</string>
   <!-- Eorror toast message that the image cannot be saved [CHAR LIMIT=40]-->
-  <string name="save_error">Impossível guardar imagem recortada.</string>
+  <string name="save_error">Não foi possível salvar a imagem editada.</string>
   <!-- menu pick: crop the currently selected image [CHAR LIMIT=30]-->
-  <string name="crop_label">Recortar imagem</string>
+  <string name="crop_label">Cortar imagem</string>
   <!-- menu pick: trim the currently selected video [CHAR LIMIT=30]-->
   <string name="trim_label">Cortar vídeo</string>
   <!-- Toast/alert that the face detection is being run -->
   <!-- Title prompted for user to choose a photo item [CHAR LIMIT=20] -->
-  <string name="select_image">Selecionar fotog.</string>
+  <string name="select_image">Selecionar foto</string>
   <!-- Title prompted for user to choose a video item [CHAR LIMIT=20] -->
-  <string name="select_video">Seleccionar vídeo</string>
+  <string name="select_video">Selecionar vídeo</string>
   <!-- Title prompted for user to choose a media object [CHAR LIMIT=20] -->
-  <string name="select_item">Seleccionar item</string>
+  <string name="select_item">Selecionar Item</string>
   <!-- Title prompted for user to choose an album [CHAR LIMIT=20] -->
   <string name="select_album">Selecionar álbum</string>
   <!-- Title prompted for user to choose a group [CHAR LIMIT=20] -->
@@ -84,11 +84,12 @@
              that is to be "set as" (e.g. set as contact photo or set as wallpaper) -->
   <string name="set_image">Definir imagem como</string>
   <!-- Activity title for cropping picture and setting it as wallpaper [CHAR LIMIT=20] -->
-  <string name="set_wallpaper">Definir imagem fundo</string>
+  <string name="set_wallpaper">Definir como plano de fundo</string>
   <!-- Toast/alert after saving wallpaper -->
-  <string name="wallpaper">A definir imagem de fundo…</string>
-  <string name="camera_setas_wallpaper">Imagem de fundo</string>
+  <string name="wallpaper">Definindo plano de fundo\u2026</string>
+  <string name="camera_setas_wallpaper">Planos de fundo</string>
   <!-- Toast message for share items -->
+  <string name="cannot_share_items">Máximo de 300 itens para compartilhar</string>
   <!-- Details dialog "OK" button. Dismisses dialog. -->
   <string name="delete">Eliminar</string>
   <!-- String Delete the selected media item(s) [CHAR LIMIT=50] -->

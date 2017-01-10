@@ -314,7 +314,7 @@
   <string name="fusion_pick_underlay">选择底层</string>
   <string name="dualcam_no_segment_toast">没有找到分段</string>
   <string name="dualcam_filter_not_supported">此图片不支持双摄像头</string>
-  <string name="trueportrait_intro">此功能用于增强人像照。你可以将效果应用于照片背景，例如“模糊”和“速写”。你也可以将两张照片拼在一起来给你的人像照创建一个有趣的背景。</string>
+  <string name="trueportrait_intro">此功能适用于增强人像图片。您可以将效果应用于图片背景，例如“模糊”和“速写”。您也可以将两张图片拼在一起从而为人像图片创造一个有趣的背景。</string>
   <string name="trueportrait_no_face">未检测到面部。真实肖像效果无法应用到这张图片。</string>
   <string name="trueportrait_edit_intro">使用触摸工具，您可以编辑前景和背景区域。您可以在任何错过的前景或背景区域用手指涂抹。</string>
   <string name="trueportrait_edit_foreground_toast">您可以在任何错过的前景区域用手指涂抹。</string>
@@ -327,8 +327,6 @@
   <string name="color">滤镜</string>
   <string name="frames">相框</string>
   <string name="beautify">美肤</string>
-    <string name="dual_camera_effects">双摄像头效果</string>
-    <string name="dual_camera_effects_intro">此功能可将双摄像头效果应用到背景上，如动态模糊和素描。.你可以将两张照片合并到一起来创建一个有趣的效果。这个功能在你的摄像头和照片的主体有一个短距离时效果最好。</string>
   <string name="dualcam">双摄像头</string>
   <string name="trueportrait">真实肖像</string>
   <string name="foreground">前景区域</string>

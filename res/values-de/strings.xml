@@ -52,10 +52,10 @@
   <string name="resume_playing_restart">Von vorne beginnen</string>
   <!-- Title of a menu item to indicate performing the image crop operation
          [CHAR LIMIT=20] -->
-  <string name="crop_save_text">Ok</string>
+  <string name="crop_save_text">OK</string>
   <!-- Title of a menu item to indicate performing the image crop operation
          [CHAR LIMIT=20] -->
-  <string name="ok">Ok</string>
+  <string name="ok">OK</string>
   <!-- Button indicating that the cropped image should be reverted back to the original -->
   <!-- Hint that appears when cropping an image with more than one face -->
   <string name="multiface_crop_help">Berühren Sie ein Gesicht, um zu beginnen.</string>
@@ -647,7 +647,7 @@
   <!-- switch camera label front [CHAR LIMIT=60] -->
   <string name="pref_camera_id_label_front">Hauptkamera</string>
   <!-- Dialog "OK" button. Dismisses dialog. -->
-  <string name="dialog_ok">Ok</string>
+  <string name="dialog_ok">OK</string>
   <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content" product="nosdcard">Ihr USB-Speicher bietet nicht mehr genug Speicherplatz. Ändern Sie die Qualitätseinstellung oder löschen Sie Bilder oder andere Dateien.</string>
   <!-- Low-memory dialog message [CHAR LIMIT=NONE] -->

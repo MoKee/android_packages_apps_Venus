@@ -167,7 +167,7 @@
   <!-- Name for the photo effect that inverts photo to negative images. [CHAR LIMIT=10] -->
   <string name="negative">Negativ</string>
   <!--  Label for having no filters applied to the image [CHAR LIMIT=10] -->
-  <string name="none" msgid="3601545724573307541">Kein Filter</string>
+  <string name="none" msgid="3601545724573307541">Kein</string>
   <!--  Label for the image edges effect (highlights edges in image) [CHAR LIMIT=10] -->
   <string name="edge">Kanten</string>
   <!--  Label for an image effect that replicates the "pop art" style of segmenting
@@ -257,7 +257,7 @@
   <!--  The title for draw size [CHAR LIMIT=50] -->
   <string name="draw_size_title">Größe auswählen</string>
   <!--  The accept the draw size [CHAR LIMIT=20] -->
-  <string name="draw_size_accept">Ok</string>
+  <string name="draw_size_accept">OK</string>
   <!--  Name used to indicate the original image in the state panel [CHAR LIMIT=20] -->
   <string name="state_panel_original">Original</string>
   <!--  Name used to indicate the final image in the state panel [CHAR LIMIT=20] -->
@@ -287,6 +287,7 @@
   <!-- Label for the add button in the category panel [CHAR LIMIT=30] -->
   <string name="filtershow_add_button_looks">Voreinstellung</string>
   <!-- Label for the add button in the versions panel [CHAR LIMIT=30] -->
+  <string name="filtershow_add_button_versions">Version</string>
   <!-- Label for the Original version in the versions panel [CHAR LIMIT=30] -->
   <string name="filtershow_version_original">Original</string>
   <!-- Label for the Current version in the versions panel [CHAR LIMIT=30] -->
@@ -298,6 +299,7 @@
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="filtershow_exif_focal_length">Brennweite</string>
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
+  <string name="filtershow_exif_iso">ISO</string>
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="filtershow_exif_subject_distance">Motivdistanz</string>
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
@@ -308,5 +310,16 @@
   <string name="filtershow_exif_exposure_time">Belichtungszeit</string>
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="filtershow_exif_copyright">Urheberrecht</string>
+  <string name="dualcam_no_segment_toast">Kein Segment an dieser Stelle gefunden</string>
+  <string name="dualcam_filter_not_supported">Dual-Kamera-Filter für dieses Bild nicht unterstützt</string>
+  <string name="do_not_show_again">Nicht wieder anzeigen</string>
+  <string name="trueportrait_touch_up">Retouchieren</string>
+  <string name="fusion_pick_background">Hintergrundbild festlegen</string>
   <string name="color">Farbe</string>
+  <string name="frames">Frames</string>
+  <string name="beautify">Verschönern</string>
+  <string name="dualcam">Dual-Kamera</string>
+  <string name="foreground">Vordergrund</string>
+  <string name="background">Hintergrund</string>
+  <string name="brush_size">Pinselgröße</string>
 </resources>

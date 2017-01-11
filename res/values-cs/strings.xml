@@ -89,12 +89,19 @@
   <string name="wallpaper">Nastavování tapety...</string>
   <string name="camera_setas_wallpaper">Tapeta</string>
   <!-- Toast message for share items -->
+  <string name="cannot_share_items">Max. počet vybraných položek pro sdílení je 300</string>
   <!-- Details dialog "OK" button. Dismisses dialog. -->
   <string name="delete">Smazat</string>
   <!-- String Delete the selected media item(s) [CHAR LIMIT=50] -->
+  <plurals name="delete_selection">
+    <item quantity="one">Smazat vybranou položku?</item>
+    <item quantity="few">Smazat vybrané položky?</item>
+    <item quantity="other">Smazat vybrané položky?</item>
+  </plurals>
   <string name="confirm">Potvrdit</string>
   <string name="cancel">Zrušit</string>
   <string name="share">Sdílet</string>
+  <string name="share_dialogue_title">Sdílet pomocí</string>
   <string name="share_panorama">Sdílet panorama</string>
   <string name="share_as_photo">Sdílet jako fotku</string>
   <!-- The label shown after an image is deleted [CHAR LIMIT=16] -->
@@ -112,10 +119,25 @@
   <string name="switch_to_camera">Přepnout do režimu Fotoaparát</string>
   <!-- String indicating how many media item(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
+  <plurals name="number_of_items_selected">
+    <item quantity="one">Vybráno: %1$d</item>
+    <item quantity="few">Vybráno: %1$d</item>
+    <item quantity="other">%1$d vybrány</item>
+  </plurals>
   <!-- String indicating how many media album(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
+  <plurals name="number_of_albums_selected">
+    <item quantity="one">Vybráno: %1$d</item>
+    <item quantity="few">Vybráno: %1$d</item>
+    <item quantity="other">%1$d vybrány</item>
+  </plurals>
   <!-- String indicating how many media group(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
+  <plurals name="number_of_groups_selected">
+    <item quantity="one">Vybráno: %1$d</item>
+    <item quantity="few">Vybráno: %1$d</item>
+    <item quantity="other">%1$d vybrány</item>
+  </plurals>
   <!-- String indicating timestamp of photo or video -->
   <string name="show_on_map">Zobrazit na mapě</string>
   <string name="rotate_left">Otočit doleva</string>
@@ -175,6 +197,7 @@
   <string name="no_location">Neznámá poloha</string>
   <!-- When grouping photos by peoples, the label used for photos that don't
         have people information in them [CHAR LIMIT=20]-->
+  <string name="no_faces">Žádné tváře</string>
   <!-- This toast message is shown when network connection is lost while doing clustering -->
   <string name="no_connectivity">Některá umístění se nepodařilo identifikovat kvůli problémům se sítí.</string>
   <!-- This toast message is shown when failed to load the album data. [CHAR LIMIT=NONE] -->
@@ -207,6 +230,7 @@
          some albums to be viewable offline [CHAR LIMIT=30] -->
   <string name="make_available_offline">Zpřístupnit offline</string>
   <!-- A label describing to link website [CHAR LIMIT=30] -->
+  <string name="more_image">Další obrázky</string>
   <string name="website_for_more_image"></string>
   <!-- A label of a menu item for user to sync the content [CHAR LIMIT=30] -->
   <string name="sync_picasa_albums">Aktualizovat</string>
@@ -241,6 +265,7 @@
   <!-- Text indicating the maker of a media item in details window [CHAR LIMIT=14] -->
   <string name="maker">Tvůrce</string>
   <!-- Text indicating the model of a media item in details window [CHAR LIMIT=14] -->
+  <string name="model">Model</string>
   <!-- Text indicating flash info of a media item in details window [CHAR LIMIT=14] -->
   <string name="flash">Blesk</string>
   <!-- Text indicating aperture of a media item in details window [CHAR LIMIT=14] -->
@@ -252,8 +277,10 @@
   <!-- Text indicating the exposure time of a media item in details window [CHAR LIMIT=14] -->
   <string name="exposure_time">Expoziční čas</string>
   <!-- Text indicating the ISO speed rating of a media item in details window [CHAR LIMIT=14] -->
+  <string name="iso">ISO</string>
   <!-- String indicating the time units in seconds. [CHAR LIMIT=8] -->
   <!-- String indicating the length units in milli-meters. [CHAR LIMIT=8] -->
+  <string name="unit_mm">mm</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
   <string name="manual">Ručně</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
@@ -287,6 +314,11 @@
          (filtershow_fx_0008_washout_color) [CHAR LIMIT=10] -->
   <string name="ffx_washout_color">Litografie</string>
   <!-- Toast message shown after we make some album(s) available offline [CHAR LIMIT=50] -->
+  <plurals name="make_albums_available_offline">
+    <item quantity="one">Zpřístupňování alba offline</item>
+    <item quantity="few">Zpřístupnění alb offline</item>
+    <item quantity="other">Zpřístupnění alb offline.</item>
+  </plurals>
   <!-- Toast message shown after we try to make a local album available offline
          [CHAR LIMIT=150] -->
   <string name="try_to_set_local_album_available_offline">Tato položka je uložena v místním úložišti a je k dispozici offline.</string>
@@ -400,6 +432,7 @@
   <!-- Toast if the trimmed video is too short to trim. [CHAR LIMIT=80] -->
   <string name="trim_too_short">Zkrácení nelze provést: výsledné video je příliš krátké</string>
   <!-- Toast if the muted video is not supported. [CHAR LIMIT=80] -->
+  <string name="mute_nosupport">Nelze ztlumit: video není podporováno</string>
   <!-- Text to show with progress bar while stitching in Gallery -->
   <string name="pano_progress_text">Vykreslování panoramatu</string>
   <!-- The label on the button that will save an edited image -->
@@ -409,7 +442,17 @@
   <!--  Text of notification message which is shown when user attaches camera -->
   <string name="ingest_scanning" msgid="2048262851775139720">Skenování obsahu...</string>
   <!-- String indicating how many media items from the camera have been scanned -->
+  <plurals name="ingest_number_of_items_scanned">
+    <item quantity="one">počet skenovaných položek: %1$d</item>
+    <item quantity="few">počet skenovaných položek: %1$d</item>
+    <item quantity="other">počet skenovaných položek: %1$d</item>
+  </plurals>
   <!-- String indicating how many media items from the camera have been selected -->
+  <plurals name="ingest_number_of_items_selected">
+    <item quantity="one">%1$d položka vybrána</item>
+    <item quantity="few">%1$d vybraných položek</item>
+    <item quantity="other">%1$d vybraných položek</item>
+  </plurals>
   <!--  Status message shown when content from the camera is being sorted -->
   <string name="ingest_sorting" msgid="624687230903648118">Řazení...</string>
   <!--  Status message shown when scanning the content from the camera has completed -->
@@ -465,6 +508,11 @@
   <!-- Title for countdown timer on camera settings screen [CHAR LIMIT=30]-->
   <string name="pref_camera_timer_title">Časovač odpočítávání</string>
   <!-- Entry for countdown timer setting. e.g. 1 second, 10 seconds, etc. [CHAR LIMIT=30]-->
+  <plurals name="pref_camera_timer_entry">
+    <item quantity="one">1 s</item>
+    <item quantity="few">%d s</item>
+    <item quantity="other">%d s</item>
+  </plurals>
   <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT = 16]-->
   <string name="pref_camera_timer_sound_title">Zvuk při odpočtu</string>
   <!-- Entry of a on/off setting. The setting is turned off. [CHAR LIMIT=15] -->
@@ -511,7 +559,9 @@
   <!-- Settings screen, dialog choice for 1 megapixels picture size [CHAR LIMIT=15] -->
   <string name="pref_camera_picturesize_entry_1mp">1 Mpx</string>
   <!-- Settings screen, dialog choice for VGA picture size [CHAR LIMIT=15] -->
+  <string name="pref_camera_picturesize_entry_vga">VGA</string>
   <!-- Settings screen, dialog choice for QVGA picture size [CHAR LIMIT=15] -->
+  <string name="pref_camera_picturesize_entry_qvga">QVGA</string>
   <!-- Settings screen, Focus mode title -->
   <string name="pref_camera_focusmode_title">Režim zaostření</string>
   <!-- Settings screen, Focus mode dialog radio button choices -->
@@ -519,6 +569,7 @@
   <string name="pref_camera_focusmode_entry_infinity">Nekonečno</string>
   <string name="pref_camera_focusmode_entry_macro">Makro</string>
   <!-- Menu, focus mode labels [CHAR LIMIT=50] -->
+  <string name="pref_camera_focusmode_label_auto">AUTO</string>
   <string name="pref_camera_focusmode_label_infinity">NEKONEČNO</string>
   <string name="pref_camera_focusmode_label_macro">MAKRO</string>
   <!-- Default flash mode setting.-->
@@ -548,6 +599,7 @@
   <string name="pref_camera_whitebalance_entry_fluorescent">Zářivka</string>
   <string name="pref_camera_whitebalance_entry_cloudy">Zataženo</string>
   <!-- Menu, White balance labels [CHAR LIMIT=50] -->
+  <string name="pref_camera_whitebalance_label_auto">AUTO</string>
   <string name="pref_camera_whitebalance_label_incandescent">ŽÁROVKA</string>
   <string name="pref_camera_whitebalance_label_daylight">DENNÍ SVĚTLO</string>
   <string name="pref_camera_whitebalance_label_fluorescent">ZÁŘIVKA</string>
@@ -558,6 +610,7 @@
   <!-- Settings menu, scene mode choices [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_auto">Automaticky</string>
   <!-- Scene mode that uses HDR (high dynamic range) [CHAR LIMIT=16] -->
+  <string name="pref_camera_scenemode_entry_hdr">HDR</string>
   <!-- Scene mode that takes an image quickly with little motion blur. [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_action">Akce</string>
   <!-- Scene mode that takes long exposures to capture night scenes without flash. [CHAR LIMIT=16] -->
@@ -596,6 +649,7 @@
   <string name="pref_exposure_label">EXPOZICE</string>
   <!-- Default HDR entry value -->
   <!-- HDR label ON [CHAR LIMIT=60] -->
+  <string name="pref_camera_hdr_label">HDR</string>
   <!-- switch camera label back [CHAR LIMIT=60] -->
   <string name="pref_camera_id_label_back">PŘEDNÍ FOTOAPARÁT</string>
   <!-- switch camera label front [CHAR LIMIT=60] -->
@@ -618,6 +672,7 @@
   <!-- The text shown in the dialog when panorama saving failed [CHAR LIMIT=40] -->
   <string name="pano_dialog_panorama_failed">Panoramatickou fotku nelze uložit.</string>
   <!-- The text shown on the dialog title in the dialogs for Panorama [CHAR LIMIT=12] -->
+  <string name="pano_dialog_title">Panorama</string>
   <!-- The text shown on the top-left corner of the screen to indicate the capturing is on going [CHAR LIMIT=27] -->
   <string name="pano_capture_indication">Snímání panoramatu</string>
   <!-- The text shown in the progress dialog when waiting for previous panorama finishing [CHAR LIMIT=40] -->
@@ -826,6 +881,7 @@ CHAR LIMIT = NONE] -->
   <!-- Positive answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
   <string name="remember_location_yes">Ano</string>
   <!-- The message is shown in toast when click showOnMap Menu and there is no map app -->
+  <string name="map_activity_not_found_err">Neexistuje žádná mapová aplikace pro zobrazení umístění.</string>
   <!-- Menu item to launch the camera app [CHAR LIMIT=25] -->
   <string name="menu_camera">Fotoaparát</string>
   <!-- Menu item to search for photos [CHAR LIMIT=25] -->
@@ -840,15 +896,40 @@ CHAR LIMIT = NONE] -->
   <!-- settings label [CHAR LIMIT=50] -->
   <string name="camera_menu_settings_label">NASTAVENÍ</string>
   <!-- String indicating how many photos are in an album [CHAR LIMIT=15] -->
+  <plurals name="number_of_photos">
+    <item quantity="one">%1$d fotka</item>
+    <item quantity="few">Fotky: %1$d</item>
+    <item quantity="other">Fotky: %1$d</item>
+  </plurals>
+  <plurals name="number_of_videos">
+    <item quantity="one">%1$d video</item>
+    <item quantity="few">%1$d videí</item>
+    <item quantity="other">%1$d videí</item>
+  </plurals>
   <!-- The label for the bass boost knob of the audio effects dialog. -->
+  <string name="bass_boost_strength">Zvýraznění basů</string>
   <!-- The label for the 3d effect knob of the audio effects dialog. -->
+  <string name="virtualizer_strength">Prostorový zvuk</string>
   <!-- The label for the audio effects menu. -->
+  <string name="audio_effects">Zvukové efekty</string>
   <!-- Toast if user attempts to control audio effects without headphones plugged in. -->
+  <string name="headset_plug">Připojte sluchátka pro tyto efekty.</string>
   <!-- The title of the audio effects dialog. -->
+  <string name="audio_effects_dialog_title">Snapdragon Audio+</string>
   <!-- The tips of trimming video -->
+  <string name="fail_trim">Video nelze oříznout</string>
+  <string name="can_not_trim">Oříznout lze pouze soubory mp4 a 3gp</string>
+  <string name="no_permission_for_drm">"Promiňte, DRM soubor nemůže být sdílen"</string>
+  <string name="drm_license_info">Informace o licenci DRM</string>
+  <string name="mimetype_not_supported">Tento soubor nelze přehrát</string>
   <!-- Timeline screen title -->
   <!-- Albums screen title -->
   <!-- Videos screen title -->
+  <string name="videos_title">Videa</string>
+  <string name="action_viewtype_list">Náhled seznamu</string>
   <string name="truescanner_normal">Normální</string>
+  <string name="seestraight_process_fail">Nelze zpracovat obrázek.</string>
   <string name="trim_video_exit_title">Chcete před ukončením uložit změny?</string>
+  <string name="trim_video_exit_msg">Chcete zrušit změny provedené v tomto videu?</string>
+  <string name="trim_video_exit_discard">ZRUŠIT</string>
 </resources>

@@ -311,7 +311,18 @@
   <string name="filtershow_exif_copyright">Copyright</string>
   <string name="fusion_pick_point">Scegli segmento</string>
   <string name="fusion_pick_underlay">Scegli Sottofondo</string>
+  <string name="trueportrait_intro">Ti consente di migliorare le foto di persone. Puoi applicare effetti allo sfondo, ad esempio \"sfocatura\" e \"schizzo\". È anche possibile unire due foto insieme per creare interessanti sfondi per le tue foto ritratto.</string>
+  <string name="trueportrait_no_face">Gli effetti True Portait non possono essere applicati a questa foto. Volto non rilevato.</string>
+  <string name="trueportrait_edit_intro">Con lo strumento di ritocco, è possibile modificare il primo piano e lo sfondo. Puoi usare le dita per dipingere in tutte le aree di primo piano o sfondo che sono state mancate.</string>
+  <string name="trueportrait_edit_foreground_toast">Usa le dita per dipingere in tutte le aree del primo piano che sono state mancate.</string>
+  <string name="trueportrait_edit_background_toast">Usa le dita per dipingere in tutte le aree dello sfondo che sono state mancate.</string>
+  <string name="trueportrait_edit_help">Per eseguire lo zoom, è possibile fare pinch in o out. Puoi anche trascinare con due dita per riposizionare l\'immagine. Questo può facilitare a risolvere eventuali aree problematiche.</string>
+  <string name="trueportrait_fusion_intro">La persona in primo piano può essere copiata e incollata in qualsiasi foto nella tua galleria. Puoi provare ad usare uno sfondo diverso per creare nuovi e interessanti ritratti.</string>
   <string name="do_not_show_again">Non mostrare di nuovo</string>
+  <string name="trueportrait_touch_up">Ritocco</string>
+  <string name="fusion_pick_background">Seleziona foto di sfondo</string>
   <string name="color">Colore</string>
   <string name="frames">Cornici</string>
+  <string name="foreground">Primo piano</string>
+  <string name="background">Sfondo</string>
 </resources>

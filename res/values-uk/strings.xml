@@ -89,12 +89,19 @@
   <string name="wallpaper">Встановлення фонового малюнка...</string>
   <string name="camera_setas_wallpaper">Фоновий мал.</string>
   <!-- Toast message for share items -->
+  <string name="cannot_share_items">Максимальна к-сть вибраних елементів щоб поділитися становить 300</string>
   <!-- Details dialog "OK" button. Dismisses dialog. -->
   <string name="delete">Видалити</string>
   <!-- String Delete the selected media item(s) [CHAR LIMIT=50] -->
+  <plurals name="delete_selection">
+    <item quantity="one">Видалити вибраний елемент?</item>
+    <item quantity="few">Видалити вибрані елементи?</item>
+    <item quantity="other">Видалити вибрані елементи?</item>
+  </plurals>
   <string name="confirm">Підтвердити</string>
   <string name="cancel">Скасувати</string>
   <string name="share">Надісл.</string>
+  <string name="share_dialogue_title">Поділитися через</string>
   <string name="share_panorama">Поділитися панорамою</string>
   <string name="share_as_photo">Поділитися як фотографією</string>
   <!-- The label shown after an image is deleted [CHAR LIMIT=16] -->
@@ -112,10 +119,25 @@
   <string name="switch_to_camera">Перейти до програми Камера</string>
   <!-- String indicating how many media item(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
+  <plurals name="number_of_items_selected">
+    <item quantity="one">Вибрано %1$d</item>
+    <item quantity="few">Вибрано %1$d</item>
+    <item quantity="other">Вибрано %1$d</item>
+  </plurals>
   <!-- String indicating how many media album(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
+  <plurals name="number_of_albums_selected">
+    <item quantity="one">Вибрано %1$d</item>
+    <item quantity="few">Вибрано %1$d</item>
+    <item quantity="other">Вибрано %1$d</item>
+  </plurals>
   <!-- String indicating how many media group(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
+  <plurals name="number_of_groups_selected">
+    <item quantity="one">Вибрано %1$d</item>
+    <item quantity="few">Вибрано %1$d</item>
+    <item quantity="other">Вибрано %1$d</item>
+  </plurals>
   <!-- String indicating timestamp of photo or video -->
   <string name="show_on_map">Показ. на карті</string>
   <string name="rotate_left">Поверн. вліво</string>
@@ -145,9 +167,9 @@
   <!-- The title of the menu item to let user mute the video. [CHAR LIMIT=15] -->
   <string name="mute_action">Вимкнути звук</string>
   <!-- The title of the menu item to let user set the image as background etc. [CHAR LIMIT=15] -->
-  <string name="set_as">Устан. як</string>
+  <string name="set_as">Встан. як</string>
   <!-- String indicating an error when muting the video. [CHAR LIMIT=30] -->
-  <string name="video_mute_err">Неможливо вимкнути звук.</string>
+  <string name="video_mute_err">Неможливо вимкнути звук відео.</string>
   <!-- String indicating an error when playing the video. [CHAR LIMIT=30] -->
   <string name="video_err">Неможливо відтворити відео.</string>
   <!-- Strings for grouping operations in the menu. The photos can be grouped
@@ -162,7 +184,7 @@
   <!-- Title of a menu item to group photo by tags [CHAR LIMIT=30]-->
   <string name="group_by_tags">За тегами</string>
   <!-- Title of a menu item to group photo by faces [CHAR LIMIT=30]-->
-  <string name="group_by_faces">За обличчями</string>
+  <string name="group_by_faces">За особами</string>
   <!-- Title of a menu item to group photo by albums [CHAR LIMIT=30]-->
   <string name="group_by_album">За альбомами</string>
   <!-- Title of a menu item to group photo by size [CHAR LIMIT=30]-->
@@ -175,6 +197,7 @@
   <string name="no_location">Без місцезнаходження</string>
   <!-- When grouping photos by peoples, the label used for photos that don't
         have people information in them [CHAR LIMIT=20]-->
+  <string name="no_faces">Немає обличчя</string>
   <!-- This toast message is shown when network connection is lost while doing clustering -->
   <string name="no_connectivity">Не вдалося визначити деякі місцезнаходження через проблеми з мережею.</string>
   <!-- This toast message is shown when failed to load the album data. [CHAR LIMIT=NONE] -->
@@ -207,6 +230,7 @@
          some albums to be viewable offline [CHAR LIMIT=30] -->
   <string name="make_available_offline">Завантажити для доступу офлайн</string>
   <!-- A label describing to link website [CHAR LIMIT=30] -->
+  <string name="more_image">Більше зображень</string>
   <string name="website_for_more_image"></string>
   <!-- A label of a menu item for user to sync the content [CHAR LIMIT=30] -->
   <string name="sync_picasa_albums">Оновити</string>
@@ -243,6 +267,7 @@
   <!-- Text indicating the model of a media item in details window [CHAR LIMIT=14] -->
   <string name="model">Модель</string>
   <!-- Text indicating flash info of a media item in details window [CHAR LIMIT=14] -->
+  <string name="flash">Flash</string>
   <!-- Text indicating aperture of a media item in details window [CHAR LIMIT=14] -->
   <string name="aperture">Апертура</string>
   <!-- Text indicating the focal length of a media item in details window [CHAR LIMIT=14] -->
@@ -252,6 +277,7 @@
   <!-- Text indicating the exposure time of a media item in details window [CHAR LIMIT=14] -->
   <string name="exposure_time">Час експозиції</string>
   <!-- Text indicating the ISO speed rating of a media item in details window [CHAR LIMIT=14] -->
+  <string name="iso">ISO</string>
   <!-- String indicating the time units in seconds. [CHAR LIMIT=8] -->
   <!-- String indicating the length units in milli-meters. [CHAR LIMIT=8] -->
   <string name="unit_mm">мм</string>
@@ -288,6 +314,11 @@
          (filtershow_fx_0008_washout_color) [CHAR LIMIT=10] -->
   <string name="ffx_washout_color">Літографія</string>
   <!-- Toast message shown after we make some album(s) available offline [CHAR LIMIT=50] -->
+  <plurals name="make_albums_available_offline">
+    <item quantity="one">Надання доступу до альбому в режимі офлайн.</item>
+    <item quantity="few">Надання доступу до альбомів у режимі офлайн.</item>
+    <item quantity="other">Надання доступу до альбомів в режимі офлайн.</item>
+  </plurals>
   <!-- Toast message shown after we try to make a local album available offline
          [CHAR LIMIT=150] -->
   <string name="try_to_set_local_album_available_offline">Цей елемент зберігається локально та доступний у режимі офлайн.</string>
@@ -368,18 +399,18 @@
   <!-- The title of menu item where user can add a new account -->
   <string name="add_account">Додати обліковий запис</string>
   <!-- The label for the folder contains pictures taken by the camera. [CHAR LIMIT=20]-->
-  <string name="folder_camera">З камери</string>
+  <string name="folder_camera">Камера</string>
   <!-- The label for the folder contains downloaded pictures. [CHAR LIMIT=20]-->
   <string name="folder_download">Звантаження</string>
   <!-- The label for the folder contains edited online pictures. [CHAR LIMIT=40]-->
   <string name="folder_edited_online_photos">Фото, відредаговані онлайн</string>
   <!-- The label for the folder contains pictures that was imported from an
          external camera. [CHAR LIMIT=20]-->
-  <string name="folder_imported">Імпортовані</string>
+  <string name="folder_imported">Імпортовано</string>
   <!-- The label for the folder contains screenshot images. [CHAR LIMIT=20]-->
-  <string name="folder_screenshot">Знімки екрана</string>
+  <string name="folder_screenshot">Знімки екрану</string>
   <!-- The title of the menu item which display online help in browser. [CHAR LIMIT=20]-->
-  <string name="help">Довідка</string>
+  <string name="help">Допомога</string>
   <!-- The tilte of a dialog showing there is no external storage. [CHAR LIMIT=20] -->
   <string name="no_external_storage_title">Немає пам’яті</string>
   <!-- The message of a dialog showing there is no external storage. [CHAR LIMIT=none] -->
@@ -401,6 +432,7 @@
   <!-- Toast if the trimmed video is too short to trim. [CHAR LIMIT=80] -->
   <string name="trim_too_short">Неможливо обрізати: цільове відео закоротке</string>
   <!-- Toast if the muted video is not supported. [CHAR LIMIT=80] -->
+  <string name="mute_nosupport">Неможливо відключити звук: відеофайл не підтримується</string>
   <!-- Text to show with progress bar while stitching in Gallery -->
   <string name="pano_progress_text">Обробка панорами</string>
   <!-- The label on the button that will save an edited image -->
@@ -408,8 +440,13 @@
   <!-- A label representing the action of importing media item(s) [CHAR LIMIT=20] -->
   <!-- A label that indicates the media import operation completed [CHAR LIMIT=20] -->
   <!--  Text of notification message which is shown when user attaches camera -->
-  <string name="ingest_scanning" msgid="2048262851775139720">Сканування вмісту...</string>
+  <string name="ingest_scanning" msgid="2048262851775139720">Сканування контенту...</string>
   <!-- String indicating how many media items from the camera have been scanned -->
+  <plurals name="ingest_number_of_items_scanned">
+    <item quantity="one">Проскановано елементів: %1$d</item>
+    <item quantity="few">Проскановано елементів: %1$d</item>
+    <item quantity="other">Проскановано елементів: %1$d</item>
+  </plurals>
   <!-- String indicating how many media items from the camera have been selected -->
   <!--  Status message shown when content from the camera is being sorted -->
   <string name="ingest_sorting" msgid="624687230903648118">Сортування...</string>
@@ -418,7 +455,7 @@
   <!--  Status message shown when content from an external camera is being imported -->
   <string name="ingest_importing">Імпортування...</string>
   <!--  Status message shown when there is no content available to be imported -->
-  <string name="ingest_empty_device">Немає вмісту для імпортування на цей пристрій.</string>
+  <string name="ingest_empty_device">Немає контенту для імпортування на цей пристрій.</string>
   <!--  Status message shown when there is no MTP device connected  -->
   <string name="ingest_no_device">Немає жодного під’єднаного носія MTP</string>
   <!-- Label for album grid button -->
@@ -434,15 +471,15 @@
   <!-- label for the icon meaning 'show me all the images that were taken with the camera' -->
   <string name="camera_label">Камера</string>
   <!-- alert to the user to wait for some operation to complete -->
-  <string name="wait">Зачекайте…</string>
+  <string name="wait">Будь ласка зачекайте\u2026</string>
   <!-- alert to the user that USB storage must be available before using the camera [CHAR LIMIT=NONE] -->
   <string name="no_storage" product="nosdcard">Підключіть носій USB перед тим, як користуватися камерою.</string>
   <!-- alert to the user that an SD card must be installed before using the camera -->
   <string name="no_storage" product="default">Вставте карту SD перед тим, як користуватися камерою.</string>
   <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
-  <string name="preparing_sd" product="nosdcard">Підготовка носія USB…</string>
+  <string name="preparing_sd" product="nosdcard">Підготовка USB-носія\u2026</string>
   <!-- alert to the user that the SD card is being disk-checked -->
-  <string name="preparing_sd" product="default">Підготовка карти SD…</string>
+  <string name="preparing_sd" product="default">Підготовка SD-карти\u2026</string>
   <!-- alert to the user that the camera fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
   <string name="access_sd_fail" product="nosdcard">Не вдалося отримати доступ до носія USB.</string>
   <!-- alert to the user that the camera fails to read or write the SD card. -->
@@ -466,6 +503,11 @@
   <!-- Title for countdown timer on camera settings screen [CHAR LIMIT=30]-->
   <string name="pref_camera_timer_title">Таймер зворотного відліку</string>
   <!-- Entry for countdown timer setting. e.g. 1 second, 10 seconds, etc. [CHAR LIMIT=30]-->
+  <plurals name="pref_camera_timer_entry">
+    <item quantity="one">1 с</item>
+    <item quantity="few">%d с</item>
+    <item quantity="other">%d с</item>
+  </plurals>
   <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT = 16]-->
   <string name="pref_camera_timer_sound_title">Сигнал під час відліку</string>
   <!-- Entry of a on/off setting. The setting is turned off. [CHAR LIMIT=15] -->
@@ -512,7 +554,9 @@
   <!-- Settings screen, dialog choice for 1 megapixels picture size [CHAR LIMIT=15] -->
   <string name="pref_camera_picturesize_entry_1mp">1 Мпікс</string>
   <!-- Settings screen, dialog choice for VGA picture size [CHAR LIMIT=15] -->
+  <string name="pref_camera_picturesize_entry_vga">VGA</string>
   <!-- Settings screen, dialog choice for QVGA picture size [CHAR LIMIT=15] -->
+  <string name="pref_camera_picturesize_entry_qvga">QVGA</string>
   <!-- Settings screen, Focus mode title -->
   <string name="pref_camera_focusmode_title">Режим фокусу</string>
   <!-- Settings screen, Focus mode dialog radio button choices -->
@@ -561,6 +605,7 @@
   <!-- Settings menu, scene mode choices [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_auto">Автом.</string>
   <!-- Scene mode that uses HDR (high dynamic range) [CHAR LIMIT=16] -->
+  <string name="pref_camera_scenemode_entry_hdr">HDR</string>
   <!-- Scene mode that takes an image quickly with little motion blur. [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_action">Спорт</string>
   <!-- Scene mode that takes long exposures to capture night scenes without flash. [CHAR LIMIT=16] -->
@@ -568,11 +613,11 @@
   <!-- Scene mode optimized for taking images in the sunset. [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_sunset">Захід сонця</string>
   <!-- Scene mode optimized for taking indoor low-lights pictures. [CHAR LIMIT=16] -->
-  <string name="pref_camera_scenemode_entry_party">У приміщенні</string>
+  <string name="pref_camera_scenemode_entry_party">Вечірка</string>
   <!-- Settings menu, scene mode labels [CHAR LIMIT=50] -->
   <string name="pref_camera_scenemode_label_auto">НЕМАЄ</string>
   <!-- Scene mode that takes an image quickly with little motion blur. [CHAR LIMIT=50] -->
-  <string name="pref_camera_scenemode_label_action">СПОРТ</string>
+  <string name="pref_camera_scenemode_label_action">ДІЯ</string>
   <!-- Scene mode that takes long exposures to capture night scenes without flash. [CHAR LIMIT=50] -->
   <string name="pref_camera_scenemode_label_night">НІЧ</string>
   <!-- Scene mode optimized for taking images in the sunset. [CHAR LIMIT=50] -->
@@ -599,10 +644,11 @@
   <string name="pref_exposure_label">ЕКСПОЗИЦІЯ</string>
   <!-- Default HDR entry value -->
   <!-- HDR label ON [CHAR LIMIT=60] -->
+  <string name="pref_camera_hdr_label">HDR</string>
   <!-- switch camera label back [CHAR LIMIT=60] -->
-  <string name="pref_camera_id_label_back">КАМЕРА НА ПЕРЕДНІЙ ПАНЕЛІ</string>
+  <string name="pref_camera_id_label_back">ПЕРЕДНЯ КАМЕРА</string>
   <!-- switch camera label front [CHAR LIMIT=60] -->
-  <string name="pref_camera_id_label_front">КАМЕРА НА ЗАДНІЙ ПАНЕЛІ</string>
+  <string name="pref_camera_id_label_front">ЗАДНЯ КАМЕРИ</string>
   <!-- Dialog "OK" button. Dismisses dialog. -->
   <string name="dialog_ok">ОК</string>
   <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
@@ -627,7 +673,7 @@
   <!-- The text shown in the progress dialog when waiting for previous panorama finishing [CHAR LIMIT=40] -->
   <string name="pano_dialog_waiting_previous">Очікування на попередню панораму</string>
   <!-- The text shown on the bottom-left corner of the screen to indicate that the saving is in process [CHAR LIMIT=13] -->
-  <string name="pano_review_saving_indication_str">Збереження...</string>
+  <string name="pano_review_saving_indication_str">Збереження\u2026</string>
   <!-- The text shown on the screen to indicate that the panorama is rendering [CHAR LIMIT=27] -->
   <string name="pano_review_rendering">Обробка панорами</string>
   <!-- Toast telling users tapping on the viewfinder will trigger autofocus [CHAR LIMIT=28] -->
@@ -818,7 +864,7 @@ CHAR LIMIT = NONE] -->
   <!-- Help text that is shown when the countdown timer is turned off. [CHAR LIMIT = 180]-->
   <string name="set_timer_help">Таймер зворотного відліку вимкнено. Увімкніть його, щоб розпочати відлік перед зйомкою.</string>
   <!-- Title in timer setting for setting the duration for the countdown timer. [CHAR LIMIT = 50]-->
-  <string name="set_duration">Установити тривалість у секундах</string>
+  <string name="set_duration">Встановити тривалість у секундах</string>
   <!-- On-screen hint during timer countdown for taking a photo. [CHAR LIMIT = 60]-->
   <string name="count_down_title_text">Відлік перед зйомкою</string>
   <!-- Title for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 50] -->
@@ -830,6 +876,7 @@ CHAR LIMIT = NONE] -->
   <!-- Positive answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
   <string name="remember_location_yes">Так</string>
   <!-- The message is shown in toast when click showOnMap Menu and there is no map app -->
+  <string name="map_activity_not_found_err">Немає додатку для відображення розташування.</string>
   <!-- Menu item to launch the camera app [CHAR LIMIT=25] -->
   <string name="menu_camera">Камера</string>
   <!-- Menu item to search for photos [CHAR LIMIT=25] -->
@@ -844,15 +891,49 @@ CHAR LIMIT = NONE] -->
   <!-- settings label [CHAR LIMIT=50] -->
   <string name="camera_menu_settings_label">НАЛАШТУВАННЯ</string>
   <!-- String indicating how many photos are in an album [CHAR LIMIT=15] -->
+  <plurals name="number_of_videos">
+    <item quantity="one">%1$d відео</item>
+    <item quantity="few">%1$d відео</item>
+    <item quantity="other">%1$d відео</item>
+  </plurals>
   <!-- The label for the bass boost knob of the audio effects dialog. -->
+  <string name="bass_boost_strength">Підсилення басу</string>
   <!-- The label for the 3d effect knob of the audio effects dialog. -->
+  <string name="virtualizer_strength">Об\'ємний звук</string>
   <!-- The label for the audio effects menu. -->
+  <string name="audio_effects">Звукові ефекти</string>
   <!-- Toast if user attempts to control audio effects without headphones plugged in. -->
+  <string name="headset_plug">Підключіть навушники для цих ефектів.</string>
   <!-- The title of the audio effects dialog. -->
+  <string name="audio_effects_dialog_title">Snapdragon Audio+</string>
   <!-- The tips of trimming video -->
+  <string name="fail_trim">Даний відеофайл не може бути обрізаний</string>
+  <string name="can_not_trim">Тільки mp4 і 3gp файли можуть бути обрізані</string>
+  <string name="no_permission_for_drm">"На жаль, Drm файлом не можна поділитися"</string>
+  <string name="drm_license_info">Інформація про Drm ліцензію</string>
+  <string name="mimetype_not_supported">Цей файл може не відтворюватися</string>
+  <string name="action_consumes_rights">Права будуть використані для відтворення цього медіа</string>
+  <string name="text_makeup_whiten">Відбілити</string>
+  <string name="text_makeup_Soften">Пом\'якшити</string>
   <!-- Timeline screen title -->
+  <string name="timeline_title">Часова шкала</string>
   <!-- Albums screen title -->
   <!-- Videos screen title -->
+  <string name="videos_title">Відео</string>
+  <string name="action_viewtype_list">У вигляді списку</string>
+  <string name="tvEmptyAlbum">Фотографії не знайдено</string>
+  <string name="tvEmptyVideos">Відео не знайдені</string>
+  <string name="text_makeup_trimface">Trimface</string>
+  <string name="text_makeup_bigeye">Великі очі</string>
   <string name="truescanner_normal">Нормально</string>
+  <string name="truescanner_white">Біла дошка</string>
+  <string name="truescanner">TrueScanner</string>
+  <string name="truescanner_remove_glare">Прибрати відблиски</string>
+  <string name="hazebuster_acts">Haze Buster</string>
+  <string name="seestraight_acts">Подивитися прямо</string>
+  <string name="seestraight_input_image_is_small">Введене зображення замале для обробки.</string>
+  <string name="seestraight_process_fail">Не вдалося обробити зображення.</string>
   <string name="trim_video_exit_title">Зберегти перед виходом?</string>
+  <string name="trim_video_exit_msg">Скасувати зміни, внесені до цього відео?</string>
+  <string name="trim_video_exit_discard">СКАСУВАТИ</string>
 </resources>

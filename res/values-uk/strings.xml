@@ -26,11 +26,11 @@
   <!-- Activity label. This might show up in the activity-picker -->
   <string name="movie_view_label">Відеопрогравач</string>
   <!-- shown in the video player view while the video is being loaded, before it starts playing -->
-  <string name="loading_video">Завантаж. відео…</string>
-  <string name="loading_image">Завантаж. зображ…</string>
+  <string name="loading_video">Завантаження відео\u2026</string>
+  <string name="loading_image">Завантаження зображення\u2026</string>
   <!-- Message shown on the progress dialog to indicate we're loading the
             account info [CHAR LIMIT=30] -->
-  <string name="loading_account">Завантаження облік. запису...</string>
+  <string name="loading_account">Завантаження облікового запису\u2026</string>
   <!-- Movie View Resume Playing dialog title -->
   <string name="resume_playing_title">Відновити відео</string>
   <!-- Movie View Start Playing dialog title -->
@@ -38,7 +38,7 @@
   <!-- Movie View Start Playing button "Resume from bookmark" -->
   <string name="resume_playing_resume">Віднов. відтвор.</string>
   <!-- Displayed in the title of those albums that are being loaded -->
-  <string name="loading">Завантаж…</string>
+  <string name="loading">Завантаження\u2026</string>
   <!-- Displayed in the title of those pictures that fails to be loaded
          [CHAR LIMIT=50]-->
   <string name="fail_to_load">Не вдалося завантажити</string>
@@ -60,7 +60,7 @@
   <!-- Hint that appears when cropping an image with more than one face -->
   <string name="multiface_crop_help">Торкніться обличчя, щоб почати.</string>
   <!-- Toast/alert that the image is being saved to the SD card -->
-  <string name="saving_image">Зберіг-ня фото…</string>
+  <string name="saving_image">Збереження зображення\u2026</string>
   <!-- Toast/alert that the image is being saved after editing in filtershow [CHAR LIMIT=40]-->
   <string name="filtershow_saving_image">Зображення зберігається в альбом <xliff:g id="ALBUM_NAME">%1$s</xliff:g>...</string>
   <!-- Eorror toast message that the image cannot be saved [CHAR LIMIT=40]-->
@@ -86,8 +86,8 @@
   <!-- Activity title for cropping picture and setting it as wallpaper [CHAR LIMIT=20] -->
   <string name="set_wallpaper">Фонове зображення</string>
   <!-- Toast/alert after saving wallpaper -->
-  <string name="wallpaper">Встановлення фонового малюнка...</string>
-  <string name="camera_setas_wallpaper">Фоновий мал.</string>
+  <string name="wallpaper">Встановлення шпалер\u2026</string>
+  <string name="camera_setas_wallpaper">Шпалери</string>
   <!-- Toast message for share items -->
   <string name="cannot_share_items">Максимальна к-сть вибраних елементів щоб поділитися становить 300</string>
   <!-- Details dialog "OK" button. Dismisses dialog. -->
@@ -100,7 +100,7 @@
   </plurals>
   <string name="confirm">Підтвердити</string>
   <string name="cancel">Скасувати</string>
-  <string name="share">Надісл.</string>
+  <string name="share">Поділитися</string>
   <string name="share_dialogue_title">Поділитися через</string>
   <string name="share_panorama">Поділитися панорамою</string>
   <string name="share_as_photo">Поділитися як фотографією</string>
@@ -110,7 +110,7 @@
   <string name="undo">ВІДМІНИТИ</string>
   <!-- String indicating more actions are available -->
   <string name="select_all">Вибрати всі</string>
-  <string name="deselect_all">Відмінити всі</string>
+  <string name="deselect_all">Зняти всі виділення</string>
   <string name="slideshow">Слайд-шоу</string>
   <string name="details">Деталі</string>
   <string name="details_title">Елементи: %1$d з %2$d</string>
@@ -284,7 +284,7 @@
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
   <string name="manual">Вручну</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
-  <string name="auto">Автомат.</string>
+  <string name="auto">Автоматично</string>
   <!-- String indicating camera flash is fired. [CHAR LIMIT=14] -->
   <string name="flash_on">Викор. спалах</string>
   <!-- String indicating camera flash is not used. [CHAR LIMIT=14] -->
@@ -448,6 +448,11 @@
     <item quantity="other">Проскановано елементів: %1$d</item>
   </plurals>
   <!-- String indicating how many media items from the camera have been selected -->
+  <plurals name="ingest_number_of_items_selected">
+    <item quantity="one">%1$d вибраний елемент</item>
+    <item quantity="few">%1$d вибрані елементи</item>
+    <item quantity="other">вибрані елементи %1$d</item>
+  </plurals>
   <!--  Status message shown when content from the camera is being sorted -->
   <string name="ingest_sorting" msgid="624687230903648118">Сортування...</string>
   <!--  Status message shown when scanning the content from the camera has completed -->
@@ -560,7 +565,7 @@
   <!-- Settings screen, Focus mode title -->
   <string name="pref_camera_focusmode_title">Режим фокусу</string>
   <!-- Settings screen, Focus mode dialog radio button choices -->
-  <string name="pref_camera_focusmode_entry_auto">Автом.</string>
+  <string name="pref_camera_focusmode_entry_auto">Авто</string>
   <string name="pref_camera_focusmode_entry_infinity">Безкінечн.</string>
   <string name="pref_camera_focusmode_entry_macro">Макро</string>
   <!-- Menu, focus mode labels [CHAR LIMIT=50] -->
@@ -574,7 +579,7 @@
   <!-- flash label [CHAR LIMIT=50] -->
   <string name="pref_camera_flashmode_label">РЕЖИМ СПАЛАХУ</string>
   <!-- Settings screen, Flash mode dialog radio button choices -->
-  <string name="pref_camera_flashmode_entry_auto">Автом.</string>
+  <string name="pref_camera_flashmode_entry_auto">Авто</string>
   <string name="pref_camera_flashmode_entry_on">Увімк.</string>
   <string name="pref_camera_flashmode_entry_off">Вимк.</string>
   <!-- Menu, flash mode labels [CHAR LIMIT=50] -->
@@ -588,7 +593,7 @@
   <!-- Menu, white balance label -->
   <string name="pref_camera_whitebalance_label">БАЛАНС БІЛОГО</string>
   <!-- Settings screen, White balance dialog radio button choices -->
-  <string name="pref_camera_whitebalance_entry_auto">Автом.</string>
+  <string name="pref_camera_whitebalance_entry_auto">Авто</string>
   <string name="pref_camera_whitebalance_entry_incandescent">Лампа розжар.</string>
   <string name="pref_camera_whitebalance_entry_daylight">Сонячно</string>
   <string name="pref_camera_whitebalance_entry_fluorescent">Флуоресцентний</string>
@@ -673,7 +678,7 @@
   <!-- The text shown in the progress dialog when waiting for previous panorama finishing [CHAR LIMIT=40] -->
   <string name="pano_dialog_waiting_previous">Очікування на попередню панораму</string>
   <!-- The text shown on the bottom-left corner of the screen to indicate that the saving is in process [CHAR LIMIT=13] -->
-  <string name="pano_review_saving_indication_str">Збереження\u2026</string>
+  <string name="pano_review_saving_indication_str">Збереження...</string>
   <!-- The text shown on the screen to indicate that the panorama is rendering [CHAR LIMIT=27] -->
   <string name="pano_review_rendering">Обробка панорами</string>
   <!-- Toast telling users tapping on the viewfinder will trigger autofocus [CHAR LIMIT=28] -->
@@ -891,6 +896,11 @@ CHAR LIMIT = NONE] -->
   <!-- settings label [CHAR LIMIT=50] -->
   <string name="camera_menu_settings_label">НАЛАШТУВАННЯ</string>
   <!-- String indicating how many photos are in an album [CHAR LIMIT=15] -->
+  <plurals name="number_of_photos">
+    <item quantity="one">%1$d фото</item>
+    <item quantity="few">%1$d фото</item>
+    <item quantity="other">%1$d фото</item>
+  </plurals>
   <plurals name="number_of_videos">
     <item quantity="one">%1$d відео</item>
     <item quantity="few">%1$d відео</item>
@@ -901,7 +911,7 @@ CHAR LIMIT = NONE] -->
   <!-- The label for the 3d effect knob of the audio effects dialog. -->
   <string name="virtualizer_strength">Об\'ємний звук</string>
   <!-- The label for the audio effects menu. -->
-  <string name="audio_effects">Звукові ефекти</string>
+  <string name="audio_effects">Аудіоефекти</string>
   <!-- Toast if user attempts to control audio effects without headphones plugged in. -->
   <string name="headset_plug">Підключіть навушники для цих ефектів.</string>
   <!-- The title of the audio effects dialog. -->
@@ -933,7 +943,7 @@ CHAR LIMIT = NONE] -->
   <string name="seestraight_acts">Подивитися прямо</string>
   <string name="seestraight_input_image_is_small">Введене зображення замале для обробки.</string>
   <string name="seestraight_process_fail">Не вдалося обробити зображення.</string>
-  <string name="trim_video_exit_title">Зберегти перед виходом?</string>
+  <string name="trim_video_exit_title">Скасувати зміни?</string>
   <string name="trim_video_exit_msg">Скасувати зміни, внесені до цього відео?</string>
   <string name="trim_video_exit_discard">СКАСУВАТИ</string>
 </resources>

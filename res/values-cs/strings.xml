@@ -928,6 +928,7 @@ CHAR LIMIT = NONE] -->
   <string name="videos_title">Videa</string>
   <string name="action_viewtype_list">Náhled seznamu</string>
   <string name="truescanner_normal">Normální</string>
+  <string name="hazebuster_acts">Haze Buster</string>
   <string name="seestraight_process_fail">Nelze zpracovat obrázek.</string>
   <string name="trim_video_exit_title">Chcete před ukončením uložit změny?</string>
   <string name="trim_video_exit_msg">Chcete zrušit změny provedené v tomto videu?</string>

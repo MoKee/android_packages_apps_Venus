@@ -89,12 +89,19 @@
   <string name="wallpaper">Установка обоев...</string>
   <string name="camera_setas_wallpaper">Обои</string>
   <!-- Toast message for share items -->
+  <string name="cannot_share_items">Максимальное количество для отправки 300</string>
   <!-- Details dialog "OK" button. Dismisses dialog. -->
   <string name="delete">Удалить</string>
   <!-- String Delete the selected media item(s) [CHAR LIMIT=50] -->
+  <plurals name="delete_selection">
+    <item quantity="one">Удалить выбранный элемент?</item>
+    <item quantity="few">Удалить выбранные элементы?</item>
+    <item quantity="other">Удалить выбранные элементы?</item>
+  </plurals>
   <string name="confirm">Подтвердить</string>
   <string name="cancel">Отмена</string>
   <string name="share">Отправить</string>
+  <string name="share_dialogue_title">Поделиться через</string>
   <string name="share_panorama">Отправить панораму</string>
   <string name="share_as_photo">Отправить фото</string>
   <!-- The label shown after an image is deleted [CHAR LIMIT=16] -->
@@ -112,10 +119,25 @@
   <string name="switch_to_camera">Режим \"Фото\"</string>
   <!-- String indicating how many media item(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
+  <plurals name="number_of_items_selected">
+    <item quantity="one">%1$d выбран</item>
+    <item quantity="few">%1$d выбрано</item>
+    <item quantity="other">%1$d выбрано</item>
+  </plurals>
   <!-- String indicating how many media album(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
+  <plurals name="number_of_albums_selected">
+    <item quantity="one">%1$d</item>
+    <item quantity="few">%1$d</item>
+    <item quantity="other">%1$d выбрано</item>
+  </plurals>
   <!-- String indicating how many media group(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
+  <plurals name="number_of_groups_selected">
+    <item quantity="one">%1$d</item>
+    <item quantity="few">%1$d</item>
+    <item quantity="other">%1$d выбрано</item>
+  </plurals>
   <!-- String indicating timestamp of photo or video -->
   <string name="show_on_map">Показать на карте</string>
   <string name="rotate_left">Повернуть влево</string>
@@ -175,6 +197,7 @@
   <string name="no_location">Место не указано</string>
   <!-- When grouping photos by peoples, the label used for photos that don't
         have people information in them [CHAR LIMIT=20]-->
+  <string name="no_faces">Нет фото</string>
   <!-- This toast message is shown when network connection is lost while doing clustering -->
   <string name="no_connectivity">Не удалось найти все места из-за проблем с подключением.</string>
   <!-- This toast message is shown when failed to load the album data. [CHAR LIMIT=NONE] -->
@@ -207,6 +230,7 @@
          some albums to be viewable offline [CHAR LIMIT=30] -->
   <string name="make_available_offline">Офлайн-доступ</string>
   <!-- A label describing to link website [CHAR LIMIT=30] -->
+  <string name="more_image">Больше изображений</string>
   <string name="website_for_more_image"></string>
   <!-- A label of a menu item for user to sync the content [CHAR LIMIT=30] -->
   <string name="sync_picasa_albums">Обновить</string>
@@ -253,6 +277,7 @@
   <!-- Text indicating the exposure time of a media item in details window [CHAR LIMIT=14] -->
   <string name="exposure_time">Выдержка</string>
   <!-- Text indicating the ISO speed rating of a media item in details window [CHAR LIMIT=14] -->
+  <string name="iso">Значение ISO</string>
   <!-- String indicating the time units in seconds. [CHAR LIMIT=8] -->
   <!-- String indicating the length units in milli-meters. [CHAR LIMIT=8] -->
   <string name="unit_mm">мм</string>
@@ -289,6 +314,11 @@
          (filtershow_fx_0008_washout_color) [CHAR LIMIT=10] -->
   <string name="ffx_washout_color">Литография</string>
   <!-- Toast message shown after we make some album(s) available offline [CHAR LIMIT=50] -->
+  <plurals name="make_albums_available_offline">
+    <item quantity="one">Загрузка альбома для офлайн-доступа.</item>
+    <item quantity="few">Загрузка альбомов для офлайн-доступа.</item>
+    <item quantity="other">Загрузка альбомов для офлайн-доступа.</item>
+  </plurals>
   <!-- Toast message shown after we try to make a local album available offline
          [CHAR LIMIT=150] -->
   <string name="try_to_set_local_album_available_offline">Это содержание хранится на устройстве и доступно в автономном режиме.</string>
@@ -402,6 +432,7 @@
   <!-- Toast if the trimmed video is too short to trim. [CHAR LIMIT=80] -->
   <string name="trim_too_short">Нельзя обрезать видео: оно слишком короткое</string>
   <!-- Toast if the muted video is not supported. [CHAR LIMIT=80] -->
+  <string name="mute_nosupport">Невозможно отключить звук: видеофайл не поддерживается</string>
   <!-- Text to show with progress bar while stitching in Gallery -->
   <string name="pano_progress_text">Создание панорамы…</string>
   <!-- The label on the button that will save an edited image -->
@@ -411,7 +442,17 @@
   <!--  Text of notification message which is shown when user attaches camera -->
   <string name="ingest_scanning" msgid="2048262851775139720">Сканирование…</string>
   <!-- String indicating how many media items from the camera have been scanned -->
+  <plurals name="ingest_number_of_items_scanned">
+    <item quantity="one">Отсканировано: %1$d</item>
+    <item quantity="few">Отсканировано: %1$d</item>
+    <item quantity="other">Отсканировано: %1$d</item>
+  </plurals>
   <!-- String indicating how many media items from the camera have been selected -->
+  <plurals name="ingest_number_of_items_selected">
+    <item quantity="one">Выбран %1$d элемент</item>
+    <item quantity="few">Выбрано %1$d элемента</item>
+    <item quantity="other">Выбрано %1$d элементов</item>
+  </plurals>
   <!--  Status message shown when content from the camera is being sorted -->
   <string name="ingest_sorting" msgid="624687230903648118">Сортировка…</string>
   <!--  Status message shown when scanning the content from the camera has completed -->
@@ -467,6 +508,11 @@
   <!-- Title for countdown timer on camera settings screen [CHAR LIMIT=30]-->
   <string name="pref_camera_timer_title">Автоспуск</string>
   <!-- Entry for countdown timer setting. e.g. 1 second, 10 seconds, etc. [CHAR LIMIT=30]-->
+  <plurals name="pref_camera_timer_entry">
+    <item quantity="one">1 сек.</item>
+    <item quantity="few">%d сек.</item>
+    <item quantity="other">%d сек.</item>
+  </plurals>
   <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT = 16]-->
   <string name="pref_camera_timer_sound_title">Звук таймера</string>
   <!-- Entry of a on/off setting. The setting is turned off. [CHAR LIMIT=15] -->
@@ -835,6 +881,7 @@ CHAR LIMIT = NONE] -->
   <!-- Positive answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
   <string name="remember_location_yes">Да</string>
   <!-- The message is shown in toast when click showOnMap Menu and there is no map app -->
+  <string name="map_activity_not_found_err">Нет приложения \"Карты\" для показа местоположения.</string>
   <!-- Menu item to launch the camera app [CHAR LIMIT=25] -->
   <string name="menu_camera">Камера</string>
   <!-- Menu item to search for photos [CHAR LIMIT=25] -->
@@ -849,15 +896,47 @@ CHAR LIMIT = NONE] -->
   <!-- settings label [CHAR LIMIT=50] -->
   <string name="camera_menu_settings_label">НАСТРОЙКИ</string>
   <!-- String indicating how many photos are in an album [CHAR LIMIT=15] -->
+  <plurals name="number_of_photos">
+    <item quantity="one">%1$d фото</item>
+    <item quantity="few">%1$d фото</item>
+    <item quantity="other">%1$d фото</item>
+  </plurals>
+  <plurals name="number_of_videos">
+    <item quantity="one">%1$d видео</item>
+    <item quantity="few">%1$d видео</item>
+    <item quantity="other">%1$d видео</item>
+  </plurals>
   <!-- The label for the bass boost knob of the audio effects dialog. -->
+  <string name="bass_boost_strength">Усиление басов</string>
   <!-- The label for the 3d effect knob of the audio effects dialog. -->
+  <string name="virtualizer_strength">Объемный звук</string>
   <!-- The label for the audio effects menu. -->
+  <string name="audio_effects">Аудиоэффекты</string>
   <!-- Toast if user attempts to control audio effects without headphones plugged in. -->
+  <string name="headset_plug">Вставьте наушники.</string>
   <!-- The title of the audio effects dialog. -->
+  <string name="audio_effects_dialog_title">Snapdragon Audio+</string>
   <!-- The tips of trimming video -->
+  <string name="fail_trim">Извините, это видео не может быть обрезано</string>
+  <string name="can_not_trim">Можно обрезать только mp4 и 3gp файлы</string>
+  <string name="no_permission_for_drm">"Извините, нельзя отправить Drm файл"</string>
+  <string name="drm_license_info">Информация о лицензии Drm</string>
+  <string name="mimetype_not_supported">Этот файл не может быть воспроизведен</string>
+  <string name="text_makeup_whiten">Отбелить</string>
+  <string name="text_makeup_Soften">Смягчение</string>
   <!-- Timeline screen title -->
+  <string name="timeline_title">Лента событий</string>
   <!-- Albums screen title -->
   <!-- Videos screen title -->
+  <string name="videos_title">Видео</string>
+  <string name="action_viewtype_list">Отобразить в виде списка</string>
+  <string name="tvEmptyAlbum">Фотографии не найдены</string>
+  <string name="tvEmptyVideos">Видео не найдено</string>
   <string name="truescanner_normal">Нормально</string>
+  <string name="truescanner_remove_glare">Удаление бликов</string>
+  <string name="seestraight_input_image_is_small">Исходное изображение слишком мало для обработки.</string>
+  <string name="seestraight_process_fail">Не удалось обработать изображение.</string>
   <string name="trim_video_exit_title">Сохранить изменения?</string>
+  <string name="trim_video_exit_msg">Отменить изменения, внесенные в это видео?</string>
+  <string name="trim_video_exit_discard">ОТМЕНИТЬ</string>
 </resources>

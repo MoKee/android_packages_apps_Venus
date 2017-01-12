@@ -113,7 +113,9 @@
   <string name="tinyplanet">Malá planeta</string>
   <!--  Filters buttons -->
   <!--  True Effect button -->
+  <string name="trueScanner">True Scanner</string>
   <!--  HazeBuster button -->
+  <string name="hazeBuster">Haze Buster</string>
   <!--  SeeStraight button -->
   <!--  Label for the image exposure (brightness) filter button [CHAR LIMIT=10] -->
   <string name="exposure" msgid="1229093066434614811">Expozice</string>
@@ -300,5 +302,7 @@
   <string name="do_not_show_again">Znovu nezobrazovat</string>
   <string name="color">Barva</string>
   <string name="dualcam">Duální fotoaparát</string>
+  <string name="foreground">Popředí</string>
+  <string name="background">Pozadí</string>
   <string name="brush_size">Velikost štětce</string>
 </resources>

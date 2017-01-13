@@ -30,12 +30,16 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Strings for step option settins -->
+  <string name="step_option_desc">Menyesuaikan langkah maju/mundur cepat</string>
   <string name="setp_option_three_second">3 detik</string>
   <string name="setp_option_six_second">6 detik</string>
+  <string name="loop">"Ulangi"</string>
+  <string name="single">"Ulangi ini"</string>
   <string name="stereo">"Stereo"</string>
   <string name="speaker_on">Speaker HIDUP</string>
   <string name="speaker_off">Speaker MATI</string>
   <string name="speaker_need_headset">Silahkan hubungkan headset dulu!</string>
+  <string name="single_track">"Trek tunggal"</string>
   <string name="media_detail">"Rincian media"</string>
   <string name="input_url">"Masukkan URL"</string>
   <string name="streaming_settings">"Setelan Streaming"</string>
@@ -44,4 +48,17 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <string name="rtp_rtcp">RTP/RTCP</string>
   <string name="buffer_size">Ukuran Buffer</string>
   <string name="setting">Setelan</string>
+  <string name="media_controller_live">Langsung</string>
+  <string name="media_controller_playing">Memainkan</string>
+  <string name="media_controller_connecting">Menghubungkan...</string>
+  <string name="bookmark_add">"Tambah ke bookmark"</string>
+  <string name="bookmark_display">"Tampilkan bookmark"</string>
+  <string name="bookmark_empty">"Tidak ada bookmark"</string>
+  <string name="bookmark_exist">"Bookmark sama dalam riwayat"</string>
+  <string name="bookmark_add_success">"Sukses menambahkan bookmark"</string>
+  <string name="bookmark_list">"Bookmark"</string>
+  <string name="bookmark_title">"Judul"</string>
+  <string name="bookmark_location">"Lokasi"</string>
+  <string name="delete_all">"Hapus semua"</string>
+  <string name="default_title">"Judul bawaan"</string>
 </resources>

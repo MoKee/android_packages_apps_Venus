@@ -30,7 +30,7 @@
   <!--  Text to label an image as "original" [CHAR LIMIT=20] -->
   <string name="original">原始</string>
   <!--  Text for filters that apply a border to a picture [CHAR LIMIT=20] -->
-  <string name="borders" msgid="4461692156695893616">邊框</string>
+  <string name="borders" msgid="4461692156695893616">框架</string>
   <!-- Text for the custom border filter [CHAR LIMIT=20] -->
   <string name="custom_border">自訂</string>
   <!--  actionbar menu -->

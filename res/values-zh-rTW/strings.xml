@@ -27,10 +27,10 @@
   <string name="movie_view_label">影片播放器</string>
   <!-- shown in the video player view while the video is being loaded, before it starts playing -->
   <string name="loading_video">正在載入影片…</string>
-  <string name="loading_image">正在載入圖片…</string>
+  <string name="loading_image">正在載入圖片\u2026</string>
   <!-- Message shown on the progress dialog to indicate we're loading the
             account info [CHAR LIMIT=30] -->
-  <string name="loading_account">正在載入帳戶…</string>
+  <string name="loading_account">正在載入帳戶\u2026</string>
   <!-- Movie View Resume Playing dialog title -->
   <string name="resume_playing_title">繼續播放影片</string>
   <!-- Movie View Start Playing dialog title -->
@@ -60,9 +60,9 @@
   <!-- Hint that appears when cropping an image with more than one face -->
   <string name="multiface_crop_help">輕觸臉部即可開始。</string>
   <!-- Toast/alert that the image is being saved to the SD card -->
-  <string name="saving_image">正在儲存相片…</string>
+  <string name="saving_image">正在儲存相片\u2026</string>
   <!-- Toast/alert that the image is being saved after editing in filtershow [CHAR LIMIT=40]-->
-  <string name="filtershow_saving_image">正在將圖片儲存至「<xliff:g id="ALBUM_NAME">%1$s</xliff:g>」…</string>
+  <string name="filtershow_saving_image">正在將圖片儲存至「<xliff:g id="ALBUM_NAME">%1$s</xliff:g>」\u2026</string>
   <!-- Eorror toast message that the image cannot be saved [CHAR LIMIT=40]-->
   <string name="save_error">無法儲存裁剪的圖片。</string>
   <!-- menu pick: crop the currently selected image [CHAR LIMIT=30]-->
@@ -86,7 +86,7 @@
   <!-- Activity title for cropping picture and setting it as wallpaper [CHAR LIMIT=20] -->
   <string name="set_wallpaper">設定桌布</string>
   <!-- Toast/alert after saving wallpaper -->
-  <string name="wallpaper">正在設定桌布…</string>
+  <string name="wallpaper">正在設定桌布\u2026</string>
   <string name="camera_setas_wallpaper">桌布</string>
   <!-- Toast message for share items -->
   <string name="cannot_share_items">分享的最大選取項目為 300</string>

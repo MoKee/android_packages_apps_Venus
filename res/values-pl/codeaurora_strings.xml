@@ -30,6 +30,47 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Strings for step option settins -->
+  <string name="setp_option_name">Stopień</string>
+  <string name="step_option_desc">Dostosuj stopnie przewijania/cofania</string>
+  <string name="setp_option_three_second">3 sekundy</string>
+  <string name="setp_option_six_second">6 sekund</string>
+  <string name="loop">"Pętla"</string>
+  <string name="single">"Pojedynczy"</string>
+  <string name="stereo">"Stereo"</string>
+  <string name="speaker_on">Głośnik włączony</string>
+  <string name="speaker_off">Głośnik wyłączony</string>
+  <string name="speaker_need_headset">Najpierw podłącz słuchawki!</string>
+  <string name="single_track">"Pojedynczy utwór"</string>
+  <string name="media_detail">"Szczegóły nośnika"</string>
+  <string name="input_url">"Wprowadź adres strony"</string>
+  <string name="streaming_settings">"Ustawienia strumieniowania"</string>
   <string name="next">"Dalej"</string>
+  <string name="previous">"Poprzedni"</string>
+  <string name="min_port">minimalny port:</string>
+  <string name="max_port">maksymalny port:</string>
+  <string name="buffer_size">Rozmiar bufora</string>
+  <string name="apn">Preferowany APN</string>
+  <string name="rtp_min_port">Minimalny port</string>
+  <string name="rtp_max_port">Maksymalny port</string>
+  <string name="set_rtp_min_port">Ustaw minimalny port</string>
+  <string name="set_rtp_max_port">Ustaw maksymalny port</string>
+  <string name="set_buffer_size">Ustaw rozmiar bufora</string>
+  <string name="set_apn">Wybierz preferowany APN</string>
   <string name="setting">Ustawienia</string>
+  <string name="server_timeout_title">"Limit czasu serwera"</string>
+  <string name="server_timeout_message">"Czy połączyć się ponownie z serwerem, aby odtworzyć wideo?"</string>
+  <string name="videoview_error_text_cannot_connect_retry">"Połączenie nie powiodło się, próba ponownego połączenia %1$d..."</string>
+  <string name="media_controller_live">Na żywo</string>
+  <string name="media_controller_playing">Odtwarzanie</string>
+  <string name="media_controller_connecting">Łączenie...</string>
+  <string name="bookmark_add">"Dodaj zakładkę"</string>
+  <string name="bookmark_display">"Pokaż zakładki"</string>
+  <string name="bookmark_empty">"Brak zakładek"</string>
+  <string name="bookmark_exist">"Taka sama zakładka w historii"</string>
+  <string name="bookmark_add_success">"Dodano zakładkę"</string>
+  <string name="bookmark_list">"Zakładki"</string>
+  <string name="bookmark_title">"Tytuł"</string>
+  <string name="bookmark_location">"Lokalizacja"</string>
+  <string name="delete_all">"Usuń wszystkie"</string>
+  <string name="default_title">"Domyślny tytuł"</string>
 </resources>

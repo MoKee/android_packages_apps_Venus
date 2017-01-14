@@ -38,7 +38,7 @@
   <!-- Movie View Start Playing button "Resume from bookmark" -->
   <string name="resume_playing_resume">繼續播放</string>
   <!-- Displayed in the title of those albums that are being loaded -->
-  <string name="loading">載入中…</string>
+  <string name="loading">載入中\u2026</string>
   <!-- Displayed in the title of those pictures that fails to be loaded
          [CHAR LIMIT=50]-->
   <string name="fail_to_load">無法載入</string>
@@ -151,7 +151,7 @@
          It means the pictures of the Picasa album is currently being
          transferred to local storage, so the pictures can later be viewed
          offline. [CHAR LIMIT=15] -->
-  <string name="caching_label">快取中…</string>
+  <string name="caching_label">快取中\u2026</string>
   <!-- The title of the menu item to let user crop the image. [CHAR LIMIT=15] -->
   <string name="crop_action">裁剪</string>
   <!-- The title of the menu item to let user trim the video. [CHAR LIMIT=15] -->
@@ -239,7 +239,7 @@
   <!-- Text indicating the creation time of a media item in details window [CHAR LIMIT=14] -->
   <string name="time">時間</string>
   <!-- Text indicating the location of a media item in details window [CHAR LIMIT=14] -->
-  <string name="location">地點</string>
+  <string name="location">位置</string>
   <!-- Text indicating the path of a media item in details window [CHAR LIMIT=14] -->
   <string name="path">路徑</string>
   <!-- Text indicating the width of a media item in details window [CHAR LIMIT=14] -->
@@ -272,7 +272,7 @@
   <string name="iso">ISO</string>
   <!-- String indicating the time units in seconds. [CHAR LIMIT=8] -->
   <!-- String indicating the length units in milli-meters. [CHAR LIMIT=8] -->
-  <string name="unit_mm">釐米</string>
+  <string name="unit_mm">毫米</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
   <string name="manual">手動</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
@@ -468,9 +468,9 @@
   <!-- alert to the user that an SD card must be installed before using the camera -->
   <string name="no_storage" product="default">使用相機前，請先插入 SD 卡。</string>
   <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
-  <string name="preparing_sd" product="nosdcard">正在準備 USB 儲存裝置…</string>
+  <string name="preparing_sd" product="nosdcard">正在準備 USB 儲存裝置\u2026</string>
   <!-- alert to the user that the SD card is being disk-checked -->
-  <string name="preparing_sd" product="default">正在準備 SD 卡…</string>
+  <string name="preparing_sd" product="default">正在準備 SD 卡\u2026</string>
   <!-- alert to the user that the camera fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
   <string name="access_sd_fail" product="nosdcard">無法存取 USB 儲存裝置。</string>
   <!-- alert to the user that the camera fails to read or write the SD card. -->
@@ -488,7 +488,7 @@
   <!-- In select camera setting, front-facing camera. [CHAR LIMIT=14] -->
   <string name="pref_camera_id_entry_front">前置鏡頭</string>
   <!-- Settings screen, setting title text -->
-  <string name="pref_camera_recordlocation_title">GPS 定位</string>
+  <string name="pref_camera_recordlocation_title">儲存定位</string>
   <!--  Label for record location preference [CHAR LIMIT=50] -->
   <string name="pref_camera_location_label">地點</string>
   <!-- Title for countdown timer on camera settings screen [CHAR LIMIT=30]-->
@@ -633,7 +633,7 @@
   <string name="pref_exposure_label">曝光</string>
   <!-- Default HDR entry value -->
   <!-- HDR label ON [CHAR LIMIT=60] -->
-  <string name="pref_camera_hdr_label">高動態範圍</string>
+  <string name="pref_camera_hdr_label">HDR</string>
   <!-- switch camera label back [CHAR LIMIT=60] -->
   <string name="pref_camera_id_label_back">前置鏡頭</string>
   <!-- switch camera label front [CHAR LIMIT=60] -->
@@ -662,7 +662,7 @@
   <!-- The text shown in the progress dialog when waiting for previous panorama finishing [CHAR LIMIT=40] -->
   <string name="pano_dialog_waiting_previous">正在等待先前的全景處理完成</string>
   <!-- The text shown on the bottom-left corner of the screen to indicate that the saving is in process [CHAR LIMIT=13] -->
-  <string name="pano_review_saving_indication_str">儲存中…</string>
+  <string name="pano_review_saving_indication_str">儲存中\u2026</string>
   <!-- The text shown on the screen to indicate that the panorama is rendering [CHAR LIMIT=27] -->
   <string name="pano_review_rendering">正在進行全景成像作業</string>
   <!-- Toast telling users tapping on the viewfinder will trigger autofocus [CHAR LIMIT=28] -->
@@ -707,13 +707,13 @@
   <!-- Title of category for background replacement effects. [CHAR LIMIT=26] -->
   <string name="effect_background">背景</string>
   <!-- The shutter button. [CHAR LIMIT = NONE] -->
-  <string name="accessibility_shutter_button">[快門] 按鈕</string>
+  <string name="accessibility_shutter_button">快門鍵</string>
   <!-- The menu button. [CHAR LIMIT = NONE] -->
-  <string name="accessibility_menu_button">選單按鈕</string>
+  <string name="accessibility_menu_button">選單鍵</string>
   <!-- The button to review the thumbnail. [CHAR LIMIT = NONE] -->
   <string name="accessibility_review_thumbnail">最近的相片</string>
   <!-- The front/back camera switch. [CHAR LIMIT = NONE] -->
-  <string name="accessibility_camera_picker">前置和後置鏡頭開關</string>
+  <string name="accessibility_camera_picker">前置和後置鏡頭切換</string>
   <!-- The mode picker to switch between camera, video and panorama. [CHAR LIMIT = NONE] -->
   <string name="accessibility_mode_picker">相機、影片或全景選取工具</string>
   <!-- The button to switch to the second-level indicators of the camera settings. [CHAR LIMIT = NONE] -->

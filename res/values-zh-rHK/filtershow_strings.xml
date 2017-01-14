@@ -313,7 +313,7 @@
   <string name="fusion_pick_point">選擇部分</string>
   <string name="fusion_pick_underlay">選擇底層</string>
   <string name="dualcam_no_segment_toast">此時沒有找到分段</string>
-  <string name="dualcam_filter_not_supported">此圖片不支援雙鏡頭過濾器</string>
+  <string name="dualcam_filter_not_supported">此圖片不支援雙鏡頭濾鏡</string>
   <string name="trueportrait_intro">此功能用於增強人像照。你可以將效果應用於照片背景，例如“模糊”和“速寫”。你也可以將兩張照片拼在一起來給你的人像照創建一個有趣的背景。</string>
   <string name="trueportrait_no_face">真實肖像效果無法套用於此相片。 未檢測到臉部。</string>
   <string name="trueportrait_edit_intro">使用觸控式工具，您可以編輯前景和背景。 您可以使用手指在前景或背景的任何缺失區域繪製。</string>

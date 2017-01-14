@@ -295,21 +295,21 @@ Imagem recortada salva em <xliff:g id="folder_name">%s</xliff:g>.</string>
   <!-- String for filter that brightens colors like instant cameras(filtershow_fx_0001_instant) [CHAR LIMIT=10] -->
   <string name="ffx_instant">Instantâneo</string>
   <!-- String for filter that washes out colors (filtershow_fx_0002_bleach) [CHAR LIMIT=10] -->
-  <string name="ffx_bleach">Bleach</string>
+  <string name="ffx_bleach">Escurecer</string>
   <!-- String for filter that makes colors a bluish (filtershow_fx_0003_blue_crush) [CHAR LIMIT=10] -->
   <string name="ffx_blue_crush">Azulado</string>
   <!-- String for filter that makes image black & white (filtershow_fx_0004_bw_contrast) [CHAR LIMIT=10] -->
   <string name="ffx_bw_contrast">P/B</string>
   <!-- String for filter that makes colors a yellowish (filtershow_fx_0005_punch) [CHAR LIMIT=10] -->
-  <string name="ffx_punch">Punch</string>
+  <string name="ffx_punch">Clarear</string>
   <!-- String for filter that mimics the cross-process technique in
          photography (makes colors bluish) (filtershow_fx_0006_x_process) [CHAR LIMIT=10] -->
   <string name="ffx_x_process">X Process</string>
   <!-- String for filter that makes image coffee-colored (filtershow_fx_0007_washout) [CHAR LIMIT=10] -->
-  <string name="ffx_washout">Latte</string>
+  <string name="ffx_washout">Café</string>
   <!-- String for filter that makes colors washed out and brownish
          (filtershow_fx_0008_washout_color) [CHAR LIMIT=10] -->
-  <string name="ffx_washout_color">Litho</string>
+  <string name="ffx_washout_color">Brilhante</string>
   <!-- Toast message shown after we make some album(s) available offline [CHAR LIMIT=50] -->
   <plurals name="make_albums_available_offline">
     <item quantity="one">Tornando os álbuns disponíveis off-line.</item>
@@ -425,12 +425,12 @@ Item armazenado localmente e disponível offline.</string>
   <!-- The content of a dialog showing trimming in progress. [CHAR LIMIT=30] -->
   <string name="please_wait">Aguarde</string>
   <!-- Toast after the trimming / muting is done. [CHAR LIMIT=50] -->
-  <string name="save_into">A guardar o vídeo em <xliff:g id="ALBUM_NAME">%1$s</xliff:g> …</string>
+  <string name="save_into">Salvando vídeo em <xliff:g id="album_name">%1$s</xliff:g> \u2026</string>
   <!-- Toast if the trimmed video is too short to trim. [CHAR LIMIT=80] -->
   <string name="trim_too_short">Não é possível recortar: o vídeo de destino é demasiado pequeno</string>
   <!-- Toast if the muted video is not supported. [CHAR LIMIT=80] -->
   <!-- Text to show with progress bar while stitching in Gallery -->
-  <string name="pano_progress_text">A compor panorama</string>
+  <string name="pano_progress_text">Renderizando panorama</string>
   <!-- The label on the button that will save an edited image -->
   <string name="save" msgid="8140440041190264400">Salvar</string>
   <!-- A label representing the action of importing media item(s) [CHAR LIMIT=20] -->
@@ -653,24 +653,25 @@ Item armazenado localmente e disponível offline.</string>
   <!-- Video Camera format string for new video files. Passed to java.text.SimpleDateFormat. -->
   <!-- Filename prefix for panorama output. -->
   <!-- The message shown when video record reaches size limit. -->
-  <string name="video_reach_size_limit">Limite de tamanho atingido.</string>
+  <string name="video_reach_size_limit">Tamanho máximo atingido.</string>
   <!-- The text shown when the panorama panning speed is to fast [CHAR LIMIT=12] -->
   <string name="pano_too_fast_prompt">Muito rápido</string>
   <!-- The text shown in the progress dialog when panorama preview is generating in the background [CHAR LIMIT=30] -->
-  <string name="pano_dialog_prepare_preview">A preparar panorama</string>
+  <string name="pano_dialog_prepare_preview">Preparando panorâmica</string>
   <!-- The text shown in the dialog when panorama saving failed [CHAR LIMIT=40] -->
-  <string name="pano_dialog_panorama_failed">Não foi possível guardar panorama.</string>
+  <string name="pano_dialog_panorama_failed">Não foi possível salvar o panorâmica.</string>
   <!-- The text shown on the dialog title in the dialogs for Panorama [CHAR LIMIT=12] -->
+  <string name="pano_dialog_title">Panorâmica</string>
   <!-- The text shown on the top-left corner of the screen to indicate the capturing is on going [CHAR LIMIT=27] -->
-  <string name="pano_capture_indication">A tirar foto de panorama</string>
+  <string name="pano_capture_indication">Capturando panorâmica</string>
   <!-- The text shown in the progress dialog when waiting for previous panorama finishing [CHAR LIMIT=40] -->
-  <string name="pano_dialog_waiting_previous">A aguardar panorama anterior</string>
+  <string name="pano_dialog_waiting_previous">Esperando panorâmica anterior</string>
   <!-- The text shown on the bottom-left corner of the screen to indicate that the saving is in process [CHAR LIMIT=13] -->
-  <string name="pano_review_saving_indication_str">A guardar...</string>
+  <string name="pano_review_saving_indication_str">Salvando\u2026</string>
   <!-- The text shown on the screen to indicate that the panorama is rendering [CHAR LIMIT=27] -->
-  <string name="pano_review_rendering">A compor panorama</string>
+  <string name="pano_review_rendering">Renderizando panorama</string>
   <!-- Toast telling users tapping on the viewfinder will trigger autofocus [CHAR LIMIT=28] -->
-  <string name="tap_to_focus">Toque para focar.</string>
+  <string name="tap_to_focus">Toque para o foco.</string>
   <!-- Default effect setting that clears the effect. -->
   <!-- Title of video effect setting popup window -->
   <string name="pref_video_effect_title">Efeitos</string>
@@ -697,7 +698,7 @@ Item armazenado localmente e disponível offline.</string>
   <!-- Message displayed in overlay during background replacement training [CHAR LIMIT=180]-->
   <string name="bg_replacement_message">Vire o seu aparelho para baixo.\nSaia da vista por alguns momentos.</string>
   <!-- Toast telling users tapping on the viewfinder will take a picture [CHAR LIMIT=54] -->
-  <string name="video_snapshot_hint">Toque para tirar uma fotografia durante a gravação.</string>
+  <string name="video_snapshot_hint">Toque para tirar foto durante a gravação.</string>
   <!-- Announcement telling users video recording has just started [CHAR LIMIT=NONE] -->
   <string name="video_recording_started">A gravação de vídeo foi iniciada.</string>
   <!-- Announcement telling users video recording has just stopped [CHAR LIMIT=NONE] -->
@@ -709,15 +710,15 @@ Item armazenado localmente e disponível offline.</string>
   <!-- Title of category for silly face effects. [CHAR LIMIT=26] -->
   <string name="effect_silly_faces">CARETAS</string>
   <!-- Title of category for background replacement effects. [CHAR LIMIT=26] -->
-  <string name="effect_background">FUNDO</string>
+  <string name="effect_background">PLANO DE FUNDO</string>
   <!-- The shutter button. [CHAR LIMIT = NONE] -->
-  <string name="accessibility_shutter_button">Botão Obturador</string>
+  <string name="accessibility_shutter_button">Botão do obturador</string>
   <!-- The menu button. [CHAR LIMIT = NONE] -->
-  <string name="accessibility_menu_button">Botão de menu</string>
+  <string name="accessibility_menu_button">Botão de Menu</string>
   <!-- The button to review the thumbnail. [CHAR LIMIT = NONE] -->
-  <string name="accessibility_review_thumbnail">Fotografia mais recente</string>
+  <string name="accessibility_review_thumbnail">Foto mais recentes</string>
   <!-- The front/back camera switch. [CHAR LIMIT = NONE] -->
-  <string name="accessibility_camera_picker">Interruptor da câmara frontal e posterior</string>
+  <string name="accessibility_camera_picker">Alternar entre as câmeras frontal/traseira</string>
   <!-- The mode picker to switch between camera, video and panorama. [CHAR LIMIT = NONE] -->
   <string name="accessibility_mode_picker">Seletor de câmara, vídeo ou panorama</string>
   <!-- The button to switch to the second-level indicators of the camera settings. [CHAR LIMIT = NONE] -->
@@ -750,7 +751,7 @@ Item armazenado localmente e disponível offline.</string>
 CHAR LIMIT = NONE] -->
   <string name="accessibility_review_retake">Retomar comentário</string>
   <!-- The button to play the video. [CHAR LIMIT = NONE] -->
-  <string name="accessibility_play_video">Reproduzir vídeo</string>
+  <string name="accessibility_play_video">Executar vídeo</string>
   <!-- The button to pause the video. [CHAR LIMIT = NONE] -->
   <string name="accessibility_pause_video">Pausar vídeo</string>
   <!-- The button to reload the video. [CHAR LIMIT = NONE] -->
@@ -861,7 +862,7 @@ CHAR LIMIT = NONE] -->
   <!-- On-screen hint during timer countdown for taking a photo. [CHAR LIMIT = 60]-->
   <string name="count_down_title_text">Contagem regressiva para tirar uma foto</string>
   <!-- Title for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 50] -->
-  <string name="remember_location_title">Memorizar localizações das fotografias?</string>
+  <string name="remember_location_title">Lembrar localização das fotos?</string>
   <!-- Message for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = None] -->
   <string name="remember_location_prompt">Insira etiquetas nas suas fotografias e vídeos com as localizações onde foram capturados.\n\nOutras aplicações podem aceder a estas informações juntamente com as suas imagens guardadas.</string>
   <!-- Negative answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
@@ -884,18 +885,32 @@ CHAR LIMIT = NONE] -->
   <string name="camera_menu_settings_label">CONFIGURAÇÕES</string>
   <!-- String indicating how many photos are in an album [CHAR LIMIT=15] -->
   <plurals name="number_of_photos">
-    <item quantity="one">%1$d fotografia</item>
-    <item quantity="other">%1$d fotog.</item>
+    <item quantity="one">%1$d foto</item>
+    <item quantity="other">%1$d fotos</item>
   </plurals>
   <!-- The label for the bass boost knob of the audio effects dialog. -->
+  <string name="bass_boost_strength">Ganho de grave</string>
   <!-- The label for the 3d effect knob of the audio effects dialog. -->
+  <string name="virtualizer_strength">Som Surround</string>
   <!-- The label for the audio effects menu. -->
+  <string name="audio_effects">Efeitos de áudio</string>
   <!-- Toast if user attempts to control audio effects without headphones plugged in. -->
+  <string name="headset_plug">Conecte fones de ouvido para utilizar esses efeitos.</string>
   <!-- The title of the audio effects dialog. -->
+  <string name="audio_effects_dialog_title">Snapdragon Audio +</string>
   <!-- The tips of trimming video -->
+  <string name="fail_trim">Desculpe, este vídeo não pode ser cortado</string>
+  <string name="can_not_trim">Apenas arquivos mp4 e 3gp podem ser cortados</string>
+  <string name="no_permission_for_drm">"Desculpe, arquivos com DRM não podem ser compartilhados"</string>
+  <string name="drm_license_info">Informações de licença DRM</string>
+  <string name="mimetype_not_supported">Este arquivo não pode ser reproduzido</string>
+  <string name="action_consumes_rights">Você perderá os direitos após reproduzir esta mídia</string>
   <!-- Timeline screen title -->
+  <string name="timeline_title">Linha de Tempo</string>
   <!-- Albums screen title -->
   <!-- Videos screen title -->
+  <string name="tvEmptyAlbum">Nenhuma foto encontrada</string>
+  <string name="tvEmptyVideos">Nenhum vídeo encontrado</string>
   <string name="truescanner_normal">Normal</string>
   <string name="seestraight_input_image_is_small">Imagem é pequena demais para processar.</string>
   <string name="seestraight_process_fail">Não foi possível processar a imagem.</string>

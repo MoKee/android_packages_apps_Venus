@@ -30,6 +30,17 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Strings for step option settins -->
+  <string name="setp_option_name">Paso</string>
+  <string name="step_option_desc">Personalizar paso rápido adelante / atrás</string>
+  <string name="setp_option_three_second">3 segundos</string>
+  <string name="setp_option_six_second">6 segundos</string>
+  <string name="loop">"Lazo"</string>
+  <string name="single">"Solo"</string>
+  <string name="stereo">"Estéreo"</string>
+  <string name="speaker_on">Altavoz activado</string>
+  <string name="speaker_off">Altavoz desactivado</string>
+  <string name="speaker_need_headset">Por favor, conecte el auricular primero!</string>
+  <string name="single_track">"Sola Pista"</string>
   <string name="next">"Siguiente"</string>
   <string name="setting">Ajustes</string>
 </resources>

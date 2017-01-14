@@ -756,7 +756,7 @@ CHAR LIMIT = NONE] -->
   <!-- The button to reload the video. [CHAR LIMIT = NONE] -->
   <string name="accessibility_reload_video">Ricarica video</string>
   <!-- The time bar of the media player. [CHAR LIMIT = NONE] -->
-  <string name="accessibility_time_bar">Barra temporale del video player</string>
+  <string name="accessibility_time_bar">Barra temporale del player video</string>
   <!-- TODO: remove the string as it is a work-around solution to bypass the default speak of the element type. -->
   <!-- Default text for a button that can be toggled on and off. -->
   <string name="capital_on">ON</string>

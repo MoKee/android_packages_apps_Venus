@@ -311,6 +311,7 @@
   <string name="filtershow_exif_copyright">Copyright</string>
   <string name="fusion_pick_point">Scegli segmento</string>
   <string name="fusion_pick_underlay">Scegli Sottofondo</string>
+  <string name="dualcam_filter_not_supported">Filtri dual camera non supportati per questa immagine</string>
   <string name="trueportrait_intro">Ti consente di migliorare le foto di persone. Puoi applicare effetti allo sfondo, ad esempio \"sfocatura\" e \"schizzo\". È anche possibile unire due foto insieme per creare interessanti sfondi per le tue foto ritratto.</string>
   <string name="trueportrait_no_face">Gli effetti True Portait non possono essere applicati a questa foto. Volto non rilevato.</string>
   <string name="trueportrait_edit_intro">Con lo strumento di ritocco, è possibile modificare il primo piano e lo sfondo. Puoi usare le dita per dipingere in tutte le aree di primo piano o sfondo che sono state mancate.</string>
@@ -323,6 +324,8 @@
   <string name="fusion_pick_background">Seleziona foto di sfondo</string>
   <string name="color">Colore</string>
   <string name="frames">Cornici</string>
+  <string name="beautify">Abbellisci</string>
+  <string name="dualcam">Dual Camera</string>
   <string name="foreground">Primo piano</string>
   <string name="background">Sfondo</string>
 </resources>

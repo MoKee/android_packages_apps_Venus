@@ -203,7 +203,7 @@
   <!--  Label for the green control for per channel saturation effect [CHAR LIMIT=20] -->
   <string name="editor_chan_sat_green">Zielony</string>
   <!--  Label for the cyan control for per channel saturation effect [CHAR LIMIT=20] -->
-  <string name="editor_chan_sat_cyan">niebiesko-zielony</string>
+  <string name="editor_chan_sat_cyan">Niebiesko-zielony</string>
   <!--  Label for the blue control for per channel saturation effect [CHAR LIMIT=20] -->
   <string name="editor_chan_sat_blue">Niebieski</string>
   <!--  Label for the Magenta control for per channel saturation effect [CHAR LIMIT=20] -->
@@ -211,7 +211,7 @@
   <!--  Label for the image graduated filter effect  [CHAR LIMIT=20] -->
   <string name="editor_grad_style">Styl</string>
   <!-- new virtual graduated neutral density filter  [CHAR LIMIT=20] -->
-  <string name="editor_grad_new">nowa</string>
+  <string name="editor_grad_new">nowy</string>
   <!--  Labels for the curves tool -->
   <!--  Label for the curves tool, all channels (RGB) [CHAR LIMIT=3] -->
   <string name="curves_channel_rgb">RGB</string>

@@ -28,6 +28,7 @@
   <!--  Text for to display on a download failure [CHAR LIMIT=NONE] -->
   <string name="download_failure">No se pudo descargar la foto. La red no está disponible.</string>
   <!--  Text to label an image as "original" [CHAR LIMIT=20] -->
+  <string name="original">Original</string>
   <!--  Text for filters that apply a border to a picture [CHAR LIMIT=20] -->
   <string name="borders" msgid="4461692156695893616">Bordes</string>
   <!-- Text for the custom border filter [CHAR LIMIT=20] -->
@@ -237,6 +238,7 @@
   <!--  The accept the draw size [CHAR LIMIT=20] -->
   <string name="draw_size_accept">Aceptar</string>
   <!--  Name used to indicate the original image in the state panel [CHAR LIMIT=20] -->
+  <string name="state_panel_original">Original</string>
   <!--  Name used to indicate the final image in the state panel [CHAR LIMIT=20] -->
   <string name="state_panel_result">Resultado</string>
   <!-- Label for the notification [CHAR LIMIT=50] -->
@@ -266,6 +268,7 @@
   <!-- Label for the add button in the versions panel [CHAR LIMIT=30] -->
   <string name="filtershow_add_button_versions">Versión</string>
   <!-- Label for the Original version in the versions panel [CHAR LIMIT=30] -->
+  <string name="filtershow_version_original">Original</string>
   <!-- Label for the Current version in the versions panel [CHAR LIMIT=30] -->
   <string name="filtershow_version_current">Actual</string>
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->

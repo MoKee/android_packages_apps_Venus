@@ -314,6 +314,7 @@
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         <item name="android:windowBackground">@android:color/black</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/toolbar_theme</item>
         <item name="android:windowTranslucentStatus">true</item>
         <item name="android:windowTranslucentNavigation">false</item>
         <item name="android:windowActionBar">false</item>
@@ -328,6 +329,7 @@
 
     <style name="QueryTheme" parent="android:Theme.Material">
         <item name="android:statusBarColor">#ab5810</item>
+        <item name="android:navigationBarColor">#ab5810</item>
     </style>
 
     <style name="ToolbarTheme" parent="android:Theme.Material" >

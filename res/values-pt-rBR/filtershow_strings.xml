@@ -28,13 +28,14 @@
   <!--  Text for to display on a download failure [CHAR LIMIT=NONE] -->
   <string name="download_failure">Não foi possível transferir a fotografia. Rede não disponível.</string>
   <!--  Text to label an image as "original" [CHAR LIMIT=20] -->
+  <string name="original">Original</string>
   <!--  Text for filters that apply a border to a picture [CHAR LIMIT=20] -->
-  <string name="borders" msgid="4461692156695893616">Limites</string>
+  <string name="borders" msgid="4461692156695893616">Quadro</string>
   <!-- Text for the custom border filter [CHAR LIMIT=20] -->
   <string name="custom_border">Personalizado</string>
   <!--  actionbar menu -->
   <!--  Text for the undo menu item [CHAR LIMIT=20] -->
-  <string name="filtershow_undo">Anular</string>
+  <string name="filtershow_undo">Desfazer</string>
   <!--  Text for redo menu item [CHAR LIMIT=20] -->
   <string name="filtershow_redo">Refazer</string>
   <!--  Text for the image menu item showing the filters that have been applied [CHAR LIMIT=30] -->
@@ -55,16 +56,18 @@
   <!--  Text for size value tag [CHAR LIMIT=30] -->
   <string name="size">Tamanho</string>
   <!--  Text for size x [CHAR LIMIT=1] -->
+  <string name="x">X</string>
   <!--  Name for the overflow menu item for settings [CHAR LIMIT=20] -->
   <string name="menu_settings">Configurações</string>
   <!--  Exit Dialog -->
   <!--  String displayed when exiting with unsaved changes [CHAR LIMIT=NONE] -->
-  <string name="unsaved">Existem alterações a esta imagem não guardadas.</string>
+  <string name="unsaved">Rejeitar as alterações feitas nessa imagem?</string>
   <!--  String displayed when exiting with unsaved changes [CHAR LIMIT=NONE] -->
-  <string name="save_before_exit">Pretende guardar antes de sair?</string>
+  <string name="save_before_exit">Descartar alterações?</string>
   <!--  String displayed when saving and exiting editor [CHAR LIMIT=NONE] -->
-  <string name="save_and_exit">Guardar e Sair</string>
+  <string name="save_and_exit">Salvar e Sair</string>
   <!--  String displayed when discard editor [CHAR LIMIT=NONE] -->
+  <string name="discard">Descarte</string>
   <!--  String displayed when saving and exiting editor [CHAR LIMIT=NONE] -->
   <string name="save_and_processing">A processar imagem de resolução total...</string>
   <!--  String displayed when exiting editor[CHAR LIMIT=NONE] -->
@@ -73,7 +76,7 @@
   <!--  Text for the history panel title [CHAR LIMIT=50] -->
   <string name="history">Histórico</string>
   <!--  Text for the history panel reset button [CHAR LIMIT=20]-->
-  <string name="reset">Repor</string>
+  <string name="reset">Voltar ao original</string>
   <!--  Text for the original image[CHAR LIMIT=20]-->
   <!--  Image state panel -->
   <!--  Text for the image state panel title [CHAR LIMIT=50] -->
@@ -84,27 +87,37 @@
   <!--  Label for the apply effect button [CHAR LIMIT=15] -->
   <string name="apply_effect">Aplicar</string>
   <!--  Label for the reset effect button [CHAR LIMIT=15] -->
-  <string name="reset_effect">Repor</string>
+  <string name="reset_effect">Redefinir</string>
   <!--  Label for aspect [CHAR LIMIT=15] -->
-  <string name="aspect">Formato</string>
+  <string name="aspect">Aspecto</string>
   <!--  Label for the aspect 1:1 effect [CHAR LIMIT=15] -->
+  <string name="aspect1to1_effect">1:1</string>
   <!--  Label for the aspect 4:3 effect [CHAR LIMIT=15] -->
+  <string name="aspect4to3_effect">4:3</string>
   <!--  Label for the aspect 3:4 effect [CHAR LIMIT=15] -->
+  <string name="aspect3to4_effect">3:4</string>
   <!--  Label for the aspect 4:7 effect [CHAR LIMIT=15] -->
+  <string name="aspect4to6_effect">4:6</string>
   <!--  Label for the aspect 5:7 effect [CHAR LIMIT=15] -->
+  <string name="aspect5to7_effect">5:7</string>
   <!--  Label for the aspect 7:5 effect [CHAR LIMIT=15] -->
+  <string name="aspect7to5_effect">7:5</string>
   <!--  Label for the aspect 1:1 effect [CHAR LIMIT=15] -->
+  <string name="aspect9to16_effect">16:9</string>
   <!--  Label for the aspect None effect [CHAR LIMIT=15] -->
-  <string name="aspectNone_effect">Nenhum</string>
+  <string name="aspectNone_effect">Livre</string>
   <!--  Label for the aspect None effect [CHAR LIMIT=15] -->
   <!-- Label for when the aspect ratio is fixed to a value [CHAR LIMIT=15] -->
   <string name="Fixed">Fixo</string>
   <!--  Label for the tuny planet effect [CHAR LIMIT=10] -->
-  <string name="tinyplanet">Planeta Minúsculo</string>
+  <string name="tinyplanet">Pequeno planeta</string>
   <!--  Filters buttons -->
   <!--  True Effect button -->
+  <string name="trueScanner">Scanner de verdade</string>
   <!--  HazeBuster button -->
+  <string name="hazeBuster">Buster de neblina</string>
   <!--  SeeStraight button -->
+  <string name="seeStraight">Ver em linha reta</string>
   <!--  Label for the image exposure (brightness) filter button [CHAR LIMIT=10] -->
   <string name="exposure" msgid="1229093066434614811">Exposição</string>
   <!--  Label for the image sharpness (clarity, distinctness) filter button [CHAR LIMIT=10] -->
@@ -116,11 +129,11 @@
   <!--  Label for the image saturation (brightens colors) filter button [CHAR LIMIT=10] -->
   <string name="saturation">Saturação</string>
   <!--  Label for the image BW filter (makes black & white) button [CHAR LIMIT=10] -->
-  <string name="bwfilter">Filtro P&amp;B</string>
+  <string name="bwfilter">Filtro de BW</string>
   <!--  Label for the image Autocolor filter (makes off-white colors whiter) button [CHAR LIMIT=10] -->
   <string name="wbalance">Cor automática</string>
   <!--  Label for the image Hue filter (color, shade, tinge, tone) button [CHAR LIMIT=10] -->
-  <string name="hue">Tonalidade</string>
+  <string name="hue">Matiz</string>
   <!--  Label for the image shadow recovery (lightens/darkens shadows) filter button [CHAR LIMIT=10] -->
   <string name="shadow_recovery">Sombras</string>
   <!--  Label for the image highlights recovery (lightens/darkens bright regions) filter button [CHAR LIMIT=15] -->
@@ -138,9 +151,9 @@
   <!--  Label for the image vignette contrast fparameter ui [CHAR LIMIT=15] -->
   <string name="vignette_contrast">Contraste</string>
   <!--  Label for the rate of change in brightness as it goes to the edge [CHAR LIMIT=15] -->
-  <string name="vignette_falloff">Redução</string>
+  <string name="vignette_falloff">Caiu Fora</string>
   <!--  Label for the image effect that removes redeye. [CHAR LIMIT=10] -->
-  <string name="redeye">Olhos Vermelhos</string>
+  <string name="redeye">Olho vermelho</string>
   <!--  Label for the that allows drawing on Image [CHAR LIMIT=10] -->
   <string name="imageDraw">Desenhar</string>
   <!--  Label for the image straighten effect [CHAR LIMIT=15] -->
@@ -156,20 +169,26 @@
   <!--  Label for having no filters applied to the image [CHAR LIMIT=10] -->
   <string name="none" msgid="3601545724573307541">Nenhum</string>
   <!--  Label for the image edges effect (highlights edges in image) [CHAR LIMIT=10] -->
-  <string name="edge">Limites</string>
+  <string name="edge">Bordas</string>
   <!--  Label for an image effect that replicates the "pop art" style of segmenting
           images into solid colors, as popularized by Andy Warhol [CHAR LIMIT=15] -->
-  <string name="kmeans">Póster</string>
+  <string name="kmeans">Posterize</string>
   <!--  Label for the image downsampling effect (makes image smaller) [CHAR LIMIT=15] -->
   <string name="downsample">Subamostra</string>
   <!--  Label for the "neutral density graduated filter" filter effect  [CHAR LIMIT=15] -->
-  <string name="grad">Esbatida</string>
+  <string name="grad">Graduado</string>
   <!--  Label for the "refocus" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="focus">Foco</string>
   <!--  Label for the "fusion" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="fusion">Fusão</string>
   <!--  Label for the "sketch" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="sketch">Esboço</string>
   <!--  Label for the "halo" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="halo">Auréola</string>
   <!--  Label for the "blur" true portrait effect  [CHAR LIMIT=15] -->
+  <string name="blur">Borrão</string>
   <!--  Label for the "motion blur" true portrait effect  [CHAR LIMIT=15] -->
+  <string name="motion_blur">Desfoque de movimento</string>
   <!--  Label for the Brightness effect  [CHAR LIMIT=20] -->
   <string name="editor_grad_brightness">Brilho</string>
   <!--  Label for the Contrast filter effect  [CHAR LIMIT=20] -->
@@ -185,16 +204,18 @@
   <!--  Label for the green control for per channel saturation effect [CHAR LIMIT=20] -->
   <string name="editor_chan_sat_green">Verde</string>
   <!--  Label for the cyan control for per channel saturation effect [CHAR LIMIT=20] -->
-  <string name="editor_chan_sat_cyan">Azul-turquesa</string>
+  <string name="editor_chan_sat_cyan">Ciano</string>
   <!--  Label for the blue control for per channel saturation effect [CHAR LIMIT=20] -->
   <string name="editor_chan_sat_blue">Azul</string>
   <!--  Label for the Magenta control for per channel saturation effect [CHAR LIMIT=20] -->
+  <string name="editor_chan_sat_magenta">Magenta</string>
   <!--  Label for the image graduated filter effect  [CHAR LIMIT=20] -->
   <string name="editor_grad_style">Estilo</string>
   <!-- new virtual graduated neutral density filter  [CHAR LIMIT=20] -->
-  <string name="editor_grad_new">nova</string>
+  <string name="editor_grad_new">novo</string>
   <!--  Labels for the curves tool -->
   <!--  Label for the curves tool, all channels (RGB) [CHAR LIMIT=3] -->
+  <string name="curves_channel_rgb">RGB</string>
   <!--  Label for the curves tool, Red color channel [CHAR LIMIT=14] -->
   <string name="curves_channel_red">Vermelho</string>
   <!--  Label for the curves tool, Green color channel [CHAR LIMIT=14] -->
@@ -206,7 +227,7 @@
   <!--  Label for the size to draw in in [CHAR LIMIT=14] -->
   <string name="draw_size">Tamanho</string>
   <!--  Label for the Hue to draw in [CHAR LIMIT=14] -->
-  <string name="draw_hue">Tonalidade</string>
+  <string name="draw_hue">Matiz</string>
   <!--  Label for the color to draw in [CHAR LIMIT=14] -->
   <string name="draw_saturation">Saturação</string>
   <!--  Label for the Brightness to draw in [CHAR LIMIT=14] -->
@@ -238,22 +259,23 @@
   <!--  The accept the draw size [CHAR LIMIT=20] -->
   <string name="draw_size_accept">OK</string>
   <!--  Name used to indicate the original image in the state panel [CHAR LIMIT=20] -->
+  <string name="state_panel_original">Original</string>
   <!--  Name used to indicate the final image in the state panel [CHAR LIMIT=20] -->
   <string name="state_panel_result">Resultado</string>
   <!-- Label for the notification [CHAR LIMIT=50] -->
-  <string name="filtershow_notification_label">A guardar imagem</string>
+  <string name="filtershow_notification_label">Salvando imagem</string>
   <!-- Label for the notification message [CHAR LIMIT=50] -->
-  <string name="filtershow_notification_message">A processar...</string>
+  <string name="filtershow_notification_message">Processando…...</string>
   <!-- Label for the save preset menu [CHAR LIMIT=30] -->
-  <string name="filtershow_save_preset">A guardar predefinição atual</string>
+  <string name="filtershow_save_preset">Salvar predefinição atual</string>
   <!-- Label for the manage preset menu [CHAR LIMIT=42] -->
-  <string name="filtershow_manage_preset">Gerir predefinições utilizador</string>
+  <string name="filtershow_manage_preset">Gerenciar predefinições do usuário</string>
   <!-- Label for newly created user preset [CHAR LIMIT=30] -->
   <string name="filtershow_new_preset">Nova predefinição</string>
   <!-- Label for preset name [CHAR LIMIT=30] -->
   <string name="filtershow_preset_name">Nome Predefinido</string>
   <!-- Label for showing the image information panel [CHAR LIMIT=50] -->
-  <string name="filtershow_show_info_panel">Informações</string>
+  <string name="filtershow_show_info_panel">Informação</string>
   <!-- Label for the information panel [CHAR LIMIT=30] -->
   <string name="filtershow_show_info_panel_name">Nome da imagem</string>
   <!-- Label for the information panel [CHAR LIMIT=30] -->
@@ -267,6 +289,7 @@
   <!-- Label for the add button in the versions panel [CHAR LIMIT=30] -->
   <string name="filtershow_add_button_versions">Versão</string>
   <!-- Label for the Original version in the versions panel [CHAR LIMIT=30] -->
+  <string name="filtershow_version_original">Original</string>
   <!-- Label for the Current version in the versions panel [CHAR LIMIT=30] -->
   <string name="filtershow_version_current">Atual</string>
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
@@ -276,15 +299,37 @@
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="filtershow_exif_focal_length">Distância Focal</string>
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
+  <string name="filtershow_exif_iso">ISO</string>
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="filtershow_exif_subject_distance">Distância do Objeto</string>
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
-  <string name="filtershow_exif_date">Data de captura</string>
+  <string name="filtershow_exif_date">Data da foto</string>
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
-  <string name="filtershow_exif_f_stop">Número F</string>
+  <string name="filtershow_exif_f_stop">F-Stop</string>
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="filtershow_exif_exposure_time">Tempo de Exposição</string>
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
-  <string name="filtershow_exif_copyright">Direitos de autor</string>
+  <string name="filtershow_exif_copyright">Direitos Autorais</string>
+  <string name="fusion_pick_point">Escolha o segmento</string>
+  <string name="fusion_pick_underlay">Escolher a subjacência</string>
+  <string name="dualcam_no_segment_toast">Nenhum segmento encontrado neste momento</string>
+  <string name="dualcam_filter_not_supported">Filtros de câmera dupla, não há suportados para esta imagem</string>
+  <string name="trueportrait_intro">Permite que você melhore fotos de pessoas. Você pode aplicar efeitos para o fundo, como \"borrão\" e \"esboço\". Você também pode mesclar duas fotos juntas para criar planos de fundo interessantes para suas fotos de retrato.</string>
+  <string name="trueportrait_no_face">Efeitos de retrato verdadeiros não podem ser aplicados para esta foto. Rosto não detectado.</string>
+  <string name="trueportrait_edit_intro">Com a ferramenta Touch-Up, você pode editar o primeiro plano e o plano de fundo. Você pode usar seu dedo para pintar em todas as áreas do primeiro plano ou do fundo que foram perdidas.</string>
+  <string name="trueportrait_edit_foreground_toast">Use o dedo para pintar em todas as áreas do primeiro plano que foram perdidas.</string>
+  <string name="trueportrait_edit_background_toast">Use o dedo para pintar em todas as áreas do primeiro plano que foram perdidas.</string>
+  <string name="trueportrait_edit_help">Para ampliar, use dois dedos para beliscar aberto ou fechado. Você também pode arrastar com dois dedos para re-posicionar a imagem. Isto pode tornar mais fácil para corrigir quaisquer áreas de problema.</string>
+  <string name="trueportrait_fusion_intro">Sua pessoa de primeiro plano pode ser copiada e colada em qualquer foto em sua Galeria. Você pode tentar usar fotos de fundo diferentes para criar retratos novos e interessantes.</string>
+  <string name="do_not_show_again">Não exibir novamente</string>
+  <string name="trueportrait_touch_up">Toque acima</string>
+  <string name="fusion_pick_background">Selecione a foto do fundo</string>
   <string name="color">Cor</string>
+  <string name="frames">Quadros</string>
+  <string name="beautify">Embelezar</string>
+  <string name="dualcam">Câmera dupla</string>
+  <string name="trueportrait">Verdadeiro retrato</string>
+  <string name="foreground">Primeiro plano</string>
+  <string name="background">Plano de Fundo</string>
+  <string name="brush_size">Tamanho do pincel</string>
 </resources>

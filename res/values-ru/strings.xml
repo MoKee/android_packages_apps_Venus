@@ -26,11 +26,11 @@
   <!-- Activity label. This might show up in the activity-picker -->
   <string name="movie_view_label">Видеопроигрыватель</string>
   <!-- shown in the video player view while the video is being loaded, before it starts playing -->
-  <string name="loading_video">Загрузка видео…</string>
-  <string name="loading_image">Загрузка изображения...</string>
+  <string name="loading_video">Загрузка видео</string>
+  <string name="loading_image">Загрузка изображения</string>
   <!-- Message shown on the progress dialog to indicate we're loading the
             account info [CHAR LIMIT=30] -->
-  <string name="loading_account">Загрузка аккаунта...</string>
+  <string name="loading_account">Загрузка информации об аккаунте</string>
   <!-- Movie View Resume Playing dialog title -->
   <string name="resume_playing_title">Продолжение просмотра видео</string>
   <!-- Movie View Start Playing dialog title -->
@@ -41,13 +41,13 @@
   <string name="loading">Загрузка…</string>
   <!-- Displayed in the title of those pictures that fails to be loaded
          [CHAR LIMIT=50]-->
-  <string name="fail_to_load">Не загружено</string>
+  <string name="fail_to_load">Не удалось загрузить</string>
   <!-- Used in a toast message when an image fails to be loaded
          [CHAR LIMIT=50]-->
   <string name="fail_to_load_image">Не удалось загрузить изображение</string>
   <!-- Displayed in place of the picture when we fail to get the thumbnail of it.
          [CHAR LIMIT=50]-->
-  <string name="no_thumbnail">Нет уменьшенного изображения</string>
+  <string name="no_thumbnail">Нет эскиза</string>
   <!-- Movie View Start Playing button "Beginning" -->
   <string name="resume_playing_restart">Начать с начала</string>
   <!-- Title of a menu item to indicate performing the image crop operation
@@ -64,11 +64,11 @@
   <!-- Toast/alert that the image is being saved after editing in filtershow [CHAR LIMIT=40]-->
   <string name="filtershow_saving_image">Сохранение в альбоме \"<xliff:g id="ALBUM_NAME">%1$s</xliff:g>\"…</string>
   <!-- Eorror toast message that the image cannot be saved [CHAR LIMIT=40]-->
-  <string name="save_error">Изображение не сохранено.</string>
+  <string name="save_error">Не удается сохранить обрезанное изображение.</string>
   <!-- menu pick: crop the currently selected image [CHAR LIMIT=30]-->
   <string name="crop_label">Обрезать фотографию</string>
   <!-- menu pick: trim the currently selected video [CHAR LIMIT=30]-->
-  <string name="trim_label">Вырезать фрагмент</string>
+  <string name="trim_label">Обрезать видео</string>
   <!-- Toast/alert that the face detection is being run -->
   <!-- Title prompted for user to choose a photo item [CHAR LIMIT=20] -->
   <string name="select_image">Выбрать фото</string>
@@ -94,16 +94,16 @@
   <string name="delete">Удалить</string>
   <!-- String Delete the selected media item(s) [CHAR LIMIT=50] -->
   <plurals name="delete_selection">
-    <item quantity="one">Удалить выбранный элемент?</item>
+    <item quantity="one">Удалить выбранный файл?</item>
     <item quantity="few">Удалить выбранные элементы?</item>
     <item quantity="other">Удалить выбранные элементы?</item>
   </plurals>
-  <string name="confirm">Подтвердить</string>
+  <string name="confirm">Подтвердите</string>
   <string name="cancel">Отмена</string>
-  <string name="share">Отправить</string>
+  <string name="share">Поделится</string>
   <string name="share_dialogue_title">Поделиться через</string>
-  <string name="share_panorama">Отправить панораму</string>
-  <string name="share_as_photo">Отправить фото</string>
+  <string name="share_panorama">Поделиться панорамой</string>
+  <string name="share_as_photo">Поделиться фото</string>
   <!-- The label shown after an image is deleted [CHAR LIMIT=16] -->
   <string name="deleted">Удалено</string>
   <!-- The label on the button which when clicked will undo a deletion of image [CHAR LIMIT=16]-->
@@ -116,26 +116,26 @@
   <string name="details_title">Элементов %1$d из %2$d:</string>
   <string name="close">Закрыть</string>
   <!-- Title of a menu item to switch from Gallery to Camera app [CHAR LIMIT=30] -->
-  <string name="switch_to_camera">Режим \"Фото\"</string>
+  <string name="switch_to_camera">Переключиться на камеру</string>
   <!-- String indicating how many media item(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
   <plurals name="number_of_items_selected">
-    <item quantity="one">%1$d выбран</item>
+    <item quantity="one">%1$d выбрано</item>
     <item quantity="few">%1$d выбрано</item>
     <item quantity="other">%1$d выбрано</item>
   </plurals>
   <!-- String indicating how many media album(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
   <plurals name="number_of_albums_selected">
-    <item quantity="one">%1$d</item>
-    <item quantity="few">%1$d</item>
+    <item quantity="one">%1$d выбрано</item>
+    <item quantity="few">%1$d выбрано</item>
     <item quantity="other">%1$d выбрано</item>
   </plurals>
   <!-- String indicating how many media group(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
   <plurals name="number_of_groups_selected">
-    <item quantity="one">%1$d</item>
-    <item quantity="few">%1$d</item>
+    <item quantity="one">%1$d выбрано</item>
+    <item quantity="few">%1$d выбрано</item>
     <item quantity="other">%1$d выбрано</item>
   </plurals>
   <!-- String indicating timestamp of photo or video -->
@@ -149,7 +149,7 @@
   <string name="edit">Редактировать</string>
   <!-- String used as a menu label. The user can choose to edit the image
          [CHAR_LIMIT=20]-->
-  <string name="simple_edit">Простая правка</string>
+  <string name="simple_edit">Простое редактирование</string>
   <!-- String used as a title of a progress dialog. The user can
          choose to cache some Picasa picture albums on device, so it can
          be viewed offline. This string is shown when the request is being
@@ -194,14 +194,14 @@
   <string name="untagged">Без тегов</string>
   <!-- When grouping photos by locations, the label used for photos that don't
          have location information in them [CHAR LIMIT=20]-->
-  <string name="no_location">Место не указано</string>
+  <string name="no_location">Нет местоположения</string>
   <!-- When grouping photos by peoples, the label used for photos that don't
         have people information in them [CHAR LIMIT=20]-->
   <string name="no_faces">Нет фото</string>
   <!-- This toast message is shown when network connection is lost while doing clustering -->
-  <string name="no_connectivity">Не удалось найти все места из-за проблем с подключением.</string>
+  <string name="no_connectivity">Некоторые места не могут быть определены из-за проблем с сетью.</string>
   <!-- This toast message is shown when failed to load the album data. [CHAR LIMIT=NONE] -->
-  <string name="sync_album_error">Не удалось загрузить фото. Повторите попытку позже.</string>
+  <string name="sync_album_error">Не удалось загрузить фотографии в этот альбом. Повторите попытку позже.</string>
   <!-- The title of the menu item to let user choose the which portion of
          the media items the user wants to see. When pressed, a submenu will
          appear and user can choose one of "show images only",
@@ -922,6 +922,7 @@ CHAR LIMIT = NONE] -->
   <string name="no_permission_for_drm">"Извините, нельзя отправить Drm файл"</string>
   <string name="drm_license_info">Информация о лицензии Drm</string>
   <string name="mimetype_not_supported">Этот файл не может быть воспроизведен</string>
+  <string name="action_consumes_rights">Разрешение на использование при воспроизведении этого носителя</string>
   <string name="text_makeup_whiten">Отбелить</string>
   <string name="text_makeup_Soften">Смягчение</string>
   <!-- Timeline screen title -->
@@ -932,8 +933,14 @@ CHAR LIMIT = NONE] -->
   <string name="action_viewtype_list">Отобразить в виде списка</string>
   <string name="tvEmptyAlbum">Фотографии не найдены</string>
   <string name="tvEmptyVideos">Видео не найдено</string>
+  <string name="text_makeup_trimface">Обрезка лица</string>
+  <string name="text_makeup_bigeye">Большие глаза</string>
   <string name="truescanner_normal">Нормально</string>
+  <string name="truescanner_white">Белое поле</string>
+  <string name="truescanner">Реальный сканер</string>
   <string name="truescanner_remove_glare">Удаление бликов</string>
+  <string name="hazebuster_acts">Haze Buster</string>
+  <string name="seestraight_acts">Смотрите прямо на камеру</string>
   <string name="seestraight_input_image_is_small">Исходное изображение слишком мало для обработки.</string>
   <string name="seestraight_process_fail">Не удалось обработать изображение.</string>
   <string name="trim_video_exit_title">Сохранить изменения?</string>

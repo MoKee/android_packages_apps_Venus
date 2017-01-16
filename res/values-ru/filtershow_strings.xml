@@ -185,6 +185,16 @@
   <string name="sketch">Эскиз</string>
   <!--  Label for the "halo" dual camera effect  [CHAR LIMIT=15] -->
   <string name="halo">Ореол</string>
+  <!--  Label for the "zoom" dual camera effect  [CHAR LIMIT=15] -->
+  <!--  Label for the "motion" dual camera effect  [CHAR LIMIT=15] -->
+  <!--  Label for the "bw" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="bw">Ч/Б</string>
+  <!--  Label for the "blackboard" dual camera effect  [CHAR LIMIT=15] -->
+  <!--  Label for the "whiteboard" dual camera effect  [CHAR LIMIT=15] -->
+  <!--  Label for the "posterize" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="posterize">Постеризация</string>
+  <!--  Label for the "negative" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="dc_negative">Негатив</string>
   <!--  Label for the "blur" true portrait effect  [CHAR LIMIT=15] -->
   <string name="blur">Размытие</string>
   <!--  Label for the "motion blur" true portrait effect  [CHAR LIMIT=15] -->

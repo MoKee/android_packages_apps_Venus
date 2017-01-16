@@ -169,6 +169,15 @@
   <!--  Label for the "fusion" dual camera effect  [CHAR LIMIT=15] -->
   <!--  Label for the "sketch" dual camera effect  [CHAR LIMIT=15] -->
   <!--  Label for the "halo" dual camera effect  [CHAR LIMIT=15] -->
+  <!--  Label for the "zoom" dual camera effect  [CHAR LIMIT=15] -->
+  <!--  Label for the "motion" dual camera effect  [CHAR LIMIT=15] -->
+  <!--  Label for the "bw" dual camera effect  [CHAR LIMIT=15] -->
+  <!--  Label for the "blackboard" dual camera effect  [CHAR LIMIT=15] -->
+  <!--  Label for the "whiteboard" dual camera effect  [CHAR LIMIT=15] -->
+  <!--  Label for the "posterize" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="posterize">Ukumisaphuhle</string>
+  <!--  Label for the "negative" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="dc_negative">Inegethivu</string>
   <!--  Label for the "blur" true portrait effect  [CHAR LIMIT=15] -->
   <!--  Label for the "motion blur" true portrait effect  [CHAR LIMIT=15] -->
   <!--  Label for the Brightness effect  [CHAR LIMIT=20] -->

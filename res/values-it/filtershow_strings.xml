@@ -184,6 +184,16 @@
   <string name="sketch">Schizzo</string>
   <!--  Label for the "halo" dual camera effect  [CHAR LIMIT=15] -->
   <string name="halo">Halo</string>
+  <!--  Label for the "zoom" dual camera effect  [CHAR LIMIT=15] -->
+  <!--  Label for the "motion" dual camera effect  [CHAR LIMIT=15] -->
+  <!--  Label for the "bw" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="bw">Bianco e nero</string>
+  <!--  Label for the "blackboard" dual camera effect  [CHAR LIMIT=15] -->
+  <!--  Label for the "whiteboard" dual camera effect  [CHAR LIMIT=15] -->
+  <!--  Label for the "posterize" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="posterize">Posterizza</string>
+  <!--  Label for the "negative" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="dc_negative">Negativo</string>
   <!--  Label for the "blur" true portrait effect  [CHAR LIMIT=15] -->
   <string name="blur">Blur</string>
   <!--  Label for the "motion blur" true portrait effect  [CHAR LIMIT=15] -->

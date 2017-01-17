@@ -186,11 +186,15 @@
   <!--  Label for the "halo" dual camera effect  [CHAR LIMIT=15] -->
   <string name="halo">Hale</string>
   <!--  Label for the "zoom" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="zoom">Yakınlaştırma</string>
   <!--  Label for the "motion" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="motion">Hareket</string>
   <!--  Label for the "bw" dual camera effect  [CHAR LIMIT=15] -->
   <string name="bw">Siyah Beyaz</string>
   <!--  Label for the "blackboard" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="blackboard">Kara tahta</string>
   <!--  Label for the "whiteboard" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="whiteboard">Beyaz tahta</string>
   <!--  Label for the "posterize" dual camera effect  [CHAR LIMIT=15] -->
   <string name="posterize">Poster Efekti</string>
   <!--  Label for the "negative" dual camera effect  [CHAR LIMIT=15] -->
@@ -322,6 +326,8 @@
   <string name="filtershow_exif_copyright">Telif Hakkı</string>
   <string name="fusion_pick_point">Segment Seç</string>
   <string name="fusion_pick_underlay">Alt katman seç</string>
+  <string name="dual_camera_effects">Çift kamera efektleri</string>
+  <string name="dual_camera_effects_intro">\"Hareket\" ve \"Eskiz\" gibi arka plan efektleri uygulamanıza izin verir. İlginç efektler için iki fotoğrafı bir araya getirebilirsiniz. Bu özellik, fotoğraf makinenize ve ana resminize kısa mesafede olduğunuzda en iyi sonucu verir.</string>
   <string name="dualcam_no_segment_toast">Bu noktada segment bulunamadı</string>
   <string name="dualcam_filter_not_supported">Çift kamera filtreleri, bu resim için desteklenmemektedir</string>
   <string name="trueportrait_intro">Kişilerin fotoğraflarını iyileştirmenize izin verir. Arka plana \"Bulanıklık\" ve \"Çiz\" gibi efektler uygulayabilirsiniz. Ayrıca portre fotoğraflarınız için ilginç arka planlar yaratmak amacıyla iki fotoğrafı birleştirebilirsiniz.</string>
@@ -331,6 +337,7 @@
   <string name="trueportrait_edit_background_toast">Arka planı boyamak için parmağınızı kullanın.</string>
   <string name="trueportrait_edit_help">Yakınlaştırma/uzaklaştırma için iki parmağınızı açın/kapatın. Resmin pozisyonunu değiştirmek içinse resmi iki parmağınızla sürükleyebilirsiniz. Bu, problemli bölgeleri düzeltmeyi kolaylaştırabilir.</string>
   <string name="trueportrait_fusion_intro">Ön plan kişiniz, kopyalanarak galerinizdeki herhangi bir fotoğrafın üzerine yapıştırılabilir. Yeni ve ilginç portreler yaratmak için farklı arka plan fotoğrafları kullanabilirsiniz.</string>
+  <string name="dualcam_fusion_intro">Ön planınız Galeri\'deki herhangi bir fotoğrafta kopyalanabilir ve üzerine yapıştırabilir.\n\nYeni ve ilginç portreler oluşturmak için farklı arka plan fotoğrafları kullanmayı deneyebilirsiniz.</string>
   <string name="do_not_show_again">Tekrar gösterme</string>
   <string name="trueportrait_touch_up">Rötuş</string>
   <string name="fusion_pick_background">Arka plan fotoğrafını seç</string>

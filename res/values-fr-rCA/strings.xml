@@ -99,6 +99,7 @@
   <string name="confirm">Confirmer</string>
   <string name="cancel">Annuler</string>
   <string name="share">Partager</string>
+  <string name="share_dialogue_title">Partager via</string>
   <string name="share_panorama">Partager la vue panoramique</string>
   <string name="share_as_photo">Partager comme photo</string>
   <!-- The label shown after an image is deleted [CHAR LIMIT=16] -->
@@ -223,6 +224,7 @@
          some albums to be viewable offline [CHAR LIMIT=30] -->
   <string name="make_available_offline">Rendre disponible hors ligne</string>
   <!-- A label describing to link website [CHAR LIMIT=30] -->
+  <string name="more_image">Plus d\'images</string>
   <string name="website_for_more_image"></string>
   <!-- A label of a menu item for user to sync the content [CHAR LIMIT=30] -->
   <string name="sync_picasa_albums">Actualiser</string>
@@ -235,6 +237,7 @@
   <!-- Text indicating the title of a media item in details window [CHAR LIMIT=14] -->
   <string name="title">Titre</string>
   <!-- Text indicating the description of a media item in details window [CHAR LIMIT=14] -->
+  <string name="description">Description</string>
   <!-- Text indicating the creation time of a media item in details window [CHAR LIMIT=14] -->
   <string name="time">À intervalles réguliers</string>
   <!-- Text indicating the location of a media item in details window [CHAR LIMIT=14] -->
@@ -246,6 +249,7 @@
   <!-- Text indicating the height of a media item in details window [CHAR LIMIT=14] -->
   <string name="height">Hauteur</string>
   <!-- Text indicating the orientation of a media item in details window [CHAR LIMIT=14] -->
+  <string name="orientation">Orientation</string>
   <!-- Text indicating the duration of a video item in details window [CHAR LIMIT=14] -->
   <string name="duration">Durée</string>
   <!-- Text indicating the mime type of a media item in details window [CHAR LIMIT=14] -->
@@ -257,6 +261,7 @@
   <!-- Text indicating the model of a media item in details window [CHAR LIMIT=14] -->
   <string name="model">Modèle</string>
   <!-- Text indicating flash info of a media item in details window [CHAR LIMIT=14] -->
+  <string name="flash">Flash</string>
   <!-- Text indicating aperture of a media item in details window [CHAR LIMIT=14] -->
   <string name="aperture">Ouverture</string>
   <!-- Text indicating the focal length of a media item in details window [CHAR LIMIT=14] -->
@@ -266,8 +271,10 @@
   <!-- Text indicating the exposure time of a media item in details window [CHAR LIMIT=14] -->
   <string name="exposure_time">Durée d\'expo</string>
   <!-- Text indicating the ISO speed rating of a media item in details window [CHAR LIMIT=14] -->
+  <string name="iso">ISO</string>
   <!-- String indicating the time units in seconds. [CHAR LIMIT=8] -->
   <!-- String indicating the length units in milli-meters. [CHAR LIMIT=8] -->
+  <string name="unit_mm">mm</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
   <string name="manual">Manuel</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
@@ -279,7 +286,9 @@
   <!-- String indicating image width or height is unknown. [CHAR LIMIT=14] -->
   <string name="unknown">Inconnue</string>
   <!-- String for the empty not filtered image [CHAR LIMIT=10] -->
+  <string name="ffx_original">Original</string>
   <!-- String for brown-colored old-fashion looking filter (filtershow_fx_0000_vintage) [CHAR LIMIT=10] -->
+  <string name="ffx_vintage">Vintage</string>
   <!-- String for filter that brightens colors like instant cameras(filtershow_fx_0001_instant) [CHAR LIMIT=10] -->
   <string name="ffx_instant">Instantané</string>
   <!-- String for filter that washes out colors (filtershow_fx_0002_bleach) [CHAR LIMIT=10] -->
@@ -294,6 +303,7 @@
          photography (makes colors bluish) (filtershow_fx_0006_x_process) [CHAR LIMIT=10] -->
   <string name="ffx_x_process">Rayons X</string>
   <!-- String for filter that makes image coffee-colored (filtershow_fx_0007_washout) [CHAR LIMIT=10] -->
+  <string name="ffx_washout">Latte</string>
   <!-- String for filter that makes colors washed out and brownish
          (filtershow_fx_0008_washout_color) [CHAR LIMIT=10] -->
   <string name="ffx_washout_color">Lithographie</string>
@@ -366,6 +376,7 @@
   <!-- Title of the Android Dreams slideshow screensaver. [CHAR LIMIT=20] -->
   <string name="slideshow_dream_name">Diaporama</string>
   <!-- Group by Albums tab on Action Bar. [CHAR LIMIT=12] -->
+  <string name="albums">Albums</string>
   <!-- Group by Times tab on Action Bar. [CHAR LIMIT=12] -->
   <string name="times">Fois</string>
   <!-- Group by Locations tab on Action Bar. [CHAR LIMIT=12] -->
@@ -533,15 +544,19 @@
   <!-- Settings screen, dialog choice for 1 megapixels picture size [CHAR LIMIT=15] -->
   <string name="pref_camera_picturesize_entry_1mp">1 Mpx</string>
   <!-- Settings screen, dialog choice for VGA picture size [CHAR LIMIT=15] -->
+  <string name="pref_camera_picturesize_entry_vga">VGA</string>
   <!-- Settings screen, dialog choice for QVGA picture size [CHAR LIMIT=15] -->
+  <string name="pref_camera_picturesize_entry_qvga">QVGA</string>
   <!-- Settings screen, Focus mode title -->
   <string name="pref_camera_focusmode_title">Mise au point</string>
   <!-- Settings screen, Focus mode dialog radio button choices -->
   <string name="pref_camera_focusmode_entry_auto">Automatique</string>
   <string name="pref_camera_focusmode_entry_infinity">Infini</string>
+  <string name="pref_camera_focusmode_entry_macro">Macro</string>
   <!-- Menu, focus mode labels [CHAR LIMIT=50] -->
   <string name="pref_camera_focusmode_label_auto">AUTOMATIQUE</string>
   <string name="pref_camera_focusmode_label_infinity">INFINI</string>
+  <string name="pref_camera_focusmode_label_macro">MACRO</string>
   <!-- Default flash mode setting.-->
   <!-- Value for flash off setting-->
   <!-- Settings screen, Flash mode title -->
@@ -564,11 +579,15 @@
   <string name="pref_camera_whitebalance_label">BALANCE DES BLANCS</string>
   <!-- Settings screen, White balance dialog radio button choices -->
   <string name="pref_camera_whitebalance_entry_auto">Automatique</string>
+  <string name="pref_camera_whitebalance_entry_incandescent">Incandescent</string>
   <string name="pref_camera_whitebalance_entry_daylight">Lumière du jour</string>
+  <string name="pref_camera_whitebalance_entry_fluorescent">Fluorescent</string>
   <string name="pref_camera_whitebalance_entry_cloudy">Nuageux</string>
   <!-- Menu, White balance labels [CHAR LIMIT=50] -->
   <string name="pref_camera_whitebalance_label_auto">AUTOMATIQUE</string>
+  <string name="pref_camera_whitebalance_label_incandescent">INCANDESCENT</string>
   <string name="pref_camera_whitebalance_label_daylight">LUMIÈRE DU JOUR</string>
+  <string name="pref_camera_whitebalance_label_fluorescent">FLUORESCENT</string>
   <string name="pref_camera_whitebalance_label_cloudy">NUAGEUX</string>
   <!-- Default scene mode setting. -->
   <!-- Settings screen, Select Scene mode -->
@@ -576,7 +595,9 @@
   <!-- Settings menu, scene mode choices [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_auto">Automatique</string>
   <!-- Scene mode that uses HDR (high dynamic range) [CHAR LIMIT=16] -->
+  <string name="pref_camera_scenemode_entry_hdr">HDR</string>
   <!-- Scene mode that takes an image quickly with little motion blur. [CHAR LIMIT=16] -->
+  <string name="pref_camera_scenemode_entry_action">Action</string>
   <!-- Scene mode that takes long exposures to capture night scenes without flash. [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_night">Nuit</string>
   <!-- Scene mode optimized for taking images in the sunset. [CHAR LIMIT=16] -->
@@ -586,6 +607,7 @@
   <!-- Settings menu, scene mode labels [CHAR LIMIT=50] -->
   <string name="pref_camera_scenemode_label_auto">AUCUN</string>
   <!-- Scene mode that takes an image quickly with little motion blur. [CHAR LIMIT=50] -->
+  <string name="pref_camera_scenemode_label_action">ACTION</string>
   <!-- Scene mode that takes long exposures to capture night scenes without flash. [CHAR LIMIT=50] -->
   <string name="pref_camera_scenemode_label_night">NUIT</string>
   <!-- Scene mode optimized for taking images in the sunset. [CHAR LIMIT=50] -->
@@ -612,6 +634,7 @@
   <string name="pref_exposure_label">EXPOSITION</string>
   <!-- Default HDR entry value -->
   <!-- HDR label ON [CHAR LIMIT=60] -->
+  <string name="pref_camera_hdr_label">HDR</string>
   <!-- switch camera label back [CHAR LIMIT=60] -->
   <string name="pref_camera_id_label_back">CAMÉRA FRONTALE</string>
   <!-- switch camera label front [CHAR LIMIT=60] -->
@@ -819,6 +842,7 @@ CHAR LIMIT = NONE] -->
   <!-- Seconds: a unit of time for time lapse intervals. [CHAR LIMIT = 20] -->
   <string name="time_lapse_seconds">secondes</string>
   <!-- Minutes: a unit of time for time lapse intervals. [CHAR LIMIT = 20] -->
+  <string name="time_lapse_minutes">minutes</string>
   <!-- Hours: a unit of time for time lapse intervals. [CHAR LIMIT = 20] -->
   <string name="time_lapse_hours">heures</string>
   <!-- The button to confirm time-lapse setting changes. [CHAR LIMIT = 20] -->
@@ -842,12 +866,15 @@ CHAR LIMIT = NONE] -->
   <!-- Positive answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
   <string name="remember_location_yes">Oui</string>
   <!-- The message is shown in toast when click showOnMap Menu and there is no map app -->
+  <string name="map_activity_not_found_err">Aucune application de localisation installée pour afficher l\'emplacement.</string>
   <!-- Menu item to launch the camera app [CHAR LIMIT=25] -->
   <string name="menu_camera">Appareil photo</string>
   <!-- Menu item to search for photos [CHAR LIMIT=25] -->
   <string name="menu_search">Recherche</string>
   <!-- Title for the all photos tab [CHAR LIMIT=25] -->
+  <string name="tab_photos">Photos</string>
   <!-- Title for the albums tab [CHAR LIMIT=25] -->
+  <string name="tab_albums">Albums</string>
   <!-- Camera menu labels -->
   <!-- more options label [CHAR LIMIT=50] -->
   <string name="camera_menu_more_label">PLUS D\'OPTIONS</string>
@@ -858,15 +885,33 @@ CHAR LIMIT = NONE] -->
     <item quantity="one">%1$d photo</item>
     <item quantity="other">%1$d photos</item>
   </plurals>
+  <plurals name="number_of_videos">
+    <item quantity="one">%1$d vidéo</item>
+    <item quantity="other">%1$d vidéos</item>
+  </plurals>
   <!-- The label for the bass boost knob of the audio effects dialog. -->
+  <string name="bass_boost_strength">Amplification des basses</string>
   <!-- The label for the 3d effect knob of the audio effects dialog. -->
+  <string name="virtualizer_strength">Son surround</string>
   <!-- The label for the audio effects menu. -->
+  <string name="audio_effects">Effets audio</string>
   <!-- Toast if user attempts to control audio effects without headphones plugged in. -->
+  <string name="headset_plug">Brancher un casque pour utiliser ces effets.</string>
   <!-- The title of the audio effects dialog. -->
   <!-- The tips of trimming video -->
+  <string name="mimetype_not_supported">Ce fichier ne peut pas être joué</string>
   <!-- Timeline screen title -->
+  <string name="timeline_title">Chronologie</string>
   <!-- Albums screen title -->
   <!-- Videos screen title -->
+  <string name="videos_title">Vidéos</string>
+  <string name="action_viewtype_list">Affichage de la liste</string>
+  <string name="tvEmptyAlbum">Aucune photo trouvée</string>
+  <string name="tvEmptyVideos">Aucune vidéo trouvée</string>
   <string name="truescanner_normal">Standard</string>
+  <string name="truescanner_white">Tableau blanc</string>
+  <string name="seestraight_process_fail">Impossible de traiter l\'image.</string>
   <string name="trim_video_exit_title">Souhaitez-vous enregistrer les modifications avant de fermer le programme?</string>
+  <string name="trim_video_exit_msg">Ignorer les modifications apportées à cette vidéo ?</string>
+  <string name="trim_video_exit_discard">ANNULER</string>
 </resources>

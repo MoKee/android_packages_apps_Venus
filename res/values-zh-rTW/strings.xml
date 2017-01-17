@@ -923,7 +923,7 @@ CHAR LIMIT = NONE] -->
   <string name="seestraight_acts">參考直線</string>
   <string name="seestraight_input_image_is_small">輸入圖片太小，無法處理。</string>
   <string name="seestraight_process_fail">無法處理圖片。</string>
-  <string name="trim_video_exit_title">您要在結束前儲存變更嗎？</string>
+  <string name="trim_video_exit_title">放棄變更？</string>
   <string name="trim_video_exit_msg">捨棄對此影片所做的變更？</string>
   <string name="trim_video_exit_discard">捨棄</string>
 </resources>

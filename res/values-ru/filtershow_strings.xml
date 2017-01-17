@@ -186,11 +186,15 @@
   <!--  Label for the "halo" dual camera effect  [CHAR LIMIT=15] -->
   <string name="halo">Ореол</string>
   <!--  Label for the "zoom" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="zoom">Масштаб</string>
   <!--  Label for the "motion" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="motion">Движение</string>
   <!--  Label for the "bw" dual camera effect  [CHAR LIMIT=15] -->
   <string name="bw">Ч/Б</string>
   <!--  Label for the "blackboard" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="blackboard">Мелованная доска</string>
   <!--  Label for the "whiteboard" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="whiteboard">Белая доска</string>
   <!--  Label for the "posterize" dual camera effect  [CHAR LIMIT=15] -->
   <string name="posterize">Постеризация</string>
   <!--  Label for the "negative" dual camera effect  [CHAR LIMIT=15] -->
@@ -322,6 +326,8 @@
   <string name="filtershow_exif_copyright">Авторское право</string>
   <string name="fusion_pick_point">Выбрать сегмент</string>
   <string name="fusion_pick_underlay">Выбрать подложку</string>
+  <string name="dual_camera_effects">Эффекты двойной камеры</string>
+  <string name="dual_camera_effects_intro">Позволяет применять фоновые эффекты, такие как \"движение\" и \"Эскиз\". Вы также можете объединить две фотографии вместе для интересных эффектов. Эта функция работает лучше всего на близком расстоянии.</string>
   <string name="dualcam_no_segment_toast">Не найдено фрагментов в этой точке</string>
   <string name="dualcam_filter_not_supported">Фильтры двойной камеры не поддерживаются для этого изображения</string>
   <string name="trueportrait_intro">Позволяет улучшать фотографии людей. Вы можете применить эффекты заднего плана, такие как \"размытие\" и \"эскиз\". Вы также можете объединить две фотографии вместе, чтобы создать интересные фоны для ваших портретных фотографий.</string>
@@ -331,6 +337,7 @@
   <string name="trueportrait_edit_background_toast">Используйте свой палец, чтобы рисовать в любых областях заднего плана, которые были пропущены.</string>
   <string name="trueportrait_edit_help">Чтобы изменить масштаб, сведите или разведите пальцы. Вы также можете перемещать изображение. Так вы можете легко исправить любые проблемные области.</string>
   <string name="trueportrait_fusion_intro">Личность с переднего плана можно скопировать и вставить на любую фотографию в галерее. Вы можете попробовать использовать различные фоновые фотографии для создания новых, интересных, портретов.</string>
+  <string name="dualcam_fusion_intro">Ваш план может быть скопирован и вставлен на любую фотографию в галерее. \n\nВы можете попробовать использовать различные фоновые фотографии для создания новых и интересных портретов.</string>
   <string name="do_not_show_again">Не показывать снова</string>
   <string name="trueportrait_touch_up">Подкрасить</string>
   <string name="fusion_pick_background">Выберите фоновое фото</string>

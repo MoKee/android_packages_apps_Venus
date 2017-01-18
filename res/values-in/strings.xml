@@ -26,11 +26,11 @@
   <!-- Activity label. This might show up in the activity-picker -->
   <string name="movie_view_label">Pemutar video</string>
   <!-- shown in the video player view while the video is being loaded, before it starts playing -->
-  <string name="loading_video">Memuat video...</string>
-  <string name="loading_image">Memuat gambar…</string>
+  <string name="loading_video">Memuat video\u2026</string>
+  <string name="loading_image">Memuat gambar\u2026</string>
   <!-- Message shown on the progress dialog to indicate we're loading the
             account info [CHAR LIMIT=30] -->
-  <string name="loading_account">Memuat akun…</string>
+  <string name="loading_account">Memuat akun\u2026</string>
   <!-- Movie View Resume Playing dialog title -->
   <string name="resume_playing_title">Lanjutkan video</string>
   <!-- Movie View Start Playing dialog title -->
@@ -38,7 +38,7 @@
   <!-- Movie View Start Playing button "Resume from bookmark" -->
   <string name="resume_playing_resume">Lanjutkan pemutaran</string>
   <!-- Displayed in the title of those albums that are being loaded -->
-  <string name="loading">Memuat…</string>
+  <string name="loading">Memuat\u2026</string>
   <!-- Displayed in the title of those pictures that fails to be loaded
          [CHAR LIMIT=50]-->
   <string name="fail_to_load">Tidak dapat memuat</string>
@@ -60,13 +60,13 @@
   <!-- Hint that appears when cropping an image with more than one face -->
   <string name="multiface_crop_help">Sentuh wajah untuk memulai.</string>
   <!-- Toast/alert that the image is being saved to the SD card -->
-  <string name="saving_image">Menyimpan gambar…</string>
+  <string name="saving_image">Menyimpan gambar\u2026</string>
   <!-- Toast/alert that the image is being saved after editing in filtershow [CHAR LIMIT=40]-->
-  <string name="filtershow_saving_image">Menyimpan gambar ke <xliff:g id="ALBUM_NAME">%1$s</xliff:g> …</string>
+  <string name="filtershow_saving_image">Menyimpan gambar ke <xliff:g id="album_name">%1$s</xliff:g>\u2026</string>
   <!-- Eorror toast message that the image cannot be saved [CHAR LIMIT=40]-->
-  <string name="save_error">Tak dapat menyimpan gambar yg dipangkas.</string>
+  <string name="save_error">Tidak dapat menyimpan gambar.</string>
   <!-- menu pick: crop the currently selected image [CHAR LIMIT=30]-->
-  <string name="crop_label">Pangkas gambar</string>
+  <string name="crop_label">Potong gambar</string>
   <!-- menu pick: trim the currently selected video [CHAR LIMIT=30]-->
   <string name="trim_label">Potong video</string>
   <!-- Toast/alert that the face detection is being run -->
@@ -86,7 +86,7 @@
   <!-- Activity title for cropping picture and setting it as wallpaper [CHAR LIMIT=20] -->
   <string name="set_wallpaper">Setel wallpaper</string>
   <!-- Toast/alert after saving wallpaper -->
-  <string name="wallpaper">Menyetel wallpaper...</string>
+  <string name="wallpaper">Menyetel wallpaper\u2026</string>
   <string name="camera_setas_wallpaper">Wallpaper</string>
   <!-- Toast message for share items -->
   <string name="cannot_share_items">Item dipilih untuk dibagikan maksimal 300 item</string>
@@ -431,6 +431,9 @@
     <item quantity="other">%1$d item dipindai</item>
   </plurals>
   <!-- String indicating how many media items from the camera have been selected -->
+  <plurals name="ingest_number_of_items_selected">
+    <item quantity="other">%1$d item dipilih</item>
+  </plurals>
   <!--  Status message shown when content from the camera is being sorted -->
   <string name="ingest_sorting" msgid="624687230903648118">Menyortir…</string>
   <!--  Status message shown when scanning the content from the camera has completed -->

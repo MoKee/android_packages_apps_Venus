@@ -186,11 +186,15 @@
   <!--  Label for the "halo" dual camera effect  [CHAR LIMIT=15] -->
   <string name="halo">Halo</string>
   <!--  Label for the "zoom" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="zoom">Масштабування</string>
   <!--  Label for the "motion" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="motion">Рух</string>
   <!--  Label for the "bw" dual camera effect  [CHAR LIMIT=15] -->
   <string name="bw">Чорно-біле</string>
   <!--  Label for the "blackboard" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="blackboard">Чорна дошка</string>
   <!--  Label for the "whiteboard" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="whiteboard">Біла дошка</string>
   <!--  Label for the "posterize" dual camera effect  [CHAR LIMIT=15] -->
   <string name="posterize">Постер</string>
   <!--  Label for the "negative" dual camera effect  [CHAR LIMIT=15] -->
@@ -322,6 +326,8 @@
   <string name="filtershow_exif_copyright">Авторські права</string>
   <string name="fusion_pick_point">Вибрати сегмент</string>
   <string name="fusion_pick_underlay">Вибрати підстилку</string>
+  <string name="dual_camera_effects">Ефекти подвійної камери</string>
+  <string name="dual_camera_effects_intro">Дозволяє застосувати ефекти фону, такі як \"Рух\" і \"Ескіз\". Можна також об\'єднати дві фотографії разом для цікавих ефектів. Ця функція найкраще працює, коли у вас є невелика відстань між камерою і основним обє\'ктом зображення.</string>
   <string name="dualcam_no_segment_toast">Немає знайдених сегментів на даний момент</string>
   <string name="dualcam_filter_not_supported">Фільтри подвійної камери не підтримуються для цього зображення</string>
   <string name="trueportrait_intro">Дозволяє покращити фотографії людей. Можна застосувати ефекти до фону, наприклад, \"Розмиття\" та \"Ескіз\". Можна також об\'єднати дві фотографії разом, щоб створити цікаві фони для ваших портретних фото.</string>
@@ -331,6 +337,7 @@
   <string name="trueportrait_edit_background_toast">Пальцем можна пофарбувати в будь-яких областях фону, які були упущені.</string>
   <string name="trueportrait_edit_help">Для збільшення зображення, використовуйте щипок двома пальцями: відкриваючий або закриваючий. Також можна перетягнути двома пальцями, щоб повторно розташувати зображення. Це може полегшити виправлення будь-якої проблемної області.</string>
   <string name="trueportrait_fusion_intro">Ваші особи з переднього плану можуть бути скопійовані і вставлені на будь-яку фотографію у вашу галерею. Ви можете спробувати використовувати фотографії з різними фонами для створення нових і цікавих портретів.</string>
+  <string name="dualcam_fusion_intro">Ваші особи з переднього плану можуть бути скопійовані і вставлені на будь-яку фотографію у вашу галерею. \n\nВи можете спробувати використовувати фотографії з різними фонами для створення нових і цікавих портретів.</string>
   <string name="do_not_show_again">Не показувати знову</string>
   <string name="trueportrait_touch_up">Підправити</string>
   <string name="fusion_pick_background">Виберіть фотографію для фону</string>

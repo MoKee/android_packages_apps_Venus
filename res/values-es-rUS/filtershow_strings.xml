@@ -56,6 +56,7 @@
   <!--  Text for size value tag [CHAR LIMIT=30] -->
   <string name="size">Tamaño</string>
   <!--  Text for size x [CHAR LIMIT=1] -->
+  <string name="x">x</string>
   <!--  Name for the overflow menu item for settings [CHAR LIMIT=20] -->
   <string name="menu_settings">Configuración</string>
   <!--  Exit Dialog -->
@@ -66,6 +67,7 @@
   <!--  String displayed when saving and exiting editor [CHAR LIMIT=NONE] -->
   <string name="save_and_exit">Guardar y salir</string>
   <!--  String displayed when discard editor [CHAR LIMIT=NONE] -->
+  <string name="discard">Rechazar</string>
   <!--  String displayed when saving and exiting editor [CHAR LIMIT=NONE] -->
   <string name="save_and_processing">Procesando imagen con resolución máxima…</string>
   <!--  String displayed when exiting editor[CHAR LIMIT=NONE] -->
@@ -94,7 +96,9 @@
   <!--  Label for the aspect 4:7 effect [CHAR LIMIT=15] -->
   <!--  Label for the aspect 5:7 effect [CHAR LIMIT=15] -->
   <!--  Label for the aspect 7:5 effect [CHAR LIMIT=15] -->
+  <string name="aspect7to5_effect">7:5</string>
   <!--  Label for the aspect 1:1 effect [CHAR LIMIT=15] -->
+  <string name="aspect9to16_effect">16:9</string>
   <!--  Label for the aspect None effect [CHAR LIMIT=15] -->
   <string name="aspectNone_effect">Ninguno</string>
   <!--  Label for the aspect None effect [CHAR LIMIT=15] -->
@@ -104,8 +108,11 @@
   <string name="tinyplanet">Pequeño planeta</string>
   <!--  Filters buttons -->
   <!--  True Effect button -->
+  <string name="trueScanner">Scaneo Real</string>
   <!--  HazeBuster button -->
+  <string name="hazeBuster">Destructor de muros</string>
   <!--  SeeStraight button -->
+  <string name="seeStraight">Ver atraves</string>
   <!--  Label for the image exposure (brightness) filter button [CHAR LIMIT=10] -->
   <string name="exposure" msgid="1229093066434614811">Exposición</string>
   <!--  Label for the image sharpness (clarity, distinctness) filter button [CHAR LIMIT=10] -->

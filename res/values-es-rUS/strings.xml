@@ -885,5 +885,7 @@ CHAR LIMIT = NONE] -->
   <!-- Albums screen title -->
   <!-- Videos screen title -->
   <string name="truescanner_normal">Normal</string>
+  <string name="hazebuster_acts">Destructor de muros</string>
+  <string name="seestraight_acts">Ver atraves</string>
   <string name="trim_video_exit_title">¿Quieres guardar los cambios antes de salir?</string>
 </resources>

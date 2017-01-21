@@ -340,7 +340,7 @@
          of that amount, eg. "10MB".
          [CHAR LIMIT=20]
     -->
-  <string name="size_below"><xliff:g id="SIZE">%1$s</xliff:g> veya daha küçük</string>
+  <string name="size_below"><xliff:g id="size">%1$s</xliff:g> veya daha küçük</string>
   <!-- Label of a group of pictures. The size of each picture in this group is
          more than a certain amount. The parameter is a string representation
          of that amount, eg. "10MB".
@@ -352,7 +352,7 @@
          amounts, eg. "10MB", "100MB".
          [CHAR LIMIT=20]
     -->
-  <string name="size_between"><xliff:g id="MIN_SIZE">%1$s</xliff:g> - <xliff:g id="MAX_SIZE">%2$s</xliff:g></string>
+  <string name="size_between"><xliff:g id="min_size">%1$s</xliff:g> - <xliff:g id="max_size">%2$s</xliff:g></string>
   <!-- A label shown on the action bar. It indicates that the operation
          to import media item(s) [CHAR LIMIT=20] -->
   <string name="Import">İçe aktar</string>
@@ -423,7 +423,7 @@
   <!-- The content of a dialog showing trimming in progress. [CHAR LIMIT=30] -->
   <string name="please_wait">Lütfen bekleyin</string>
   <!-- Toast after the trimming / muting is done. [CHAR LIMIT=50] -->
-  <string name="save_into">Video <xliff:g id="ALBUM_NAME">%1$s</xliff:g> adlı albüme kaydediliyor…</string>
+  <string name="save_into">Video <xliff:g id="album_name">%1$s</xliff:g>\'a kaydediliyor \u2026</string>
   <!-- Toast if the trimmed video is too short to trim. [CHAR LIMIT=80] -->
   <string name="trim_too_short">Kırpılamaz: hedef video çok kısa</string>
   <!-- Toast if the muted video is not supported. [CHAR LIMIT=80] -->

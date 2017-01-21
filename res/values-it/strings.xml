@@ -909,6 +909,7 @@ CHAR LIMIT = NONE] -->
   <string name="drm_license_info">Info licenza Drm</string>
   <string name="mimetype_not_supported">Questo file non può essere riprodotto</string>
   <!-- Timeline screen title -->
+  <string name="timeline_title">Cronologia</string>
   <!-- Albums screen title -->
   <!-- Videos screen title -->
   <string name="videos_title">Video</string>
@@ -917,6 +918,7 @@ CHAR LIMIT = NONE] -->
   <string name="tvEmptyVideos">Nessun video trovato</string>
   <string name="truescanner_normal">Normale</string>
   <string name="truescanner_white">LavagnaBianca</string>
+  <string name="truescanner_remove_glare">Rimuovi Bagliore</string>
   <string name="hazebuster_acts">Haze Buster</string>
   <string name="seestraight_input_image_is_small">L\'immagine in ingresso è troppo piccola per essere elaborata.</string>
   <string name="seestraight_process_fail">Impossibile elaborare l\'immagine.</string>

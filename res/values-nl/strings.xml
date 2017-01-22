@@ -841,6 +841,7 @@ CHAR LIMIT = NONE] -->
   <string name="remember_location_yes">Ja</string>
   <!-- The message is shown in toast when click showOnMap Menu and there is no map app -->
   <!-- Menu item to launch the camera app [CHAR LIMIT=25] -->
+  <string name="menu_camera">Camera</string>
   <!-- Menu item to search for photos [CHAR LIMIT=25] -->
   <string name="menu_search">Zoeken</string>
   <!-- Title for the all photos tab [CHAR LIMIT=25] -->
@@ -860,8 +861,12 @@ CHAR LIMIT = NONE] -->
   <!-- The label for the 3d effect knob of the audio effects dialog. -->
   <!-- The label for the audio effects menu. -->
   <!-- Toast if user attempts to control audio effects without headphones plugged in. -->
+  <string name="headset_plug">Sluit een hoofdtelefoon aan voor deze effecten.</string>
   <!-- The title of the audio effects dialog. -->
+  <string name="audio_effects_dialog_title">Snapdragon Audio+</string>
   <!-- The tips of trimming video -->
+  <string name="fail_trim">Sorry, deze video kan niet worden bijgesneden</string>
+  <string name="can_not_trim">Alleen mp4- en 3gp-bestanden kunnen worden bijgesneden</string>
   <!-- Timeline screen title -->
   <!-- Albums screen title -->
   <!-- Videos screen title -->

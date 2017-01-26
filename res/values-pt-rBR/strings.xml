@@ -228,7 +228,6 @@ Imagem recortada salva em <xliff:g id="folder_name">%s</xliff:g>.</string>
   <string name="make_available_offline">Disponibilizar offline</string>
   <!-- A label describing to link website [CHAR LIMIT=30] -->
   <string name="more_image">Mais imagens</string>
-  <string name="website_for_more_image"></string>
   <!-- A label of a menu item for user to sync the content [CHAR LIMIT=30] -->
   <string name="sync_picasa_albums">Recarregar</string>
   <!-- A label on a button. The user clicks this button after he has

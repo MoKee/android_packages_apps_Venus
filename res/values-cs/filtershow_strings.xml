@@ -179,6 +179,7 @@
   <!--  Label for the "refocus" dual camera effect  [CHAR LIMIT=15] -->
   <!--  Label for the "fusion" dual camera effect  [CHAR LIMIT=15] -->
   <!--  Label for the "sketch" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="sketch">Skica</string>
   <!--  Label for the "halo" dual camera effect  [CHAR LIMIT=15] -->
   <!--  Label for the "zoom" dual camera effect  [CHAR LIMIT=15] -->
   <!--  Label for the "motion" dual camera effect  [CHAR LIMIT=15] -->
@@ -218,6 +219,7 @@
   <string name="editor_grad_new">nová</string>
   <!--  Labels for the curves tool -->
   <!--  Label for the curves tool, all channels (RGB) [CHAR LIMIT=3] -->
+  <string name="curves_channel_rgb">RGB</string>
   <!--  Label for the curves tool, Red color channel [CHAR LIMIT=14] -->
   <string name="curves_channel_red">Červená</string>
   <!--  Label for the curves tool, Green color channel [CHAR LIMIT=14] -->
@@ -283,6 +285,7 @@
   <!-- Label for the information panel [CHAR LIMIT=30] -->
   <string name="filtershow_show_info_panel_size">Velik. fotky</string>
   <!-- Label for the information panel [CHAR LIMIT=30] -->
+  <string name="filtershow_show_info_panel_histogram">Histogram</string>
   <!-- Label for the information panel [CHAR LIMIT=30] -->
   <string name="filtershow_show_info_panel_exif">Údaje EXIF</string>
   <!-- Label for the add button in the category panel [CHAR LIMIT=30] -->
@@ -294,11 +297,13 @@
   <!-- Label for the Current version in the versions panel [CHAR LIMIT=30] -->
   <string name="filtershow_version_current">Aktuální</string>
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
+  <string name="filtershow_exif_model">Model</string>
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="filtershow_exif_aperture">Clona</string>
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="filtershow_exif_focal_length">Ohnisková vzdálenost</string>
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
+  <string name="filtershow_exif_iso">ISO</string>
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="filtershow_exif_subject_distance">Vzdálenost objektu</string>
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->

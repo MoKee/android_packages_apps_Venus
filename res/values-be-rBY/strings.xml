@@ -232,7 +232,6 @@
   <string name="make_available_offline">Спампаваць для доступу афлайн</string>
   <!-- A label describing to link website [CHAR LIMIT=30] -->
   <string name="more_image">Больш малюнкаў</string>
-  <string name="website_for_more_image"></string>
   <!-- A label of a menu item for user to sync the content [CHAR LIMIT=30] -->
   <string name="sync_picasa_albums">Абнавiць</string>
   <!-- A label on a button. The user clicks this button after he has
@@ -397,7 +396,7 @@
   <!-- Group by menu item. [CHAR LIMIT=20] -->
   <string name="group_by">Групоўка па</string>
   <!-- The title of the menu item which enable the settings [CHAR LIMIT=20] -->
-  <string name="settings">Настройкі</string>
+  <string name="settings">Налады</string>
   <!-- The title of menu item where user can add a new account -->
   <string name="add_account">Дадаць акаунт</string>
   <!-- The label for the folder contains pictures taken by the camera. [CHAR LIMIT=20]-->
@@ -881,7 +880,7 @@ CHAR LIMIT = NONE] -->
   <!-- Negative answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
   <string name="remember_location_no">Не, дзякуй</string>
   <!-- Positive answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
-  <string name="remember_location_yes">Да</string>
+  <string name="remember_location_yes">Так</string>
   <!-- The message is shown in toast when click showOnMap Menu and there is no map app -->
   <string name="map_activity_not_found_err">Для паказу месцазнаходжання няма праграмы з мапай.</string>
   <!-- Menu item to launch the camera app [CHAR LIMIT=25] -->

@@ -50,7 +50,7 @@
   <!--  Text for the dialog title to export a flattened photo[CHAR LIMIT=25] -->
   <string name="export_flattened">Eksportuj spłaszczony obraz</string>
   <!--  Text for selecting export image quality [CHAR LIMIT=100] -->
-  <string name="select_output_settings">Wyeksportowany obraz będzie kopią bez historii.</string>
+  <string name="select_output_settings">Wyeksportowany obraz będzie kopią bez historii</string>
   <!--  Text for quality value tag [CHAR LIMIT=30] -->
   <string name="quality">Jakość</string>
   <!--  Text for size value tag [CHAR LIMIT=30] -->
@@ -61,9 +61,9 @@
   <string name="menu_settings">Ustawienia</string>
   <!--  Exit Dialog -->
   <!--  String displayed when exiting with unsaved changes [CHAR LIMIT=NONE] -->
-  <string name="unsaved">Ten obraz zawiera niezapisane zmiany.</string>
+  <string name="unsaved">Czy odrzucić zmiany, które wprowadziłeś?</string>
   <!--  String displayed when exiting with unsaved changes [CHAR LIMIT=NONE] -->
-  <string name="save_before_exit">Czy chcesz zapisać przed zamknięciem?</string>
+  <string name="save_before_exit">Czy odrzucić zmiany?</string>
   <!--  String displayed when saving and exiting editor [CHAR LIMIT=NONE] -->
   <string name="save_and_exit">Zapisz i zamknij</string>
   <!--  String displayed when discard editor [CHAR LIMIT=NONE] -->
@@ -71,7 +71,7 @@
   <!--  String displayed when saving and exiting editor [CHAR LIMIT=NONE] -->
   <string name="save_and_processing">Przetwarzam obraz w pełnej rozdzielczości...</string>
   <!--  String displayed when exiting editor[CHAR LIMIT=NONE] -->
-  <string name="exit">Zamknij</string>
+  <string name="exit">Wyjdź</string>
   <!--  History Panel -->
   <!--  Text for the history panel title [CHAR LIMIT=50] -->
   <string name="history">Historia</string>
@@ -108,7 +108,7 @@
   <string name="aspectNone_effect">Brak</string>
   <!--  Label for the aspect None effect [CHAR LIMIT=15] -->
   <!-- Label for when the aspect ratio is fixed to a value [CHAR LIMIT=15] -->
-  <string name="Fixed">Stałe</string>
+  <string name="Fixed">Ustalony</string>
   <!--  Label for the tuny planet effect [CHAR LIMIT=10] -->
   <string name="tinyplanet">Mała planetka</string>
   <!--  Filters buttons -->
@@ -185,11 +185,15 @@
   <!--  Label for the "halo" dual camera effect  [CHAR LIMIT=15] -->
   <string name="halo">Halo</string>
   <!--  Label for the "zoom" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="zoom">Zoom</string>
   <!--  Label for the "motion" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="motion">Ruch</string>
   <!--  Label for the "bw" dual camera effect  [CHAR LIMIT=15] -->
   <string name="bw">Czarno-biały</string>
   <!--  Label for the "blackboard" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="blackboard">Czarna tablica</string>
   <!--  Label for the "whiteboard" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="whiteboard">Biała tablica</string>
   <!--  Label for the "posterize" dual camera effect  [CHAR LIMIT=15] -->
   <string name="posterize">Posteryzacja</string>
   <!--  Label for the "negative" dual camera effect  [CHAR LIMIT=15] -->
@@ -321,15 +325,18 @@
   <string name="filtershow_exif_copyright">Prawa autorskie</string>
   <string name="fusion_pick_point">Wybierz odcinek</string>
   <string name="fusion_pick_underlay">Wybierz podkład</string>
+  <string name="dual_camera_effects">Efekty podwójnego aparatu</string>
+  <string name="dual_camera_effects_intro">Umożliwia stosowanie efektów tła, takich jak \"Ruch\" i \"Szkic\". Możesz też również scalić dwa zdjęcia dla ciekawszych efektów. Ta funkcja działa najlepiej, gdy jest mała odległość między aparatem a głównym obiektem, który fotografujesz.</string>
   <string name="dualcam_no_segment_toast">Nie znaleziono odcinka</string>
   <string name="dualcam_filter_not_supported">Filtry aparatu nie są dostępne dla tego obrazu</string>
   <string name="trueportrait_intro">Pozwala poprawić zdjęcia osób. Możesz zastosować takie efekty tła, jak \"rozmycie\" czy \"szkic\". Możesz również połączyć dwa zdjęcia, aby stworzyć ciekawe tło dla twoich zdjęć portretowych.</string>
   <string name="trueportrait_no_face">Nie można zastosować efektów \"wiernego portretu\" dla tego zdjęcia. Nie wykryto twarzy.</string>
   <string name="trueportrait_edit_intro">Za pomocą narzędzia \"retusz\" możesz edytować pierwszy plan i tło. Możesz użyć palca, aby malować na dowolnym obszarze to, co zostało pominięte.</string>
-  <string name="trueportrait_edit_foreground_toast">Użyj palca, aby domalować na pierwszym planie to, co zostało pominięte.</string>
-  <string name="trueportrait_edit_background_toast">Użyj palca, aby domalować w tle to, co zostało pominięte.</string>
+  <string name="trueportrait_edit_foreground_toast">Użyj palca, aby domalować na pierwszym planie to, co zostało pominięte</string>
+  <string name="trueportrait_edit_background_toast">Użyj palca, aby domalować w tle to, co zostało pominięte</string>
   <string name="trueportrait_edit_help">Aby powiększyć, dotknij ekranu dwoma palcami, a następnie przybliż je do siebie lub oddal. Przeciągnij dwoma palcami, aby przywrócić obrazek do pierwotnej postaci. Dzięki temu łatwiej naprawisz niektóre problemy.</string>
   <string name="trueportrait_fusion_intro">Możesz skopiować osobę z pierwszego planu i wkleić do dowolnego innego zdjęcia. Możesz wykorzystać różne tła do stworzenia nowych i ciekawych portretów.</string>
+  <string name="dualcam_fusion_intro">Możesz skopiować osobę z pierwszego planu i wkleić do dowolnego innego zdjęcia. \n\nMożesz wykorzystać różne tła do stworzenia nowych i ciekawych portretów.</string>
   <string name="do_not_show_again">Nie pokazuj ponownie</string>
   <string name="trueportrait_touch_up">Przytnij</string>
   <string name="fusion_pick_background">Wybierz tło zdjęcia</string>

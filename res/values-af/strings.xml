@@ -221,7 +221,6 @@
          some albums to be viewable offline [CHAR LIMIT=30] -->
   <string name="make_available_offline">Maak vanlyn beskikbaar</string>
   <!-- A label describing to link website [CHAR LIMIT=30] -->
-  <string name="website_for_more_image"></string>
   <!-- A label of a menu item for user to sync the content [CHAR LIMIT=30] -->
   <string name="sync_picasa_albums">Herlaai</string>
   <!-- A label on a button. The user clicks this button after he has

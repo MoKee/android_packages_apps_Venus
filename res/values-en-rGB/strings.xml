@@ -146,7 +146,6 @@
   <!-- A label describing that the current screen is for the user to pick
          some albums to be viewable offline [CHAR LIMIT=30] -->
   <!-- A label describing to link website [CHAR LIMIT=30] -->
-  <string name="website_for_more_image"></string>
   <!-- A label of a menu item for user to sync the content [CHAR LIMIT=30] -->
   <string name="sync_picasa_albums">Refresh</string>
   <!-- A label on a button. The user clicks this button after he has

@@ -129,6 +129,7 @@
          some albums to be viewable offline [CHAR LIMIT=30] -->
   <!-- A label describing to link website [CHAR LIMIT=30] -->
   <!-- A label of a menu item for user to sync the content [CHAR LIMIT=30] -->
+  <string name="sync_picasa_albums">Yangilash</string>
   <!-- A label on a button. The user clicks this button after he has
          finished selection. [CHAR LIMIT=15] -->
   <!-- String indicating the sequence of currently selected item in the
@@ -162,6 +163,7 @@
   <!-- String indicating camera flash is fired. [CHAR LIMIT=14] -->
   <!-- String indicating camera flash is not used. [CHAR LIMIT=14] -->
   <!-- String indicating image width or height is unknown. [CHAR LIMIT=14] -->
+  <string name="unknown">Ko`rsatilmagan</string>
   <!-- String for the empty not filtered image [CHAR LIMIT=10] -->
   <string name="ffx_original">Asl</string>
   <!-- String for brown-colored old-fashion looking filter (filtershow_fx_0000_vintage) [CHAR LIMIT=10] -->

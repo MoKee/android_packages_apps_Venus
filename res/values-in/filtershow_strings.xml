@@ -113,6 +113,7 @@
   <string name="tinyplanet">Planet Mini</string>
   <!--  Filters buttons -->
   <!--  True Effect button -->
+  <string name="trueScanner">True Scanner</string>
   <!--  HazeBuster button -->
   <!--  SeeStraight button -->
   <!--  Label for the image exposure (brightness) filter button [CHAR LIMIT=10] -->

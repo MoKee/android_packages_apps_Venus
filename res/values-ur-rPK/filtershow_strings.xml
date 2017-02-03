@@ -299,4 +299,5 @@
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="filtershow_exif_copyright">کاپی رائٹ</string>
   <string name="color">رنگ</string>
+  <!--Filtershow dialog -->
 </resources>

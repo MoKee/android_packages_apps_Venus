@@ -340,9 +340,17 @@
   <string name="trueportrait_touch_up">Ritocco</string>
   <string name="fusion_pick_background">Seleziona foto di sfondo</string>
   <string name="color">Colore</string>
+  <string name="ok_continue">Continua</string>
   <string name="frames">Cornici</string>
   <string name="beautify">Abbellisci</string>
   <string name="dualcam">Dual Camera</string>
   <string name="foreground">Primo piano</string>
   <string name="background">Sfondo</string>
+  <!--Filtershow dialog -->
+  <string name="filtershow_dialog_checkbox">Non mostrare di nuovo</string>
+  <string name="filtershow_preset_title">Personalizza</string>
+  <string name="filtershow_preset_rename">Rinomina</string>
+  <string name="watermark_location">Posizione</string>
+  <string name="watermark_time">Ora</string>
+  <string name="watermark_weather">Meteo</string>
 </resources>

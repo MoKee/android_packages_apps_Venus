@@ -293,4 +293,9 @@
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="filtershow_exif_copyright">Auteursrecht</string>
   <string name="color">Kleur</string>
+  <string name="ok_continue">Volgende</string>
+  <!--Filtershow dialog -->
+  <string name="filtershow_preset_title">aangepast</string>
+  <string name="filtershow_preset_rename">Naam wijzigen</string>
+  <string name="watermark_time">Tijd</string>
 </resources>

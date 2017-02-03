@@ -196,4 +196,6 @@
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="color">Colour</string>
+  <string name="ok_continue">Continue</string>
+  <!--Filtershow dialog -->
 </resources>

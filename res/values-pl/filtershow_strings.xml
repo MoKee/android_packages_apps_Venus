@@ -341,6 +341,7 @@
   <string name="trueportrait_touch_up">Przytnij</string>
   <string name="fusion_pick_background">Wybierz tło zdjęcia</string>
   <string name="color">Kolor</string>
+  <string name="ok_continue">Kontynuuj</string>
   <string name="frames">Ramki</string>
   <string name="beautify">Upiększenie</string>
   <string name="dualcam">Podwójny aparat</string>
@@ -348,4 +349,11 @@
   <string name="foreground">Pierwszy plan</string>
   <string name="background">Tło</string>
   <string name="brush_size">Rozmiar pędzla</string>
+  <!--Filtershow dialog -->
+  <string name="filtershow_dialog_checkbox">Nie pokazuj ponownie</string>
+  <string name="filtershow_preset_title">Własny</string>
+  <string name="filtershow_preset_rename">Zmień nazwę</string>
+  <string name="watermark_location">Lokalizacja</string>
+  <string name="watermark_time">Data/godzina</string>
+  <string name="watermark_weather">Pogoda</string>
 </resources>

@@ -300,4 +300,5 @@
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="filtershow_exif_copyright">Të drejtat e autorit</string>
   <string name="color">Ngjyra</string>
+  <!--Filtershow dialog -->
 </resources>

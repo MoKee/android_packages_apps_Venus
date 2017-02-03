@@ -328,8 +328,16 @@
   <string name="trueportrait_edit_help">Pour zoomer, utilisez deux doigts pincer ouverte ou fermée. Vous pouvez également faire glisser avec deux doigts pour repositionner l’image. Cela peut rendre plus facile la résolution des zones à problèmes.</string>
   <string name="do_not_show_again">Ne plus montrer</string>
   <string name="color">Couleur</string>
+  <string name="ok_continue">Continuer</string>
   <string name="frames">Images</string>
   <string name="dualcam">Double caméra</string>
   <string name="background">Arrière plan</string>
   <string name="brush_size">Taille du pinceau</string>
+  <!--Filtershow dialog -->
+  <string name="filtershow_dialog_checkbox">Ne plus montrer</string>
+  <string name="filtershow_preset_title">Personnalisation</string>
+  <string name="filtershow_preset_rename">Renommer</string>
+  <string name="watermark_location">Lieu</string>
+  <string name="watermark_time">À intervalles réguliers</string>
+  <string name="watermark_weather">Météo</string>
 </resources>

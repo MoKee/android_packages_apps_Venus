@@ -313,6 +313,14 @@
   <string name="filtershow_exif_copyright">Hak Cipta</string>
   <string name="do_not_show_again">Jangan tampilkan lagi</string>
   <string name="color">Warna</string>
+  <string name="ok_continue">Lanjut</string>
   <string name="frames">Bingkai</string>
   <string name="dualcam">Dual Kamera</string>
+  <!--Filtershow dialog -->
+  <string name="filtershow_dialog_checkbox">Jangan tampilkan lagi</string>
+  <string name="filtershow_preset_title">Kostum</string>
+  <string name="filtershow_preset_rename">Ganti nama</string>
+  <string name="watermark_location">Lokasi</string>
+  <string name="watermark_time">Waktu</string>
+  <string name="watermark_weather">Cuaca</string>
 </resources>

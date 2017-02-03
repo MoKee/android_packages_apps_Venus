@@ -300,4 +300,6 @@
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="filtershow_exif_copyright">Hakimiliki</string>
   <string name="color">Rangi</string>
+  <!--Filtershow dialog -->
+  <string name="watermark_time">Saa</string>
 </resources>

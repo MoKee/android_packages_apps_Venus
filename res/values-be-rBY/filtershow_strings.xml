@@ -342,6 +342,7 @@
   <string name="trueportrait_touch_up">Падправіць</string>
   <string name="fusion_pick_background">Абярыце фонавае фота</string>
   <string name="color">Колер</string>
+  <string name="ok_continue">Працягнуць</string>
   <string name="frames">Рамкі</string>
   <string name="beautify">Аўтапаляпшэнне</string>
   <string name="dualcam">Падвойная камера</string>
@@ -349,4 +350,11 @@
   <string name="foreground">Пярэдні план</string>
   <string name="background">Фон</string>
   <string name="brush_size">Памер пэндзля</string>
+  <!--Filtershow dialog -->
+  <string name="filtershow_dialog_checkbox">Не паказваць зноў</string>
+  <string name="filtershow_preset_title">Уручную</string>
+  <string name="filtershow_preset_rename">Перайменаваць</string>
+  <string name="watermark_location">Месцазнаходжанне</string>
+  <string name="watermark_time">Час</string>
+  <string name="watermark_weather">Надвор\'е</string>
 </resources>

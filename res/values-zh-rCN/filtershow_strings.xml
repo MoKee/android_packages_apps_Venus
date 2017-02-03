@@ -342,6 +342,7 @@
   <string name="trueportrait_touch_up">修改</string>
   <string name="fusion_pick_background">选择背景图片</string>
   <string name="color">滤镜</string>
+  <string name="ok_continue">继续</string>
   <string name="frames">相框</string>
   <string name="beautify">美颜</string>
   <string name="dualcam">双摄像头</string>
@@ -349,4 +350,22 @@
   <string name="foreground">前景区域</string>
   <string name="background">背景区域</string>
   <string name="brush_size">笔刷大小</string>
+  <!--Filtershow dialog -->
+  <string name="filtershow_dialog_title">自定义滤镜</string>
+  <string name="filtershow_dialog_content">允许您创建图片滤镜。\n\n请选择一张您喜欢的图片并将其作为其他图片的滤镜。</string>
+  <string name="filtershow_dialog_original_photo">原始图片</string>
+  <string name="filtershow_dialog_apply_photo">要应用的颜色</string>
+  <string name="filtershow_dialog_checkbox">不再显示</string>
+  <string name="filtershow_preset_title">自定义</string>
+  <string name="filtershow_preset_rename">重命名</string>
+  <string name="delete_before_exit">删除滤镜？</string>
+  <string name="rename_before_exit">重命名滤镜</string>
+  <string name="filter_name">滤镜名称</string>
+  <string name="filter_name_notification">名称不能为空。</string>
+  <string name="filter_name_duplicate">此名称已存在，请输入另一个名称。</string>
+  <string name="watermark_location">地址</string>
+  <string name="watermark_time">时间</string>
+  <string name="watermark_weather">天气</string>
+  <string name="watermark_emotions">情绪</string>
+  <string name="watermark_food">食物</string>
 </resources>

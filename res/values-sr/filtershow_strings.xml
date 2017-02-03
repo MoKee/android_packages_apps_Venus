@@ -301,4 +301,8 @@
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="filtershow_exif_copyright">Ауторска права</string>
   <string name="color">Боја</string>
+  <string name="ok_continue">Наставити</string>
+  <!--Filtershow dialog -->
+  <string name="filtershow_preset_rename">Преименуј</string>
+  <string name="watermark_time">Време</string>
 </resources>

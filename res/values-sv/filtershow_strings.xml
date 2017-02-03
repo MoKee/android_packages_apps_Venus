@@ -289,4 +289,7 @@
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="filtershow_exif_copyright">Upphovsrätt</string>
   <string name="color">Färg</string>
+  <string name="ok_continue">Fortsätt</string>
+  <!--Filtershow dialog -->
+  <string name="watermark_time">Tid</string>
 </resources>

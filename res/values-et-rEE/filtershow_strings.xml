@@ -299,4 +299,6 @@
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="filtershow_exif_copyright">Autoriõigus</string>
   <string name="color">Värv</string>
+  <!--Filtershow dialog -->
+  <string name="watermark_time">Kellaaeg</string>
 </resources>

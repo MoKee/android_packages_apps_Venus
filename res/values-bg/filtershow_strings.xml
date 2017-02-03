@@ -299,4 +299,9 @@
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="filtershow_exif_copyright">Авторски права</string>
   <string name="color">Цвят</string>
+  <string name="ok_continue">Продължете</string>
+  <!--Filtershow dialog -->
+  <string name="filtershow_preset_title">По избор</string>
+  <string name="watermark_time">Час</string>
+  <string name="watermark_weather">Прогноза за времето</string>
 </resources>

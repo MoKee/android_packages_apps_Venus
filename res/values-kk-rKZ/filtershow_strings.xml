@@ -301,4 +301,5 @@
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="filtershow_exif_copyright">Авторлық құқықтар</string>
   <string name="color">Түс</string>
+  <!--Filtershow dialog -->
 </resources>

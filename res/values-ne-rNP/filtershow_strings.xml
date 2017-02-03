@@ -304,4 +304,6 @@
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="filtershow_exif_copyright">प्रतिलिपि अधिकार</string>
   <string name="color">रङ्ग</string>
+  <!--Filtershow dialog -->
+  <string name="watermark_time">समय</string>
 </resources>

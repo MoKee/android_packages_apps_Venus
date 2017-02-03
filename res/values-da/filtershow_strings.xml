@@ -290,4 +290,9 @@
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="filtershow_exif_copyright">Ophavsret</string>
   <string name="color">Farve</string>
+  <string name="ok_continue">Fortsæt</string>
+  <!--Filtershow dialog -->
+  <string name="filtershow_preset_title">Tilpasset</string>
+  <string name="watermark_time">Tid</string>
+  <string name="watermark_weather">Vejr</string>
 </resources>

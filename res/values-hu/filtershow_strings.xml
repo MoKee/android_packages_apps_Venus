@@ -300,4 +300,9 @@
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="filtershow_exif_copyright">Szerzői jog</string>
   <string name="color">Szín</string>
+  <string name="ok_continue">Folytatás</string>
+  <!--Filtershow dialog -->
+  <string name="filtershow_preset_title">Egyéni</string>
+  <string name="filtershow_preset_rename">Átnevezés</string>
+  <string name="watermark_time">Idő</string>
 </resources>

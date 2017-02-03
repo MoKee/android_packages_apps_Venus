@@ -300,4 +300,5 @@
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="filtershow_exif_copyright">பதிப்புரிமை</string>
   <string name="color">நிறம்</string>
+  <!--Filtershow dialog -->
 </resources>

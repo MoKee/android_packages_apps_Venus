@@ -342,6 +342,7 @@
   <string name="trueportrait_touch_up">Rötuş</string>
   <string name="fusion_pick_background">Arka plan fotoğrafını seç</string>
   <string name="color">Renk</string>
+  <string name="ok_continue">Devam</string>
   <string name="frames">Çerçeveler</string>
   <string name="beautify">Güzelleştir</string>
   <string name="dualcam">Çift Kamera</string>
@@ -349,4 +350,10 @@
   <string name="foreground">Ön plan</string>
   <string name="background">Arka plan</string>
   <string name="brush_size">Fırça boyutu</string>
+  <!--Filtershow dialog -->
+  <string name="filtershow_dialog_checkbox">Tekrar gösterme</string>
+  <string name="filtershow_preset_title">Özel</string>
+  <string name="filtershow_preset_rename">Yeniden adlandır</string>
+  <string name="watermark_location">Konum</string>
+  <string name="watermark_time">Zaman</string>
 </resources>

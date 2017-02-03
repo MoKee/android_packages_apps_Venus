@@ -300,4 +300,6 @@
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="filtershow_exif_copyright">Հեղինակային իրավունք</string>
   <string name="color">Գույն</string>
+  <!--Filtershow dialog -->
+  <string name="watermark_time">Ժամանակը</string>
 </resources>

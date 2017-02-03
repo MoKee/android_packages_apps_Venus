@@ -261,4 +261,6 @@
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="color">Kulay</string>
+  <!--Filtershow dialog -->
+  <string name="watermark_time">Oras</string>
 </resources>

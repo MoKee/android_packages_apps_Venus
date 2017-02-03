@@ -326,10 +326,18 @@
   <string name="trueportrait_touch_up">Retouchieren</string>
   <string name="fusion_pick_background">Hintergrundbild festlegen</string>
   <string name="color">Farbe</string>
+  <string name="ok_continue">Fortsetzen</string>
   <string name="frames">Frames</string>
   <string name="beautify">Verschönern</string>
   <string name="dualcam">Dual-Kamera</string>
   <string name="foreground">Vordergrund</string>
   <string name="background">Hintergrund</string>
   <string name="brush_size">Pinselgröße</string>
+  <!--Filtershow dialog -->
+  <string name="filtershow_dialog_checkbox">Nicht wieder anzeigen</string>
+  <string name="filtershow_preset_title">Benutzerdefiniert</string>
+  <string name="filtershow_preset_rename">Umbenennen</string>
+  <string name="watermark_location">Standort</string>
+  <string name="watermark_time">Uhrzeit</string>
+  <string name="watermark_weather">Wetter</string>
 </resources>

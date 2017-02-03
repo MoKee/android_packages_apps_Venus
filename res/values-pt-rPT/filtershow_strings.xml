@@ -296,4 +296,8 @@
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="filtershow_exif_copyright">Direitos de autor</string>
   <string name="color">Cor</string>
+  <!--Filtershow dialog -->
+  <string name="filtershow_preset_rename">Renomear</string>
+  <string name="watermark_time">Hora</string>
+  <string name="watermark_weather">Meteorologia</string>
 </resources>

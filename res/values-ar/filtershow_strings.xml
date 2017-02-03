@@ -302,4 +302,8 @@
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="filtershow_exif_copyright">حقوق الطبع والنشر</string>
   <string name="color">اللون</string>
+  <string name="ok_continue">متابعة</string>
+  <!--Filtershow dialog -->
+  <string name="filtershow_preset_rename">إعادة تسمية</string>
+  <string name="watermark_time">الوقت</string>
 </resources>

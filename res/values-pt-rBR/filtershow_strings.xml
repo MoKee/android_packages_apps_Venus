@@ -342,6 +342,7 @@
   <string name="trueportrait_touch_up">Toque acima</string>
   <string name="fusion_pick_background">Selecione a foto do fundo</string>
   <string name="color">Cor</string>
+  <string name="ok_continue">Continuar</string>
   <string name="frames">Quadros</string>
   <string name="beautify">Embelezar</string>
   <string name="dualcam">Câmera dupla</string>
@@ -349,4 +350,22 @@
   <string name="foreground">Primeiro plano</string>
   <string name="background">Plano de Fundo</string>
   <string name="brush_size">Tamanho do pincel</string>
+  <!--Filtershow dialog -->
+  <string name="filtershow_dialog_title">Filtro personalizado</string>
+  <string name="filtershow_dialog_content">Permite que você crie um filtro.\n\nSelecione foto uma foto que você gosta como parâmetro para outras fotos</string>
+  <string name="filtershow_dialog_original_photo">Foto original</string>
+  <string name="filtershow_dialog_apply_photo">Cores para aplicar</string>
+  <string name="filtershow_dialog_checkbox">Não exibir novamente</string>
+  <string name="filtershow_preset_title">Personalizado</string>
+  <string name="filtershow_preset_rename">Renomear</string>
+  <string name="delete_before_exit">Excluir o filtro?</string>
+  <string name="rename_before_exit">Renomear o filtro</string>
+  <string name="filter_name">Nome do filtro</string>
+  <string name="filter_name_notification">Nome não pode estar vazio.</string>
+  <string name="filter_name_duplicate">Este nome já existe, por favor escolha outro.</string>
+  <string name="watermark_location">Localização</string>
+  <string name="watermark_time">Hora</string>
+  <string name="watermark_weather">Previsão do tempo</string>
+  <string name="watermark_emotions">Emoções</string>
+  <string name="watermark_food">Comida</string>
 </resources>

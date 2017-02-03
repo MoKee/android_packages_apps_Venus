@@ -301,4 +301,9 @@
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="filtershow_exif_copyright">著作権</string>
   <string name="color">色</string>
+  <string name="ok_continue">継続</string>
+  <!--Filtershow dialog -->
+  <string name="filtershow_preset_rename">名前を変更</string>
+  <string name="watermark_time">時刻</string>
+  <string name="watermark_weather">天気</string>
 </resources>

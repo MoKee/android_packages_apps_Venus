@@ -342,6 +342,7 @@
   <string name="trueportrait_touch_up">潤色</string>
   <string name="fusion_pick_background">選擇背景圖片</string>
   <string name="color">顏色</string>
+  <string name="ok_continue">繼續</string>
   <string name="frames">相框</string>
   <string name="beautify">美肌</string>
   <string name="dualcam">雙鏡頭</string>
@@ -349,4 +350,11 @@
   <string name="foreground">前景</string>
   <string name="background">背景</string>
   <string name="brush_size">筆刷尺寸</string>
+  <!--Filtershow dialog -->
+  <string name="filtershow_dialog_checkbox">不再顯示</string>
+  <string name="filtershow_preset_title">自訂</string>
+  <string name="filtershow_preset_rename">重新命名</string>
+  <string name="watermark_location">位置</string>
+  <string name="watermark_time">時間</string>
+  <string name="watermark_weather">天氣</string>
 </resources>

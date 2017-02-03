@@ -300,4 +300,8 @@
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="filtershow_exif_copyright">Πνευματικά δικαιώματα</string>
   <string name="color">Χρώμα</string>
+  <string name="ok_continue">Συνέχεια</string>
+  <!--Filtershow dialog -->
+  <string name="filtershow_preset_rename">Μετονομασία</string>
+  <string name="watermark_time">Ώρα</string>
 </resources>

@@ -292,4 +292,8 @@
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="filtershow_exif_copyright">Drepturi de autor</string>
   <string name="color">Culoare</string>
+  <string name="ok_continue">Continuă</string>
+  <!--Filtershow dialog -->
+  <string name="filtershow_preset_rename">Redenumiţi</string>
+  <string name="watermark_time">Oră</string>
 </resources>

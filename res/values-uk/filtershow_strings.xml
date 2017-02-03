@@ -342,6 +342,7 @@
   <string name="trueportrait_touch_up">Підправити</string>
   <string name="fusion_pick_background">Виберіть фотографію для фону</string>
   <string name="color">Колір</string>
+  <string name="ok_continue">Продовжити</string>
   <string name="frames">Кадри</string>
   <string name="beautify">Прикрасити</string>
   <string name="dualcam">Подвійна камера</string>
@@ -349,4 +350,22 @@
   <string name="foreground">Передній план</string>
   <string name="background">Фон</string>
   <string name="brush_size">Розмір пензля</string>
+  <!--Filtershow dialog -->
+  <string name="filtershow_dialog_title">Користувальницький фільтр</string>
+  <string name="filtershow_dialog_content">Дозволяє створювати фотофільтр.\n\nВиберіть фото, яке вам подобається і використовуйте його як фільтр для інших фотографій</string>
+  <string name="filtershow_dialog_original_photo">Оригінальне фото</string>
+  <string name="filtershow_dialog_apply_photo">Кольори для застосування</string>
+  <string name="filtershow_dialog_checkbox">Не показувати знову</string>
+  <string name="filtershow_preset_title">Визначено користувачем</string>
+  <string name="filtershow_preset_rename">Перейменувати</string>
+  <string name="delete_before_exit">Видалити фільтр?</string>
+  <string name="rename_before_exit">Перейменувати фільтр</string>
+  <string name="filter_name">Назва фільтру</string>
+  <string name="filter_name_notification">Назва не може бути НЕВИЗНАЧЕНОЮ.</string>
+  <string name="filter_name_duplicate">Назва вже існувала, будь ласка, введіть ще іншу.</string>
+  <string name="watermark_location">Розташування</string>
+  <string name="watermark_time">Час</string>
+  <string name="watermark_weather">Погода</string>
+  <string name="watermark_emotions">Емоції</string>
+  <string name="watermark_food">Їжа</string>
 </resources>

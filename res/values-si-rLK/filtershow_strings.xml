@@ -301,4 +301,6 @@
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="filtershow_exif_copyright">ප්‍රකාශන හිමිකම</string>
   <string name="color">වර්ණය</string>
+  <!--Filtershow dialog -->
+  <string name="watermark_time">කාලය</string>
 </resources>

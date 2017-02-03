@@ -305,4 +305,10 @@
   <string name="filtershow_exif_exposure_time">Duración de la exposición</string>
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="filtershow_exif_copyright">Derechos de autor</string>
+  <string name="ok_continue">Continuar</string>
+  <!--Filtershow dialog -->
+  <string name="filtershow_preset_title">Personalizado</string>
+  <string name="filtershow_preset_rename">Renombrar</string>
+  <string name="watermark_location">Ubicación</string>
+  <string name="watermark_time">Hora</string>
 </resources>

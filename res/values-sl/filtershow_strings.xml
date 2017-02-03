@@ -305,4 +305,9 @@
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="filtershow_exif_copyright">Avtorske pravice</string>
   <string name="color">Barva</string>
+  <string name="ok_continue">Nadaljuj</string>
+  <!--Filtershow dialog -->
+  <string name="filtershow_preset_title">Po meri</string>
+  <string name="watermark_time">Ura</string>
+  <string name="watermark_weather">Vreme</string>
 </resources>

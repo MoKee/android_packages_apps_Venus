@@ -342,6 +342,7 @@
   <string name="trueportrait_touch_up">Подкрасить</string>
   <string name="fusion_pick_background">Выберите фоновое фото</string>
   <string name="color">Цвет</string>
+  <string name="ok_continue">Продолжить</string>
   <string name="frames">Рамки</string>
   <string name="beautify">Автоулучшение</string>
   <string name="dualcam">Двойная камера</string>
@@ -349,4 +350,11 @@
   <string name="foreground">Передний план</string>
   <string name="background">Фон</string>
   <string name="brush_size">Размер кисти</string>
+  <!--Filtershow dialog -->
+  <string name="filtershow_dialog_checkbox">Не показывать снова</string>
+  <string name="filtershow_preset_title">Вручную</string>
+  <string name="filtershow_preset_rename">Переименовать</string>
+  <string name="watermark_location">Размещение</string>
+  <string name="watermark_time">Время</string>
+  <string name="watermark_weather">Погода</string>
 </resources>

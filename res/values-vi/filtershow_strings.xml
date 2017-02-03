@@ -301,4 +301,9 @@
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="filtershow_exif_copyright">Bản quyền</string>
   <string name="color">Màu</string>
+  <string name="ok_continue">Tiếp tục</string>
+  <!--Filtershow dialog -->
+  <string name="filtershow_preset_title">Tuỳ chỉnh</string>
+  <string name="filtershow_preset_rename">Đổi tên</string>
+  <string name="watermark_time">Thời gian</string>
 </resources>

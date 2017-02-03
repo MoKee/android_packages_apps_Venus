@@ -68,6 +68,7 @@ import com.android.gallery3d.data.SnailItem;
 import com.android.gallery3d.data.SnailSource;
 import com.android.gallery3d.filtershow.FilterShowActivity;
 import com.android.gallery3d.filtershow.imageshow.MasterImage;
+import com.android.gallery3d.filtershow.tools.DualCameraNativeEngine;
 import com.android.gallery3d.mpo.MpoParser;
 import com.android.gallery3d.ui.DetailsHelper;
 import com.android.gallery3d.ui.DetailsHelper.CloseListener;
@@ -706,7 +707,8 @@ public abstract class PhotoPage extends ActivityState implements
 
     @Override
     public boolean canDisplay3DButton() {
-        return bShow3DButton && mShowBars && !mPhotoView.getFilmMode();
+        return bShow3DButton && mShowBars
+                && (mPhotoView == null ? false : !mPhotoView.getFilmMode());
     }
 
     @Override
@@ -872,6 +874,9 @@ public abstract class PhotoPage extends ActivityState implements
     private void updateCurrentPhoto(MediaItem photo) {
         if (mCurrentPhoto == photo) return;
         mCurrentPhoto = photo;
+        if (mPhotoView == null) {
+            return;
+        }
         if (mPhotoView.getFilmMode()) {
             requestDeferredUpdate();
         } else {
@@ -966,7 +971,7 @@ public abstract class PhotoPage extends ActivityState implements
     private void refreshHidingMessage() {
         mHandler.removeMessages(MSG_HIDE_BARS);
         if (mPhotoView == null) {
-            mPhotoView = (PhotoView) mRootPane.getComponent(0);
+            return;
         }
         if (!mIsMenuVisible && !mPhotoView.getFilmMode()) {
             mHandler.sendEmptyMessageDelayed(MSG_HIDE_BARS, HIDE_BARS_TIMEOUT);
@@ -1505,11 +1510,13 @@ public abstract class PhotoPage extends ActivityState implements
 
     private void parseMpoData() {
         bShow3DButton = false;
-        if (mParseMpoDateTask.getStatus() != AsyncTask.Status.FINISHED) {
-            boolean r = mParseMpoDateTask.cancel(true);
+        if (DualCameraNativeEngine.getInstance().isLibLoaded()) {
+            if (mParseMpoDateTask.getStatus() != AsyncTask.Status.FINISHED) {
+                boolean r = mParseMpoDateTask.cancel(true);
+            }
+            mParseMpoDateTask = new ParseMpoDataTask();
+            mParseMpoDateTask.execute();
         }
-        mParseMpoDateTask = new ParseMpoDataTask();
-        mParseMpoDateTask.execute();
     }
 
     @Override

@@ -186,7 +186,9 @@
   <!--  Label for the "halo" dual camera effect  [CHAR LIMIT=15] -->
   <string name="halo">Aura</string>
   <!--  Label for the "zoom" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="zoom">Zoom</string>
   <!--  Label for the "motion" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="motion">Bewegung</string>
   <!--  Label for the "bw" dual camera effect  [CHAR LIMIT=15] -->
   <string name="bw">Schwarzweiß</string>
   <!--  Label for the "blackboard" dual camera effect  [CHAR LIMIT=15] -->
@@ -320,6 +322,7 @@
   <string name="filtershow_exif_exposure_time">Belichtungszeit</string>
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="filtershow_exif_copyright">Urheberrecht</string>
+  <string name="dual_camera_effects">Dual-Kamera-Effekte</string>
   <string name="dualcam_no_segment_toast">Kein Segment an dieser Stelle gefunden</string>
   <string name="dualcam_filter_not_supported">Dual-Kamera-Filter für dieses Bild nicht unterstützt</string>
   <string name="do_not_show_again">Nicht wieder anzeigen</string>
@@ -334,10 +337,19 @@
   <string name="background">Hintergrund</string>
   <string name="brush_size">Pinselgröße</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_dialog_title">Benutzedefinierter Filter</string>
+  <string name="filtershow_dialog_original_photo">Originalfoto</string>
+  <string name="filtershow_dialog_apply_photo">Farben anwenden</string>
   <string name="filtershow_dialog_checkbox">Nicht wieder anzeigen</string>
   <string name="filtershow_preset_title">Benutzerdefiniert</string>
   <string name="filtershow_preset_rename">Umbenennen</string>
+  <string name="delete_before_exit">Filter löschen?</string>
+  <string name="rename_before_exit">Benennen Sie Filter</string>
+  <string name="filter_name">Filtername</string>
+  <string name="filter_name_notification">Name darf nicht leer sein.</string>
+  <string name="filter_name_duplicate">Der Name existiert bereits. Bitte geben Sie einen neuen Namen ein.</string>
   <string name="watermark_location">Standort</string>
   <string name="watermark_time">Uhrzeit</string>
   <string name="watermark_weather">Wetter</string>
+  <string name="watermark_food">Nahrung</string>
 </resources>

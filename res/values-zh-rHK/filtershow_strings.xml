@@ -351,10 +351,21 @@
   <string name="background">背景</string>
   <string name="brush_size">筆刷尺寸</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_dialog_title">自訂濾鏡</string>
+  <string name="filtershow_dialog_content">允許您建立照片濾鏡。\n\n選擇您喜歡的照片，並將其用作其他照片的濾鏡</string>
+  <string name="filtershow_dialog_original_photo">原始照片</string>
+  <string name="filtershow_dialog_apply_photo">套用顏色</string>
   <string name="filtershow_dialog_checkbox">不再顯示</string>
   <string name="filtershow_preset_title">自訂</string>
   <string name="filtershow_preset_rename">重命名</string>
+  <string name="delete_before_exit">刪除濾鏡？</string>
+  <string name="rename_before_exit">重新命名濾鏡</string>
+  <string name="filter_name">濾鏡名稱</string>
+  <string name="filter_name_notification">名稱不能為空白。</string>
+  <string name="filter_name_duplicate">名稱已經存在，請輸入另一個。</string>
   <string name="watermark_location">位置</string>
   <string name="watermark_time">時間</string>
   <string name="watermark_weather">天氣</string>
+  <string name="watermark_emotions">表情</string>
+  <string name="watermark_food">食物</string>
 </resources>

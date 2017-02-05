@@ -351,9 +351,21 @@
   <string name="background">Arka plan</string>
   <string name="brush_size">Fırça boyutu</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_dialog_title">Özel süzgeçler</string>
+  <string name="filtershow_dialog_content">Bir fotoğraf filtresi oluşturmanıza izin verir.\n\nSevdiğiniz bir fotoğrafı seçin ve bu fotoğrafı diğer fotoğraflar için filtre olarak kullanın</string>
+  <string name="filtershow_dialog_original_photo">Orjinal Resim</string>
+  <string name="filtershow_dialog_apply_photo">Renkleri uygulamak için</string>
   <string name="filtershow_dialog_checkbox">Tekrar gösterme</string>
   <string name="filtershow_preset_title">Özel</string>
   <string name="filtershow_preset_rename">Yeniden adlandır</string>
+  <string name="delete_before_exit">Filtreleri Sil?</string>
+  <string name="rename_before_exit">Filtre yeniden adlandırma</string>
+  <string name="filter_name">Filtre adı</string>
+  <string name="filter_name_notification">Adı boş olamaz.</string>
+  <string name="filter_name_duplicate">Bu ad zaten var, lütfen başka bir tane seçin.</string>
   <string name="watermark_location">Konum</string>
   <string name="watermark_time">Zaman</string>
+  <string name="watermark_weather">Hava durumu</string>
+  <string name="watermark_emotions">Duygular</string>
+  <string name="watermark_food">Yiyecek</string>
 </resources>

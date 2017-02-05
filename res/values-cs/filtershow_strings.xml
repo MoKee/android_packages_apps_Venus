@@ -181,12 +181,17 @@
   <!--  Label for the "sketch" dual camera effect  [CHAR LIMIT=15] -->
   <string name="sketch">Skica</string>
   <!--  Label for the "halo" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="halo">HALO</string>
   <!--  Label for the "zoom" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="zoom">Zoom</string>
   <!--  Label for the "motion" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="motion">Pohyb</string>
   <!--  Label for the "bw" dual camera effect  [CHAR LIMIT=15] -->
   <string name="bw">Černobílé</string>
   <!--  Label for the "blackboard" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="blackboard">Černá tabule</string>
   <!--  Label for the "whiteboard" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="whiteboard">Bílá tabule</string>
   <!--  Label for the "posterize" dual camera effect  [CHAR LIMIT=15] -->
   <string name="posterize">Poster.</string>
   <!--  Label for the "negative" dual camera effect  [CHAR LIMIT=15] -->
@@ -322,8 +327,13 @@
   <string name="background">Pozadí</string>
   <string name="brush_size">Velikost štětce</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_dialog_title">Vlastní filtr</string>
   <string name="filtershow_dialog_checkbox">Znovu nezobrazovat</string>
   <string name="filtershow_preset_title">Vlastní</string>
+  <string name="filtershow_preset_rename">Přejmenovat</string>
   <string name="watermark_location">Místo</string>
   <string name="watermark_time">Čas</string>
+  <string name="watermark_weather">Počasí</string>
+  <string name="watermark_emotions">Emoce</string>
+  <string name="watermark_food">Jídlo</string>
 </resources>

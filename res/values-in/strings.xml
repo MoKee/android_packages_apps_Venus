@@ -289,17 +289,21 @@
   <!-- String for filter that brightens colors like instant cameras(filtershow_fx_0001_instant) [CHAR LIMIT=10] -->
   <string name="ffx_instant">Instan</string>
   <!-- String for filter that washes out colors (filtershow_fx_0002_bleach) [CHAR LIMIT=10] -->
+  <string name="ffx_bleach">Pemutih</string>
   <!-- String for filter that makes colors a bluish (filtershow_fx_0003_blue_crush) [CHAR LIMIT=10] -->
   <string name="ffx_blue_crush">Biru</string>
   <!-- String for filter that makes image black & white (filtershow_fx_0004_bw_contrast) [CHAR LIMIT=10] -->
   <string name="ffx_bw_contrast">H/P</string>
   <!-- String for filter that makes colors a yellowish (filtershow_fx_0005_punch) [CHAR LIMIT=10] -->
+  <string name="ffx_punch">Punch</string>
   <!-- String for filter that mimics the cross-process technique in
          photography (makes colors bluish) (filtershow_fx_0006_x_process) [CHAR LIMIT=10] -->
   <string name="ffx_x_process">Proses X</string>
   <!-- String for filter that makes image coffee-colored (filtershow_fx_0007_washout) [CHAR LIMIT=10] -->
+  <string name="ffx_washout">Latte</string>
   <!-- String for filter that makes colors washed out and brownish
          (filtershow_fx_0008_washout_color) [CHAR LIMIT=10] -->
+  <string name="ffx_washout_color">Litho</string>
   <!-- Toast message shown after we make some album(s) available offline [CHAR LIMIT=50] -->
   <plurals name="make_albums_available_offline">
     <item quantity="other">Menjadikan album tersedia secara offline.</item>
@@ -904,6 +908,8 @@ CHAR LIMIT = NONE] -->
   <string name="tvEmptyAlbum">Tidak ada foto ditemukan</string>
   <string name="tvEmptyVideos">Tidak ada video ditemukan</string>
   <string name="truescanner_normal">Normal</string>
+  <string name="hazebuster_acts">Memfoto sampai pinggang buram</string>
+  <string name="seestraight_acts">Melihat lurus</string>
   <string name="seestraight_input_image_is_small">Gambar masukan terlalu kecil untuk diproses.</string>
   <string name="seestraight_process_fail">Tidak dapat memproses gambar.</string>
   <string name="trim_video_exit_title">Ingin menyimpan sebelum keluar?</string>

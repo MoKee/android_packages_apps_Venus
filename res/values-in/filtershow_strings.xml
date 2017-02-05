@@ -115,7 +115,9 @@
   <!--  True Effect button -->
   <string name="trueScanner">True Scanner</string>
   <!--  HazeBuster button -->
+  <string name="hazeBuster">Memfoto sampai pinggang buram</string>
   <!--  SeeStraight button -->
+  <string name="seeStraight">Melihat lurus</string>
   <!--  Label for the image exposure (brightness) filter button [CHAR LIMIT=10] -->
   <string name="exposure" msgid="1229093066434614811">Pencahayaan</string>
   <!--  Label for the image sharpness (clarity, distinctness) filter button [CHAR LIMIT=10] -->
@@ -149,6 +151,7 @@
   <!--  Label for the image vignette contrast fparameter ui [CHAR LIMIT=15] -->
   <string name="vignette_contrast">Kontras</string>
   <!--  Label for the rate of change in brightness as it goes to the edge [CHAR LIMIT=15] -->
+  <string name="vignette_falloff">Berkurang</string>
   <!--  Label for the image effect that removes redeye. [CHAR LIMIT=10] -->
   <string name="redeye">Mata Merah</string>
   <!--  Label for the that allows drawing on Image [CHAR LIMIT=10] -->
@@ -171,27 +174,35 @@
           images into solid colors, as popularized by Andy Warhol [CHAR LIMIT=15] -->
   <string name="kmeans">Posterisasi</string>
   <!--  Label for the image downsampling effect (makes image smaller) [CHAR LIMIT=15] -->
+  <string name="downsample">Sampel bawah</string>
   <!--  Label for the "neutral density graduated filter" filter effect  [CHAR LIMIT=15] -->
   <string name="grad">Graduasi</string>
   <!--  Label for the "refocus" dual camera effect  [CHAR LIMIT=15] -->
   <string name="focus">Fokus</string>
   <!--  Label for the "fusion" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="fusion">Perpaduan</string>
   <!--  Label for the "sketch" dual camera effect  [CHAR LIMIT=15] -->
   <string name="sketch">Sketsa</string>
   <!--  Label for the "halo" dual camera effect  [CHAR LIMIT=15] -->
   <string name="halo">Halo</string>
   <!--  Label for the "zoom" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="zoom">Perbesar</string>
   <!--  Label for the "motion" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="motion">Gerakan</string>
   <!--  Label for the "bw" dual camera effect  [CHAR LIMIT=15] -->
   <string name="bw">H/P</string>
   <!--  Label for the "blackboard" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="blackboard">Papan tulis hitam</string>
   <!--  Label for the "whiteboard" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="whiteboard">Papan tulis putih</string>
   <!--  Label for the "posterize" dual camera effect  [CHAR LIMIT=15] -->
   <string name="posterize">Posterisasi</string>
   <!--  Label for the "negative" dual camera effect  [CHAR LIMIT=15] -->
   <string name="dc_negative">Negatif</string>
   <!--  Label for the "blur" true portrait effect  [CHAR LIMIT=15] -->
+  <string name="blur">Buram</string>
   <!--  Label for the "motion blur" true portrait effect  [CHAR LIMIT=15] -->
+  <string name="motion_blur">Gerakan buram</string>
   <!--  Label for the Brightness effect  [CHAR LIMIT=20] -->
   <string name="editor_grad_brightness">Kecerahan</string>
   <!--  Label for the Contrast filter effect  [CHAR LIMIT=20] -->
@@ -211,6 +222,7 @@
   <!--  Label for the blue control for per channel saturation effect [CHAR LIMIT=20] -->
   <string name="editor_chan_sat_blue">Biru</string>
   <!--  Label for the Magenta control for per channel saturation effect [CHAR LIMIT=20] -->
+  <string name="editor_chan_sat_magenta">Magenta</string>
   <!--  Label for the image graduated filter effect  [CHAR LIMIT=20] -->
   <string name="editor_grad_style">Gaya</string>
   <!-- new virtual graduated neutral density filter  [CHAR LIMIT=20] -->
@@ -283,6 +295,7 @@
   <!-- Label for the information panel [CHAR LIMIT=30] -->
   <string name="filtershow_show_info_panel_size">Ukuran Gambar</string>
   <!-- Label for the information panel [CHAR LIMIT=30] -->
+  <string name="filtershow_show_info_panel_histogram">Histogram</string>
   <!-- Label for the information panel [CHAR LIMIT=30] -->
   <string name="filtershow_show_info_panel_exif">Data EXIF</string>
   <!-- Label for the add button in the category panel [CHAR LIMIT=30] -->
@@ -311,12 +324,20 @@
   <string name="filtershow_exif_exposure_time">Waktu Pencahayaan</string>
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="filtershow_exif_copyright">Hak Cipta</string>
+  <string name="fusion_pick_point">Pilih segmen</string>
+  <string name="fusion_pick_underlay">Pilih lapisan bawah</string>
+  <string name="dual_camera_effects">Efek dual kamera</string>
+  <string name="dual_camera_effects_intro">Memungkinkan Anda untuk menerapkan efek latar belakang, seperti \"Gerakan\" dan \"Sketsa\". Anda juga bisa Menggabungkan dua foto bersama-sama untuk efek yang menarik. Fitur ini bekerja lebih baik jika Anda memiliki kamera jauh dan subjek utama gambar Anda.</string>
+  <string name="dualcam_no_segment_toast">Tidak ada segmen yang ditemukan saat ini</string>
+  <string name="dualcam_filter_not_supported">Fitur Dual kamera tidak didukung untuk gambar ini</string>
   <string name="do_not_show_again">Jangan tampilkan lagi</string>
   <string name="color">Warna</string>
   <string name="ok_continue">Lanjut</string>
   <string name="frames">Bingkai</string>
   <string name="dualcam">Dual Kamera</string>
+  <string name="brush_size">Ukuran kuas</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_dialog_title">Penyaring kustom</string>
   <string name="filtershow_dialog_checkbox">Jangan tampilkan lagi</string>
   <string name="filtershow_preset_title">Kostum</string>
   <string name="filtershow_preset_rename">Ganti nama</string>

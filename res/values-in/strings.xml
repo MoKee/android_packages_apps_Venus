@@ -421,6 +421,7 @@
   <!-- Toast if the trimmed video is too short to trim. [CHAR LIMIT=80] -->
   <string name="trim_too_short">Tidak dapat memangkas : video target terlalu pendek</string>
   <!-- Toast if the muted video is not supported. [CHAR LIMIT=80] -->
+  <string name="mute_nosupport">Tidak dapat bisu: video tidak didukung</string>
   <!-- Text to show with progress bar while stitching in Gallery -->
   <string name="pano_progress_text">Merender panorama</string>
   <!-- The label on the button that will save an edited image -->
@@ -900,14 +901,23 @@ CHAR LIMIT = NONE] -->
   <string name="no_permission_for_drm">"Maaf, berkas Drm tidak dapat dibagi"</string>
   <string name="drm_license_info">Drm lisensi info</string>
   <string name="mimetype_not_supported">Berkas ini tidak dapat dimainkan</string>
+  <string name="action_consumes_rights">Wewenang akan terkonsumsi karena bermain media ini</string>
+  <string name="text_makeup_whiten">Memutihkan</string>
+  <string name="text_makeup_Soften">Melunakkan</string>
   <!-- Timeline screen title -->
+  <string name="timeline_title">Garis waktu</string>
   <!-- Albums screen title -->
   <!-- Videos screen title -->
   <string name="videos_title">Video</string>
   <string name="action_viewtype_list">Tampilan daftar</string>
   <string name="tvEmptyAlbum">Tidak ada foto ditemukan</string>
   <string name="tvEmptyVideos">Tidak ada video ditemukan</string>
+  <string name="text_makeup_trimface">Mempercantik wajah</string>
+  <string name="text_makeup_bigeye">Mata besar</string>
   <string name="truescanner_normal">Normal</string>
+  <string name="truescanner_white">Papan tulis putih</string>
+  <string name="truescanner">Scanner asli</string>
+  <string name="truescanner_remove_glare">Menghapus silau</string>
   <string name="hazebuster_acts">Memfoto sampai pinggang buram</string>
   <string name="seestraight_acts">Melihat lurus</string>
   <string name="seestraight_input_image_is_small">Gambar masukan terlalu kecil untuk diproses.</string>

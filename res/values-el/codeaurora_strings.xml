@@ -31,9 +31,27 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Strings for step option settins -->
   <string name="setp_option_name">Βήμα</string>
+  <string name="step_option_desc">Προσαρμόστε το fast forward/rewind</string>
   <string name="setp_option_three_second">3 δευτερόλεπτα</string>
   <string name="setp_option_six_second">6 δευτερόλεπτα</string>
   <string name="loop">"Επανάληψη"</string>
+  <string name="single">"Μονό"</string>
+  <string name="stereo">"Στερεοφωνικό"</string>
+  <string name="speaker_on">Ηχείο ενεργό</string>
+  <string name="speaker_off">Ηχείο ανενεργό</string>
+  <string name="speaker_need_headset">Παρακαλώ συνδέστε τα ακουστικά πρώτα!</string>
+  <string name="single_track">"Μονό κομμάτι"</string>
+  <string name="media_detail">"Λεπτομέρειες πολυμέσων"</string>
+  <string name="input_url">"Είσοδος URL"</string>
+  <string name="streaming_settings">"Ρυθμίσεις ροής"</string>
   <string name="next">"Επόμενο"</string>
+  <string name="previous">"Προηγούμενο"</string>
+  <string name="rtp_rtcp">RTP/RTCP</string>
+  <string name="min_port">ελάχιστη θύρα:</string>
+  <string name="max_port">μέγιστη θύρα:</string>
+  <string name="buffer_size">Μέγεθος προσ. μνήμης</string>
+  <string name="apn">Προτιμώμενο APN</string>
+  <string name="rtp_min_port">Ελάχιστη θύρα</string>
   <string name="setting">Ρυθμίσεις</string>
+  <string name="bookmark_add">"Προσθήκη σελιδοδείκτη"</string>
 </resources>

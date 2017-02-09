@@ -331,6 +331,8 @@
   <string name="filtershow_dialog_checkbox">Znovu nezobrazovat</string>
   <string name="filtershow_preset_title">Vlastní</string>
   <string name="filtershow_preset_rename">Přejmenovat</string>
+  <string name="delete_before_exit">Vymazat filtr?</string>
+  <string name="rename_before_exit">Přejmenovat filtr</string>
   <string name="watermark_location">Místo</string>
   <string name="watermark_time">Čas</string>
   <string name="watermark_weather">Počasí</string>

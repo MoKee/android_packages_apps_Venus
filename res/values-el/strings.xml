@@ -113,7 +113,7 @@
   <string name="details_title">%1$d από %2$d στοιχεία:</string>
   <string name="close">Κλείσιμο</string>
   <!-- Title of a menu item to switch from Gallery to Camera app [CHAR LIMIT=30] -->
-  <string name="switch_to_camera">Φωτογραφική μηχανή</string>
+  <string name="switch_to_camera">Εναλλαγή σε κάμερα</string>
   <!-- String indicating how many media item(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
   <plurals name="number_of_items_selected">
@@ -386,7 +386,7 @@
   <!-- The title of menu item where user can add a new account -->
   <string name="add_account">Προσθήκη λογαριασμού</string>
   <!-- The label for the folder contains pictures taken by the camera. [CHAR LIMIT=20]-->
-  <string name="folder_camera">Φωτογραφική μηχανή</string>
+  <string name="folder_camera">Κάμερα</string>
   <!-- The label for the folder contains downloaded pictures. [CHAR LIMIT=20]-->
   <string name="folder_download">Λήψη</string>
   <!-- The label for the folder contains edited online pictures. [CHAR LIMIT=40]-->
@@ -454,7 +454,7 @@
   <!-- message for the dialog showing the camera is disabled because of security policies. Camera cannot be used. -->
   <string name="camera_disabled">Η φωτογραφική μηχανή έχει απενεργοποιηθεί λόγω των πολιτικών ασφαλείας.</string>
   <!-- label for the icon meaning 'show me all the images that were taken with the camera' -->
-  <string name="camera_label">Φωτογ.μηχανή</string>
+  <string name="camera_label">Κάμερα</string>
   <!-- alert to the user to wait for some operation to complete -->
   <string name="wait">Περιμένετε...</string>
   <!-- alert to the user that USB storage must be available before using the camera [CHAR LIMIT=NONE] -->
@@ -476,7 +476,7 @@
   <!-- A label that overlays on top of the preview frame to indicate the camcorder is in time lapse mode [CHAR LIMIT=35] -->
   <string name="time_lapse_title">Εγγραφή παρέλευσης χρόνου</string>
   <!-- Settings screen, camera selection dialog title. Users can select a camera from the phone (front-facing or back-facing). [CHAR LIMIT=20] -->
-  <string name="pref_camera_id_title">Επιλογή φωτ. μηχανής</string>
+  <string name="pref_camera_id_title">Επιλογή κάμερας</string>
   <!-- In select camera setting, back facing camera. [CHAR LIMIT=14] -->
   <string name="pref_camera_id_entry_back">Πίσω</string>
   <!-- In select camera setting, front-facing camera. [CHAR LIMIT=14] -->

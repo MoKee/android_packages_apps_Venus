@@ -89,6 +89,7 @@
   <string name="wallpaper">Définition du fond d\'écran…</string>
   <string name="camera_setas_wallpaper">Fond d\'écran</string>
   <!-- Toast message for share items -->
+  <string name="cannot_share_items">Le nombre maximum d\'éléments sélectionnés pour le partage est de 300</string>
   <!-- Details dialog "OK" button. Dismisses dialog. -->
   <string name="delete">Supprimer</string>
   <!-- String Delete the selected media item(s) [CHAR LIMIT=50] -->
@@ -192,6 +193,7 @@
   <string name="no_location">Aucun lieu</string>
   <!-- When grouping photos by peoples, the label used for photos that don't
         have people information in them [CHAR LIMIT=20]-->
+  <string name="no_faces">Pas de visages</string>
   <!-- This toast message is shown when network connection is lost while doing clustering -->
   <string name="no_connectivity">Certains lieux n\'ont pas pu être identifiés en raison de problèmes réseau.</string>
   <!-- This toast message is shown when failed to load the album data. [CHAR LIMIT=NONE] -->
@@ -423,6 +425,7 @@
   <!-- Toast if the trimmed video is too short to trim. [CHAR LIMIT=80] -->
   <string name="trim_too_short">Découpe impossible : la vidéo cible est trop courte.</string>
   <!-- Toast if the muted video is not supported. [CHAR LIMIT=80] -->
+  <string name="mute_nosupport">Impossible de couper le son : vidéo non prise en charge</string>
   <!-- Text to show with progress bar while stitching in Gallery -->
   <string name="pano_progress_text">Rendu de la vue panoramique en cours…</string>
   <!-- The label on the button that will save an edited image -->
@@ -437,6 +440,10 @@
     <item quantity="other">%1$d éléments analysés</item>
   </plurals>
   <!-- String indicating how many media items from the camera have been selected -->
+  <plurals name="ingest_number_of_items_selected">
+    <item quantity="one">%1$d élément sélectionné</item>
+    <item quantity="other">%1$d éléments sélectionnés</item>
+  </plurals>
   <!--  Status message shown when content from the camera is being sorted -->
   <string name="ingest_sorting" msgid="624687230903648118">Tri en cours...</string>
   <!--  Status message shown when scanning the content from the camera has completed -->
@@ -896,8 +903,14 @@ CHAR LIMIT = NONE] -->
   <!-- Toast if user attempts to control audio effects without headphones plugged in. -->
   <string name="headset_plug">Brancher un casque pour utiliser ces effets.</string>
   <!-- The title of the audio effects dialog. -->
+  <string name="audio_effects_dialog_title">Snapdragon Audio+</string>
   <!-- The tips of trimming video -->
+  <string name="fail_trim">Désolé, ce fichier vidéo ne peut pas être coupé</string>
+  <string name="can_not_trim">Seuls les fichiers mp4 et 3gp peuvent être coupés</string>
+  <string name="no_permission_for_drm">"Désolé, le fichier Drm ne peut pas être partagé"</string>
+  <string name="drm_license_info">Informations sur la licence Drm</string>
   <string name="mimetype_not_supported">Ce fichier ne peut pas être joué</string>
+  <string name="text_makeup_Soften">Adoucir</string>
   <!-- Timeline screen title -->
   <string name="timeline_title">Chronologie</string>
   <!-- Albums screen title -->
@@ -908,6 +921,8 @@ CHAR LIMIT = NONE] -->
   <string name="tvEmptyVideos">Aucune vidéo trouvée</string>
   <string name="truescanner_normal">Standard</string>
   <string name="truescanner_white">Tableau blanc</string>
+  <string name="truescanner_remove_glare">Supprimer les reflets</string>
+  <string name="seestraight_input_image_is_small">L\'image d\'origine est trop petit pour être traitée.</string>
   <string name="seestraight_process_fail">Impossible de traiter l\'image.</string>
   <string name="trim_video_exit_title">Souhaitez-vous enregistrer les modifications avant de fermer le programme ?</string>
   <string name="trim_video_exit_msg">Ignorer les modifications apportées à cette vidéo ?</string>

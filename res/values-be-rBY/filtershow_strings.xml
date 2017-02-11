@@ -351,10 +351,12 @@
   <string name="background">Фон</string>
   <string name="brush_size">Памер пэндзля</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_dialog_title">Карыстацкі фільтр</string>
   <string name="filtershow_dialog_checkbox">Не паказваць зноў</string>
   <string name="filtershow_preset_title">Уручную</string>
   <string name="filtershow_preset_rename">Перайменаваць</string>
   <string name="watermark_location">Месцазнаходжанне</string>
   <string name="watermark_time">Час</string>
   <string name="watermark_weather">Надвор\'е</string>
+  <string name="watermark_food">Ежа</string>
 </resources>

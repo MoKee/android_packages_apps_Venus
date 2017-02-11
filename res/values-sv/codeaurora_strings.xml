@@ -30,5 +30,24 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Strings for step option settins -->
+  <string name="setp_option_name">Steg</string>
+  <string name="setp_option_three_second">3 sekunder</string>
+  <string name="setp_option_six_second">6 sekunder</string>
+  <string name="loop">"Loop"</string>
+  <string name="stereo">"Stereo"</string>
+  <string name="speaker_on">Högtalare PÅ</string>
+  <string name="speaker_off">Högtalare AV</string>
+  <string name="media_detail">"Mediadetaljer"</string>
   <string name="next">"Nästa"</string>
+  <string name="previous">"Föregående"</string>
+  <string name="rtp_rtcp">RTP/RTCP</string>
+  <string name="setting">Inställningar</string>
+  <string name="media_controller_live">Live</string>
+  <string name="media_controller_playing">Spelar</string>
+  <string name="media_controller_connecting">Ansluter...</string>
+  <string name="bookmark_add">"Lägg till bokmärke"</string>
+  <string name="bookmark_display">"Visa bokmärken"</string>
+  <string name="bookmark_list">"Bokmärken"</string>
+  <string name="bookmark_title">"Titel"</string>
+  <string name="delete_all">"Ta bort alla"</string>
 </resources>

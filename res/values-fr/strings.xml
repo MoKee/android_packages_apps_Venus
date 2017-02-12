@@ -221,6 +221,7 @@
             [CHAR LIMIT=50] -->
   <string name="empty_album">Aucune image/vidéo disponible.</string>
   <!-- Album label used to indicate the collection of PWA Buzz/Post photos -->
+  <string name="picasa_posts">Messages</string>
   <!-- A label describing that the current screen is for the user to pick
          some albums to be viewable offline [CHAR LIMIT=30] -->
   <string name="make_available_offline">Consulter hors connexion</string>
@@ -910,6 +911,8 @@ CHAR LIMIT = NONE] -->
   <string name="no_permission_for_drm">"Désolé, le fichier Drm ne peut pas être partagé"</string>
   <string name="drm_license_info">Informations sur la licence Drm</string>
   <string name="mimetype_not_supported">Ce fichier ne peut pas être joué</string>
+  <string name="action_consumes_rights">À la lecture du média les droits seront utilisés</string>
+  <string name="text_makeup_whiten">Blanchir</string>
   <string name="text_makeup_Soften">Adoucir</string>
   <!-- Timeline screen title -->
   <string name="timeline_title">Chronologie</string>

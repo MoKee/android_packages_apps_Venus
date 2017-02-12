@@ -192,6 +192,7 @@
   <string name="no_location">Ingen plats</string>
   <!-- When grouping photos by peoples, the label used for photos that don't
         have people information in them [CHAR LIMIT=20]-->
+  <string name="no_faces">Inga ansikten</string>
   <!-- This toast message is shown when network connection is lost while doing clustering -->
   <string name="no_connectivity">Det gick inte att identifiera vissa platser på grund av nätverksproblem.</string>
   <!-- This toast message is shown when failed to load the album data. [CHAR LIMIT=NONE] -->
@@ -285,12 +286,16 @@
   <!-- String indicating image width or height is unknown. [CHAR LIMIT=14] -->
   <string name="unknown">Okänt</string>
   <!-- String for the empty not filtered image [CHAR LIMIT=10] -->
+  <string name="ffx_original">Original</string>
   <!-- String for brown-colored old-fashion looking filter (filtershow_fx_0000_vintage) [CHAR LIMIT=10] -->
+  <string name="ffx_vintage">Vintage</string>
   <!-- String for filter that brightens colors like instant cameras(filtershow_fx_0001_instant) [CHAR LIMIT=10] -->
+  <string name="ffx_instant">Omedelbar</string>
   <!-- String for filter that washes out colors (filtershow_fx_0002_bleach) [CHAR LIMIT=10] -->
   <!-- String for filter that makes colors a bluish (filtershow_fx_0003_blue_crush) [CHAR LIMIT=10] -->
   <string name="ffx_blue_crush">Blå</string>
   <!-- String for filter that makes image black & white (filtershow_fx_0004_bw_contrast) [CHAR LIMIT=10] -->
+  <string name="ffx_bw_contrast">S/V</string>
   <!-- String for filter that makes colors a yellowish (filtershow_fx_0005_punch) [CHAR LIMIT=10] -->
   <!-- String for filter that mimics the cross-process technique in
          photography (makes colors bluish) (filtershow_fx_0006_x_process) [CHAR LIMIT=10] -->
@@ -298,6 +303,7 @@
   <string name="ffx_washout">Latte</string>
   <!-- String for filter that makes colors washed out and brownish
          (filtershow_fx_0008_washout_color) [CHAR LIMIT=10] -->
+  <string name="ffx_washout_color">Litho</string>
   <!-- Toast message shown after we make some album(s) available offline [CHAR LIMIT=50] -->
   <plurals name="make_albums_available_offline">
     <item quantity="one">Gör album tillgängligt offline.</item>
@@ -430,6 +436,10 @@
     <item quantity="other">%1$d objekt har skannats</item>
   </plurals>
   <!-- String indicating how many media items from the camera have been selected -->
+  <plurals name="ingest_number_of_items_selected">
+    <item quantity="one">%1$d objekt valt</item>
+    <item quantity="other">%1$d objekt valda</item>
+  </plurals>
   <!--  Status message shown when content from the camera is being sorted -->
   <string name="ingest_sorting" msgid="624687230903648118">Sorterar ...</string>
   <!--  Status message shown when scanning the content from the camera has completed -->
@@ -588,6 +598,7 @@
   <!-- Scene mode that uses HDR (high dynamic range) [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_hdr">HDR</string>
   <!-- Scene mode that takes an image quickly with little motion blur. [CHAR LIMIT=16] -->
+  <string name="pref_camera_scenemode_entry_action">Åtgärd</string>
   <!-- Scene mode that takes long exposures to capture night scenes without flash. [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_night">Natt</string>
   <!-- Scene mode optimized for taking images in the sunset. [CHAR LIMIT=16] -->
@@ -597,6 +608,7 @@
   <!-- Settings menu, scene mode labels [CHAR LIMIT=50] -->
   <string name="pref_camera_scenemode_label_auto">INGA</string>
   <!-- Scene mode that takes an image quickly with little motion blur. [CHAR LIMIT=50] -->
+  <string name="pref_camera_scenemode_label_action">ÅTGÄRD</string>
   <!-- Scene mode that takes long exposures to capture night scenes without flash. [CHAR LIMIT=50] -->
   <string name="pref_camera_scenemode_label_night">NATT</string>
   <!-- Scene mode optimized for taking images in the sunset. [CHAR LIMIT=50] -->
@@ -855,6 +867,7 @@ CHAR LIMIT = NONE] -->
   <!-- Positive answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
   <string name="remember_location_yes">Ja</string>
   <!-- The message is shown in toast when click showOnMap Menu and there is no map app -->
+  <string name="map_activity_not_found_err">Det finns ingen kart-app för att visa plats.</string>
   <!-- Menu item to launch the camera app [CHAR LIMIT=25] -->
   <string name="menu_camera">Kamera</string>
   <!-- Menu item to search for photos [CHAR LIMIT=25] -->
@@ -876,16 +889,31 @@ CHAR LIMIT = NONE] -->
   <!-- The label for the bass boost knob of the audio effects dialog. -->
   <string name="bass_boost_strength">Basförstärkning</string>
   <!-- The label for the 3d effect knob of the audio effects dialog. -->
+  <string name="virtualizer_strength">Surround-ljud</string>
   <!-- The label for the audio effects menu. -->
   <string name="audio_effects">Ljudeffekter</string>
   <!-- Toast if user attempts to control audio effects without headphones plugged in. -->
   <!-- The title of the audio effects dialog. -->
+  <string name="audio_effects_dialog_title">Snapdragon Audio+</string>
   <!-- The tips of trimming video -->
+  <string name="fail_trim">Tyvärr, denna videofil kan inte trimmas</string>
+  <string name="can_not_trim">Endast mp4 och 3gp-filer kan trimmas</string>
+  <string name="no_permission_for_drm">"Tyvärr. DRM-fil kan inte delas"</string>
+  <string name="drm_license_info">DRM-licensinfo</string>
+  <string name="mimetype_not_supported">Denna fil kan inte spelas upp</string>
+  <string name="action_consumes_rights">Rättigheter behöver konsumeras för att spela denna media</string>
   <!-- Timeline screen title -->
   <string name="timeline_title">Tidslinje</string>
   <!-- Albums screen title -->
   <!-- Videos screen title -->
+  <string name="videos_title">Videor</string>
   <string name="action_viewtype_list">Listvy</string>
+  <string name="tvEmptyAlbum">Inga foton hittades</string>
+  <string name="tvEmptyVideos">Inga videor hittades</string>
+  <string name="text_makeup_trimface">Trimface</string>
+  <string name="text_makeup_bigeye">Bigeye</string>
+  <string name="truescanner_normal">Normal</string>
   <string name="truescanner_white">Whiteboard</string>
+  <string name="seestraight_process_fail">Kunde inte bearbeta bilden.</string>
   <string name="trim_video_exit_title">Vill du spara innan du avslutar?</string>
 </resources>

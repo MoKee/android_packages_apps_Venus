@@ -323,7 +323,9 @@
   <string name="filtershow_exif_copyright">Droits d\'auteur</string>
   <string name="fusion_pick_point">Choisissez le Segment</string>
   <string name="fusion_pick_underlay">Choisir la sous-couche</string>
+  <string name="dual_camera_effects_intro">Permet d\'appliquer des effets d\'arrière-plan, tels que \"Motion\" et \"Sketch\". Vous pouvez également fusionner deux photos pour obtenir des effets intéressants. Cette fonctionnalité marche mieux lorsqu\'il y a une courte distance entre votre appareil photo et le sujet principal de la photo.</string>
   <string name="dualcam_no_segment_toast">Aucun segment trouvé à ce stade</string>
+  <string name="dualcam_filter_not_supported">Le Filtres double caméra ne sont pas pris en charge pour cette image</string>
   <string name="trueportrait_intro">Permet d\'améliorer les photos de personnes. Vous pouvez appliquer des effets à l\'arrière-plan, tels que «flou» et «croquis». Vous pouvez également fusionner deux photos ensemble pour créer des arrière-plans intéressants pour vos photos portrait.</string>
   <string name="trueportrait_no_face">Les effets «Portrait fidèle» ne peuvent pas être appliqués à cette photo. Aucun visage détectée.</string>
   <string name="trueportrait_edit_intro">Avec l\'outil de Retouche, vous pouvez modifier l\'avant-plan et l\'arrière-plan. Vous pouvez utiliser votre doigt pour peindre dans les zones de l\'avant-plan ou d\'arrière-plan qui ont été perdus.</string>

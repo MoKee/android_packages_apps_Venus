@@ -50,13 +50,13 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <string name="min_port">мін. порт:</string>
   <string name="max_port">макс. порт:</string>
   <string name="buffer_size">Памер буфера</string>
-  <string name="apn">Жаданы APN</string>
+  <string name="apn">Пажаданы APN</string>
   <string name="rtp_min_port">Мін. порт</string>
   <string name="rtp_max_port">Макс. порт</string>
   <string name="set_rtp_min_port">Усталяваць мін. порт</string>
   <string name="set_rtp_max_port">Усталяваць макс. порт</string>
-  <string name="set_buffer_size">Ўсталяваць памер буфера</string>
-  <string name="set_apn">Абярыце пажаданы apn</string>
+  <string name="set_buffer_size">Усталяваць памер буфера</string>
+  <string name="set_apn">Выберыце пажаданы apn</string>
   <string name="setting">Налады</string>
   <string name="server_timeout_title">"Час чакання сервера"</string>
   <string name="server_timeout_message">"Зноў падключыце сервер для прайгравання відэа ці не?"</string>
@@ -72,6 +72,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <string name="bookmark_list">"Закладкі"</string>
   <string name="bookmark_title">"Назва"</string>
   <string name="bookmark_location">"Месцазнаходжанне"</string>
-  <string name="delete_all">"Выдаліць усіх"</string>
+  <string name="delete_all">"Выдаліць усё"</string>
   <string name="default_title">"Назва па змаўчанні"</string>
 </resources>

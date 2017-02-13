@@ -32,16 +32,16 @@
   <!--  Text for filters that apply a border to a picture [CHAR LIMIT=20] -->
   <string name="borders" msgid="4461692156695893616">Рамка</string>
   <!-- Text for the custom border filter [CHAR LIMIT=20] -->
-  <string name="custom_border">Карыстацкія</string>
+  <string name="custom_border">Карыстальніцкія</string>
   <!--  actionbar menu -->
   <!--  Text for the undo menu item [CHAR LIMIT=20] -->
   <string name="filtershow_undo">Адмяніць</string>
   <!--  Text for redo menu item [CHAR LIMIT=20] -->
   <string name="filtershow_redo">Паўтарыць</string>
   <!--  Text for the image menu item showing the filters that have been applied [CHAR LIMIT=30] -->
-  <string name="show_imagestate_panel">Паказаць ўжытыя эфекты</string>
+  <string name="show_imagestate_panel">Паказаць ужытыя эфекты</string>
   <!--  Text for the image state panel menu item [CHAR LIMIT=30] -->
-  <string name="hide_imagestate_panel">Схаваць ўжытыя эфекты</string>
+  <string name="hide_imagestate_panel">Схаваць ужытыя эфекты</string>
   <!--  Text for the menu item to export a flattened photo[CHAR LIMIT=30] -->
   <string name="export_image">Экспарт</string>
   <!-- Text for the print menu item [CHAR LIMIT=20] -->
@@ -265,11 +265,11 @@
   <!--  Label for the removing borders [CHAR LIMIT=14] -->
   <string name="color_border_clear">Ачысціць</string>
   <!--  Label for the select the color [CHAR LIMIT=35] -->
-  <string name="color_pick_select">Абраць свой колер</string>
+  <string name="color_pick_select">Выберыце свой колер</string>
   <!--  The title for the color pick dialog [CHAR LIMIT=20] -->
-  <string name="color_pick_title">Абярыце колер</string>
+  <string name="color_pick_title">Выберыце колер</string>
   <!--  The title for draw size [CHAR LIMIT=50] -->
-  <string name="draw_size_title">Абярыце памер</string>
+  <string name="draw_size_title">Выберыце памер</string>
   <!--  The accept the draw size [CHAR LIMIT=20] -->
   <string name="draw_size_accept">ОК</string>
   <!--  Name used to indicate the original image in the state panel [CHAR LIMIT=20] -->
@@ -352,11 +352,20 @@
   <string name="brush_size">Памер пэндзля</string>
   <!--Filtershow dialog -->
   <string name="filtershow_dialog_title">Карыстацкі фільтр</string>
+  <string name="filtershow_dialog_content">Дазваляе ствараць фільтр.\n\nВыберыце фатаграфію, якая вам падабацца і выкарыстоўвайце яе ў якасці фільтра для іншых фатаграфій</string>
+  <string name="filtershow_dialog_original_photo">Арыгінальнае фота</string>
+  <string name="filtershow_dialog_apply_photo">Прымяненне колеру</string>
   <string name="filtershow_dialog_checkbox">Не паказваць зноў</string>
   <string name="filtershow_preset_title">Уручную</string>
   <string name="filtershow_preset_rename">Перайменаваць</string>
+  <string name="delete_before_exit">Выдаліць фільтр?</string>
+  <string name="rename_before_exit">Перайменаванне фільтра</string>
+  <string name="filter_name">Назва фільтра</string>
+  <string name="filter_name_notification">Імя не можа быць пустым.</string>
+  <string name="filter_name_duplicate">Імя ўжо існуе, калі ласка, увядзіце іншае імя.</string>
   <string name="watermark_location">Месцазнаходжанне</string>
   <string name="watermark_time">Час</string>
   <string name="watermark_weather">Надвор\'е</string>
+  <string name="watermark_emotions">Эмоцыі</string>
   <string name="watermark_food">Ежа</string>
 </resources>

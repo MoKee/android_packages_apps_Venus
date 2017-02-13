@@ -71,15 +71,15 @@
   <string name="trim_label">Абрэзаць відэа</string>
   <!-- Toast/alert that the face detection is being run -->
   <!-- Title prompted for user to choose a photo item [CHAR LIMIT=20] -->
-  <string name="select_image">Абраць фота</string>
+  <string name="select_image">Выбраць фота</string>
   <!-- Title prompted for user to choose a video item [CHAR LIMIT=20] -->
-  <string name="select_video">Абраць відэа</string>
+  <string name="select_video">Выбраць відэа</string>
   <!-- Title prompted for user to choose a media object [CHAR LIMIT=20] -->
-  <string name="select_item">Абраць файл</string>
+  <string name="select_item">Выбраць файл</string>
   <!-- Title prompted for user to choose an album [CHAR LIMIT=20] -->
-  <string name="select_album">Абраць альбом</string>
+  <string name="select_album">Выбраць альбом</string>
   <!-- Title prompted for user to choose a group [CHAR LIMIT=20] -->
-  <string name="select_group">Абраць групу</string>
+  <string name="select_group">Выбраць групу</string>
   <!-- Displayed in the title of the dialog for things to do with a picture
              that is to be "set as" (e.g. set as contact photo or set as wallpaper) -->
   <string name="set_image">Усталяваць выяву як</string>
@@ -95,8 +95,8 @@
   <!-- String Delete the selected media item(s) [CHAR LIMIT=50] -->
   <plurals name="delete_selection">
     <item quantity="one">Выдаліць абраны файл?</item>
-    <item quantity="few">Выдаліць абраныя файлы?</item>
-    <item quantity="other">Выдаліць абраныя файлы?</item>
+    <item quantity="few">Выдаліць выбраныя файлы?</item>
+    <item quantity="other">Выдаліць выбраныя файлы?</item>
   </plurals>
   <string name="confirm">Пацвердзіць</string>
   <string name="cancel">Адмена</string>
@@ -109,7 +109,7 @@
   <!-- The label on the button which when clicked will undo a deletion of image [CHAR LIMIT=16]-->
   <string name="undo">АДМЯНІЦЬ</string>
   <!-- String indicating more actions are available -->
-  <string name="select_all">Абраць усё</string>
+  <string name="select_all">Выбраць усё</string>
   <string name="deselect_all">Адмяніць усе выдзяленні</string>
   <string name="slideshow">Слайдшоў</string>
   <string name="details">Звесткі</string>
@@ -121,8 +121,8 @@
             eg. 1 selected [CHAR LIMIT=30] -->
   <plurals name="number_of_items_selected">
     <item quantity="one">%1$d абрана</item>
-    <item quantity="few">%1$d абрана</item>
-    <item quantity="other">%1$d абрана</item>
+    <item quantity="few">%1$d выбрана</item>
+    <item quantity="other">%1$d выбрана</item>
   </plurals>
   <!-- String indicating how many media album(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
@@ -358,7 +358,7 @@
          amounts, eg. "10MB", "100MB".
          [CHAR LIMIT=20]
     -->
-  <string name="size_between"><xliff:g id="min_size">%1$s</xliff:g> to <xliff:g id="max_size">%2$s</xliff:g></string>
+  <string name="size_between"><xliff:g id="min_size">%1$s</xliff:g> да <xliff:g id="max_size">%2$s</xliff:g></string>
   <!-- A label shown on the action bar. It indicates that the operation
          to import media item(s) [CHAR LIMIT=20] -->
   <string name="Import">Імпарт</string>
@@ -369,18 +369,18 @@
   <!-- A toast indicating a camera is connected to the device [CHAR LIMIT=30]-->
   <string name="camera_connected">Камера падлучана.</string>
   <!-- A toast indicating a camera is disconnected [CHAR LIMIT=30] -->
-  <string name="camera_disconnected">Камера адлучана.</string>
+  <string name="camera_disconnected">Камера адключана.</string>
   <!-- A label shown on MTP albums thumbnail to instruct users to import
         [CHAR LIMIT=40] -->
   <string name="click_import">Націсніце тут, каб імпартаваць</string>
   <!-- The label on the radio button for the widget type that shows the images randomly. [CHAR LIMIT=30]-->
-  <string name="widget_type_album">Абраць альбом</string>
+  <string name="widget_type_album">Выбраць альбом</string>
   <!-- The label on the radio button for the widget type that shows the images in an album. [CHAR LIMIT=30]-->
   <string name="widget_type_shuffle">Змяшаць ўсе выявы</string>
   <!-- The label on the radio button for the widget type that shows only one image. [CHAR LIMIT=30]-->
   <string name="widget_type_photo">Абярыце выяву</string>
   <!-- The title of the dialog for choosing the type of widget. [CHAR LIMIT=20] -->
-  <string name="widget_type">Абраць выяву</string>
+  <string name="widget_type">Выбраць выяву</string>
   <!-- Title of the Android Dreams slideshow screensaver. [CHAR LIMIT=20] -->
   <string name="slideshow_dream_name">Слайдшоў</string>
   <!-- Group by Albums tab on Action Bar. [CHAR LIMIT=12] -->
@@ -481,15 +481,15 @@
   <!-- alert to the user that USB storage must be available before using the camera [CHAR LIMIT=NONE] -->
   <string name="no_storage" product="nosdcard">Падключыце USB-назапашвальнік перад тым, як карыстацца камерай.</string>
   <!-- alert to the user that an SD card must be installed before using the camera -->
-  <string name="no_storage" product="default">Ўстаўце SD-карту перад выкарыстаннем камеры.</string>
+  <string name="no_storage" product="default">Устаўце SD-карту перад выкарыстаннем камеры.</string>
   <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
   <string name="preparing_sd" product="nosdcard">Падрыхтоўка USB-носьбіта\u2026</string>
   <!-- alert to the user that the SD card is being disk-checked -->
   <string name="preparing_sd" product="default">Падрыхтоўка SD-карткі\u2026</string>
   <!-- alert to the user that the camera fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
-  <string name="access_sd_fail" product="nosdcard">Не ўдалося атрымаць доступ да USB-носьбіта.</string>
+  <string name="access_sd_fail" product="nosdcard">Не ўдалося атрымаць доступ да USB-назапашвальніка.</string>
   <!-- alert to the user that the camera fails to read or write the SD card. -->
-  <string name="access_sd_fail" product="default">Не ўдалося атрымаць доступ да SD-карті.</string>
+  <string name="access_sd_fail" product="default">Не ўдалося атрымаць доступ да SD-карткі.</string>
   <!-- button in review mode indicating that the photo taking, video recording, and panorama saving session should be canceled [CHAR LIMIT=10] -->
   <string name="review_cancel">АДМЕНА</string>
   <!-- button in review mode indicating that the taken photo/video is OK to be attached/uploaded [CHAR LIMIT=10] -->
@@ -658,9 +658,9 @@
   <!-- Dialog "OK" button. Dismisses dialog. -->
   <string name="dialog_ok">ОК</string>
   <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
-  <string name="spaceIsLow_content" product="nosdcard">Месца на USB-назапашвальніку сканчаецца. Зменіце налады якасці або выдаліце ​​непатрэбныя выявы і іншыя файлы.</string>
+  <string name="spaceIsLow_content" product="nosdcard">Месца на USB-назапашвальніку заканчваецца. Змяніце налады якасці або выдаліце ​​непатрэбныя выявы і іншыя файлы.</string>
   <!-- Low-memory dialog message [CHAR LIMIT=NONE] -->
-  <string name="spaceIsLow_content" product="default">Месца на вашай SD-карце заканчваецца. Зменіце налады якасці або выдаліце ​​непатрэбныя выявы і іншыя файлы.</string>
+  <string name="spaceIsLow_content" product="default">Месца на вашай SD-карце заканчваецца. Змяніце налады якасці або выдаліце ​​непатрэбныя выявы і іншыя файлы.</string>
   <!-- Camera format string for new image files. Passed to java.text.SimpleDateFormat. -->
   <!-- Video Camera format string for new video files. Passed to java.text.SimpleDateFormat. -->
   <!-- Filename prefix for panorama output. -->
@@ -702,7 +702,7 @@
   <!-- Effect setting item that makes eyes small. [CHAR LIMIT=14] -->
   <string name="effect_goofy_face_small_eyes">Малыя вочы</string>
   <!-- Effect setting item that replaces background with Android in Space. [CHAR LIMIT=14] -->
-  <string name="effect_backdropper_space">Ў космасе</string>
+  <string name="effect_backdropper_space">У космасе</string>
   <!-- Effect setting item that replaces background with a sunset. [CHAR LIMIT=14] -->
   <string name="effect_backdropper_sunset">Закат</string>
   <!-- Effect setting item that replaces background with video from gallery. [CHAR LIMIT=14] -->
@@ -864,13 +864,13 @@ CHAR LIMIT = NONE] -->
   <!-- The button to confirm time-lapse setting changes. [CHAR LIMIT = 20] -->
   <string name="time_lapse_interval_set">Гатова</string>
   <!-- Title in time interval picker for setting time interval. [CHAR LIMIT = 30]-->
-  <string name="set_time_interval">Ўстаноўка часовага інтэрвалу</string>
+  <string name="set_time_interval">Усталёўка часовага інтэрвалу</string>
   <!-- Help text that is shown when the time lapse feature is turned off. [CHAR LIMIT = 180]-->
   <string name="set_time_interval_help">Спачатку уключыце рэжым запаволенай здымкі.</string>
   <!-- Help text that is shown when the countdown timer is turned off. [CHAR LIMIT = 180]-->
   <string name="set_timer_help">Каб камера фатаграфавала з затрымкай, уключыце гэтую функцыю.</string>
   <!-- Title in timer setting for setting the duration for the countdown timer. [CHAR LIMIT = 50]-->
-  <string name="set_duration">Ўсталяваць працягласць ў секундах</string>
+  <string name="set_duration">Усталяваць працягласць у секундах</string>
   <!-- On-screen hint during timer countdown for taking a photo. [CHAR LIMIT = 60]-->
   <string name="count_down_title_text">Зваротны адлік перад здымкай</string>
   <!-- Title for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 50] -->

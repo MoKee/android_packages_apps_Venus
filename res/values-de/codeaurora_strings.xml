@@ -47,8 +47,14 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <string name="next">"Weiter"</string>
   <string name="previous">"Voriger"</string>
   <string name="rtp_rtcp">RTP/RTCP</string>
+  <string name="min_port">Min. Port:</string>
+  <string name="max_port">Max. Port:</string>
   <string name="buffer_size">Puffergröße</string>
   <string name="apn">Bevorzugter APN</string>
+  <string name="rtp_min_port">Min. Port</string>
+  <string name="rtp_max_port">Max. Port</string>
+  <string name="set_rtp_min_port">Min. Port festlegen</string>
+  <string name="set_rtp_max_port">Max. Port festlegen</string>
   <string name="set_buffer_size">Puffergröße festlegen</string>
   <string name="set_apn">Bevorzugten APN wählen</string>
   <string name="setting">Einstellungen</string>

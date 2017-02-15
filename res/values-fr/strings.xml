@@ -62,7 +62,7 @@
   <!-- Toast/alert that the image is being saved to the SD card -->
   <string name="saving_image">Enregistrement de l\'image</string>
   <!-- Toast/alert that the image is being saved after editing in filtershow [CHAR LIMIT=40]-->
-  <string name="filtershow_saving_image">Enregistrement de l\'image dans l\'album <xliff:g id="ALBUM_NAME">%1$s</xliff:g>…</string>
+  <string name="filtershow_saving_image">Enregistrement de l\'image sur <xliff:g id="album_name">%1$s</xliff:g> \u2026</string>
   <!-- Eorror toast message that the image cannot be saved [CHAR LIMIT=40]-->
   <string name="save_error">Impossible d\'enregistrer l\'image rognée.</string>
   <!-- menu pick: crop the currently selected image [CHAR LIMIT=30]-->
@@ -71,15 +71,15 @@
   <string name="trim_label">Découper la vidéo</string>
   <!-- Toast/alert that the face detection is being run -->
   <!-- Title prompted for user to choose a photo item [CHAR LIMIT=20] -->
-  <string name="select_image">Sélectionner photo</string>
+  <string name="select_image">Choisir une photo</string>
   <!-- Title prompted for user to choose a video item [CHAR LIMIT=20] -->
-  <string name="select_video">Sélectionner vidéo</string>
+  <string name="select_video">Choisir une vidéo</string>
   <!-- Title prompted for user to choose a media object [CHAR LIMIT=20] -->
-  <string name="select_item">Sélectionner élément</string>
+  <string name="select_item">Choisir un élément</string>
   <!-- Title prompted for user to choose an album [CHAR LIMIT=20] -->
-  <string name="select_album">Sélectionner album</string>
+  <string name="select_album">Choisir un album</string>
   <!-- Title prompted for user to choose a group [CHAR LIMIT=20] -->
-  <string name="select_group">Sélectionnez groupe</string>
+  <string name="select_group">Choisir un groupe</string>
   <!-- Displayed in the title of the dialog for things to do with a picture
              that is to be "set as" (e.g. set as contact photo or set as wallpaper) -->
   <string name="set_image">Utiliser l\'image comme</string>
@@ -94,8 +94,8 @@
   <string name="delete">Supprimer</string>
   <!-- String Delete the selected media item(s) [CHAR LIMIT=50] -->
   <plurals name="delete_selection">
-    <item quantity="one">Supprimer élément sélectionné ?</item>
-    <item quantity="other">Suppr. éléments sélectionnés ?</item>
+    <item quantity="one">Supprimer l\'élément sélectionné ?</item>
+    <item quantity="other">Supprimer les éléments sélectionnés ?</item>
   </plurals>
   <string name="confirm">Confirmer</string>
   <string name="cancel">Annuler</string>
@@ -922,6 +922,7 @@ CHAR LIMIT = NONE] -->
   <string name="action_viewtype_list">Affichage de la liste</string>
   <string name="tvEmptyAlbum">Aucune photo trouvée</string>
   <string name="tvEmptyVideos">Aucune vidéo trouvée</string>
+  <string name="text_makeup_bigeye">Grand yeux</string>
   <string name="truescanner_normal">Standard</string>
   <string name="truescanner_white">Tableau blanc</string>
   <string name="truescanner_remove_glare">Supprimer les reflets</string>

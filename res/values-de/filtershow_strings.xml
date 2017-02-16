@@ -186,11 +186,11 @@
   <!--  Label for the "halo" dual camera effect  [CHAR LIMIT=15] -->
   <string name="halo">Aura</string>
   <!--  Label for the "zoom" dual camera effect  [CHAR LIMIT=15] -->
-  <string name="zoom">Zoom</string>
+  <string name="zoom">Vergrößerung</string>
   <!--  Label for the "motion" dual camera effect  [CHAR LIMIT=15] -->
   <string name="motion">Bewegung</string>
   <!--  Label for the "bw" dual camera effect  [CHAR LIMIT=15] -->
-  <string name="bw">Schwarzweiß</string>
+  <string name="bw">Schwarz/Weiß</string>
   <!--  Label for the "blackboard" dual camera effect  [CHAR LIMIT=15] -->
   <string name="blackboard">Tafel (schwarz)</string>
   <!--  Label for the "whiteboard" dual camera effect  [CHAR LIMIT=15] -->

@@ -363,4 +363,5 @@
   <string name="watermark_time">À intervalles réguliers</string>
   <string name="watermark_weather">Météo</string>
   <string name="watermark_emotions">Émotions</string>
+  <string name="watermark_food">Nourriture</string>
 </resources>

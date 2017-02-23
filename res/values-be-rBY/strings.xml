@@ -99,7 +99,7 @@
     <item quantity="other">Выдаліць выбраныя файлы?</item>
   </plurals>
   <string name="confirm">Пацвердзіць</string>
-  <string name="cancel">Адмена</string>
+  <string name="cancel">Скасаваць</string>
   <string name="share">Падзяліцца</string>
   <string name="share_dialogue_title">Падзяліцца праз</string>
   <string name="share_panorama">Падзяліцца панарамай</string>
@@ -107,7 +107,6 @@
   <!-- The label shown after an image is deleted [CHAR LIMIT=16] -->
   <string name="deleted">Выдалена</string>
   <!-- The label on the button which when clicked will undo a deletion of image [CHAR LIMIT=16]-->
-  <string name="undo">АДМЯНІЦЬ</string>
   <!-- String indicating more actions are available -->
   <string name="select_all">Выбраць усё</string>
   <string name="deselect_all">Адмяніць усе выдзяленні</string>
@@ -491,6 +490,7 @@
   <!-- alert to the user that the camera fails to read or write the SD card. -->
   <string name="access_sd_fail" product="default">Не ўдалося атрымаць доступ да SD-карткі.</string>
   <!-- button in review mode indicating that the photo taking, video recording, and panorama saving session should be canceled [CHAR LIMIT=10] -->
+  <string name="review_cancel">СКАСАВАЦЬ</string>
   <!-- button in review mode indicating that the taken photo/video is OK to be attached/uploaded [CHAR LIMIT=10] -->
   <string name="review_ok">ЗРОБЛЕНА</string>
   <!-- A label that overlays on top of the preview frame to indicate the camcorder is in time lapse mode [CHAR LIMIT=35] -->
@@ -861,7 +861,7 @@ CHAR LIMIT = NONE] -->
   <!-- Hours: a unit of time for time lapse intervals. [CHAR LIMIT = 20] -->
   <string name="time_lapse_hours">гадзіны</string>
   <!-- The button to confirm time-lapse setting changes. [CHAR LIMIT = 20] -->
-  <string name="time_lapse_interval_set">Гатова</string>
+  <string name="time_lapse_interval_set">Выканана</string>
   <!-- Title in time interval picker for setting time interval. [CHAR LIMIT = 30]-->
   <string name="set_time_interval">Усталёўка часовага інтэрвалу</string>
   <!-- Help text that is shown when the time lapse feature is turned off. [CHAR LIMIT = 180]-->

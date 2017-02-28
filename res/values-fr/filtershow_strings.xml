@@ -20,7 +20,7 @@
   <!--  String shown when we cannot load the image when starting the activity [CHAR LIMIT=NONE] -->
   <string name="cannot_load_image">Impossible de charger l\'image.</string>
   <!--  String shown when cannot load the original image. We will edit selected image [CHAR LIMIT=NONE] -->
-  <string name="cannot_edit_original">Impossible de modifier l\'original.</string>
+  <string name="cannot_edit_original">Impossible de modifier l\'original</string>
   <!--  String displayed when showing the original image [CHAR LIMIT=NONE] -->
   <!--  String displayed when setting the homepage wallpaper in the background [CHAR LIMIT=NONE] -->
   <string name="setting_wallpaper">Définition du fond d\'écran en cours…</string>
@@ -63,7 +63,7 @@
   <!--  String displayed when exiting with unsaved changes [CHAR LIMIT=NONE] -->
   <string name="unsaved">Certaines modifications apportées à l\'image n\'ont pas été enregistrées.</string>
   <!--  String displayed when exiting with unsaved changes [CHAR LIMIT=NONE] -->
-  <string name="save_before_exit">Souhaitez-vous enregistrer les modifications avant de fermer le programme ?</string>
+  <string name="save_before_exit">Souhaitez-vous enregistrer les modifications avant de quitter ?</string>
   <!--  String displayed when saving and exiting editor [CHAR LIMIT=NONE] -->
   <string name="save_and_exit">Enregistrer et quitter</string>
   <!--  String displayed when discard editor [CHAR LIMIT=NONE] -->
@@ -76,7 +76,7 @@
   <!--  Text for the history panel title [CHAR LIMIT=50] -->
   <string name="history">Historique</string>
   <!--  Text for the history panel reset button [CHAR LIMIT=20]-->
-  <string name="reset">Rétablir</string>
+  <string name="reset">Retour à l\'original</string>
   <!--  Text for the original image[CHAR LIMIT=20]-->
   <!--  Image state panel -->
   <!--  Text for the image state panel title [CHAR LIMIT=50] -->
@@ -87,7 +87,7 @@
   <!--  Label for the apply effect button [CHAR LIMIT=15] -->
   <string name="apply_effect">Appliquer</string>
   <!--  Label for the reset effect button [CHAR LIMIT=15] -->
-  <string name="reset_effect">Rétablir</string>
+  <string name="reset_effect">Réinitialiser</string>
   <!--  Label for aspect [CHAR LIMIT=15] -->
   <string name="aspect">Aspect</string>
   <!--  Label for the aspect 1:1 effect [CHAR LIMIT=15] -->
@@ -108,7 +108,7 @@
   <string name="aspectNone_effect">Aucun</string>
   <!--  Label for the aspect None effect [CHAR LIMIT=15] -->
   <!-- Label for when the aspect ratio is fixed to a value [CHAR LIMIT=15] -->
-  <string name="Fixed">Fixe</string>
+  <string name="Fixed">Fixé</string>
   <!--  Label for the tuny planet effect [CHAR LIMIT=10] -->
   <string name="tinyplanet">Petite planète</string>
   <!--  Filters buttons -->
@@ -126,7 +126,7 @@
   <!--  Label for the image saturation (brightens colors) filter button [CHAR LIMIT=10] -->
   <string name="saturation">Saturation</string>
   <!--  Label for the image BW filter (makes black & white) button [CHAR LIMIT=10] -->
-  <string name="bwfilter">Filtre N&amp;B</string>
+  <string name="bwfilter">Filtre Noir &amp; Blanc</string>
   <!--  Label for the image Autocolor filter (makes off-white colors whiter) button [CHAR LIMIT=10] -->
   <string name="wbalance">Coloration auto</string>
   <!--  Label for the image Hue filter (color, shade, tinge, tone) button [CHAR LIMIT=10] -->
@@ -138,9 +138,9 @@
   <!--  Label for the image curves filter button [CHAR LIMIT=10] -->
   <string name="curvesRGB">Courbes</string>
   <!--  Label for the image vignette filter (darkens photo around edges) button [CHAR LIMIT=10] -->
-  <string name="vignette">Vignetage</string>
+  <string name="vignette">Vignette</string>
   <!--  Label for the image vignette main parameter ui [CHAR LIMIT=15] -->
-  <string name="vignette_main">Vignetage</string>
+  <string name="vignette_main">Vignette</string>
   <!--  Label for the image vignette exposure parameter ui [CHAR LIMIT=15] -->
   <string name="vignette_exposure">Exposition</string>
   <!--  Label for the image vignette saturation parameter ui [CHAR LIMIT=15] -->
@@ -169,7 +169,7 @@
   <string name="edge">Bords</string>
   <!--  Label for an image effect that replicates the "pop art" style of segmenting
           images into solid colors, as popularized by Andy Warhol [CHAR LIMIT=15] -->
-  <string name="kmeans">Postéris.</string>
+  <string name="kmeans">Posteriser</string>
   <!--  Label for the image downsampling effect (makes image smaller) [CHAR LIMIT=15] -->
   <string name="downsample">Réduction</string>
   <!--  Label for the "neutral density graduated filter" filter effect  [CHAR LIMIT=15] -->
@@ -193,7 +193,7 @@
   <!--  Label for the "whiteboard" dual camera effect  [CHAR LIMIT=15] -->
   <string name="whiteboard">Tableau blanc</string>
   <!--  Label for the "posterize" dual camera effect  [CHAR LIMIT=15] -->
-  <string name="posterize">Postéris.</string>
+  <string name="posterize">Posteriser</string>
   <!--  Label for the "negative" dual camera effect  [CHAR LIMIT=15] -->
   <string name="dc_negative">Négatif</string>
   <!--  Label for the "blur" true portrait effect  [CHAR LIMIT=15] -->
@@ -254,7 +254,7 @@
   <!--  Label for the removing drawing from screen [CHAR LIMIT=14] -->
   <string name="draw_clear">Effacer</string>
   <!--  Label for the with of the border[CHAR LIMIT=14] -->
-  <string name="color_border_size">Largeur</string>
+  <string name="color_border_size">Épaisseur</string>
   <!--  Label for the border corner size (or rounding) [CHAR LIMIT=14] -->
   <string name="color_border_corner_size">Taille d\'angle</string>
   <!--  Label for selecting the border color [CHAR LIMIT=14] -->
@@ -262,9 +262,9 @@
   <!--  Label for the removing borders [CHAR LIMIT=14] -->
   <string name="color_border_clear">Effacer</string>
   <!--  Label for the select the color [CHAR LIMIT=35] -->
-  <string name="color_pick_select">Sélection couleur personnalisée</string>
+  <string name="color_pick_select">Choisir une couleur personnalisée</string>
   <!--  The title for the color pick dialog [CHAR LIMIT=20] -->
-  <string name="color_pick_title">Sélectionner couleur</string>
+  <string name="color_pick_title">Choisir une couleur</string>
   <!--  The title for draw size [CHAR LIMIT=50] -->
   <string name="draw_size_title">Sélectionner la taille</string>
   <!--  The accept the draw size [CHAR LIMIT=20] -->
@@ -280,7 +280,7 @@
   <!-- Label for the save preset menu [CHAR LIMIT=30] -->
   <string name="filtershow_save_preset">Enregistrer le préréglage actuel</string>
   <!-- Label for the manage preset menu [CHAR LIMIT=42] -->
-  <string name="filtershow_manage_preset">Gérer préréglages utilisateur</string>
+  <string name="filtershow_manage_preset">Gérer les préréglages utilisateur</string>
   <!-- Label for newly created user preset [CHAR LIMIT=30] -->
   <string name="filtershow_new_preset">Nouveau préréglage</string>
   <!-- Label for preset name [CHAR LIMIT=30] -->
@@ -300,7 +300,7 @@
   <!-- Label for the add button in the versions panel [CHAR LIMIT=30] -->
   <string name="filtershow_add_button_versions">Version</string>
   <!-- Label for the Original version in the versions panel [CHAR LIMIT=30] -->
-  <string name="filtershow_version_original">Originale</string>
+  <string name="filtershow_version_original">Original</string>
   <!-- Label for the Current version in the versions panel [CHAR LIMIT=30] -->
   <string name="filtershow_version_current">Actuelle</string>
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
@@ -321,7 +321,7 @@
   <string name="filtershow_exif_exposure_time">Temps d\'exposition</string>
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="filtershow_exif_copyright">Droits d\'auteur</string>
-  <string name="fusion_pick_point">Choisissez le Segment</string>
+  <string name="fusion_pick_point">Choisir un Segment</string>
   <string name="fusion_pick_underlay">Choisir la sous-couche</string>
   <string name="dual_camera_effects_intro">Permet d\'appliquer des effets d\'arrière-plan, tels que \"Motion\" et \"Sketch\". Vous pouvez également fusionner deux photos pour obtenir des effets intéressants. Cette fonctionnalité marche mieux lorsqu\'il y a une courte distance entre votre appareil photo et le sujet principal de la photo.</string>
   <string name="dualcam_no_segment_toast">Aucun segment trouvé à ce stade</string>
@@ -330,7 +330,7 @@
   <string name="trueportrait_no_face">Les effets «Portrait fidèle» ne peuvent pas être appliqués à cette photo. Aucun visage détectée.</string>
   <string name="trueportrait_edit_intro">Avec l\'outil de Retouche, vous pouvez modifier l\'avant-plan et l\'arrière-plan. Vous pouvez utiliser votre doigt pour peindre dans les zones de l\'avant-plan ou d\'arrière-plan qui ont été perdus.</string>
   <string name="trueportrait_edit_foreground_toast">Utiliser votre doigt pour peindre dans les zones de l\'avant-plan qui ont été effacés.</string>
-  <string name="trueportrait_edit_background_toast">Utilisez votre doigt pour peindre dans toutes les zones de l’arrière-plan qui ont été manqués.</string>
+  <string name="trueportrait_edit_background_toast">Utiliser votre doigt pour peindre dans toutes les zones de l’arrière-plan qui ont été manqués.</string>
   <string name="trueportrait_edit_help">Pour zoomer, utilisez deux doigts pincer ouverte ou fermée. Vous pouvez également faire glisser avec deux doigts pour repositionner l’image. Cela peut rendre plus facile la résolution des zones à problèmes.</string>
   <string name="trueportrait_fusion_intro">Le sujet de l\'avant-plan peut être copié et collé sur n\'importe quelle photo de votre galerie. Vous pouvez essayer d\'utiliser différents fond de photo pour créer de nouveaux portraits intéressants.</string>
   <string name="dualcam_fusion_intro">L\'avant-plan peut être copié et collé sur n\'importe quelle photo de votre galerie.\n\nVous pouvez essayer d\'utiliser différents fond de photo pour créer de nouveaux portraits intéressants.</string>
@@ -339,7 +339,7 @@
   <string name="fusion_pick_background">Sélectionner l\'arrière-plan</string>
   <string name="color">Couleur</string>
   <string name="ok_continue">Continuer</string>
-  <string name="frames">Images</string>
+  <string name="frames">Cadres</string>
   <string name="beautify">Embellir</string>
   <string name="dualcam">Double caméra</string>
   <string name="trueportrait">Portrait fidèle</string>

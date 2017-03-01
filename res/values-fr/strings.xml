@@ -64,9 +64,9 @@
   <!-- Toast/alert that the image is being saved after editing in filtershow [CHAR LIMIT=40]-->
   <string name="filtershow_saving_image">Enregistrement de l\'image sur <xliff:g id="album_name">%1$s</xliff:g> \u2026</string>
   <!-- Eorror toast message that the image cannot be saved [CHAR LIMIT=40]-->
-  <string name="save_error">Impossible d\'enregistrer l\'image rognée.</string>
+  <string name="save_error">Impossible d\'enregistrer l\'image recadrée.</string>
   <!-- menu pick: crop the currently selected image [CHAR LIMIT=30]-->
-  <string name="crop_label">Rogner l\'image</string>
+  <string name="crop_label">Recadrer l\'image</string>
   <!-- menu pick: trim the currently selected video [CHAR LIMIT=30]-->
   <string name="trim_label">Découper la vidéo</string>
   <!-- Toast/alert that the face detection is being run -->
@@ -86,7 +86,7 @@
   <!-- Activity title for cropping picture and setting it as wallpaper [CHAR LIMIT=20] -->
   <string name="set_wallpaper">Définir fond d\'écran</string>
   <!-- Toast/alert after saving wallpaper -->
-  <string name="wallpaper">Définition du fond d\'écran…</string>
+  <string name="wallpaper">Fond d\'écran actualisé\u2026</string>
   <string name="camera_setas_wallpaper">Fond d\'écran</string>
   <!-- Toast message for share items -->
   <string name="cannot_share_items">Le nombre maximum d\'éléments sélectionnés pour le partage est de 300</string>
@@ -136,8 +136,8 @@
   </plurals>
   <!-- String indicating timestamp of photo or video -->
   <string name="show_on_map">Afficher sur la carte</string>
-  <string name="rotate_left">Faire pivoter à gauche</string>
-  <string name="rotate_right">Faire pivoter à droite</string>
+  <string name="rotate_left">Pivoter à gauche</string>
+  <string name="rotate_right">Pivoter à droite</string>
   <!-- Toast message prompted when the specified item is not found [CHAR LIMIT=40]-->
   <string name="no_such_item">Impossible de trouver l\'élément.</string>
   <!-- String used as a menu label. The user can choose to edit the image
@@ -157,9 +157,9 @@
          offline. [CHAR LIMIT=15] -->
   <string name="caching_label">Mise en cache…</string>
   <!-- The title of the menu item to let user crop the image. [CHAR LIMIT=15] -->
-  <string name="crop_action">Rogner</string>
+  <string name="crop_action">Recadrer</string>
   <!-- The title of the menu item to let user trim the video. [CHAR LIMIT=15] -->
-  <string name="trim_action">Rogner</string>
+  <string name="trim_action">Couper</string>
   <!-- The title of the menu item to let user mute the video. [CHAR LIMIT=15] -->
   <string name="mute_action">Couper le son</string>
   <!-- The title of the menu item to let user set the image as background etc. [CHAR LIMIT=15] -->
@@ -214,7 +214,7 @@
   <string name="appwidget_empty_text">Aucune photo</string>
   <!-- Toast message shown when the cropped image has been saved in the
          %s folder (string: folder_download) [CHAR LIMIT=50]-->
-  <string name="crop_saved">Image rognée enregistrée dans <xliff:g id="FOLDER_NAME">%s</xliff:g>.</string>
+  <string name="crop_saved">Image recadrée enregistrée dans <xliff:g id="FOLDER_NAME">%s</xliff:g>.</string>
   <!-- Toast message shown when there is no albums available [CHAR LIMIT=50]-->
   <string name="no_albums_alert">Aucun album disponible.</string>
   <!-- Toast message shown when we close the AlbumPage because it is empty
@@ -231,7 +231,7 @@
   <string name="sync_picasa_albums">Actualiser</string>
   <!-- A label on a button. The user clicks this button after he has
          finished selection. [CHAR LIMIT=15] -->
-  <string name="done">OK</string>
+  <string name="done">Terminé</string>
   <!-- String indicating the sequence of currently selected item in the
             media set eg. 3 of 5 items [CHAR LIMIT=30] -->
   <string name="sequence_in_set">%1$d élément(s) sur %2$d :</string>
@@ -281,7 +281,7 @@
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
   <string name="auto">Automatique</string>
   <!-- String indicating camera flash is fired. [CHAR LIMIT=14] -->
-  <string name="flash_on">Flash déclenché</string>
+  <string name="flash_on">Flash activé</string>
   <!-- String indicating camera flash is not used. [CHAR LIMIT=14] -->
   <string name="flash_off">Flash désactivé</string>
   <!-- String indicating image width or height is unknown. [CHAR LIMIT=14] -->
@@ -310,8 +310,8 @@
   <string name="ffx_washout_color">Lithographie</string>
   <!-- Toast message shown after we make some album(s) available offline [CHAR LIMIT=50] -->
   <plurals name="make_albums_available_offline">
-    <item quantity="one">Activation de consultation d\'album hors connexion.</item>
-    <item quantity="other">Activation consultation d\'albums hors connexion.</item>
+    <item quantity="one">Mise à disposition de l\'album hors ligne.</item>
+    <item quantity="other">Mise à disposition des albums hors ligne.</item>
   </plurals>
   <!-- Toast message shown after we try to make a local album available offline
          [CHAR LIMIT=150] -->
@@ -367,13 +367,13 @@
         [CHAR LIMIT=40] -->
   <string name="click_import">Appuyez ici pour importer</string>
   <!-- The label on the radio button for the widget type that shows the images randomly. [CHAR LIMIT=30]-->
-  <string name="widget_type_album">Sélectionner un album</string>
+  <string name="widget_type_album">Choisir un album</string>
   <!-- The label on the radio button for the widget type that shows the images in an album. [CHAR LIMIT=30]-->
   <string name="widget_type_shuffle">Affichage aléatoire des images</string>
   <!-- The label on the radio button for the widget type that shows only one image. [CHAR LIMIT=30]-->
-  <string name="widget_type_photo">Sélectionner une image</string>
+  <string name="widget_type_photo">Choisir une image</string>
   <!-- The title of the dialog for choosing the type of widget. [CHAR LIMIT=20] -->
-  <string name="widget_type">Sélectionner images</string>
+  <string name="widget_type">Choisir des images</string>
   <!-- Title of the Android Dreams slideshow screensaver. [CHAR LIMIT=20] -->
   <string name="slideshow_dream_name">Diaporama</string>
   <!-- Group by Albums tab on Action Bar. [CHAR LIMIT=12] -->
@@ -468,13 +468,13 @@
   <!-- label for the icon meaning 'show me all the images that were taken with the camera' -->
   <string name="camera_label">Appareil photo</string>
   <!-- alert to the user to wait for some operation to complete -->
-  <string name="wait">Veuillez patienter...</string>
+  <string name="wait">Veuillez patienter\u2026</string>
   <!-- alert to the user that USB storage must be available before using the camera [CHAR LIMIT=NONE] -->
   <string name="no_storage" product="nosdcard">Veuillez installer une mémoire de stockage USB avant d\'utiliser l\'appareil photo.</string>
   <!-- alert to the user that an SD card must be installed before using the camera -->
   <string name="no_storage" product="default">Veuillez insérer une carte SD avant d\'utiliser l\'appareil photo.</string>
   <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
-  <string name="preparing_sd" product="nosdcard">Préparation mémoire de stockage USB...</string>
+  <string name="preparing_sd" product="nosdcard">Préparation du stockage USB...</string>
   <!-- alert to the user that the SD card is being disk-checked -->
   <string name="preparing_sd" product="default">Préparation de la carte SD...</string>
   <!-- alert to the user that the camera fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
@@ -486,7 +486,7 @@
   <!-- button in review mode indicating that the taken photo/video is OK to be attached/uploaded [CHAR LIMIT=10] -->
   <string name="review_ok">OK</string>
   <!-- A label that overlays on top of the preview frame to indicate the camcorder is in time lapse mode [CHAR LIMIT=35] -->
-  <string name="time_lapse_title">Enregistrement mode time lapse</string>
+  <string name="time_lapse_title">Enregistrement Time lapse</string>
   <!-- Settings screen, camera selection dialog title. Users can select a camera from the phone (front-facing or back-facing). [CHAR LIMIT=20] -->
   <string name="pref_camera_id_title">Sélectionner caméra</string>
   <!-- In select camera setting, back facing camera. [CHAR LIMIT=14] -->
@@ -526,7 +526,7 @@
     time lapse recording. Appears at top of the dialog. [CHAR LIMIT=30] -->
   <string name="pref_video_time_lapse_frame_interval_title">Intervalle de temps</string>
   <!-- Settings screen, Camera setting category title -->
-  <string name="pref_camera_settings_category">Paramètres appareil photo</string>
+  <string name="pref_camera_settings_category">Paramètres de l\'appareil photo</string>
   <!-- Settings screen, Camcorder setting category title -->
   <string name="pref_camcorder_settings_category">Mode Caméra</string>
   <!-- Settings screen, Picture size title -->
@@ -554,7 +554,7 @@
   <!-- Settings screen, dialog choice for QVGA picture size [CHAR LIMIT=15] -->
   <string name="pref_camera_picturesize_entry_qvga">QVGA</string>
   <!-- Settings screen, Focus mode title -->
-  <string name="pref_camera_focusmode_title">Mise au point</string>
+  <string name="pref_camera_focusmode_title">Mode de Mise au point</string>
   <!-- Settings screen, Focus mode dialog radio button choices -->
   <string name="pref_camera_focusmode_entry_auto">Automatique</string>
   <string name="pref_camera_focusmode_entry_infinity">Infini</string>
@@ -566,9 +566,9 @@
   <!-- Default flash mode setting.-->
   <!-- Value for flash off setting-->
   <!-- Settings screen, Flash mode title -->
-  <string name="pref_camera_flashmode_title">Mode Flash</string>
+  <string name="pref_camera_flashmode_title">Flash</string>
   <!-- flash label [CHAR LIMIT=50] -->
-  <string name="pref_camera_flashmode_label">MODE FLASH</string>
+  <string name="pref_camera_flashmode_label">FLASH</string>
   <!-- Settings screen, Flash mode dialog radio button choices -->
   <string name="pref_camera_flashmode_entry_auto">Automatique</string>
   <string name="pref_camera_flashmode_entry_on">Activé</string>
@@ -698,7 +698,7 @@
   <!-- Effect setting item that replaces background with video from gallery. [CHAR LIMIT=14] -->
   <string name="effect_backdropper_gallery">Votre vidéo</string>
   <!-- Message displayed in overlay during background replacement training [CHAR LIMIT=180]-->
-  <string name="bg_replacement_message">Posez votre appareil.\nSortez du cadre quelques instants.</string>
+  <string name="bg_replacement_message">Poser votre appareil.\nSortez du cadre quelques instants.</string>
   <!-- Toast telling users tapping on the viewfinder will take a picture [CHAR LIMIT=54] -->
   <string name="video_snapshot_hint">Appuyez pour prendre une photo pendant l\'enregistrement</string>
   <!-- Announcement telling users video recording has just started [CHAR LIMIT=NONE] -->
@@ -710,7 +710,7 @@
   <!-- A button in effect setting popup to clear the effect. [CHAR LIMIT=26] -->
   <string name="clear_effects">Effacer les effets</string>
   <!-- Title of category for silly face effects. [CHAR LIMIT=26] -->
-  <string name="effect_silly_faces">DRÔLES DE TÊTES</string>
+  <string name="effect_silly_faces">GRIMACES</string>
   <!-- Title of category for background replacement effects. [CHAR LIMIT=26] -->
   <string name="effect_background">ARRIÈRE-PLAN</string>
   <!-- The shutter button. [CHAR LIMIT = NONE] -->
@@ -928,7 +928,7 @@ CHAR LIMIT = NONE] -->
   <string name="truescanner_remove_glare">Supprimer les reflets</string>
   <string name="seestraight_input_image_is_small">L\'image d\'origine est trop petit pour être traitée.</string>
   <string name="seestraight_process_fail">Impossible de traiter l\'image.</string>
-  <string name="trim_video_exit_title">Souhaitez-vous enregistrer les modifications avant de fermer le programme ?</string>
+  <string name="trim_video_exit_title">Souhaitez-vous enregistrer les modifications avant de quitter ?</string>
   <string name="trim_video_exit_msg">Ignorer les modifications apportées à cette vidéo ?</string>
   <string name="trim_video_exit_discard">ANNULER</string>
 </resources>

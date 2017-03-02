@@ -18,7 +18,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">Galleria</string>
+  <string name="app_name">Galleria Snapdragon</string>
   <!-- Title for picture frame gadget to show in list of all available gadgets -->
   <string name="gadget_title">Cornice immagine</string>
   <!-- Used to format short video duration in Details dialog. minutes:seconds e.g. 00:30 -->
@@ -293,14 +293,18 @@
   <!-- String for filter that brightens colors like instant cameras(filtershow_fx_0001_instant) [CHAR LIMIT=10] -->
   <string name="ffx_instant">Immediato</string>
   <!-- String for filter that washes out colors (filtershow_fx_0002_bleach) [CHAR LIMIT=10] -->
+  <string name="ffx_bleach">Candeggina</string>
   <!-- String for filter that makes colors a bluish (filtershow_fx_0003_blue_crush) [CHAR LIMIT=10] -->
   <string name="ffx_blue_crush">Blu</string>
   <!-- String for filter that makes image black & white (filtershow_fx_0004_bw_contrast) [CHAR LIMIT=10] -->
   <string name="ffx_bw_contrast">Bianco e nero</string>
   <!-- String for filter that makes colors a yellowish (filtershow_fx_0005_punch) [CHAR LIMIT=10] -->
+  <string name="ffx_punch">Pugno</string>
   <!-- String for filter that mimics the cross-process technique in
          photography (makes colors bluish) (filtershow_fx_0006_x_process) [CHAR LIMIT=10] -->
+  <string name="ffx_x_process">X Process</string>
   <!-- String for filter that makes image coffee-colored (filtershow_fx_0007_washout) [CHAR LIMIT=10] -->
+  <string name="ffx_washout">Latte</string>
   <!-- String for filter that makes colors washed out and brownish
          (filtershow_fx_0008_washout_color) [CHAR LIMIT=10] -->
   <string name="ffx_washout_color">Litografia</string>
@@ -907,6 +911,9 @@ CHAR LIMIT = NONE] -->
   <string name="no_permission_for_drm">"Spiacente, i file Drm non possono essere condivisi"</string>
   <string name="drm_license_info">Info licenza Drm</string>
   <string name="mimetype_not_supported">Questo file non può essere riprodotto</string>
+  <string name="action_consumes_rights">I diritti saranno consumati per la riproduzione di questo media</string>
+  <string name="text_makeup_whiten">Imbiancati</string>
+  <string name="text_makeup_Soften">Ammorbidito</string>
   <!-- Timeline screen title -->
   <string name="timeline_title">Cronologia</string>
   <!-- Albums screen title -->
@@ -915,10 +922,14 @@ CHAR LIMIT = NONE] -->
   <string name="action_viewtype_list">Vista elenco</string>
   <string name="tvEmptyAlbum">Nessuna foto trovata</string>
   <string name="tvEmptyVideos">Nessun video trovato</string>
+  <string name="text_makeup_trimface">Trimface</string>
+  <string name="text_makeup_bigeye">Obeso</string>
   <string name="truescanner_normal">Normale</string>
   <string name="truescanner_white">LavagnaBianca</string>
+  <string name="truescanner">TrueScanner</string>
   <string name="truescanner_remove_glare">Rimuovi Bagliore</string>
   <string name="hazebuster_acts">Haze Buster</string>
+  <string name="seestraight_acts">Vedere dritto</string>
   <string name="seestraight_input_image_is_small">L\'immagine in ingresso è troppo piccola per essere elaborata.</string>
   <string name="seestraight_process_fail">Impossibile elaborare l\'immagine.</string>
   <string name="trim_video_exit_title">Vuoi salvare prima di uscire?</string>

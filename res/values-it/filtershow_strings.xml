@@ -117,6 +117,7 @@
   <!--  HazeBuster button -->
   <string name="hazeBuster">Haze Buster</string>
   <!--  SeeStraight button -->
+  <string name="seeStraight">Vedere dritto</string>
   <!--  Label for the image exposure (brightness) filter button [CHAR LIMIT=10] -->
   <string name="exposure" msgid="1229093066434614811">Esposizione</string>
   <!--  Label for the image sharpness (clarity, distinctness) filter button [CHAR LIMIT=10] -->
@@ -327,6 +328,7 @@
   <string name="fusion_pick_underlay">Scegli Sottofondo</string>
   <string name="dual_camera_effects">Effetti dual camera</string>
   <string name="dual_camera_effects_intro">Consente di applicare effetti di sfondo, ad esempio \"Motion\" e \"Sketch\". È anche possibile unire due foto insieme per ottenere interessanti effetti. Questa caratteristica funziona meglio quando avete a breve distanza la fotocamera e il soggetto principale della foto.</string>
+  <string name="dualcam_no_segment_toast">Nessun segmento trovato a questo punto</string>
   <string name="dualcam_filter_not_supported">Filtri dual camera non supportati per questa immagine</string>
   <string name="trueportrait_intro">Ti consente di migliorare le foto di persone. Puoi applicare effetti allo sfondo, ad esempio \"sfocatura\" e \"schizzo\". È anche possibile unire due foto insieme per creare interessanti sfondi per le tue foto ritratto.</string>
   <string name="trueportrait_no_face">Gli effetti True Portait non possono essere applicati a questa foto. Volto non rilevato.</string>
@@ -344,13 +346,26 @@
   <string name="frames">Cornici</string>
   <string name="beautify">Abbellisci</string>
   <string name="dualcam">Dual Camera</string>
+  <string name="trueportrait">Vero ritratto</string>
   <string name="foreground">Primo piano</string>
   <string name="background">Sfondo</string>
+  <string name="brush_size">Dimensione del pennello</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_dialog_title">Filtro personalizzato</string>
+  <string name="filtershow_dialog_content">Consente di creare un filtro.\n\nSeleziona una foto che ti piace e usalo come un filtro per le altre foto</string>
+  <string name="filtershow_dialog_original_photo">Foto originale</string>
+  <string name="filtershow_dialog_apply_photo">Colori da applicare</string>
   <string name="filtershow_dialog_checkbox">Non mostrare di nuovo</string>
   <string name="filtershow_preset_title">Personalizza</string>
   <string name="filtershow_preset_rename">Rinomina</string>
+  <string name="delete_before_exit">Elimina filtro?</string>
+  <string name="rename_before_exit">Rinominare il filtro</string>
+  <string name="filter_name">Nome del filtro</string>
+  <string name="filter_name_notification">Il nome non può essere vuoto.</string>
+  <string name="filter_name_duplicate">Questo nome esiste già, sceglierne uno diverso.</string>
   <string name="watermark_location">Posizione</string>
   <string name="watermark_time">Ora</string>
   <string name="watermark_weather">Meteo</string>
+  <string name="watermark_emotions">Emozioni</string>
+  <string name="watermark_food">Cibo</string>
 </resources>

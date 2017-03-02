@@ -30,6 +30,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Strings for step option settins -->
+  <string name="setp_option_name">Passaggio</string>
   <string name="step_option_desc">Personalizza l\'avanzamento/riavvolgimento rapido</string>
   <string name="setp_option_three_second">3 secondi</string>
   <string name="setp_option_six_second">6 secondi</string>
@@ -41,6 +42,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <string name="speaker_need_headset">Inserisci prima gli auricolari!</string>
   <string name="single_track">"Traccia singola"</string>
   <string name="media_detail">"Dettagli media"</string>
+  <string name="input_url">"Digita URL"</string>
   <string name="streaming_settings">"Impostazioni streaming"</string>
   <string name="next">"Avanti"</string>
   <string name="previous">"Precedente"</string>
@@ -66,6 +68,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <string name="bookmark_display">"Mostra preferiti"</string>
   <string name="bookmark_empty">"Nessun preferito"</string>
   <string name="bookmark_exist">"Stesso preferito nella cronologia"</string>
+  <string name="bookmark_add_success">"Aggiungi risultato segnalibri"</string>
   <string name="bookmark_list">"Preferiti"</string>
   <string name="bookmark_title">"Titolo"</string>
   <string name="bookmark_location">"Posizione"</string>

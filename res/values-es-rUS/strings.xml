@@ -89,6 +89,7 @@
   <string name="wallpaper">Estableciendo fondo de pantalla...</string>
   <string name="camera_setas_wallpaper">Papel tapiz</string>
   <!-- Toast message for share items -->
+  <string name="cannot_share_items">Los elementos máximos para seleccionar son 300</string>
   <!-- Details dialog "OK" button. Dismisses dialog. -->
   <string name="delete">Eliminar</string>
   <!-- String Delete the selected media item(s) [CHAR LIMIT=50] -->
@@ -99,6 +100,7 @@
   <string name="confirm">Confirmar</string>
   <string name="cancel">Cancelar</string>
   <string name="share">Compartir</string>
+  <string name="share_dialogue_title">Compartir con</string>
   <string name="share_panorama">Compartir panorama</string>
   <string name="share_as_photo">Compartir como foto</string>
   <!-- The label shown after an image is deleted [CHAR LIMIT=16] -->
@@ -223,6 +225,7 @@
          some albums to be viewable offline [CHAR LIMIT=30] -->
   <string name="make_available_offline">Hacer disponible sin conexión</string>
   <!-- A label describing to link website [CHAR LIMIT=30] -->
+  <string name="more_image">Más imágenes</string>
   <!-- A label of a menu item for user to sync the content [CHAR LIMIT=30] -->
   <string name="sync_picasa_albums">Actualizar</string>
   <!-- A label on a button. The user clicks this button after he has

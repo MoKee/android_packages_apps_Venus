@@ -176,6 +176,7 @@
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
+  <string name="ok_continue">Siguir</string>
   <!--Filtershow dialog -->
   <string name="filtershow_preset_rename">Renomar</string>
 </resources>

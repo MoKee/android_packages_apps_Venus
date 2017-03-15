@@ -258,7 +258,7 @@
   <!-- Text indicating the model of a media item in details window [CHAR LIMIT=14] -->
   <string name="model">Model</string>
   <!-- Text indicating flash info of a media item in details window [CHAR LIMIT=14] -->
-  <string name="flash">Lampu Kilat</string>
+  <string name="flash">Lampu kilat</string>
   <!-- Text indicating aperture of a media item in details window [CHAR LIMIT=14] -->
   <string name="aperture">Bukaan</string>
   <!-- Text indicating the focal length of a media item in details window [CHAR LIMIT=14] -->
@@ -905,7 +905,7 @@ CHAR LIMIT = NONE] -->
   <string name="text_makeup_whiten">Memutihkan</string>
   <string name="text_makeup_Soften">Melunakkan</string>
   <!-- Timeline screen title -->
-  <string name="timeline_title">Garis waktu</string>
+  <string name="timeline_title">Timeline</string>
   <!-- Albums screen title -->
   <!-- Videos screen title -->
   <string name="videos_title">Video</string>

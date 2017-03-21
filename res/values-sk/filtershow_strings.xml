@@ -299,6 +299,7 @@
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="filtershow_exif_copyright">Autorské práva</string>
   <string name="color">Farba</string>
+  <string name="ok_continue">Pokračovať</string>
   <!--Filtershow dialog -->
   <string name="watermark_time">Čas</string>
   <string name="watermark_weather">Počasie</string>

@@ -299,6 +299,7 @@
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="filtershow_exif_copyright">Tekijänoikeudet</string>
   <string name="color">Väri</string>
+  <string name="ok_continue">Jatka</string>
   <!--Filtershow dialog -->
   <string name="watermark_time">Aika</string>
   <string name="watermark_weather">Sää</string>

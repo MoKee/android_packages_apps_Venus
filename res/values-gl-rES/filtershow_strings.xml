@@ -299,5 +299,6 @@
   <string name="filtershow_exif_exposure_time">Tempo de exposición</string>
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="color">Cor</string>
+  <string name="ok_continue">Continuar</string>
   <!--Filtershow dialog -->
 </resources>

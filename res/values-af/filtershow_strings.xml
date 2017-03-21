@@ -297,6 +297,7 @@
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="filtershow_exif_copyright">Kopiereg</string>
   <string name="color">Kleur</string>
+  <string name="ok_continue">Gaan voort</string>
   <!--Filtershow dialog -->
   <string name="watermark_time">Tyd</string>
 </resources>

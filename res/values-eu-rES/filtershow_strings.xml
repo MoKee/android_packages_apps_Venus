@@ -299,6 +299,7 @@
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="filtershow_exif_copyright">Copyrighta</string>
   <string name="color">Kolorea</string>
+  <string name="ok_continue">Jarraitu</string>
   <!--Filtershow dialog -->
   <string name="watermark_weather">Eguraldia</string>
 </resources>

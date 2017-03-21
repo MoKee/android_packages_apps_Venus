@@ -289,6 +289,7 @@
   <string name="filtershow_exif_exposure_time">Temps d\'exposició</string>
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="filtershow_exif_copyright">Drets d\'autor</string>
+  <string name="ok_continue">Continua</string>
   <!--Filtershow dialog -->
   <string name="watermark_time">Hora</string>
   <string name="watermark_weather">El temps</string>

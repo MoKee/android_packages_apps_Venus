@@ -842,5 +842,6 @@ CHAR LIMIT = NONE] -->
   <!-- Timeline screen title -->
   <!-- Albums screen title -->
   <!-- Videos screen title -->
+  <string name="hazebuster_acts">Haze Buster</string>
   <string name="trim_video_exit_title">Chcete zmeny pred ukončením uložiť?</string>
 </resources>

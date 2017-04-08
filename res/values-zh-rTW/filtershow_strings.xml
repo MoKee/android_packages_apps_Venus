@@ -61,7 +61,7 @@
   <string name="menu_settings">設定</string>
   <!--  Exit Dialog -->
   <!--  String displayed when exiting with unsaved changes [CHAR LIMIT=NONE] -->
-  <string name="unsaved">這張圖片的變更尚未儲存。</string>
+  <string name="unsaved">捨棄對此圖片所做的變更？</string>
   <!--  String displayed when exiting with unsaved changes [CHAR LIMIT=NONE] -->
   <string name="save_before_exit">您要在結束前儲存變更嗎？</string>
   <!--  String displayed when saving and exiting editor [CHAR LIMIT=NONE] -->

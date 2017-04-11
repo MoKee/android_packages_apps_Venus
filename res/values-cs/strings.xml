@@ -921,15 +921,26 @@ CHAR LIMIT = NONE] -->
   <string name="no_permission_for_drm">"Promiňte, DRM soubor nemůže být sdílen"</string>
   <string name="drm_license_info">Informace o licenci DRM</string>
   <string name="mimetype_not_supported">Tento soubor nelze přehrát</string>
+  <string name="action_consumes_rights">Pro přehrávání tohoto souboru budou spotřebované práva</string>
+  <string name="text_makeup_whiten">Bělení</string>
+  <string name="text_makeup_Soften">Změkčení</string>
   <!-- Timeline screen title -->
+  <string name="timeline_title">Časová osa</string>
   <!-- Albums screen title -->
   <!-- Videos screen title -->
   <string name="videos_title">Videa</string>
   <string name="action_viewtype_list">Náhled seznamu</string>
+  <string name="tvEmptyAlbum">Nebyly nalezeny žádné fotografie</string>
   <string name="tvEmptyVideos">Nebyla nalezena žádná videa</string>
+  <string name="text_makeup_trimface">Trimface</string>
+  <string name="text_makeup_bigeye">Rybí oko</string>
   <string name="truescanner_normal">Normální</string>
+  <string name="truescanner_white">Bílá tabule</string>
   <string name="truescanner">TrueScanner</string>
+  <string name="truescanner_remove_glare">Odstranit odlesky</string>
   <string name="hazebuster_acts">Haze Buster</string>
+  <string name="seestraight_acts">Viz přímo</string>
+  <string name="seestraight_input_image_is_small">Vstupní obrázek je pro zpracování příliš malý.</string>
   <string name="seestraight_process_fail">Nelze zpracovat obrázek.</string>
   <string name="trim_video_exit_title">Chcete před ukončením uložit změny?</string>
   <string name="trim_video_exit_msg">Chcete zrušit změny provedené v tomto videu?</string>

@@ -193,6 +193,7 @@
   <string name="no_location">No hay ubicación</string>
   <!-- When grouping photos by peoples, the label used for photos that don't
         have people information in them [CHAR LIMIT=20]-->
+  <string name="no_faces">Sin rostros</string>
   <!-- This toast message is shown when network connection is lost while doing clustering -->
   <string name="no_connectivity">No se pudieron identificar algunas ubicaciones debido a problemas de la red.</string>
   <!-- This toast message is shown when failed to load the album data. [CHAR LIMIT=NONE] -->
@@ -261,6 +262,7 @@
   <!-- Text indicating the model of a media item in details window [CHAR LIMIT=14] -->
   <string name="model">Modelo</string>
   <!-- Text indicating flash info of a media item in details window [CHAR LIMIT=14] -->
+  <string name="flash">Flash</string>
   <!-- Text indicating aperture of a media item in details window [CHAR LIMIT=14] -->
   <string name="aperture">Apertura</string>
   <!-- Text indicating the focal length of a media item in details window [CHAR LIMIT=14] -->
@@ -270,8 +272,10 @@
   <!-- Text indicating the exposure time of a media item in details window [CHAR LIMIT=14] -->
   <string name="exposure_time">Tiempo de exposición</string>
   <!-- Text indicating the ISO speed rating of a media item in details window [CHAR LIMIT=14] -->
+  <string name="iso">ISO</string>
   <!-- String indicating the time units in seconds. [CHAR LIMIT=8] -->
   <!-- String indicating the length units in milli-meters. [CHAR LIMIT=8] -->
+  <string name="unit_mm">mm</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
   <string name="manual">Manual</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
@@ -285,6 +289,7 @@
   <!-- String for the empty not filtered image [CHAR LIMIT=10] -->
   <string name="ffx_original">Original</string>
   <!-- String for brown-colored old-fashion looking filter (filtershow_fx_0000_vintage) [CHAR LIMIT=10] -->
+  <string name="ffx_vintage">Vintage</string>
   <!-- String for filter that brightens colors like instant cameras(filtershow_fx_0001_instant) [CHAR LIMIT=10] -->
   <string name="ffx_instant">Instantánea</string>
   <!-- String for filter that washes out colors (filtershow_fx_0002_bleach) [CHAR LIMIT=10] -->
@@ -294,6 +299,7 @@
   <!-- String for filter that makes image black & white (filtershow_fx_0004_bw_contrast) [CHAR LIMIT=10] -->
   <string name="ffx_bw_contrast">Blanco y negro</string>
   <!-- String for filter that makes colors a yellowish (filtershow_fx_0005_punch) [CHAR LIMIT=10] -->
+  <string name="ffx_punch">Ponche</string>
   <!-- String for filter that mimics the cross-process technique in
          photography (makes colors bluish) (filtershow_fx_0006_x_process) [CHAR LIMIT=10] -->
   <string name="ffx_x_process">Proceso X</string>
@@ -420,6 +426,7 @@
   <!-- Toast if the trimmed video is too short to trim. [CHAR LIMIT=80] -->
   <string name="trim_too_short">No se puede recortar: el video de destino es demasiado corto.</string>
   <!-- Toast if the muted video is not supported. [CHAR LIMIT=80] -->
+  <string name="mute_nosupport">No puede silenciar: no admite video</string>
   <!-- Text to show with progress bar while stitching in Gallery -->
   <string name="pano_progress_text">Creando panorama...</string>
   <!-- The label on the button that will save an edited image -->
@@ -434,6 +441,10 @@
     <item quantity="other">%1$d elementos examinados</item>
   </plurals>
   <!-- String indicating how many media items from the camera have been selected -->
+  <plurals name="ingest_number_of_items_selected">
+    <item quantity="one">%1$d item seleccionado</item>
+    <item quantity="other">%1$d items seleccionados</item>
+  </plurals>
   <!--  Status message shown when content from the camera is being sorted -->
   <string name="ingest_sorting" msgid="624687230903648118">Ordenando...</string>
   <!--  Status message shown when scanning the content from the camera has completed -->
@@ -539,15 +550,19 @@
   <!-- Settings screen, dialog choice for 1 megapixels picture size [CHAR LIMIT=15] -->
   <string name="pref_camera_picturesize_entry_1mp">1 MP</string>
   <!-- Settings screen, dialog choice for VGA picture size [CHAR LIMIT=15] -->
+  <string name="pref_camera_picturesize_entry_vga">VGA</string>
   <!-- Settings screen, dialog choice for QVGA picture size [CHAR LIMIT=15] -->
+  <string name="pref_camera_picturesize_entry_qvga">QVGA</string>
   <!-- Settings screen, Focus mode title -->
   <string name="pref_camera_focusmode_title">Modo de enfoque</string>
   <!-- Settings screen, Focus mode dialog radio button choices -->
   <string name="pref_camera_focusmode_entry_auto">Automático</string>
   <string name="pref_camera_focusmode_entry_infinity">Infinito</string>
+  <string name="pref_camera_focusmode_entry_macro">Macro</string>
   <!-- Menu, focus mode labels [CHAR LIMIT=50] -->
   <string name="pref_camera_focusmode_label_auto">AUTOMÁTICO</string>
   <string name="pref_camera_focusmode_label_infinity">INFINITO</string>
+  <string name="pref_camera_focusmode_label_macro">MACRO</string>
   <!-- Default flash mode setting.-->
   <!-- Value for flash off setting-->
   <!-- Settings screen, Flash mode title -->
@@ -586,6 +601,7 @@
   <!-- Settings menu, scene mode choices [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_auto">Automático</string>
   <!-- Scene mode that uses HDR (high dynamic range) [CHAR LIMIT=16] -->
+  <string name="pref_camera_scenemode_entry_hdr">HDR</string>
   <!-- Scene mode that takes an image quickly with little motion blur. [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_action">Acción</string>
   <!-- Scene mode that takes long exposures to capture night scenes without flash. [CHAR LIMIT=16] -->
@@ -624,6 +640,7 @@
   <string name="pref_exposure_label">EXPOSICIÓN</string>
   <!-- Default HDR entry value -->
   <!-- HDR label ON [CHAR LIMIT=60] -->
+  <string name="pref_camera_hdr_label">HDR</string>
   <!-- switch camera label back [CHAR LIMIT=60] -->
   <string name="pref_camera_id_label_back">CÁMARA FRONTAL</string>
   <!-- switch camera label front [CHAR LIMIT=60] -->
@@ -855,6 +872,7 @@ CHAR LIMIT = NONE] -->
   <!-- Positive answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
   <string name="remember_location_yes">Sí</string>
   <!-- The message is shown in toast when click showOnMap Menu and there is no map app -->
+  <string name="map_activity_not_found_err">No hay ninguna aplicación de mapa para ver ubicación.</string>
   <!-- Menu item to launch the camera app [CHAR LIMIT=25] -->
   <string name="menu_camera">Cámara</string>
   <!-- Menu item to search for photos [CHAR LIMIT=25] -->
@@ -873,21 +891,48 @@ CHAR LIMIT = NONE] -->
     <item quantity="one">%1$d foto</item>
     <item quantity="other">%1$d fotos</item>
   </plurals>
+  <plurals name="number_of_videos">
+    <item quantity="one">%1$d videos</item>
+    <item quantity="other">%1$d videos</item>
+  </plurals>
   <!-- The label for the bass boost knob of the audio effects dialog. -->
+  <string name="bass_boost_strength">Refuerzo de graves</string>
   <!-- The label for the 3d effect knob of the audio effects dialog. -->
+  <string name="virtualizer_strength">Sonido envolvente</string>
   <!-- The label for the audio effects menu. -->
+  <string name="audio_effects">Efectos de Audio</string>
   <!-- Toast if user attempts to control audio effects without headphones plugged in. -->
+  <string name="headset_plug">Enchufe auriculares para estos efectos.</string>
   <!-- The title of the audio effects dialog. -->
+  <string name="audio_effects_dialog_title">Snapdragon Audio +</string>
   <!-- The tips of trimming video -->
+  <string name="fail_trim">Lo sentimos, este vídeo no puede ser recortado</string>
+  <string name="can_not_trim">Sólo los archivos mp4 y 3gp se pueden recortar</string>
   <string name="no_permission_for_drm">"Los archivos DRM no pueden compartirse."</string>
   <string name="drm_license_info">Información de licencia Drm</string>
   <string name="mimetype_not_supported">No puede reproducirse este archivo.</string>
   <string name="action_consumes_rights">Se agotarán los derechos para reproducir este multimedia.</string>
+  <string name="text_makeup_whiten">Blanquear</string>
+  <string name="text_makeup_Soften">Suavizar</string>
   <!-- Timeline screen title -->
+  <string name="timeline_title">Línea de tiempo</string>
   <!-- Albums screen title -->
   <!-- Videos screen title -->
+  <string name="videos_title">Vídeos</string>
+  <string name="action_viewtype_list">Vista de lista</string>
+  <string name="tvEmptyAlbum">No se encontraron imágenes</string>
+  <string name="tvEmptyVideos">No se encontraron videos</string>
+  <string name="text_makeup_trimface">Retoque facial</string>
+  <string name="text_makeup_bigeye">Ojos grandes</string>
   <string name="truescanner_normal">Normal</string>
+  <string name="truescanner_white">Pizarra</string>
+  <string name="truescanner">TrueScanner</string>
+  <string name="truescanner_remove_glare">Quitar reflejos</string>
   <string name="hazebuster_acts">Destructor de muros</string>
   <string name="seestraight_acts">Ver atraves</string>
+  <string name="seestraight_input_image_is_small">Imagen ingresada demasiada pequeña para procesarla.</string>
+  <string name="seestraight_process_fail">No se pudo procesar la imagen.</string>
   <string name="trim_video_exit_title">¿Quieres guardar los cambios antes de salir?</string>
+  <string name="trim_video_exit_msg">¿Descartar los cambios realizados en este video?</string>
+  <string name="trim_video_exit_discard">DESHACER</string>
 </resources>

@@ -52,8 +52,10 @@
   <string name="resume_playing_restart">Aloita alusta</string>
   <!-- Title of a menu item to indicate performing the image crop operation
          [CHAR LIMIT=20] -->
+  <string name="crop_save_text">OK</string>
   <!-- Title of a menu item to indicate performing the image crop operation
          [CHAR LIMIT=20] -->
+  <string name="ok">OK</string>
   <!-- Button indicating that the cropped image should be reverted back to the original -->
   <!-- Hint that appears when cropping an image with more than one face -->
   <string name="multiface_crop_help">Aloita koskettamalla kasvoja.</string>
@@ -87,6 +89,7 @@
   <string name="wallpaper">Asetetaan taustakuvaa...</string>
   <string name="camera_setas_wallpaper">taustakuvaksi</string>
   <!-- Toast message for share items -->
+  <string name="cannot_share_items">Jaettavien kohteiden enimmäismäärä on 300</string>
   <!-- Details dialog "OK" button. Dismisses dialog. -->
   <string name="delete">Poista</string>
   <!-- String Delete the selected media item(s) [CHAR LIMIT=50] -->
@@ -97,6 +100,7 @@
   <string name="confirm">Vahvista</string>
   <string name="cancel">Peruuta</string>
   <string name="share">Jaa</string>
+  <string name="share_dialogue_title">Jaa</string>
   <string name="share_panorama">Jaa panoraama</string>
   <string name="share_as_photo">Jaa kuvana</string>
   <!-- The label shown after an image is deleted [CHAR LIMIT=16] -->
@@ -189,6 +193,7 @@
   <string name="no_location">Ei sijaintia</string>
   <!-- When grouping photos by peoples, the label used for photos that don't
         have people information in them [CHAR LIMIT=20]-->
+  <string name="no_faces">Ei kasvoja</string>
   <!-- This toast message is shown when network connection is lost while doing clustering -->
   <string name="no_connectivity">Verkkoyhteysongelma – joitakin paikkoja ei voi tunnistaa.</string>
   <!-- This toast message is shown when failed to load the album data. [CHAR LIMIT=NONE] -->
@@ -221,6 +226,7 @@
          some albums to be viewable offline [CHAR LIMIT=30] -->
   <string name="make_available_offline">Aseta offline-käytettäväksi</string>
   <!-- A label describing to link website [CHAR LIMIT=30] -->
+  <string name="more_image">Lisää kuvia</string>
   <!-- A label of a menu item for user to sync the content [CHAR LIMIT=30] -->
   <string name="sync_picasa_albums">Päivitä</string>
   <!-- A label on a button. The user clicks this button after he has
@@ -266,8 +272,10 @@
   <!-- Text indicating the exposure time of a media item in details window [CHAR LIMIT=14] -->
   <string name="exposure_time">Valotusaika</string>
   <!-- Text indicating the ISO speed rating of a media item in details window [CHAR LIMIT=14] -->
+  <string name="iso">ISO</string>
   <!-- String indicating the time units in seconds. [CHAR LIMIT=8] -->
   <!-- String indicating the length units in milli-meters. [CHAR LIMIT=8] -->
+  <string name="unit_mm">kk</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
   <string name="manual">Manuaalinen</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
@@ -536,7 +544,9 @@
   <!-- Settings screen, dialog choice for 1 megapixels picture size [CHAR LIMIT=15] -->
   <string name="pref_camera_picturesize_entry_1mp">1 megapikseli</string>
   <!-- Settings screen, dialog choice for VGA picture size [CHAR LIMIT=15] -->
+  <string name="pref_camera_picturesize_entry_vga">VGA</string>
   <!-- Settings screen, dialog choice for QVGA picture size [CHAR LIMIT=15] -->
+  <string name="pref_camera_picturesize_entry_qvga">QVGA</string>
   <!-- Settings screen, Focus mode title -->
   <string name="pref_camera_focusmode_title">Tarkennustila</string>
   <!-- Settings screen, Focus mode dialog radio button choices -->
@@ -585,6 +595,7 @@
   <!-- Settings menu, scene mode choices [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_auto">Automaattinen</string>
   <!-- Scene mode that uses HDR (high dynamic range) [CHAR LIMIT=16] -->
+  <string name="pref_camera_scenemode_entry_hdr">HDR</string>
   <!-- Scene mode that takes an image quickly with little motion blur. [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_action">Toiminta</string>
   <!-- Scene mode that takes long exposures to capture night scenes without flash. [CHAR LIMIT=16] -->
@@ -623,11 +634,13 @@
   <string name="pref_exposure_label">VALOTUS</string>
   <!-- Default HDR entry value -->
   <!-- HDR label ON [CHAR LIMIT=60] -->
+  <string name="pref_camera_hdr_label">HDR</string>
   <!-- switch camera label back [CHAR LIMIT=60] -->
   <string name="pref_camera_id_label_back">ETUKAMERA</string>
   <!-- switch camera label front [CHAR LIMIT=60] -->
   <string name="pref_camera_id_label_front">TAKAKAMERA</string>
   <!-- Dialog "OK" button. Dismisses dialog. -->
+  <string name="dialog_ok">OK</string>
   <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content" product="nosdcard">USB-tallennustilasi on vähissä. Vaihda laatuasetusta tai poista kuvia tai muita tiedostoja.</string>
   <!-- Low-memory dialog message [CHAR LIMIT=NONE] -->
@@ -877,8 +890,28 @@ CHAR LIMIT = NONE] -->
   <!-- Toast if user attempts to control audio effects without headphones plugged in. -->
   <!-- The title of the audio effects dialog. -->
   <!-- The tips of trimming video -->
+  <string name="action_consumes_rights">Oikeudet käytetään toistettaessa tätä mediaa</string>
+  <string name="text_makeup_whiten">Valkaisu</string>
+  <string name="text_makeup_Soften">Pehmennys</string>
   <!-- Timeline screen title -->
+  <string name="timeline_title">Aikajana</string>
   <!-- Albums screen title -->
   <!-- Videos screen title -->
+  <string name="videos_title">Videot</string>
+  <string name="action_viewtype_list">Listanäkymä</string>
+  <string name="tvEmptyAlbum">Kuvia ei löytynyt</string>
+  <string name="tvEmptyVideos">Videoita ei löytynyt</string>
+  <string name="text_makeup_trimface">Trimface</string>
+  <string name="text_makeup_bigeye">Isot silmät</string>
+  <string name="truescanner_normal">Normaali</string>
+  <string name="truescanner_white">Valkotaulu</string>
+  <string name="truescanner">TrueScanner</string>
+  <string name="truescanner_remove_glare">Poista häikäisy</string>
+  <string name="hazebuster_acts">Sumun poisto</string>
+  <string name="seestraight_acts">Katso suoraan</string>
+  <string name="seestraight_input_image_is_small">Kuva on liian pieni käsiteltäväksi.</string>
+  <string name="seestraight_process_fail">Kuvaa ei voitu käsitellä.</string>
   <string name="trim_video_exit_title">Haluatko tallentaa ennen sulkemista?</string>
+  <string name="trim_video_exit_msg">Hylkää videoon tekemäsi muutokset?</string>
+  <string name="trim_video_exit_discard">HYLKÄÄ</string>
 </resources>

@@ -337,11 +337,35 @@
   <string name="trueportrait_edit_background_toast">Utilizar el dedo para pintar en todas las áreas del fondo que faltaron.</string>
   <string name="trueportrait_edit_help">Para acercar, usar dos dedos para pellizcar abierto o cerrado. También puede arrastrar con dos dedos para volver a colocar la imagen. Esto puede hacer más fácil solucionar cualquier área de problema.</string>
   <string name="trueportrait_fusion_intro">Su persona de plano puede copiarse y pegarse sobre cualquier foto en su galería. Puedes probar con fotos de fondo diferente para crear nuevas e interesantes retratos.</string>
+  <string name="dualcam_fusion_intro">Su persona de plano puede copiarse y pegarse sobre cualquier foto en su galería. Puedes probar con fotos de fondo diferente para crear nuevas e interesantes retratos.</string>
+  <string name="do_not_show_again">No volver a mostrar</string>
+  <string name="trueportrait_touch_up">Toque para arriba</string>
+  <string name="fusion_pick_background">Seleccione la foto del fondo</string>
   <string name="color">Color</string>
   <string name="ok_continue">Continuar</string>
+  <string name="frames">Bordes</string>
+  <string name="beautify">Embellecer</string>
+  <string name="dualcam">Doble cámara</string>
+  <string name="trueportrait">Verdadero retrato</string>
+  <string name="foreground">Primer plano</string>
+  <string name="background">Fondo de pantalla</string>
+  <string name="brush_size">Tamaño de pincel</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_dialog_title">Filtro personalizado</string>
+  <string name="filtershow_dialog_content">Le permite crear una foto como filtro.\n\nSelecciona una foto que te guste y utilizala como filtro para otras fotos</string>
+  <string name="filtershow_dialog_original_photo">Foto original</string>
+  <string name="filtershow_dialog_apply_photo">Colores a aplicar</string>
+  <string name="filtershow_dialog_checkbox">No volver a mostrar</string>
   <string name="filtershow_preset_title">Personalizado</string>
   <string name="filtershow_preset_rename">Renombrar</string>
+  <string name="delete_before_exit">¿Eliminar el filtro?</string>
+  <string name="rename_before_exit">Cambiar el nombre de filtro</string>
+  <string name="filter_name">Nombre del filtro</string>
+  <string name="filter_name_notification">Nombre no puede ser NULL.</string>
+  <string name="filter_name_duplicate">Nombre ya existe, por favor escribe otro.</string>
   <string name="watermark_location">Ubicación</string>
   <string name="watermark_time">Hora</string>
+  <string name="watermark_weather">Clima</string>
+  <string name="watermark_emotions">Emociones</string>
+  <string name="watermark_food">Comida</string>
 </resources>

@@ -180,6 +180,7 @@
   <!--  Label for the "refocus" dual camera effect  [CHAR LIMIT=15] -->
   <string name="focus">Fokus</string>
   <!--  Label for the "fusion" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="fusion">Fusion</string>
   <!--  Label for the "sketch" dual camera effect  [CHAR LIMIT=15] -->
   <string name="sketch">Szkic</string>
   <!--  Label for the "halo" dual camera effect  [CHAR LIMIT=15] -->

@@ -46,6 +46,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <string name="streaming_settings">"Ustawienia strumieniowania"</string>
   <string name="next">"Dalej"</string>
   <string name="previous">"Wróć"</string>
+  <string name="rtp_rtcp">RTP/RTCP</string>
   <string name="min_port">minimalny port:</string>
   <string name="max_port">maksymalny port:</string>
   <string name="buffer_size">Rozmiar bufora</string>

@@ -30,6 +30,36 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Strings for step option settins -->
+  <string name="setp_option_name">Стъпка</string>
+  <string name="step_option_desc">Персонализиране на стъпка напред/назад</string>
+  <string name="setp_option_three_second">3 секунди</string>
+  <string name="setp_option_six_second">6 секунди</string>
+  <string name="loop">"Циклично"</string>
+  <string name="single">"Единичен"</string>
+  <string name="stereo">"Стерео"</string>
+  <string name="speaker_on">Високоговорител</string>
+  <string name="speaker_off">Високоговорител изкл.</string>
+  <string name="speaker_need_headset">Моля включете първо слушалките!</string>
+  <string name="single_track">"Единична песен"</string>
+  <string name="input_url">"Вмъкване на URL"</string>
   <string name="next">"Следващо"</string>
+  <string name="previous">"Предишна"</string>
+  <string name="rtp_rtcp">RTP/RTCP</string>
+  <string name="buffer_size">Размер на буфера</string>
+  <string name="apn">Предпочитан APN</string>
+  <string name="set_buffer_size">Задаване размер на буфера</string>
+  <string name="set_apn">Изберете предпочитан APN</string>
   <string name="setting">Настройки</string>
+  <string name="server_timeout_title">"Време за изчакване"</string>
+  <string name="media_controller_live">На Живо</string>
+  <string name="media_controller_playing">Възпроизвеждане</string>
+  <string name="media_controller_connecting">Свързване...</string>
+  <string name="bookmark_add">"Добавяне на отметка"</string>
+  <string name="bookmark_display">"Показване на отметките"</string>
+  <string name="bookmark_empty">"Няма отметки"</string>
+  <string name="bookmark_list">"Отметки"</string>
+  <string name="bookmark_title">"Заглавие"</string>
+  <string name="bookmark_location">"Местоположение"</string>
+  <string name="delete_all">"Изтрий всичко"</string>
+  <string name="default_title">"Заглавие по подразбиране"</string>
 </resources>

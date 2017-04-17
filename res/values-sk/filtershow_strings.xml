@@ -37,7 +37,7 @@
   <!--  Text for the undo menu item [CHAR LIMIT=20] -->
   <string name="filtershow_undo">Späť</string>
   <!--  Text for redo menu item [CHAR LIMIT=20] -->
-  <string name="filtershow_redo">Znova</string>
+  <string name="filtershow_redo">Opakovať</string>
   <!--  Text for the image menu item showing the filters that have been applied [CHAR LIMIT=30] -->
   <string name="show_imagestate_panel">Zobraziť použité efekty</string>
   <!--  Text for the image state panel menu item [CHAR LIMIT=30] -->
@@ -52,7 +52,7 @@
   <!--  Text for selecting export image quality [CHAR LIMIT=100] -->
   <string name="select_output_settings">Exportovaný obrázok bude kópia bez histórie.</string>
   <!--  Text for quality value tag [CHAR LIMIT=30] -->
-  <string name="quality">Kvalitné</string>
+  <string name="quality">Kvalita</string>
   <!--  Text for size value tag [CHAR LIMIT=30] -->
   <string name="size">Veľkosť</string>
   <!--  Text for size x [CHAR LIMIT=1] -->
@@ -61,9 +61,9 @@
   <string name="menu_settings">Nastavenia</string>
   <!--  Exit Dialog -->
   <!--  String displayed when exiting with unsaved changes [CHAR LIMIT=NONE] -->
-  <string name="unsaved">Niektoré zmeny obrázka nie sú uložené.</string>
+  <string name="unsaved">Zahodiť zmeny vykonané v tomto obrázku?</string>
   <!--  String displayed when exiting with unsaved changes [CHAR LIMIT=NONE] -->
-  <string name="save_before_exit">Chcete zmeny pred ukončením uložiť?</string>
+  <string name="save_before_exit">Zrušiť zmeny?</string>
   <!--  String displayed when saving and exiting editor [CHAR LIMIT=NONE] -->
   <string name="save_and_exit">Uložiť a ukončiť</string>
   <!--  String displayed when discard editor [CHAR LIMIT=NONE] -->
@@ -87,7 +87,7 @@
   <!--  Label for the apply effect button [CHAR LIMIT=15] -->
   <string name="apply_effect">Použiť</string>
   <!--  Label for the reset effect button [CHAR LIMIT=15] -->
-  <string name="reset_effect">Obnoviť</string>
+  <string name="reset_effect">Resetovať</string>
   <!--  Label for aspect [CHAR LIMIT=15] -->
   <string name="aspect">Pomer strán</string>
   <!--  Label for the aspect 1:1 effect [CHAR LIMIT=15] -->
@@ -108,7 +108,7 @@
   <string name="aspectNone_effect">Žiadny</string>
   <!--  Label for the aspect None effect [CHAR LIMIT=15] -->
   <!-- Label for when the aspect ratio is fixed to a value [CHAR LIMIT=15] -->
-  <string name="Fixed">Pevné</string>
+  <string name="Fixed">Pevný</string>
   <!--  Label for the tuny planet effect [CHAR LIMIT=10] -->
   <string name="tinyplanet">Malá planéta</string>
   <!--  Filters buttons -->
@@ -129,7 +129,7 @@
   <!--  Label for the image saturation (brightens colors) filter button [CHAR LIMIT=10] -->
   <string name="saturation">Sýtosť</string>
   <!--  Label for the image BW filter (makes black & white) button [CHAR LIMIT=10] -->
-  <string name="bwfilter">Filter ČB</string>
+  <string name="bwfilter">Č-B filter</string>
   <!--  Label for the image Autocolor filter (makes off-white colors whiter) button [CHAR LIMIT=10] -->
   <string name="wbalance">Autom. farba</string>
   <!--  Label for the image Hue filter (color, shade, tinge, tone) button [CHAR LIMIT=10] -->
@@ -137,7 +137,7 @@
   <!--  Label for the image shadow recovery (lightens/darkens shadows) filter button [CHAR LIMIT=10] -->
   <string name="shadow_recovery">Tiene</string>
   <!--  Label for the image highlights recovery (lightens/darkens bright regions) filter button [CHAR LIMIT=15] -->
-  <string name="highlight_recovery">Najsvetlejšie tóny</string>
+  <string name="highlight_recovery">Svetlé miesta</string>
   <!--  Label for the image curves filter button [CHAR LIMIT=10] -->
   <string name="curvesRGB">Krivky</string>
   <!--  Label for the image vignette filter (darkens photo around edges) button [CHAR LIMIT=10] -->
@@ -167,7 +167,7 @@
   <!-- Name for the photo effect that inverts photo to negative images. [CHAR LIMIT=10] -->
   <string name="negative">Negatív</string>
   <!--  Label for having no filters applied to the image [CHAR LIMIT=10] -->
-  <string name="none" msgid="3601545724573307541">Žiadne</string>
+  <string name="none" msgid="3601545724573307541">Žiadny</string>
   <!--  Label for the image edges effect (highlights edges in image) [CHAR LIMIT=10] -->
   <string name="edge">Hrany</string>
   <!--  Label for an image effect that replicates the "pop art" style of segmenting
@@ -190,7 +190,7 @@
   <!--  Label for the "motion" dual camera effect  [CHAR LIMIT=15] -->
   <string name="motion">Pohyb</string>
   <!--  Label for the "bw" dual camera effect  [CHAR LIMIT=15] -->
-  <string name="bw">ČB</string>
+  <string name="bw">Čiernobielo</string>
   <!--  Label for the "blackboard" dual camera effect  [CHAR LIMIT=15] -->
   <string name="blackboard">Čierna tabuľa</string>
   <!--  Label for the "whiteboard" dual camera effect  [CHAR LIMIT=15] -->
@@ -273,11 +273,11 @@
   <!--  The accept the draw size [CHAR LIMIT=20] -->
   <string name="draw_size_accept">OK</string>
   <!--  Name used to indicate the original image in the state panel [CHAR LIMIT=20] -->
-  <string name="state_panel_original">Pôvodné</string>
+  <string name="state_panel_original">Pôvodná</string>
   <!--  Name used to indicate the final image in the state panel [CHAR LIMIT=20] -->
   <string name="state_panel_result">Výsledok</string>
   <!-- Label for the notification [CHAR LIMIT=50] -->
-  <string name="filtershow_notification_label">Prebieha ukladanie obrázka</string>
+  <string name="filtershow_notification_label">Ukladanie obrázka</string>
   <!-- Label for the notification message [CHAR LIMIT=50] -->
   <string name="filtershow_notification_message">Prebieha spracovanie...</string>
   <!-- Label for the save preset menu [CHAR LIMIT=30] -->
@@ -319,7 +319,7 @@
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="filtershow_exif_date">Dátum vytvorenia</string>
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
-  <string name="filtershow_exif_f_stop">Clona</string>
+  <string name="filtershow_exif_f_stop">Clonové číslo</string>
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="filtershow_exif_exposure_time">Expozičný čas</string>
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->

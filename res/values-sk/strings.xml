@@ -20,7 +20,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">Galéria</string>
   <!-- Title for picture frame gadget to show in list of all available gadgets -->
-  <string name="gadget_title">Rámec fotografie</string>
+  <string name="gadget_title">Rám fotografie</string>
   <!-- Used to format short video duration in Details dialog. minutes:seconds e.g. 00:30 -->
   <!-- Used to format video duration in Details dialog. hours:minutes:seconds e.g. 0:21:30 -->
   <!-- Activity label. This might show up in the activity-picker -->
@@ -32,7 +32,7 @@
             account info [CHAR LIMIT=30] -->
   <string name="loading_account">Načítavanie účtu…</string>
   <!-- Movie View Resume Playing dialog title -->
-  <string name="resume_playing_title">Obnoviť prehrávanie videa</string>
+  <string name="resume_playing_title">Pokračovat v prehrávaní videa</string>
   <!-- Movie View Start Playing dialog title -->
   <string name="resume_playing_message">Pokračovať v prehrávaní od %s?</string>
   <!-- Movie View Start Playing button "Resume from bookmark" -->
@@ -77,21 +77,21 @@
   <!-- Title prompted for user to choose a media object [CHAR LIMIT=20] -->
   <string name="select_item">Vyberte položku</string>
   <!-- Title prompted for user to choose an album [CHAR LIMIT=20] -->
-  <string name="select_album">Vybrať album</string>
+  <string name="select_album">Vyberte album</string>
   <!-- Title prompted for user to choose a group [CHAR LIMIT=20] -->
-  <string name="select_group">Vybrať skupinu</string>
+  <string name="select_group">Vyberte skupinu</string>
   <!-- Displayed in the title of the dialog for things to do with a picture
              that is to be "set as" (e.g. set as contact photo or set as wallpaper) -->
   <string name="set_image">Nastaviť fotku ako</string>
   <!-- Activity title for cropping picture and setting it as wallpaper [CHAR LIMIT=20] -->
   <string name="set_wallpaper">Nastaviť tapetu</string>
   <!-- Toast/alert after saving wallpaper -->
-  <string name="wallpaper">Prebieha nastavenie tapety...</string>
+  <string name="wallpaper">Prebieha nastavovanie tapety...</string>
   <string name="camera_setas_wallpaper">Tapeta</string>
   <!-- Toast message for share items -->
   <string name="cannot_share_items">Max. počet vybraných položiek pre zdieľanie je 300</string>
   <!-- Details dialog "OK" button. Dismisses dialog. -->
-  <string name="delete">Odstrániť</string>
+  <string name="delete">Vymazať</string>
   <!-- String Delete the selected media item(s) [CHAR LIMIT=50] -->
   <plurals name="delete_selection">
     <item quantity="one">Odstrániť vybranú položku?</item>
@@ -105,7 +105,7 @@
   <string name="share_panorama">Zdieľať panorámu</string>
   <string name="share_as_photo">Zdieľať ako fotografiu</string>
   <!-- The label shown after an image is deleted [CHAR LIMIT=16] -->
-  <string name="deleted">Odstránený</string>
+  <string name="deleted">Vymazané</string>
   <!-- The label on the button which when clicked will undo a deletion of image [CHAR LIMIT=16]-->
   <string name="undo">SPÄŤ</string>
   <!-- String indicating more actions are available -->
@@ -159,7 +159,7 @@
          It means the pictures of the Picasa album is currently being
          transferred to local storage, so the pictures can later be viewed
          offline. [CHAR LIMIT=15] -->
-  <string name="caching_label">Do pamäte...</string>
+  <string name="caching_label">Ukladanie do medzipamäte...</string>
   <!-- The title of the menu item to let user crop the image. [CHAR LIMIT=15] -->
   <string name="crop_action">Orezať</string>
   <!-- The title of the menu item to let user trim the video. [CHAR LIMIT=15] -->
@@ -167,7 +167,7 @@
   <!-- The title of the menu item to let user mute the video. [CHAR LIMIT=15] -->
   <string name="mute_action">Vypnúť zvuk</string>
   <!-- The title of the menu item to let user set the image as background etc. [CHAR LIMIT=15] -->
-  <string name="set_as">Použiť ako</string>
+  <string name="set_as">Nastaviť ako</string>
   <!-- String indicating an error when muting the video. [CHAR LIMIT=30] -->
   <string name="video_mute_err">Zvuk videa sa nedá vypnúť.</string>
   <!-- String indicating an error when playing the video. [CHAR LIMIT=30] -->
@@ -338,25 +338,25 @@
          is a string representation of the amount of free space, eg. "20MB".
          [CHAR LIMIT=20]
     -->
-  <string name="free_space_format">Voľná pamäť: <xliff:g id="BYTES">%s</xliff:g></string>
+  <string name="free_space_format">Voľná pamäť: <xliff:g id="bytes">%s</xliff:g></string>
   <!-- Label of a group of pictures. The size of each picture in this group is
          less than a certain amount. The parameter is a string representation
          of that amount, eg. "10MB".
          [CHAR LIMIT=20]
     -->
-  <string name="size_below"><xliff:g id="SIZE">%1$s</xliff:g> alebo menej</string>
+  <string name="size_below"><xliff:g id="size">%1$s</xliff:g> alebo menej</string>
   <!-- Label of a group of pictures. The size of each picture in this group is
          more than a certain amount. The parameter is a string representation
          of that amount, eg. "10MB".
          [CHAR LIMIT=20]
     -->
-  <string name="size_above"><xliff:g id="SIZE">%1$s</xliff:g> alebo viac</string>
+  <string name="size_above"><xliff:g id="size">%1$s</xliff:g> alebo viac</string>
   <!-- Label of a group of pictures. The size of each picture in this group is
          between two amounts. The parameters are string representations of the two
          amounts, eg. "10MB", "100MB".
          [CHAR LIMIT=20]
     -->
-  <string name="size_between"><xliff:g id="MIN_SIZE">%1$s</xliff:g> až <xliff:g id="MAX_SIZE">%2$s</xliff:g></string>
+  <string name="size_between"><xliff:g id="min_size">%1$s</xliff:g> až <xliff:g id="max_size">%2$s</xliff:g></string>
   <!-- A label shown on the action bar. It indicates that the operation
          to import media item(s) [CHAR LIMIT=20] -->
   <string name="Import">Importovať</string>
@@ -376,7 +376,7 @@
   <!-- The label on the radio button for the widget type that shows the images in an album. [CHAR LIMIT=30]-->
   <string name="widget_type_shuffle">Náhodné poradie obrázkov</string>
   <!-- The label on the radio button for the widget type that shows only one image. [CHAR LIMIT=30]-->
-  <string name="widget_type_photo">Zvoľte obrázok</string>
+  <string name="widget_type_photo">Vybrať obrázok</string>
   <!-- The title of the dialog for choosing the type of widget. [CHAR LIMIT=20] -->
   <string name="widget_type">Vybrať obrázky</string>
   <!-- Title of the Android Dreams slideshow screensaver. [CHAR LIMIT=20] -->
@@ -427,7 +427,7 @@
   <!-- The content of a dialog showing trimming in progress. [CHAR LIMIT=30] -->
   <string name="please_wait">Počkajte</string>
   <!-- Toast after the trimming / muting is done. [CHAR LIMIT=50] -->
-  <string name="save_into">Video sa ukladá do albumu <xliff:g id="ALBUM_NAME">%1$s</xliff:g> …</string>
+  <string name="save_into">Video sa ukladá do albumu <xliff:g id="album_name">%1$s</xliff:g> …</string>
   <!-- Toast if the trimmed video is too short to trim. [CHAR LIMIT=80] -->
   <string name="trim_too_short">Nie je možné orezať: výsledné video je príliš krátke</string>
   <!-- Toast if the muted video is not supported. [CHAR LIMIT=80] -->
@@ -459,7 +459,7 @@
   <!--  Status message shown when content from an external camera is being imported -->
   <string name="ingest_importing">Prebieha import...</string>
   <!--  Status message shown when there is no content available to be imported -->
-  <string name="ingest_empty_device">Nie je k dispozícii žiadny obsah na import do tohto zariadenia.</string>
+  <string name="ingest_empty_device">Nie je k dispozícii žiadny obsah na import do tohoto zariadenia.</string>
   <!--  Status message shown when there is no MTP device connected  -->
   <string name="ingest_no_device">Nie je pripojené žiadne zariadenie MTP</string>
   <!-- Label for album grid button -->
@@ -497,11 +497,11 @@
   <!-- Settings screen, camera selection dialog title. Users can select a camera from the phone (front-facing or back-facing). [CHAR LIMIT=20] -->
   <string name="pref_camera_id_title">Vybrať fotoaparát</string>
   <!-- In select camera setting, back facing camera. [CHAR LIMIT=14] -->
-  <string name="pref_camera_id_entry_back">Zozadu</string>
+  <string name="pref_camera_id_entry_back">Zadná</string>
   <!-- In select camera setting, front-facing camera. [CHAR LIMIT=14] -->
-  <string name="pref_camera_id_entry_front">Spredu</string>
+  <string name="pref_camera_id_entry_front">Predná</string>
   <!-- Settings screen, setting title text -->
-  <string name="pref_camera_recordlocation_title">Úložné miesto</string>
+  <string name="pref_camera_recordlocation_title">Úložisko</string>
   <!--  Label for record location preference [CHAR LIMIT=50] -->
   <string name="pref_camera_location_label">POLOHA</string>
   <!-- Title for countdown timer on camera settings screen [CHAR LIMIT=30]-->
@@ -544,19 +544,19 @@
   <!-- Settings screen, dialog choice for 8 megapixels picture size [CHAR LIMIT=15] -->
   <string name="pref_camera_picturesize_entry_8mp">8 Mpx</string>
   <!-- Settings screen, dialog choice for 5 megapixels picture size [CHAR LIMIT=15] -->
-  <string name="pref_camera_picturesize_entry_5mp">5 megapixlov</string>
+  <string name="pref_camera_picturesize_entry_5mp">5 Mpx</string>
   <!-- Settings screen, dialog choice for 4 megapixels picture size [CHAR LIMIT=15] -->
-  <string name="pref_camera_picturesize_entry_4mp">4 MP</string>
+  <string name="pref_camera_picturesize_entry_4mp">4 Mpx</string>
   <!-- Settings screen, dialog choice for 3 megapixels picture size [CHAR LIMIT=15] -->
-  <string name="pref_camera_picturesize_entry_3mp">3 megapixle</string>
+  <string name="pref_camera_picturesize_entry_3mp">3 Mpx</string>
   <!-- Settings screen, dialog choice for 2 megapixels picture size [CHAR LIMIT=15] -->
-  <string name="pref_camera_picturesize_entry_2mp">2 megapixle</string>
+  <string name="pref_camera_picturesize_entry_2mp">2 Mpx</string>
   <!-- Settings screen, dialog choice for 2 megapixels picture size [CHAR LIMIT=15] -->
-  <string name="pref_camera_picturesize_entry_2mp_wide">2 MP (16:9)</string>
+  <string name="pref_camera_picturesize_entry_2mp_wide">2 Mpx (16:9)</string>
   <!-- Settings screen, dialog choice for 1.3 megapixels picture size [CHAR LIMIT=15] -->
-  <string name="pref_camera_picturesize_entry_1_3mp">1,3 megapixlov</string>
+  <string name="pref_camera_picturesize_entry_1_3mp">1,3 Mpx</string>
   <!-- Settings screen, dialog choice for 1 megapixels picture size [CHAR LIMIT=15] -->
-  <string name="pref_camera_picturesize_entry_1mp">1 megapixel</string>
+  <string name="pref_camera_picturesize_entry_1mp">1 Mpx</string>
   <!-- Settings screen, dialog choice for VGA picture size [CHAR LIMIT=15] -->
   <string name="pref_camera_picturesize_entry_vga">VGA</string>
   <!-- Settings screen, dialog choice for QVGA picture size [CHAR LIMIT=15] -->
@@ -579,8 +579,8 @@
   <string name="pref_camera_flashmode_label">REŽIM BLESKU</string>
   <!-- Settings screen, Flash mode dialog radio button choices -->
   <string name="pref_camera_flashmode_entry_auto">Auto</string>
-  <string name="pref_camera_flashmode_entry_on">Zapnuté</string>
-  <string name="pref_camera_flashmode_entry_off">Vypnuté</string>
+  <string name="pref_camera_flashmode_entry_on">Zapnúť</string>
+  <string name="pref_camera_flashmode_entry_off">Vypnúť</string>
   <!-- Menu, flash mode labels [CHAR LIMIT=50] -->
   <string name="pref_camera_flashmode_label_auto">AUTOMATICKÝ BLESK</string>
   <string name="pref_camera_flashmode_label_on">BLESK ZAPNUTÝ</string>
@@ -593,9 +593,9 @@
   <string name="pref_camera_whitebalance_label">VYVÁŽENIE BIELEJ</string>
   <!-- Settings screen, White balance dialog radio button choices -->
   <string name="pref_camera_whitebalance_entry_auto">Auto</string>
-  <string name="pref_camera_whitebalance_entry_incandescent">Žiariace</string>
+  <string name="pref_camera_whitebalance_entry_incandescent">Žiarovka</string>
   <string name="pref_camera_whitebalance_entry_daylight">Denné svetlo</string>
-  <string name="pref_camera_whitebalance_entry_fluorescent">Svetielkujúce</string>
+  <string name="pref_camera_whitebalance_entry_fluorescent">Žiarivka</string>
   <string name="pref_camera_whitebalance_entry_cloudy">Zamračené</string>
   <!-- Menu, White balance labels [CHAR LIMIT=50] -->
   <string name="pref_camera_whitebalance_label_auto">AUTO</string>
@@ -617,7 +617,7 @@
   <!-- Scene mode optimized for taking images in the sunset. [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_sunset">Západ slnka</string>
   <!-- Scene mode optimized for taking indoor low-lights pictures. [CHAR LIMIT=16] -->
-  <string name="pref_camera_scenemode_entry_party">Strana</string>
+  <string name="pref_camera_scenemode_entry_party">Večierok</string>
   <!-- Settings menu, scene mode labels [CHAR LIMIT=50] -->
   <string name="pref_camera_scenemode_label_auto">ŽIADNE</string>
   <!-- Scene mode that takes an image quickly with little motion blur. [CHAR LIMIT=50] -->
@@ -656,14 +656,14 @@
   <!-- Dialog "OK" button. Dismisses dialog. -->
   <string name="dialog_ok">OK</string>
   <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
-  <string name="spaceIsLow_content" product="nosdcard">V ukladacom priestore USB je málo miesta. Zmeňte nastavenie kvality alebo odstráňte niektoré obrázky či iné súbory.</string>
+  <string name="spaceIsLow_content" product="nosdcard">Na úložisku USB je málo miesta. Zmeňte nastavenie kvality alebo odstráňte niektoré obrázky či iné súbory.</string>
   <!-- Low-memory dialog message [CHAR LIMIT=NONE] -->
   <string name="spaceIsLow_content" product="default">Na karte SD je málo miesta. Zmeňte nastavenie kvality alebo odstráňte niektoré obrázky či iné súbory.</string>
   <!-- Camera format string for new image files. Passed to java.text.SimpleDateFormat. -->
   <!-- Video Camera format string for new video files. Passed to java.text.SimpleDateFormat. -->
   <!-- Filename prefix for panorama output. -->
   <!-- The message shown when video record reaches size limit. -->
-  <string name="video_reach_size_limit">Bolo dosiahnuté obmedzenie veľkosti.</string>
+  <string name="video_reach_size_limit">Bol dosiahnutý limit veľkosti.</string>
   <!-- The text shown when the panorama panning speed is to fast [CHAR LIMIT=12] -->
   <string name="pano_too_fast_prompt">Veľmi rýchlo</string>
   <!-- The text shown in the progress dialog when panorama preview is generating in the background [CHAR LIMIT=30] -->
@@ -939,7 +939,7 @@ CHAR LIMIT = NONE] -->
   <string name="truescanner">TrueScanner</string>
   <string name="truescanner_remove_glare">Odstránenie odleskov</string>
   <string name="hazebuster_acts">Haze Buster</string>
-  <string name="seestraight_acts">Pozerať rovno</string>
+  <string name="seestraight_acts">Pohľad priamo</string>
   <string name="seestraight_input_image_is_small">Vstupný obraz je príliš malý na spracovanie.</string>
   <string name="seestraight_process_fail">Obrázok sa nepodarilo spracovať.</string>
   <string name="trim_video_exit_title">Chcete zmeny pred ukončením uložiť?</string>

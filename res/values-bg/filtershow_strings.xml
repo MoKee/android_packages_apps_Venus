@@ -323,6 +323,7 @@
   <string name="ok_continue">Продължете</string>
   <!--Filtershow dialog -->
   <string name="filtershow_preset_title">По избор</string>
+  <string name="watermark_location">Местоположение</string>
   <string name="watermark_time">Час</string>
   <string name="watermark_weather">Прогноза за времето</string>
 </resources>

@@ -890,6 +890,8 @@ CHAR LIMIT = NONE] -->
   <!-- Toast if user attempts to control audio effects without headphones plugged in. -->
   <!-- The title of the audio effects dialog. -->
   <!-- The tips of trimming video -->
+  <string name="drm_license_info">DRM lisenssin tiedot</string>
+  <string name="mimetype_not_supported">Tätä tiedostoa ei voi toistaa</string>
   <string name="action_consumes_rights">Oikeudet käytetään toistettaessa tätä mediaa</string>
   <string name="text_makeup_whiten">Valkaisu</string>
   <string name="text_makeup_Soften">Pehmennys</string>

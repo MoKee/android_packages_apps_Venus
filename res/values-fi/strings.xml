@@ -304,6 +304,7 @@
          photography (makes colors bluish) (filtershow_fx_0006_x_process) [CHAR LIMIT=10] -->
   <string name="ffx_x_process">X-prosessi</string>
   <!-- String for filter that makes image coffee-colored (filtershow_fx_0007_washout) [CHAR LIMIT=10] -->
+  <string name="ffx_washout">Latte</string>
   <!-- String for filter that makes colors washed out and brownish
          (filtershow_fx_0008_washout_color) [CHAR LIMIT=10] -->
   <string name="ffx_washout_color">Litografia</string>
@@ -386,7 +387,7 @@
   <!-- Group by Tags tab on Action Bar. [CHAR LIMIT=12] -->
   <string name="tags">Tunnisteet</string>
   <!-- Group by menu item. [CHAR LIMIT=20] -->
-  <string name="group_by">Ryhmittely:</string>
+  <string name="group_by">Ryhmittely</string>
   <!-- The title of the menu item which enable the settings [CHAR LIMIT=20] -->
   <string name="settings">Asetukset</string>
   <!-- The title of menu item where user can add a new account -->
@@ -425,6 +426,7 @@
   <!-- Toast if the trimmed video is too short to trim. [CHAR LIMIT=80] -->
   <string name="trim_too_short">Ei voi leikata: kohdevideo on liian lyhyt</string>
   <!-- Toast if the muted video is not supported. [CHAR LIMIT=80] -->
+  <string name="mute_nosupport">Ei voitu mykistää: videota ei tueta</string>
   <!-- Text to show with progress bar while stitching in Gallery -->
   <string name="pano_progress_text">Panoraamaa hahmonnetaan</string>
   <!-- The label on the button that will save an edited image -->
@@ -439,6 +441,10 @@
     <item quantity="other">%1$d kohdetta skannattu</item>
   </plurals>
   <!-- String indicating how many media items from the camera have been selected -->
+  <plurals name="ingest_number_of_items_selected">
+    <item quantity="one">%1$d item selected</item>
+    <item quantity="other">%1$d items selected</item>
+  </plurals>
   <!--  Status message shown when content from the camera is being sorted -->
   <string name="ingest_sorting" msgid="624687230903648118">Järjestellään...</string>
   <!--  Status message shown when scanning the content from the camera has completed -->
@@ -866,6 +872,7 @@ CHAR LIMIT = NONE] -->
   <!-- Positive answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
   <string name="remember_location_yes">Kyllä</string>
   <!-- The message is shown in toast when click showOnMap Menu and there is no map app -->
+  <string name="map_activity_not_found_err">Ei karttasovellusta sijainnin näyttämiseen.</string>
   <!-- Menu item to launch the camera app [CHAR LIMIT=25] -->
   <string name="menu_camera">Kamera</string>
   <!-- Menu item to search for photos [CHAR LIMIT=25] -->
@@ -884,12 +891,24 @@ CHAR LIMIT = NONE] -->
     <item quantity="one">%1$d valokuva</item>
     <item quantity="other">%1$d valokuvaa</item>
   </plurals>
+  <plurals name="number_of_videos">
+    <item quantity="one">%1$d video</item>
+    <item quantity="other">%1$d videota</item>
+  </plurals>
   <!-- The label for the bass boost knob of the audio effects dialog. -->
+  <string name="bass_boost_strength">Basson korostus</string>
   <!-- The label for the 3d effect knob of the audio effects dialog. -->
+  <string name="virtualizer_strength">Surround-ääni</string>
   <!-- The label for the audio effects menu. -->
+  <string name="audio_effects">Audioefektit</string>
   <!-- Toast if user attempts to control audio effects without headphones plugged in. -->
+  <string name="headset_plug">Kytke kuulokkeet käyttääksesi näitä efektejä.</string>
   <!-- The title of the audio effects dialog. -->
+  <string name="audio_effects_dialog_title">Snapdragon Audio+</string>
   <!-- The tips of trimming video -->
+  <string name="fail_trim">Pahoittelut, tätä videotiedostoa ei ole mahdollista leikata</string>
+  <string name="can_not_trim">Vain mp4- ja 3gp-tiedostoja voidaan leikata</string>
+  <string name="no_permission_for_drm">"Valitettavasti DRM-tiedostoa ei voi jakaa"</string>
   <string name="drm_license_info">DRM lisenssin tiedot</string>
   <string name="mimetype_not_supported">Tätä tiedostoa ei voi toistaa</string>
   <string name="action_consumes_rights">Oikeudet käytetään toistettaessa tätä mediaa</string>

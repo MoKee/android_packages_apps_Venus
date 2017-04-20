@@ -52,6 +52,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <string name="buffer_size">Μέγεθος προσ. μνήμης</string>
   <string name="apn">Προτιμώμενο APN</string>
   <string name="rtp_min_port">Ελάχιστη θύρα</string>
+  <string name="rtp_max_port">Μέγιστη θύρα</string>
   <string name="setting">Ρυθμίσεις</string>
   <string name="bookmark_add">"Προσθήκη σελιδοδείκτη"</string>
 </resources>

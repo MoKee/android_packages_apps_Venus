@@ -308,6 +308,7 @@
   <string name="ok_continue">Nadaljuj</string>
   <!--Filtershow dialog -->
   <string name="filtershow_preset_title">Po meri</string>
+  <string name="watermark_location">Lokacija</string>
   <string name="watermark_time">Ura</string>
   <string name="watermark_weather">Vreme</string>
 </resources>

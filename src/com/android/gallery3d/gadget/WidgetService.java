@@ -122,7 +122,12 @@ public class WidgetService extends RemoteViewsService {
                 // This instance has been destroyed, exit out
                 return null;
             }
-            Bitmap bitmap = mSource.getImage(position);
+            Bitmap bitmap = null;
+            try {
+                bitmap = mSource.getImage(position);
+            } catch (UnsupportedOperationException e){
+                // catch exception here to avoid FC
+            }
 
             boolean isDrm = false;
 //            if (DrmHelper.isDrmFile(DrmHelper.getFilePath(

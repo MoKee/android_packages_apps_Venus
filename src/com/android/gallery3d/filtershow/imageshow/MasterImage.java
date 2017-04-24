@@ -746,9 +746,9 @@ public class MasterImage implements RenderingRequestCaller {
                     bitmapToDraw.getWidth(),
                     bitmapToDraw.getHeight());
             scale = mImageShowSize.x / size.width();
-            if (size.width() < size.height()) {
-                scale = mImageShowSize.y / size.height();
-            }
+            float tmp = mImageShowSize.y / size.height();
+            // Choose the smaller one to avoid master image beyound the screen.
+            scale = scale < tmp ? scale : tmp;
             translateX = (mImageShowSize.x - (size.width() * scale)) / 2.0f;
             translateY = (mImageShowSize.y - (size.height() * scale)) / 2.0f;
         } else {
@@ -992,6 +992,10 @@ public class MasterImage implements RenderingRequestCaller {
 
             // check for pre-generated dm file
             String mpoFilepath = ImageLoader.getLocalPathFromUri(context, uri);
+            if(mpoFilepath == null) {
+                Log.d(LOGTAG, "Could not get file path from " + uri);
+                return false;
+            }
             // read auxiliary image and generate depth map.
             Bitmap auxiliaryBm = BitmapFactory.decodeByteArray(auxiliaryMpoData, 0, auxiliaryMpoData.length);
 

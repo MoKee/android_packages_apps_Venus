@@ -905,8 +905,6 @@ CHAR LIMIT = NONE] -->
   <string name="audio_effects">Efeitos de áudio</string>
   <!-- Toast if user attempts to control audio effects without headphones plugged in. -->
   <string name="headset_plug">Conecte fones de ouvido para utilizar esses efeitos.</string>
-  <!-- The title of the audio effects dialog. -->
-  <string name="audio_effects_dialog_title">Snapdragon Audio +</string>
   <!-- The tips of trimming video -->
   <string name="fail_trim">Desculpe, este vídeo não pode ser cortado</string>
   <string name="can_not_trim">Apenas arquivos mp4 e 3gp podem ser cortados</string>

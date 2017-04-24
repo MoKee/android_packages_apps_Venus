@@ -866,7 +866,6 @@ CHAR LIMIT = NONE] -->
   <!-- The label for the 3d effect knob of the audio effects dialog. -->
   <!-- The label for the audio effects menu. -->
   <!-- Toast if user attempts to control audio effects without headphones plugged in. -->
-  <!-- The title of the audio effects dialog. -->
   <!-- The tips of trimming video -->
   <!-- Timeline screen title -->
   <!-- Albums screen title -->

@@ -100,6 +100,7 @@
   <string name="confirm">Megerősítés</string>
   <string name="cancel">Mégse</string>
   <string name="share">Megosztás</string>
+  <string name="share_dialogue_title">Megosztás ezzel</string>
   <string name="share_panorama">Panorámakép megosztása</string>
   <string name="share_as_photo">Megosztás fényképként</string>
   <!-- The label shown after an image is deleted [CHAR LIMIT=16] -->
@@ -192,6 +193,7 @@
   <string name="no_location">Nincs helyadat</string>
   <!-- When grouping photos by peoples, the label used for photos that don't
         have people information in them [CHAR LIMIT=20]-->
+  <string name="no_faces">Nincsenek arcok</string>
   <!-- This toast message is shown when network connection is lost while doing clustering -->
   <string name="no_connectivity">Néhány helyet nem lehetett azonosítani hálózati problémák miatt.</string>
   <!-- This toast message is shown when failed to load the album data. [CHAR LIMIT=NONE] -->
@@ -907,6 +909,7 @@ CHAR LIMIT = NONE] -->
   <string name="no_permission_for_drm">"Sajnáljuk, Drm fájl nem osztható meg"</string>
   <string name="drm_license_info">DRM liszensz információ</string>
   <string name="mimetype_not_supported">Ezt a fájlt nem lehet lejátszani</string>
+  <string name="text_makeup_whiten">Fehérítés</string>
   <string name="text_makeup_Soften">Lágyítás</string>
   <!-- Timeline screen title -->
   <string name="timeline_title">Idővonal</string>
@@ -918,6 +921,7 @@ CHAR LIMIT = NONE] -->
   <string name="tvEmptyVideos">Nem találhatóak videók</string>
   <string name="text_makeup_bigeye">Nagyszemű</string>
   <string name="truescanner_normal">Normál</string>
+  <string name="seestraight_input_image_is_small">Bemeneti kép túl kicsi a feldolgozáshoz.</string>
   <string name="seestraight_process_fail">Nem sikerült feldolgozni a képet.</string>
   <string name="trim_video_exit_title">Szeretne menteni a kilépés előtt?</string>
   <string name="trim_video_exit_msg">Eldobja a változtatásokat?</string>

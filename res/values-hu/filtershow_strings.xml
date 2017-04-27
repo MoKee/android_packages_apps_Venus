@@ -113,6 +113,7 @@
   <string name="tinyplanet">Kisbolygó</string>
   <!--  Filters buttons -->
   <!--  True Effect button -->
+  <string name="trueScanner">Igazi Szkenner</string>
   <!--  HazeBuster button -->
   <!--  SeeStraight button -->
   <!--  Label for the image exposure (brightness) filter button [CHAR LIMIT=10] -->
@@ -326,6 +327,8 @@
   <string name="color">Szín</string>
   <string name="ok_continue">Folytatás</string>
   <string name="frames">Keretek</string>
+  <string name="dualcam">Kettős kamera</string>
+  <string name="brush_size">Ecset méret</string>
   <!--Filtershow dialog -->
   <string name="filtershow_dialog_title">Egyéni szűrő</string>
   <string name="filtershow_dialog_original_photo">Eredeti fotó</string>
@@ -336,6 +339,8 @@
   <string name="delete_before_exit">Szűrő törlése?</string>
   <string name="rename_before_exit">Szűrő átnevezése</string>
   <string name="filter_name">Szűrő neve</string>
+  <string name="filter_name_notification">Név nem lehet üres.</string>
+  <string name="filter_name_duplicate">Név foglalt, kérem válasszon másikat.</string>
   <string name="watermark_location">Hely</string>
   <string name="watermark_time">Idő</string>
   <string name="watermark_weather">Időjárás</string>

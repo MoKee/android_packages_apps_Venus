@@ -115,7 +115,7 @@
   <!--  True Effect button -->
   <string name="trueScanner">真實掃描</string>
   <!--  HazeBuster button -->
-  <string name="hazeBuster">Haze Buster</string>
+  <string name="hazeBuster">霧霾剋星</string>
   <!--  SeeStraight button -->
   <string name="seeStraight">參考直線</string>
   <!--  Label for the image exposure (brightness) filter button [CHAR LIMIT=10] -->

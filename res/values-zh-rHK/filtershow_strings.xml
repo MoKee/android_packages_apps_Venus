@@ -26,7 +26,7 @@
   <string name="setting_wallpaper">正在設定桌布</string>
   <!--  generic strings -->
   <!--  Text for to display on a download failure [CHAR LIMIT=NONE] -->
-  <string name="download_failure">目前沒有網絡連線，因此無法下載相片。</string>
+  <string name="download_failure">目前沒有網絡連綫，因此無法下載相片。</string>
   <!--  Text to label an image as "original" [CHAR LIMIT=20] -->
   <string name="original">原始</string>
   <!--  Text for filters that apply a border to a picture [CHAR LIMIT=20] -->
@@ -115,7 +115,7 @@
   <!--  True Effect button -->
   <string name="trueScanner">真實掃描</string>
   <!--  HazeBuster button -->
-  <string name="hazeBuster">Haze Buster</string>
+  <string name="hazeBuster">霧霾剋星</string>
   <!--  SeeStraight button -->
   <string name="seeStraight">參考直線</string>
   <!--  Label for the image exposure (brightness) filter button [CHAR LIMIT=10] -->

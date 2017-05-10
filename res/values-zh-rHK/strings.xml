@@ -161,7 +161,7 @@
   <!-- The title of the menu item to let user set the image as background etc. [CHAR LIMIT=15] -->
   <string name="set_as">設為</string>
   <!-- String indicating an error when muting the video. [CHAR LIMIT=30] -->
-  <string name="video_mute_err">無法將影片設為靜音。</string>
+  <string name="video_mute_err">無法將影片靜音。</string>
   <!-- String indicating an error when playing the video. [CHAR LIMIT=30] -->
   <string name="video_err">無法播放影片。</string>
   <!-- Strings for grouping operations in the menu. The photos can be grouped
@@ -413,7 +413,7 @@
   <!-- The tilte of a dialog showing trimming in progress. [CHAR LIMIT=20] -->
   <string name="trimming">剪輯中</string>
   <!-- The tilte of a dialog showing muting in progress. [CHAR LIMIT=20] -->
-  <string name="muting">正在設為靜音</string>
+  <string name="muting">正在靜音</string>
   <!-- The content of a dialog showing trimming in progress. [CHAR LIMIT=30] -->
   <string name="please_wait">請稍候</string>
   <!-- Toast after the trimming / muting is done. [CHAR LIMIT=50] -->

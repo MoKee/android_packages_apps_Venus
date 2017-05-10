@@ -20,8 +20,6 @@ LOCAL_AAPT_FLAGS := --auto-add-overlay
 
 LOCAL_PACKAGE_NAME := Venus
 
-LOCAL_CERTIFICATE := platform
-
 LOCAL_PRIVILEGED_MODULE := true
 
 LOCAL_AAPT_FLAGS += --rename-manifest-package org.mokee.venus

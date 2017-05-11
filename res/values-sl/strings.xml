@@ -95,6 +95,7 @@
   <string name="confirm">Potrdi</string>
   <string name="cancel">Prekliči</string>
   <string name="share">Skupna raba</string>
+  <string name="share_dialogue_title">Deli preko</string>
   <string name="share_panorama">Deli panoramski posnetek z drugimi</string>
   <string name="share_as_photo">Deli z drugimi kot fotografijo</string>
   <!-- The label shown after an image is deleted [CHAR LIMIT=16] -->
@@ -175,6 +176,7 @@
   <string name="no_location">Ni lokacije</string>
   <!-- When grouping photos by peoples, the label used for photos that don't
         have people information in them [CHAR LIMIT=20]-->
+  <string name="no_faces">Ni obrazov</string>
   <!-- This toast message is shown when network connection is lost while doing clustering -->
   <string name="no_connectivity">Nekaterih ​​lokacij ni bilo mogoče določiti zaradi težav v omrežju.</string>
   <!-- This toast message is shown when failed to load the album data. [CHAR LIMIT=NONE] -->
@@ -240,6 +242,7 @@
   <!-- Text indicating the maker of a media item in details window [CHAR LIMIT=14] -->
   <string name="maker">Izdelovalec</string>
   <!-- Text indicating the model of a media item in details window [CHAR LIMIT=14] -->
+  <string name="model">Model</string>
   <!-- Text indicating flash info of a media item in details window [CHAR LIMIT=14] -->
   <string name="flash">Bliskavica</string>
   <!-- Text indicating aperture of a media item in details window [CHAR LIMIT=14] -->
@@ -251,8 +254,10 @@
   <!-- Text indicating the exposure time of a media item in details window [CHAR LIMIT=14] -->
   <string name="exposure_time">Čas osvetlitve</string>
   <!-- Text indicating the ISO speed rating of a media item in details window [CHAR LIMIT=14] -->
+  <string name="iso">ISO</string>
   <!-- String indicating the time units in seconds. [CHAR LIMIT=8] -->
   <!-- String indicating the length units in milli-meters. [CHAR LIMIT=8] -->
+  <string name="unit_mm">mm</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
   <string name="manual">Ročno</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
@@ -558,6 +563,7 @@
   <!-- Settings menu, scene mode choices [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_auto">Samodejno</string>
   <!-- Scene mode that uses HDR (high dynamic range) [CHAR LIMIT=16] -->
+  <string name="pref_camera_scenemode_entry_hdr">HDR</string>
   <!-- Scene mode that takes an image quickly with little motion blur. [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_action">Dejanje</string>
   <!-- Scene mode that takes long exposures to capture night scenes without flash. [CHAR LIMIT=16] -->
@@ -596,6 +602,7 @@
   <string name="pref_exposure_label">OSVETLITEV</string>
   <!-- Default HDR entry value -->
   <!-- HDR label ON [CHAR LIMIT=60] -->
+  <string name="pref_camera_hdr_label">HDR</string>
   <!-- switch camera label back [CHAR LIMIT=60] -->
   <string name="pref_camera_id_label_back">FOTOAPARAT SPREDAJ</string>
   <!-- switch camera label front [CHAR LIMIT=60] -->
@@ -846,6 +853,7 @@ CHAR LIMIT = NONE] -->
   <!-- Toast if user attempts to control audio effects without headphones plugged in. -->
   <!-- The tips of trimming video -->
   <!-- Timeline screen title -->
+  <string name="timeline_title">Časovnica</string>
   <!-- Albums screen title -->
   <!-- Videos screen title -->
   <string name="truescanner_normal">Običajno</string>

@@ -56,6 +56,7 @@
   <!--  Text for size value tag [CHAR LIMIT=30] -->
   <string name="size">Velikost</string>
   <!--  Text for size x [CHAR LIMIT=1] -->
+  <string name="x">x</string>
   <!--  Name for the overflow menu item for settings [CHAR LIMIT=20] -->
   <string name="menu_settings">Nastavitve</string>
   <!--  Exit Dialog -->
@@ -175,13 +176,16 @@
   <!--  Label for the "refocus" dual camera effect  [CHAR LIMIT=15] -->
   <!--  Label for the "fusion" dual camera effect  [CHAR LIMIT=15] -->
   <!--  Label for the "sketch" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="sketch">Skica</string>
   <!--  Label for the "halo" dual camera effect  [CHAR LIMIT=15] -->
   <!--  Label for the "zoom" dual camera effect  [CHAR LIMIT=15] -->
   <!--  Label for the "motion" dual camera effect  [CHAR LIMIT=15] -->
   <!--  Label for the "bw" dual camera effect  [CHAR LIMIT=15] -->
   <string name="bw">ČB</string>
   <!--  Label for the "blackboard" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="blackboard">Črna tabla</string>
   <!--  Label for the "whiteboard" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="whiteboard">Bela tabla</string>
   <!--  Label for the "posterize" dual camera effect  [CHAR LIMIT=15] -->
   <string name="posterize">Poster</string>
   <!--  Label for the "negative" dual camera effect  [CHAR LIMIT=15] -->
@@ -207,12 +211,14 @@
   <!--  Label for the blue control for per channel saturation effect [CHAR LIMIT=20] -->
   <string name="editor_chan_sat_blue">Modra</string>
   <!--  Label for the Magenta control for per channel saturation effect [CHAR LIMIT=20] -->
+  <string name="editor_chan_sat_magenta">Vijolična</string>
   <!--  Label for the image graduated filter effect  [CHAR LIMIT=20] -->
   <string name="editor_grad_style">Slog</string>
   <!-- new virtual graduated neutral density filter  [CHAR LIMIT=20] -->
   <string name="editor_grad_new">novo</string>
   <!--  Labels for the curves tool -->
   <!--  Label for the curves tool, all channels (RGB) [CHAR LIMIT=3] -->
+  <string name="curves_channel_rgb">RGB</string>
   <!--  Label for the curves tool, Red color channel [CHAR LIMIT=14] -->
   <string name="curves_channel_red">Rdeče</string>
   <!--  Label for the curves tool, Green color channel [CHAR LIMIT=14] -->
@@ -294,6 +300,7 @@
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="filtershow_exif_focal_length">Goriščna razdalja</string>
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
+  <string name="filtershow_exif_iso">ISO</string>
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="filtershow_exif_subject_distance">Oddaljenost motiva</string>
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
@@ -307,8 +314,14 @@
   <string name="color">Barva</string>
   <string name="ok_continue">Nadaljuj</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_dialog_original_photo">Izvirna fotografija</string>
   <string name="filtershow_preset_title">Po meri</string>
+  <string name="rename_before_exit">Preimenuj filter</string>
+  <string name="filter_name">Ime filtra</string>
+  <string name="filter_name_notification">Ime ne more biti prazno.</string>
+  <string name="filter_name_duplicate">Ime že obstaja, prosim izberite drugo.</string>
   <string name="watermark_location">Lokacija</string>
   <string name="watermark_time">Ura</string>
   <string name="watermark_weather">Vreme</string>
+  <string name="watermark_emotions">Čustva</string>
 </resources>

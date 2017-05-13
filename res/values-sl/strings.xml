@@ -89,6 +89,7 @@
   <string name="wallpaper">Nastavljanje slike za ozadje ...</string>
   <string name="camera_setas_wallpaper">Slika za ozadje</string>
   <!-- Toast message for share items -->
+  <string name="cannot_share_items">Največje število izbranih predmetov za deljenje je 300</string>
   <!-- Details dialog "OK" button. Dismisses dialog. -->
   <string name="delete">Izbriši</string>
   <!-- String Delete the selected media item(s) [CHAR LIMIT=50] -->
@@ -115,6 +116,12 @@
             eg. 1 selected [CHAR LIMIT=30] -->
   <!-- String indicating how many media album(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
+  <plurals name="number_of_albums_selected">
+    <item quantity="one">%1$d izbran element</item>
+    <item quantity="two">%1$d izbrana elementa</item>
+    <item quantity="few">%1$d izbrani elementi</item>
+    <item quantity="other">%1$d izbranih elementov</item>
+  </plurals>
   <!-- String indicating how many media group(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
   <!-- String indicating timestamp of photo or video -->
@@ -209,6 +216,7 @@
          some albums to be viewable offline [CHAR LIMIT=30] -->
   <string name="make_available_offline">Omogoči dostop brez povezave</string>
   <!-- A label describing to link website [CHAR LIMIT=30] -->
+  <string name="more_image">Več slik</string>
   <!-- A label of a menu item for user to sync the content [CHAR LIMIT=30] -->
   <string name="sync_picasa_albums">Osveži</string>
   <!-- A label on a button. The user clicks this button after he has
@@ -413,6 +421,12 @@
   <string name="ingest_scanning" msgid="2048262851775139720">Pregledovanje vsebine ...</string>
   <!-- String indicating how many media items from the camera have been scanned -->
   <!-- String indicating how many media items from the camera have been selected -->
+  <plurals name="ingest_number_of_items_selected">
+    <item quantity="one">%1$d izbran element</item>
+    <item quantity="two">%1$d izbrana elementa</item>
+    <item quantity="few">%1$d izbrani elementi</item>
+    <item quantity="other">%1$d izbranih elementov</item>
+  </plurals>
   <!--  Status message shown when content from the camera is being sorted -->
   <string name="ingest_sorting" msgid="624687230903648118">Razvrščanje ...</string>
   <!--  Status message shown when scanning the content from the camera has completed -->
@@ -468,6 +482,12 @@
   <!-- Title for countdown timer on camera settings screen [CHAR LIMIT=30]-->
   <string name="pref_camera_timer_title">Odštevalnik</string>
   <!-- Entry for countdown timer setting. e.g. 1 second, 10 seconds, etc. [CHAR LIMIT=30]-->
+  <plurals name="pref_camera_timer_entry">
+    <item quantity="one">1 sekunda</item>
+    <item quantity="two">%d sekundi</item>
+    <item quantity="few">%d sekunde</item>
+    <item quantity="other">%d sekund</item>
+  </plurals>
   <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT = 16]-->
   <string name="pref_camera_timer_sound_title">Zvok med odštevanjem</string>
   <!-- Entry of a on/off setting. The setting is turned off. [CHAR LIMIT=15] -->
@@ -514,7 +534,9 @@
   <!-- Settings screen, dialog choice for 1 megapixels picture size [CHAR LIMIT=15] -->
   <string name="pref_camera_picturesize_entry_1mp">1 M sl. pik</string>
   <!-- Settings screen, dialog choice for VGA picture size [CHAR LIMIT=15] -->
+  <string name="pref_camera_picturesize_entry_vga">VGA</string>
   <!-- Settings screen, dialog choice for QVGA picture size [CHAR LIMIT=15] -->
+  <string name="pref_camera_picturesize_entry_qvga">QVGA</string>
   <!-- Settings screen, Focus mode title -->
   <string name="pref_camera_focusmode_title">Način ostrenja</string>
   <!-- Settings screen, Focus mode dialog radio button choices -->
@@ -625,6 +647,7 @@
   <!-- The text shown in the dialog when panorama saving failed [CHAR LIMIT=40] -->
   <string name="pano_dialog_panorama_failed">Panorame ni bilo mogoče shraniti.</string>
   <!-- The text shown on the dialog title in the dialogs for Panorama [CHAR LIMIT=12] -->
+  <string name="pano_dialog_title">Panorama</string>
   <!-- The text shown on the top-left corner of the screen to indicate the capturing is on going [CHAR LIMIT=27] -->
   <string name="pano_capture_indication">Snemanje panorame</string>
   <!-- The text shown in the progress dialog when waiting for previous panorama finishing [CHAR LIMIT=40] -->
@@ -833,6 +856,7 @@ CHAR LIMIT = NONE] -->
   <!-- Positive answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
   <string name="remember_location_yes">Da</string>
   <!-- The message is shown in toast when click showOnMap Menu and there is no map app -->
+  <string name="map_activity_not_found_err">Ni nobene aplikacije z zemljevidom, za prikaz lokacije.</string>
   <!-- Menu item to launch the camera app [CHAR LIMIT=25] -->
   <string name="menu_camera">Fotoaparat</string>
   <!-- Menu item to search for photos [CHAR LIMIT=25] -->
@@ -848,14 +872,25 @@ CHAR LIMIT = NONE] -->
   <string name="camera_menu_settings_label">NASTAVITVE</string>
   <!-- String indicating how many photos are in an album [CHAR LIMIT=15] -->
   <!-- The label for the bass boost knob of the audio effects dialog. -->
+  <string name="bass_boost_strength">Povečanje bas-a</string>
   <!-- The label for the 3d effect knob of the audio effects dialog. -->
+  <string name="virtualizer_strength">Prostorski zvok</string>
   <!-- The label for the audio effects menu. -->
+  <string name="audio_effects">Zvočni učinki</string>
   <!-- Toast if user attempts to control audio effects without headphones plugged in. -->
   <!-- The tips of trimming video -->
   <!-- Timeline screen title -->
   <string name="timeline_title">Časovnica</string>
   <!-- Albums screen title -->
   <!-- Videos screen title -->
+  <string name="videos_title">Video posnetki</string>
+  <string name="action_viewtype_list">Seznamski pogled</string>
+  <string name="tvEmptyAlbum">Ni najdenih slik</string>
+  <string name="tvEmptyVideos">Ni najdenih videoposnetkov</string>
+  <string name="text_makeup_trimface">Obrezovanje obraza</string>
+  <string name="text_makeup_bigeye">Veliko oko</string>
   <string name="truescanner_normal">Običajno</string>
+  <string name="truescanner_white">Bela tabla</string>
   <string name="trim_video_exit_title">Ali želite pred zapiranjem shraniti?</string>
+  <string name="trim_video_exit_discard">ZAVRZI</string>
 </resources>

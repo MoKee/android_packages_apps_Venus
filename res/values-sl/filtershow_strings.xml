@@ -67,6 +67,7 @@
   <!--  String displayed when saving and exiting editor [CHAR LIMIT=NONE] -->
   <string name="save_and_exit">Shrani in zapri</string>
   <!--  String displayed when discard editor [CHAR LIMIT=NONE] -->
+  <string name="discard">Opusti</string>
   <!--  String displayed when saving and exiting editor [CHAR LIMIT=NONE] -->
   <string name="save_and_processing">Obdelava slike v polni ločljivosti ...</string>
   <!--  String displayed when exiting editor[CHAR LIMIT=NONE] -->

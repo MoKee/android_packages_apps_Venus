@@ -115,6 +115,7 @@
   <!--  True Effect button -->
   <!--  HazeBuster button -->
   <!--  SeeStraight button -->
+  <string name="seeStraight">Glejte naravnost</string>
   <!--  Label for the image exposure (brightness) filter button [CHAR LIMIT=10] -->
   <string name="exposure" msgid="1229093066434614811">Osvetlitev</string>
   <!--  Label for the image sharpness (clarity, distinctness) filter button [CHAR LIMIT=10] -->
@@ -181,6 +182,7 @@
   <!--  Label for the "halo" dual camera effect  [CHAR LIMIT=15] -->
   <!--  Label for the "zoom" dual camera effect  [CHAR LIMIT=15] -->
   <!--  Label for the "motion" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="motion">Gibanja</string>
   <!--  Label for the "bw" dual camera effect  [CHAR LIMIT=15] -->
   <string name="bw">ČB</string>
   <!--  Label for the "blackboard" dual camera effect  [CHAR LIMIT=15] -->
@@ -296,6 +298,7 @@
   <!-- Label for the Current version in the versions panel [CHAR LIMIT=30] -->
   <string name="filtershow_version_current">Trenutno</string>
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
+  <string name="filtershow_exif_model">Model</string>
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="filtershow_exif_aperture">Zaslonka</string>
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
@@ -312,11 +315,14 @@
   <string name="filtershow_exif_exposure_time">Čas osvetlitve</string>
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="filtershow_exif_copyright">Avtorske pravice</string>
+  <string name="do_not_show_again">Ne prikaži ponovno</string>
   <string name="color">Barva</string>
   <string name="ok_continue">Nadaljuj</string>
   <!--Filtershow dialog -->
   <string name="filtershow_dialog_original_photo">Izvirna fotografija</string>
+  <string name="filtershow_dialog_checkbox">Ne prikaži ponovno</string>
   <string name="filtershow_preset_title">Po meri</string>
+  <string name="filtershow_preset_rename">Preimenuj</string>
   <string name="rename_before_exit">Preimenuj filter</string>
   <string name="filter_name">Ime filtra</string>
   <string name="filter_name_notification">Ime ne more biti prazno.</string>
@@ -325,4 +331,5 @@
   <string name="watermark_time">Ura</string>
   <string name="watermark_weather">Vreme</string>
   <string name="watermark_emotions">Čustva</string>
+  <string name="watermark_food">Hrana</string>
 </resources>

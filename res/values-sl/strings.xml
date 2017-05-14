@@ -269,7 +269,7 @@
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
   <string name="manual">Ročno</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
-  <string name="auto">Samod.</string>
+  <string name="auto">Samodejno</string>
   <!-- String indicating camera flash is fired. [CHAR LIMIT=14] -->
   <string name="flash_on">Blis. sprožena</string>
   <!-- String indicating camera flash is not used. [CHAR LIMIT=14] -->
@@ -878,6 +878,7 @@ CHAR LIMIT = NONE] -->
   <!-- The label for the audio effects menu. -->
   <string name="audio_effects">Zvočni učinki</string>
   <!-- Toast if user attempts to control audio effects without headphones plugged in. -->
+  <string name="headset_plug">Priključite slušalke za te učinke.</string>
   <!-- The tips of trimming video -->
   <!-- Timeline screen title -->
   <string name="timeline_title">Časovnica</string>
@@ -891,6 +892,12 @@ CHAR LIMIT = NONE] -->
   <string name="text_makeup_bigeye">Veliko oko</string>
   <string name="truescanner_normal">Običajno</string>
   <string name="truescanner_white">Bela tabla</string>
+  <string name="truescanner_remove_glare">Odstranjevanje bleščanja</string>
+  <string name="hazebuster_acts">Odstranjevanje zamegljenosti</string>
+  <string name="seestraight_acts">Glejte naravnost</string>
+  <string name="seestraight_input_image_is_small">Vhodna slika je premajhna za obdelavo.</string>
+  <string name="seestraight_process_fail">Slike ni bilo možno obdelati.</string>
   <string name="trim_video_exit_title">Ali želite pred zapiranjem shraniti?</string>
+  <string name="trim_video_exit_msg">Zavržem spremembe opravljene na tem videoposnetku?</string>
   <string name="trim_video_exit_discard">ZAVRZI</string>
 </resources>

@@ -30,6 +30,26 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Strings for step option settins -->
+  <string name="setp_option_three_second">3秒</string>
+  <string name="setp_option_six_second">6秒</string>
+  <string name="loop">"繰り返し"</string>
+  <string name="stereo">"ステレオ"</string>
+  <string name="speaker_on">スピーカーオン</string>
+  <string name="speaker_off">スピーカーオフ</string>
+  <string name="speaker_need_headset">最初にヘッドセットを接続してください！</string>
+  <string name="media_detail">"メディアの詳細"</string>
+  <string name="input_url">"URLの入力"</string>
+  <string name="streaming_settings">"ストリーミングの設定"</string>
   <string name="next">"次へ"</string>
+  <string name="apn">優先APN</string>
   <string name="setting">設定</string>
+  <string name="media_controller_connecting">接続中...</string>
+  <string name="bookmark_add">"ブックマークを追加"</string>
+  <string name="bookmark_display">"ブックマークを表示"</string>
+  <string name="bookmark_empty">"ブックマークがありません"</string>
+  <string name="bookmark_add_success">"ブックマークの追加に成功"</string>
+  <string name="bookmark_list">"ブックマーク"</string>
+  <string name="bookmark_title">"名前"</string>
+  <string name="delete_all">"すべて削除"</string>
+  <string name="default_title">"デフォルトの名前"</string>
 </resources>

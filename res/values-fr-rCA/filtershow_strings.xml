@@ -114,7 +114,9 @@
   <!--  Filters buttons -->
   <!--  True Effect button -->
   <!--  HazeBuster button -->
+  <string name="hazeBuster">Filtre anti-brume</string>
   <!--  SeeStraight button -->
+  <string name="seeStraight">Voir directement</string>
   <!--  Label for the image exposure (brightness) filter button [CHAR LIMIT=10] -->
   <string name="exposure" msgid="1229093066434614811">Exposition</string>
   <!--  Label for the image sharpness (clarity, distinctness) filter button [CHAR LIMIT=10] -->

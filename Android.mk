@@ -22,7 +22,7 @@ LOCAL_PACKAGE_NAME := Venus
 
 LOCAL_PRIVILEGED_MODULE := true
 
-LOCAL_AAPT_FLAGS += --rename-manifest-package org.mokee.venus
+LOCAL_AAPT_FLAGS += --rename-manifest-package com.android.gallery3d
 
 LOCAL_OVERRIDES_PACKAGES := Gallery Gallery3D GalleryNew3D Gallery2
 

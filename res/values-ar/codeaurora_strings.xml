@@ -30,5 +30,15 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Strings for step option settins -->
+  <string name="setp_option_name">خطوة</string>
+  <string name="step_option_desc">تخصيص خطوة سريعة للأمام/للخلف</string>
+  <string name="setp_option_three_second">3 ثوانٍ</string>
+  <string name="setp_option_six_second">6 ثوانٍ</string>
+  <string name="loop">"حصل مشكل الجهاز لا يستجيب"</string>
+  <string name="single">"فردي"</string>
+  <string name="stereo">"صوت ثنائي القناة \"ستيريو\""</string>
+  <string name="input_url">"إدخال URL"</string>
+  <string name="streaming_settings">"إعدادات البث الخارجي"</string>
   <string name="next">"التالي"</string>
+  <string name="setting">الإعدادات</string>
 </resources>

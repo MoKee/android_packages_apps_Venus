@@ -66,6 +66,7 @@
   <!--  String displayed when saving and exiting editor [CHAR LIMIT=NONE] -->
   <string name="save_and_exit">حفظ وخروج</string>
   <!--  String displayed when discard editor [CHAR LIMIT=NONE] -->
+  <string name="discard">استبعاد</string>
   <!--  String displayed when saving and exiting editor [CHAR LIMIT=NONE] -->
   <string name="save_and_processing">جارٍ معالجة الصورة كاملة الدقة...</string>
   <!--  String displayed when exiting editor[CHAR LIMIT=NONE] -->
@@ -89,11 +90,17 @@
   <!--  Label for aspect [CHAR LIMIT=15] -->
   <string name="aspect">جانب</string>
   <!--  Label for the aspect 1:1 effect [CHAR LIMIT=15] -->
+  <string name="aspect1to1_effect">1:1</string>
   <!--  Label for the aspect 4:3 effect [CHAR LIMIT=15] -->
+  <string name="aspect4to3_effect">4:3</string>
   <!--  Label for the aspect 3:4 effect [CHAR LIMIT=15] -->
+  <string name="aspect3to4_effect">3:4</string>
   <!--  Label for the aspect 4:7 effect [CHAR LIMIT=15] -->
+  <string name="aspect4to6_effect">4:6</string>
   <!--  Label for the aspect 5:7 effect [CHAR LIMIT=15] -->
+  <string name="aspect5to7_effect">5:7</string>
   <!--  Label for the aspect 7:5 effect [CHAR LIMIT=15] -->
+  <string name="aspect7to5_effect">7:5</string>
   <!--  Label for the aspect 1:1 effect [CHAR LIMIT=15] -->
   <!--  Label for the aspect None effect [CHAR LIMIT=15] -->
   <string name="aspectNone_effect">لا شيء</string>
@@ -305,5 +312,6 @@
   <string name="ok_continue">متابعة</string>
   <!--Filtershow dialog -->
   <string name="filtershow_preset_rename">إعادة تسمية</string>
+  <string name="watermark_location">الموقع الجغرافيّ</string>
   <string name="watermark_time">الوقت</string>
 </resources>

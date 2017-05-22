@@ -95,6 +95,7 @@
   <string name="confirm">تأكيد</string>
   <string name="cancel">إلغاء</string>
   <string name="share">مشاركة</string>
+  <string name="share_dialogue_title">مشاركة عبر</string>
   <string name="share_panorama">مشاركة بانوراما</string>
   <string name="share_as_photo">مشاركة كصورة</string>
   <!-- The label shown after an image is deleted [CHAR LIMIT=16] -->

@@ -46,6 +46,10 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <string name="streaming_settings">"إعدادات البث الخارجي"</string>
   <string name="next">"التالي"</string>
   <string name="previous">"السابق"</string>
+  <string name="rtp_rtcp">RTP/RTCP</string>
+  <string name="min_port">المنفذ الصغير:</string>
+  <string name="buffer_size">حجم المخزون المؤقت</string>
+  <string name="apn">APN المفضل</string>
   <string name="rtp_max_port">الحد الاقصى للمنفذ</string>
   <string name="set_rtp_min_port">تعين الحد الادنى للمنفذ</string>
   <string name="set_rtp_max_port">تعيين الحد الاعلى للمنفذ</string>

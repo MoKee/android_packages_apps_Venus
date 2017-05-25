@@ -31,4 +31,5 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Strings for step option settins -->
   <string name="next">"Mai departe"</string>
+  <string name="setting">Setări</string>
 </resources>

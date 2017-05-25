@@ -56,6 +56,7 @@
   <!--  Text for size value tag [CHAR LIMIT=30] -->
   <string name="size">الحجم</string>
   <!--  Text for size x [CHAR LIMIT=1] -->
+  <string name="x">x</string>
   <!--  Name for the overflow menu item for settings [CHAR LIMIT=20] -->
   <string name="menu_settings">إعدادات</string>
   <!--  Exit Dialog -->

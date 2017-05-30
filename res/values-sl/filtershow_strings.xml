@@ -318,6 +318,10 @@
   <string name="do_not_show_again">Ne prikaži ponovno</string>
   <string name="color">Barva</string>
   <string name="ok_continue">Nadaljuj</string>
+  <string name="frames">Sličic</string>
+  <string name="beautify">Polepšaj</string>
+  <string name="background">Ozadje</string>
+  <string name="brush_size">Velikost čopiča</string>
   <!--Filtershow dialog -->
   <string name="filtershow_dialog_original_photo">Izvirna fotografija</string>
   <string name="filtershow_dialog_checkbox">Ne prikaži ponovno</string>

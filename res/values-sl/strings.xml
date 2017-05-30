@@ -93,6 +93,12 @@
   <!-- Details dialog "OK" button. Dismisses dialog. -->
   <string name="delete">Izbriši</string>
   <!-- String Delete the selected media item(s) [CHAR LIMIT=50] -->
+  <plurals name="delete_selection">
+    <item quantity="one">Odstranim izbrani element?</item>
+    <item quantity="two">Odstranim izbrana elementa?</item>
+    <item quantity="few">Odstranim izbrane elemente?</item>
+    <item quantity="other">Odstranim izbranih elementov?</item>
+  </plurals>
   <string name="confirm">Potrdi</string>
   <string name="cancel">Prekliči</string>
   <string name="share">Skupna raba</string>
@@ -114,6 +120,12 @@
   <string name="switch_to_camera">Preklopi na Fotoaparat</string>
   <!-- String indicating how many media item(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
+  <plurals name="number_of_items_selected">
+    <item quantity="one">Izbranih: %1$d</item>
+    <item quantity="two">Izbranih: %1$d</item>
+    <item quantity="few">Izbranih: %1$d</item>
+    <item quantity="other">Izbranih: %1$d</item>
+  </plurals>
   <!-- String indicating how many media album(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
   <plurals name="number_of_albums_selected">
@@ -124,6 +136,12 @@
   </plurals>
   <!-- String indicating how many media group(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
+  <plurals name="number_of_groups_selected">
+    <item quantity="one">Izbranih: %1$d</item>
+    <item quantity="two">Izbranih: %1$d</item>
+    <item quantity="few">Izbranih: %1$d</item>
+    <item quantity="other">Izbranih: %1$d</item>
+  </plurals>
   <!-- String indicating timestamp of photo or video -->
   <string name="show_on_map">Pokaži na zemljevidu</string>
   <string name="rotate_left">Zasukaj levo</string>
@@ -871,6 +889,18 @@ CHAR LIMIT = NONE] -->
   <!-- settings label [CHAR LIMIT=50] -->
   <string name="camera_menu_settings_label">NASTAVITVE</string>
   <!-- String indicating how many photos are in an album [CHAR LIMIT=15] -->
+  <plurals name="number_of_photos">
+    <item quantity="one">%1$d fotografija</item>
+    <item quantity="two">%1$d fotografiji</item>
+    <item quantity="few">%1$d fotografije</item>
+    <item quantity="other">%1$d fotografij</item>
+  </plurals>
+  <plurals name="number_of_videos">
+    <item quantity="one">%1$d videoposnetek</item>
+    <item quantity="two">%1$d videoposneteka</item>
+    <item quantity="few">%1$d videoposneteki</item>
+    <item quantity="other">%1$d videoposnetekov</item>
+  </plurals>
   <!-- The label for the bass boost knob of the audio effects dialog. -->
   <string name="bass_boost_strength">Povečanje bas-a</string>
   <!-- The label for the 3d effect knob of the audio effects dialog. -->

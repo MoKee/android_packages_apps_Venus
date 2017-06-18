@@ -61,7 +61,7 @@
   <string name="menu_settings">Configurações</string>
   <!--  Exit Dialog -->
   <!--  String displayed when exiting with unsaved changes [CHAR LIMIT=NONE] -->
-  <string name="unsaved">Rejeitar as alterações feitas nessa imagem?</string>
+  <string name="unsaved">Descartar as alterações feitas nessa imagem?</string>
   <!--  String displayed when exiting with unsaved changes [CHAR LIMIT=NONE] -->
   <string name="save_before_exit">Descartar alterações?</string>
   <!--  String displayed when saving and exiting editor [CHAR LIMIT=NONE] -->
@@ -352,7 +352,7 @@
   <string name="brush_size">Tamanho do pincel</string>
   <!--Filtershow dialog -->
   <string name="filtershow_dialog_title">Filtro personalizado</string>
-  <string name="filtershow_dialog_content">Permite que você crie um filtro.\n\nSelecione foto uma foto que você gosta como parâmetro para outras fotos</string>
+  <string name="filtershow_dialog_content">Permite que você crie um filtro.\n\nSelecione foto uma foto que você gosta como um filtro para outras fotos</string>
   <string name="filtershow_dialog_original_photo">Foto original</string>
   <string name="filtershow_dialog_apply_photo">Cores para aplicar</string>
   <string name="filtershow_dialog_checkbox">Não exibir novamente</string>
@@ -367,5 +367,5 @@
   <string name="watermark_time">Hora</string>
   <string name="watermark_weather">Previsão do tempo</string>
   <string name="watermark_emotions">Emoções</string>
-  <string name="watermark_food">Comida</string>
+  <string name="watermark_food">Quero</string>
 </resources>

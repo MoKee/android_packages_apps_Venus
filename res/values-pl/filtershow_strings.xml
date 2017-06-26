@@ -351,10 +351,21 @@
   <string name="background">Tło</string>
   <string name="brush_size">Rozmiar pędzla</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_dialog_title">Własny filtr</string>
+  <string name="filtershow_dialog_content">Pozwala na tworzenie filter.\n\nSelect zdjęcia jakiego chcesz i używać go jako filtr dla innych zdjęć</string>
+  <string name="filtershow_dialog_original_photo">Oryginalne zdjęcie</string>
+  <string name="filtershow_dialog_apply_photo">Zapisać kolor</string>
   <string name="filtershow_dialog_checkbox">Nie pokazuj ponownie</string>
   <string name="filtershow_preset_title">Własny</string>
   <string name="filtershow_preset_rename">Zmień nazwę</string>
+  <string name="delete_before_exit">Usuń filtr?</string>
+  <string name="rename_before_exit">Zmienić nazwe filtra</string>
+  <string name="filter_name">Nazwa filtra</string>
+  <string name="filter_name_notification">Nazwa nie może być pusta.</string>
+  <string name="filter_name_duplicate">Ta nazwa już istnieje, wybierz inną.</string>
   <string name="watermark_location">Lokalizacja</string>
   <string name="watermark_time">Data/godzina</string>
   <string name="watermark_weather">Pogoda</string>
+  <string name="watermark_emotions">Emotikony</string>
+  <string name="watermark_food">Żywność</string>
 </resources>

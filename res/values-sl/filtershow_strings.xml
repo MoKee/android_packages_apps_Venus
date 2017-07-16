@@ -176,11 +176,15 @@
   <!--  Label for the "neutral density graduated filter" filter effect  [CHAR LIMIT=15] -->
   <string name="grad">Stopenjsko</string>
   <!--  Label for the "refocus" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="focus">Ostrenje</string>
   <!--  Label for the "fusion" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="fusion">Spojitev</string>
   <!--  Label for the "sketch" dual camera effect  [CHAR LIMIT=15] -->
   <string name="sketch">Skica</string>
   <!--  Label for the "halo" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="halo">Halo</string>
   <!--  Label for the "zoom" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="zoom">Zoom</string>
   <!--  Label for the "motion" dual camera effect  [CHAR LIMIT=15] -->
   <string name="motion">Gibanja</string>
   <!--  Label for the "bw" dual camera effect  [CHAR LIMIT=15] -->
@@ -287,6 +291,7 @@
   <!-- Label for the information panel [CHAR LIMIT=30] -->
   <string name="filtershow_show_info_panel_size">Velikost slike</string>
   <!-- Label for the information panel [CHAR LIMIT=30] -->
+  <string name="filtershow_show_info_panel_histogram">Histogram</string>
   <!-- Label for the information panel [CHAR LIMIT=30] -->
   <string name="filtershow_show_info_panel_exif">Podatki EXIF</string>
   <!-- Label for the add button in the category panel [CHAR LIMIT=30] -->
@@ -315,6 +320,9 @@
   <string name="filtershow_exif_exposure_time">Čas osvetlitve</string>
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="filtershow_exif_copyright">Avtorske pravice</string>
+  <string name="fusion_pick_point">Izberi segment</string>
+  <string name="fusion_pick_underlay">Izberi podlogo</string>
+  <string name="dual_camera_effects">Učinki dvojne kamere</string>
   <string name="do_not_show_again">Ne prikaži ponovno</string>
   <string name="color">Barva</string>
   <string name="ok_continue">Nadaljuj</string>

@@ -31,6 +31,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Strings for step option settins -->
   <string name="setp_option_name">단계</string>
+  <string name="step_option_desc">빨리 감기/되감기 간격(스텝) 사용자 지정</string>
   <string name="setp_option_three_second">3초</string>
   <string name="setp_option_six_second">6초</string>
   <string name="loop">"반복"</string>
@@ -40,7 +41,31 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <string name="speaker_off">스피커 꺼짐</string>
   <string name="speaker_need_headset">헤드셋을 먼저 연결 해주세요.</string>
   <string name="single_track">"단일 트랙"</string>
+  <string name="media_detail">"미디어 정보"</string>
   <string name="input_url">"URL 입력"</string>
+  <string name="streaming_settings">"스트리밍 설정"</string>
   <string name="next">"다음"</string>
+  <string name="previous">"이전"</string>
+  <string name="rtp_rtcp">RTP/RTCP</string>
+  <string name="buffer_size">버퍼 크기</string>
+  <string name="apn">선호 APN</string>
+  <string name="set_buffer_size">버퍼 크기 설정</string>
+  <string name="set_apn">선호 Apn 설정</string>
   <string name="setting">설정</string>
+  <string name="server_timeout_title">"서버 시간 초과"</string>
+  <string name="server_timeout_message">"서버에 다시 접속하여 동영상을 재생할까요?"</string>
+  <string name="videoview_error_text_cannot_connect_retry">"연결 실패. %1$d으로 다시 연결중..."</string>
+  <string name="media_controller_live">라이브</string>
+  <string name="media_controller_playing">재생중</string>
+  <string name="media_controller_connecting">연결중...</string>
+  <string name="bookmark_add">"북마크 추가"</string>
+  <string name="bookmark_display">"북마크 보기"</string>
+  <string name="bookmark_empty">"북마크 없음"</string>
+  <string name="bookmark_exist">"북마크에 이미 존재합니다"</string>
+  <string name="bookmark_add_success">"북마크 추가 성공"</string>
+  <string name="bookmark_list">"북마크"</string>
+  <string name="bookmark_title">"제목"</string>
+  <string name="bookmark_location">"주소"</string>
+  <string name="delete_all">"모두 삭제"</string>
+  <string name="default_title">"기본 제목"</string>
 </resources>

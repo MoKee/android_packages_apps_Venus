@@ -438,6 +438,12 @@
   <!--  Text of notification message which is shown when user attaches camera -->
   <string name="ingest_scanning" msgid="2048262851775139720">Pregledovanje vsebine ...</string>
   <!-- String indicating how many media items from the camera have been scanned -->
+  <plurals name="ingest_number_of_items_scanned">
+    <item quantity="one">%1$d pregledan element</item>
+    <item quantity="two">Št. pregledanih elementov: %1$d</item>
+    <item quantity="few">Št. pregledanih elementov: %1$d</item>
+    <item quantity="other">Št. pregledanih elementov: %1$d</item>
+  </plurals>
   <!-- String indicating how many media items from the camera have been selected -->
   <plurals name="ingest_number_of_items_selected">
     <item quantity="one">%1$d izbran element</item>

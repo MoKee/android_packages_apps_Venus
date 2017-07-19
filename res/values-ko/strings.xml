@@ -89,6 +89,7 @@
   <string name="wallpaper">배경화면을 설정하는 중...</string>
   <string name="camera_setas_wallpaper">배경화면</string>
   <!-- Toast message for share items -->
+  <string name="cannot_share_items">공유할 수 있는 항목 개수는 최대 300개까지입니다</string>
   <!-- Details dialog "OK" button. Dismisses dialog. -->
   <string name="delete">삭제</string>
   <!-- String Delete the selected media item(s) [CHAR LIMIT=50] -->
@@ -98,6 +99,7 @@
   <string name="confirm">확인</string>
   <string name="cancel">취소</string>
   <string name="share">공유</string>
+  <string name="share_dialogue_title">다음으로 공유</string>
   <string name="share_panorama">파노라마 공유</string>
   <string name="share_as_photo">사진으로 공유</string>
   <!-- The label shown after an image is deleted [CHAR LIMIT=16] -->
@@ -187,6 +189,7 @@
   <string name="no_location">위치 없음</string>
   <!-- When grouping photos by peoples, the label used for photos that don't
         have people information in them [CHAR LIMIT=20]-->
+  <string name="no_faces">인물 정보가 존재하지 않음</string>
   <!-- This toast message is shown when network connection is lost while doing clustering -->
   <string name="no_connectivity">네트워크 문제로 인해 일부 위치를 식별하지 못했습니다.</string>
   <!-- This toast message is shown when failed to load the album data. [CHAR LIMIT=NONE] -->
@@ -418,6 +421,7 @@
   <!-- Toast if the trimmed video is too short to trim. [CHAR LIMIT=80] -->
   <string name="trim_too_short">잘라낼 수 없음 : 동영상이 너무 짧음</string>
   <!-- Toast if the muted video is not supported. [CHAR LIMIT=80] -->
+  <string name="mute_nosupport">음소거 할 수 없음: 지원하지 않는 동영상</string>
   <!-- Text to show with progress bar while stitching in Gallery -->
   <string name="pano_progress_text">파노라마 렌더링</string>
   <!-- The label on the button that will save an edited image -->
@@ -431,6 +435,9 @@
     <item quantity="other">%1$d개 항목을 스캔함</item>
   </plurals>
   <!-- String indicating how many media items from the camera have been selected -->
+  <plurals name="ingest_number_of_items_selected">
+    <item quantity="other">%1$d개의 항목이 선택됨</item>
+  </plurals>
   <!--  Status message shown when content from the camera is being sorted -->
   <string name="ingest_sorting" msgid="624687230903648118">정렬 중...</string>
   <!--  Status message shown when scanning the content from the camera has completed -->
@@ -535,7 +542,9 @@
   <!-- Settings screen, dialog choice for 1 megapixels picture size [CHAR LIMIT=15] -->
   <string name="pref_camera_picturesize_entry_1mp">1M 픽셀</string>
   <!-- Settings screen, dialog choice for VGA picture size [CHAR LIMIT=15] -->
+  <string name="pref_camera_picturesize_entry_vga">VGA</string>
   <!-- Settings screen, dialog choice for QVGA picture size [CHAR LIMIT=15] -->
+  <string name="pref_camera_picturesize_entry_qvga">QVGA</string>
   <!-- Settings screen, Focus mode title -->
   <string name="pref_camera_focusmode_title">초점 모드</string>
   <!-- Settings screen, Focus mode dialog radio button choices -->
@@ -584,6 +593,7 @@
   <!-- Settings menu, scene mode choices [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_auto">자동</string>
   <!-- Scene mode that uses HDR (high dynamic range) [CHAR LIMIT=16] -->
+  <string name="pref_camera_scenemode_entry_hdr">HDR</string>
   <!-- Scene mode that takes an image quickly with little motion blur. [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_action">동작</string>
   <!-- Scene mode that takes long exposures to capture night scenes without flash. [CHAR LIMIT=16] -->
@@ -622,6 +632,7 @@
   <string name="pref_exposure_label">노출</string>
   <!-- Default HDR entry value -->
   <!-- HDR label ON [CHAR LIMIT=60] -->
+  <string name="pref_camera_hdr_label">HDR</string>
   <!-- switch camera label back [CHAR LIMIT=60] -->
   <string name="pref_camera_id_label_back">전방 카메라</string>
   <!-- switch camera label front [CHAR LIMIT=60] -->
@@ -743,7 +754,9 @@ CHAR LIMIT = NONE] -->
   <string name="accessibility_time_bar">동영상 플레이어 시간 표시 막대</string>
   <!-- TODO: remove the string as it is a work-around solution to bypass the default speak of the element type. -->
   <!-- Default text for a button that can be toggled on and off. -->
+  <string name="capital_on">켜기</string>
   <!-- Default text for a button that can be toggled on and off. -->
+  <string name="capital_off">끄기</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
   <string name="pref_video_time_lapse_frame_interval_off">사용 안함</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
@@ -851,6 +864,7 @@ CHAR LIMIT = NONE] -->
   <!-- Positive answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
   <string name="remember_location_yes">예</string>
   <!-- The message is shown in toast when click showOnMap Menu and there is no map app -->
+  <string name="map_activity_not_found_err">위치 정보를 보여줄 지도 앱이 존재하지 않습니다</string>
   <!-- Menu item to launch the camera app [CHAR LIMIT=25] -->
   <string name="menu_camera">카메라</string>
   <!-- Menu item to search for photos [CHAR LIMIT=25] -->
@@ -868,14 +882,43 @@ CHAR LIMIT = NONE] -->
   <plurals name="number_of_photos">
     <item quantity="other">사진 %1$d장</item>
   </plurals>
+  <plurals name="number_of_videos">
+    <item quantity="other">%1$d개 비디오</item>
+  </plurals>
   <!-- The label for the bass boost knob of the audio effects dialog. -->
+  <string name="bass_boost_strength">저음 강화</string>
   <!-- The label for the 3d effect knob of the audio effects dialog. -->
+  <string name="virtualizer_strength">서라운드 사운드</string>
   <!-- The label for the audio effects menu. -->
+  <string name="audio_effects">음향 효과</string>
   <!-- Toast if user attempts to control audio effects without headphones plugged in. -->
+  <string name="headset_plug">이 효과를 사용하려면 헤드폰을 연결하세요.</string>
   <!-- The tips of trimming video -->
+  <string name="fail_trim">죄송합니다. 이 동영상은 잘라낼 수 없습니다.</string>
+  <string name="can_not_trim">mp4 파일과 3gp 파일만 잘라낼 수 있습니다</string>
+  <string name="no_permission_for_drm">"죄송합니다. Drm 파일 공유할 수 없습니다."</string>
+  <string name="drm_license_info">Drm 라이센스 정보</string>
+  <string name="mimetype_not_supported">이 파일을 재생할 수 없습니다</string>
+  <string name="action_consumes_rights">이 미디어 재생을 위해 권리(rights)가 사용됩니다</string>
+  <string name="text_makeup_whiten">밝게</string>
+  <string name="text_makeup_Soften">부드럽게</string>
   <!-- Timeline screen title -->
+  <string name="timeline_title">타임라인</string>
   <!-- Albums screen title -->
   <!-- Videos screen title -->
+  <string name="videos_title">동영상</string>
+  <string name="action_viewtype_list">목록 보기</string>
+  <string name="tvEmptyAlbum">사진을 발견하지 못하였습니다</string>
+  <string name="tvEmptyVideos">동영상을 발견하지 못하였습니다</string>
+  <string name="text_makeup_bigeye">눈 키우기</string>
   <string name="truescanner_normal">정상</string>
+  <string name="truescanner_white">화이트보드</string>
+  <string name="truescanner">TrueScanner</string>
+  <string name="truescanner_remove_glare">빛반사 제거</string>
+  <string name="hazebuster_acts">안개 제거</string>
+  <string name="seestraight_input_image_is_small">편집하기에는 입력된 이미지가 너무 작습니다.</string>
+  <string name="seestraight_process_fail">이미지를 편집할 수 없습니다.</string>
   <string name="trim_video_exit_title">저장하고 나서 종료하시겠습니까?</string>
+  <string name="trim_video_exit_msg">이 영상에 대한 변경 사항을 취소하시겠습니까?</string>
+  <string name="trim_video_exit_discard">버리기</string>
 </resources>

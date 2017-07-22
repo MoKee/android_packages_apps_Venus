@@ -316,6 +316,12 @@
          (filtershow_fx_0008_washout_color) [CHAR LIMIT=10] -->
   <string name="ffx_washout_color">Litografija</string>
   <!-- Toast message shown after we make some album(s) available offline [CHAR LIMIT=50] -->
+  <plurals name="make_albums_available_offline">
+    <item quantity="one">Priprava albuma, da bo na voljo brez povezave.</item>
+    <item quantity="two">Priprava albumov, da bosta na voljo brez povezave.</item>
+    <item quantity="few">Priprava albumov, da bodo na voljo brez povezave.</item>
+    <item quantity="other">Priprava albumov, da bo na voljo brez povezave.</item>
+  </plurals>
   <!-- Toast message shown after we try to make a local album available offline
          [CHAR LIMIT=150] -->
   <string name="try_to_set_local_album_available_offline">Element je shranjen lokalno in na voljo brez povezave.</string>

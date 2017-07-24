@@ -323,18 +323,29 @@
   <string name="fusion_pick_point">Izberi segment</string>
   <string name="fusion_pick_underlay">Izberi podlogo</string>
   <string name="dual_camera_effects">Učinki dvojne kamere</string>
+  <string name="trueportrait_no_face">Za to fotografijo ni mogoče uporabiti učinka pravi portret. Obraz ni zaznan.</string>
+  <string name="trueportrait_edit_intro">Z Touch-Up orodjem, lahko urejate v ospredju in ozadju. S prstom lahko barvete na katerem koli območju v ospredju ali ozadju, ki ste ga zgrešili.</string>
   <string name="do_not_show_again">Ne prikaži ponovno</string>
+  <string name="trueportrait_touch_up">Touch Up</string>
+  <string name="fusion_pick_background">Izberite sliko za ozadje</string>
   <string name="color">Barva</string>
   <string name="ok_continue">Nadaljuj</string>
   <string name="frames">Sličic</string>
   <string name="beautify">Polepšaj</string>
+  <string name="trueportrait">Pravi portret</string>
+  <string name="foreground">Ospredje</string>
   <string name="background">Ozadje</string>
   <string name="brush_size">Velikost čopiča</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_dialog_title">Filtri po meri</string>
+  <string name="filtershow_dialog_content">Omogoči izdelavo foto filtra.
+\n
+\nIzberite fotgrafijo, ki vam je všeč in jo uporabite kot filter za druge fotografije</string>
   <string name="filtershow_dialog_original_photo">Izvirna fotografija</string>
   <string name="filtershow_dialog_checkbox">Ne prikaži ponovno</string>
   <string name="filtershow_preset_title">Po meri</string>
   <string name="filtershow_preset_rename">Preimenuj</string>
+  <string name="delete_before_exit">Brisanje filtra?</string>
   <string name="rename_before_exit">Preimenuj filter</string>
   <string name="filter_name">Ime filtra</string>
   <string name="filter_name_notification">Ime ne more biti prazno.</string>

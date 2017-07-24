@@ -312,6 +312,7 @@
          photography (makes colors bluish) (filtershow_fx_0006_x_process) [CHAR LIMIT=10] -->
   <string name="ffx_x_process">Proces X</string>
   <!-- String for filter that makes image coffee-colored (filtershow_fx_0007_washout) [CHAR LIMIT=10] -->
+  <string name="ffx_washout">Latte</string>
   <!-- String for filter that makes colors washed out and brownish
          (filtershow_fx_0008_washout_color) [CHAR LIMIT=10] -->
   <string name="ffx_washout_color">Litografija</string>
@@ -435,6 +436,7 @@
   <!-- Toast if the trimmed video is too short to trim. [CHAR LIMIT=80] -->
   <string name="trim_too_short">Obrezovanje ni mogoče: izvirni videoposnetek je prekratek</string>
   <!-- Toast if the muted video is not supported. [CHAR LIMIT=80] -->
+  <string name="mute_nosupport">Ne morem utišati : nepodprt video</string>
   <!-- Text to show with progress bar while stitching in Gallery -->
   <string name="pano_progress_text">Upodabljanje panorame</string>
   <!-- The label on the button that will save an edited image -->
@@ -922,6 +924,13 @@ CHAR LIMIT = NONE] -->
   <!-- Toast if user attempts to control audio effects without headphones plugged in. -->
   <string name="headset_plug">Priključite slušalke za te učinke.</string>
   <!-- The tips of trimming video -->
+  <string name="fail_trim">Na žalost, tega videa ni mogoče obrezati</string>
+  <string name="can_not_trim">Obrezane so lahko samo mp4 in 3gp datoteke</string>
+  <string name="no_permission_for_drm">"Žal, DRM datotek ni mogoče deliti"</string>
+  <string name="drm_license_info">Informacije o licenci DRM</string>
+  <string name="mimetype_not_supported">Te datoteke ni mogoče predvajati</string>
+  <string name="text_makeup_whiten">Pobeli</string>
+  <string name="text_makeup_Soften">Zmehčaj</string>
   <!-- Timeline screen title -->
   <string name="timeline_title">Časovnica</string>
   <!-- Albums screen title -->
@@ -934,6 +943,7 @@ CHAR LIMIT = NONE] -->
   <string name="text_makeup_bigeye">Veliko oko</string>
   <string name="truescanner_normal">Običajno</string>
   <string name="truescanner_white">Bela tabla</string>
+  <string name="truescanner">TrueScanner</string>
   <string name="truescanner_remove_glare">Odstranjevanje bleščanja</string>
   <string name="hazebuster_acts">Odstranjevanje zamegljenosti</string>
   <string name="seestraight_acts">Glejte naravnost</string>

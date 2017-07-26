@@ -27,7 +27,7 @@ LOCAL_AAPT_FLAGS := \
     --extra-packages android.support.design \
     --extra-packages android.support.v7.appcompat
 
-LOCAL_PACKAGE_NAME := Gallery2
+LOCAL_PACKAGE_NAME := Venus
 
 LOCAL_PRIVILEGED_MODULE := true
 

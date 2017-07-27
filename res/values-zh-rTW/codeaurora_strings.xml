@@ -96,7 +96,7 @@
   <string name="no_faces">無人物資訊</string>
   <!-- The tips of trimming video -->
   <string name="fail_trim">很抱歉，此影片檔案無法被修剪</string>
-  <string name="can_not_trim">只有 mp4 和 3gp 檔案才可修剪</string>
+  <string name="can_not_trim">僅有 mp4 和 3gp 檔案可以修剪</string>
   <string name="drm_license_info">DRM 許可資訊</string>
   <!-- Timeline screen title -->
   <string name="timeline_title">時間軸</string>

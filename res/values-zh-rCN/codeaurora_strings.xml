@@ -40,20 +40,20 @@
   <string name="stereo">"立体声"</string>
   <string name="speaker_on">扬声器 开</string>
   <string name="speaker_off">扬声器 关</string>
-  <string name="speaker_need_headset">插入耳机以使用此功能。</string>
+  <string name="speaker_need_headset">插入耳机以使用此功能</string>
   <string name="single_track">"单声道"</string>
   <string name="input_url">"输入网址"</string>
   <string name="streaming_settings">"流媒体设置"</string>
   <string name="next">"下一个"</string>
   <string name="previous">"上一个"</string>
-  <string name="buffer_size">缓冲大小</string>
-  <string name="apn">首选 APN</string>
+  <string name="buffer_size">缓存大小</string>
+  <string name="apn">优先接入点</string>
   <string name="rtp_min_port">RTP最小端口</string>
   <string name="rtp_max_port">RTP最大端口</string>
   <string name="set_rtp_min_port">设置RTP最小端口</string>
   <string name="set_rtp_max_port">设置RTP最大端口</string>
   <string name="set_buffer_size">设置缓冲大小</string>
-  <string name="set_apn">选择首选的 APN</string>
+  <string name="set_apn">选择接入优先点</string>
   <string name="setting">设置</string>
   <string name="server_timeout_title">"服务器超时"</string>
   <string name="server_timeout_message">"重新连接到服务器以便继续播放视频？"</string>
@@ -74,9 +74,9 @@
   <!-- A label describing to link website [CHAR LIMIT=30] -->
   <string name="more_image">更多图片</string>
   <!-- Toast if the muted video is not supported. [CHAR LIMIT=80] -->
-  <string name="mute_nosupport">不能静音：视频不支持</string>
+  <string name="mute_nosupport">无法静音：视频不支持</string>
   <!-- The message is shown in toast when click showOnMap Menu and there is no map app -->
-  <string name="map_activity_not_found_err">找不到用于显示地点的地图应用。</string>
+  <string name="map_activity_not_found_err">无法找到用于显示地点的地图应用</string>
   <plurals name="number_of_videos">
     <item quantity="other">%1$d个视频</item>
   </plurals>

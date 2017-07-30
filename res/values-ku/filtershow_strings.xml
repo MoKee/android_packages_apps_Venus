@@ -298,6 +298,7 @@
   <string name="filtershow_exif_copyright">مافی له‌به‌رگرتنه‌وه‌</string>
   <string name="color">ڕەنگ</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_preset_title">تایبەت بە خۆ</string>
   <string name="watermark_location">شوێن</string>
   <string name="watermark_time">کات</string>
 </resources>

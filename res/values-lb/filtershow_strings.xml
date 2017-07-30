@@ -294,6 +294,7 @@
   <string name="filtershow_exif_copyright">Auteursrecht</string>
   <string name="color">Faarf</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_preset_title">Personaliséiert</string>
   <string name="watermark_location">Standuert</string>
   <string name="watermark_time">Zäit</string>
 </resources>

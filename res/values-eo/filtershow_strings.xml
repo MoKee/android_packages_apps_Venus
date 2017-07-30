@@ -188,5 +188,6 @@
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <!--Filtershow dialog -->
+  <string name="filtershow_preset_title">Propra</string>
   <string name="watermark_location">Loko</string>
 </resources>

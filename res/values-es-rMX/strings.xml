@@ -290,12 +290,15 @@
   <!-- String for filter that makes image black & white (filtershow_fx_0004_bw_contrast) [CHAR LIMIT=10] -->
   <string name="ffx_bw_contrast">B/N</string>
   <!-- String for filter that makes colors a yellowish (filtershow_fx_0005_punch) [CHAR LIMIT=10] -->
+  <string name="ffx_punch">Ingreso</string>
   <!-- String for filter that mimics the cross-process technique in
          photography (makes colors bluish) (filtershow_fx_0006_x_process) [CHAR LIMIT=10] -->
   <string name="ffx_x_process">Proceso X</string>
   <!-- String for filter that makes image coffee-colored (filtershow_fx_0007_washout) [CHAR LIMIT=10] -->
+  <string name="ffx_washout">Leche</string>
   <!-- String for filter that makes colors washed out and brownish
          (filtershow_fx_0008_washout_color) [CHAR LIMIT=10] -->
+  <string name="ffx_washout_color">Litho</string>
   <!-- Toast message shown after we make some album(s) available offline [CHAR LIMIT=50] -->
   <plurals name="make_albums_available_offline">
     <item quantity="one">Haciendo que el álbum pueda verse sin conexión</item>
@@ -427,6 +430,10 @@
     <item quantity="other">%1$d elementos analizados</item>
   </plurals>
   <!-- String indicating how many media items from the camera have been selected -->
+  <plurals name="ingest_number_of_items_selected">
+    <item quantity="one">Elemento seleccionado</item>
+    <item quantity="other">Elemento seleccionado</item>
+  </plurals>
   <!--  Status message shown when content from the camera is being sorted -->
   <string name="ingest_sorting" msgid="624687230903648118">Ordenando...</string>
   <!--  Status message shown when scanning the content from the camera has completed -->
@@ -532,15 +539,19 @@
   <!-- Settings screen, dialog choice for 1 megapixels picture size [CHAR LIMIT=15] -->
   <string name="pref_camera_picturesize_entry_1mp">1 megapíxel</string>
   <!-- Settings screen, dialog choice for VGA picture size [CHAR LIMIT=15] -->
+  <string name="pref_camera_picturesize_entry_vga">VGA</string>
   <!-- Settings screen, dialog choice for QVGA picture size [CHAR LIMIT=15] -->
+  <string name="pref_camera_picturesize_entry_qvga">QVGA</string>
   <!-- Settings screen, Focus mode title -->
   <string name="pref_camera_focusmode_title">Modo de enfoque</string>
   <!-- Settings screen, Focus mode dialog radio button choices -->
   <string name="pref_camera_focusmode_entry_auto">Automático</string>
   <string name="pref_camera_focusmode_entry_infinity">Infinito</string>
+  <string name="pref_camera_focusmode_entry_macro">Macro</string>
   <!-- Menu, focus mode labels [CHAR LIMIT=50] -->
   <string name="pref_camera_focusmode_label_auto">AUTOMÁTICO</string>
   <string name="pref_camera_focusmode_label_infinity">INFINITO</string>
+  <string name="pref_camera_focusmode_label_macro">MACRO</string>
   <!-- Default flash mode setting.-->
   <!-- Value for flash off setting-->
   <!-- Settings screen, Flash mode title -->
@@ -579,6 +590,7 @@
   <!-- Settings menu, scene mode choices [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_auto">Automático</string>
   <!-- Scene mode that uses HDR (high dynamic range) [CHAR LIMIT=16] -->
+  <string name="pref_camera_scenemode_entry_hdr">HDR</string>
   <!-- Scene mode that takes an image quickly with little motion blur. [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_action">Acción</string>
   <!-- Scene mode that takes long exposures to capture night scenes without flash. [CHAR LIMIT=16] -->
@@ -617,6 +629,7 @@
   <string name="pref_exposure_label">EXPOSICIÓN</string>
   <!-- Default HDR entry value -->
   <!-- HDR label ON [CHAR LIMIT=60] -->
+  <string name="pref_camera_hdr_label">HDR</string>
   <!-- switch camera label back [CHAR LIMIT=60] -->
   <string name="pref_camera_id_label_back">CÁMARA FRONTAL</string>
   <!-- switch camera label front [CHAR LIMIT=60] -->

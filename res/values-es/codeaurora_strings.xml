@@ -114,6 +114,7 @@
   <string name="text_makeup_bigeye">Ojos grandes</string>
   <string name="truescanner_normal">Normal</string>
   <string name="truescanner_white">Pizarra blanca</string>
+  <string name="truescanner">TrueScanner</string>
   <string name="truescanner_remove_glare">Eliminar reflejos</string>
   <string name="hazebuster_acts">Anti bruma</string>
   <string name="seestraight_acts">Ver directamente</string>

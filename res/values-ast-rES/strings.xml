@@ -29,7 +29,6 @@
   <!-- Movie View Start Playing dialog title -->
   <!-- Movie View Start Playing button "Resume from bookmark" -->
   <!-- Displayed in the title of those albums that are being loaded -->
-  <string name="loading">Loading\u2026</string>
   <!-- Displayed in the title of those pictures that fails to be loaded
          [CHAR LIMIT=50]-->
   <!-- Used in a toast message when an image fails to be loaded
@@ -163,7 +162,6 @@
   <!-- String indicating the time units in seconds. [CHAR LIMIT=8] -->
   <!-- String indicating the length units in milli-meters. [CHAR LIMIT=8] -->
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
-  <string name="manual">Manual</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
   <!-- String indicating camera flash is fired. [CHAR LIMIT=14] -->
   <!-- String indicating camera flash is not used. [CHAR LIMIT=14] -->

@@ -98,6 +98,7 @@
   <string name="no_faces">Няма твару</string>
   <!-- The tips of trimming video -->
   <string name="fail_trim">Дадзены відэафайл не можа быць абрэзаны</string>
+  <string name="can_not_trim">Толькі mp4 і 3gp файл можа быць абрэзаны</string>
   <string name="drm_license_info">Звесткі пра ліцэнзію DRM</string>
   <!-- Timeline screen title -->
   <string name="timeline_title">Шкала часу</string>

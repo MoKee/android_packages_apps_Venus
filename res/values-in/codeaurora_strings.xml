@@ -96,6 +96,7 @@
   <string name="no_faces">Tidak ada wajah</string>
   <!-- The tips of trimming video -->
   <string name="fail_trim">Maaf, berkas video ini tidak dapat dipotong</string>
+  <string name="can_not_trim">Hanya berkas mp4 dan 3gp yang dapat dipotong</string>
   <string name="drm_license_info">Info lisensi DRM</string>
   <!-- Timeline screen title -->
   <string name="timeline_title">Timeline</string>
@@ -119,6 +120,6 @@
   <string name="seestraight_input_image_is_small">Gambar masukan terlalu kecil untuk diproses.</string>
   <string name="seestraight_process_fail">Tidak dapat memproses gambar.</string>
   <string name="trim_video_exit_title">Batalkan perubahan?</string>
-  <string name="trim_video_exit_msg">Membuang perubahan yang dibuat untuk video ini?</string>
+  <string name="trim_video_exit_msg">Buang perubahan yang dibuat untuk video ini?</string>
   <string name="trim_video_exit_discard">BUANG</string>
 </resources>

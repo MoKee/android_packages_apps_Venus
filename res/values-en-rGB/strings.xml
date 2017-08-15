@@ -86,6 +86,7 @@
   <!-- Toast message prompted when the specified item is not found [CHAR LIMIT=40]-->
   <!-- String used as a menu label. The user can choose to edit the image
          [CHAR_LIMIT=20]-->
+  <string name="edit">Edit</string>
   <!-- String used as a menu label. The user can choose to edit the image
          [CHAR_LIMIT=20]-->
   <!-- String used as a title of a progress dialog. The user can
@@ -365,6 +366,7 @@
   <!-- Settings screen, white balance title -->
   <!-- Menu, white balance label -->
   <!-- Settings screen, White balance dialog radio button choices -->
+  <string name="pref_camera_whitebalance_entry_cloudy">Cloudy</string>
   <!-- Menu, White balance labels [CHAR LIMIT=50] -->
   <!-- Default scene mode setting. -->
   <!-- Settings screen, Select Scene mode -->

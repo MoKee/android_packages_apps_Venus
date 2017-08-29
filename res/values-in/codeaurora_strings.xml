@@ -96,6 +96,7 @@
   <string name="no_faces">Tidak ada wajah</string>
   <!-- The tips of trimming video -->
   <string name="fail_trim">Maaf, berkas video ini tidak dapat dipotong</string>
+  <string name="can_not_trim">Hanya mp4 dan 3gp yang dapat dipotong</string>
   <string name="drm_license_info">Info lisensi DRM</string>
   <!-- Timeline screen title -->
   <string name="timeline_title">Timeline</string>

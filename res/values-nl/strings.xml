@@ -383,6 +383,7 @@
   <!-- The label for the folder contains screenshot images. [CHAR LIMIT=20]-->
   <string name="folder_screenshot">Schermafbeelding</string>
   <!-- The title of the menu item which display online help in browser. [CHAR LIMIT=20]-->
+  <string name="help">Hulp</string>
   <!-- The tilte of a dialog showing there is no external storage. [CHAR LIMIT=20] -->
   <string name="no_external_storage_title">Geen opslag</string>
   <!-- The message of a dialog showing there is no external storage. [CHAR LIMIT=none] -->
@@ -438,6 +439,7 @@
   <!-- message for the dialog showing the camera is disabled because of security policies. Camera cannot be used. -->
   <string name="camera_disabled">De camera is uitgeschakeld vanwege het beveiligingsbeleid.</string>
   <!-- label for the icon meaning 'show me all the images that were taken with the camera' -->
+  <string name="camera_label">Camera</string>
   <!-- alert to the user to wait for some operation to complete -->
   <string name="wait">Een ogenblik geduld...</string>
   <!-- alert to the user that USB storage must be available before using the camera [CHAR LIMIT=NONE] -->

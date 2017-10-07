@@ -77,14 +77,6 @@
   <string name="mute_nosupport">Kan geluid niet dempen: video niet ondersteund</string>
   <!-- The message is shown in toast when click showOnMap Menu and there is no map app -->
   <string name="map_activity_not_found_err">Er is geen kaartenapp geïnstalleerd om de locatie weer te geven.</string>
-  <!-- The label for the bass boost knob of the audio effects dialog. -->
-  <string name="bass_boost_strength">Basversterker</string>
-  <!-- The label for the 3d effect knob of the audio effects dialog. -->
-  <string name="virtualizer_strength">3D-effect</string>
-  <!-- The label for the audio effects menu. -->
-  <string name="audio_effects">Geluidseffecten</string>
-  <!-- Toast if user attempts to control audio effects without headphones plugged in. -->
-  <string name="headset_plug">Sluit een koptelefoon aan voor deze effecten.</string>
   <!-- Toast message for share items -->
   <string name="cannot_share_items">Maximaal aantal items dat gedeeld kan worden is 300</string>
   <string name="share_dialogue_title">Delen via</string>

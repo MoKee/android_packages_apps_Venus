@@ -81,7 +81,6 @@
     <item quantity="one">%1$d vidéo</item>
     <item quantity="other">%1$d vidéos</item>
   </plurals>
-  <string name="headset_plug">Brancher un casque pour utiliser ces effets.</string>
   <!-- Toast message for share items -->
   <string name="cannot_share_items">Le nombre maximum d\'éléments sélectionnés pour le partage est de 300</string>
   <string name="share_dialogue_title">Partager via</string>

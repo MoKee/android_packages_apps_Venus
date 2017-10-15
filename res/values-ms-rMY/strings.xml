@@ -132,6 +132,7 @@
   <string name="no_such_item">Tidak dapat mencari item.</string>
   <!-- String used as a menu label. The user can choose to edit the image
          [CHAR_LIMIT=20]-->
+  <string name="edit">Ubah</string>
   <!-- String used as a menu label. The user can choose to edit the image
          [CHAR_LIMIT=20]-->
   <string name="simple_edit">Edit Ringkas</string>

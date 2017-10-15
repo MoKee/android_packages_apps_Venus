@@ -37,6 +37,7 @@
   <string name="setp_option_six_second">6 seconden</string>
   <string name="loop">"Herhalen"</string>
   <string name="single">"Enkel"</string>
+  <string name="stereo">"Stereo"</string>
   <string name="speaker_on">Luidspreker AAN</string>
   <string name="speaker_off">Luidspreker UIT</string>
   <string name="speaker_need_headset">Sluit een koptelefoon aan om deze functie te gebruiken.</string>

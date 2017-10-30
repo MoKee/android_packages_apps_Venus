@@ -28,6 +28,7 @@
   <!-- Movie View Start Playing dialog title -->
   <!-- Movie View Start Playing button "Resume from bookmark" -->
   <!-- Displayed in the title of those albums that are being loaded -->
+  <string name="loading">ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ\u2026</string>
   <!-- Displayed in the title of those pictures that fails to be loaded
          [CHAR LIMIT=50]-->
   <!-- Used in a toast message when an image fails to be loaded
@@ -37,8 +38,10 @@
   <!-- Movie View Start Playing button "Beginning" -->
   <!-- Title of a menu item to indicate performing the image crop operation
          [CHAR LIMIT=20] -->
+  <string name="crop_save_text">ಸರಿ</string>
   <!-- Title of a menu item to indicate performing the image crop operation
          [CHAR LIMIT=20] -->
+  <string name="ok">ಸರಿ</string>
   <!-- Button indicating that the cropped image should be reverted back to the original -->
   <!-- Hint that appears when cropping an image with more than one face -->
   <!-- Toast/alert that the image is being saved to the SD card -->
@@ -126,6 +129,7 @@
   <!-- A label describing that the current screen is for the user to pick
          some albums to be viewable offline [CHAR LIMIT=30] -->
   <!-- A label of a menu item for user to sync the content [CHAR LIMIT=30] -->
+  <string name="sync_picasa_albums">ಹೊಸತಾಗಿಸಿ</string>
   <!-- A label on a button. The user clicks this button after he has
          finished selection. [CHAR LIMIT=15] -->
   <!-- String indicating the sequence of currently selected item in the
@@ -157,6 +161,7 @@
   <!-- String indicating the time units in seconds. [CHAR LIMIT=8] -->
   <!-- String indicating the length units in milli-meters. [CHAR LIMIT=8] -->
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
+  <string name="manual">ಹಸ್ತಚಾಲಿತ</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
   <!-- String indicating camera flash is fired. [CHAR LIMIT=14] -->
   <!-- String indicating camera flash is not used. [CHAR LIMIT=14] -->
@@ -354,6 +359,7 @@
   <!-- switch camera label back [CHAR LIMIT=60] -->
   <!-- switch camera label front [CHAR LIMIT=60] -->
   <!-- Dialog "OK" button. Dismisses dialog. -->
+  <string name="dialog_ok">ಸರಿ</string>
   <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <!-- Low-memory dialog message [CHAR LIMIT=NONE] -->
   <!-- Camera format string for new image files. Passed to java.text.SimpleDateFormat. -->

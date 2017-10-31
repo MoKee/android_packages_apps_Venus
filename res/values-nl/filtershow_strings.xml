@@ -340,21 +340,36 @@
   <string name="trueportrait_edit_background_toast">Gebruik uw vinger om in alle gebieden van de achtergrond te schilderen die werden gemist.</string>
   <string name="trueportrait_edit_help">Om in te zoomen gebruikt u twee vingers om te knijpen open of gesloten. U kunt ook slepen met twee vingers om opnieuw de positie van de afbeelding te bepalen. Dit kan gemakkelijker om eventuele probleemgebieden op te lossen.</string>
   <string name="trueportrait_fusion_intro">Uw voorgrond persoon kan worden gekopieerd en geplakt op een foto in uw galerij. U kunt andere achtergronden uitproberen om zodoende de foto naar wens samen te stellen.</string>
+  <string name="dualcam_fusion_intro">Je voorgrond kan worden gekopieerd en geplakt op een foto in uw galerij. En u kunt met behulp van verschillende achtergrond de foto\'s geheel naar wens samen te stellen.</string>
   <string name="do_not_show_again">Niet meer weergeven</string>
+  <string name="trueportrait_touch_up">Retoucheren</string>
   <string name="fusion_pick_background">Achtergrond kiezen</string>
   <string name="color">Kleur</string>
   <string name="ok_continue">Volgende</string>
   <string name="frames">Kaders</string>
+  <string name="beautify">Verfraaien</string>
+  <string name="dualcam">Dual Camera</string>
+  <string name="trueportrait">Ware portret</string>
   <string name="foreground">Voorgrond</string>
   <string name="background">Achtergrond</string>
+  <string name="brush_size">Penseelgrootte</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_dialog_title">Aangepast Filter</string>
+  <string name="filtershow_dialog_content">U kunt een foto filter.\n\nSelecteer de gewenste foto en gebruik het als een filter voor andere foto\'s</string>
   <string name="filtershow_dialog_original_photo">Oorspronkelijke foto</string>
   <string name="filtershow_dialog_apply_photo">Kleuren toepassen</string>
   <string name="filtershow_dialog_checkbox">Niet meer weergeven</string>
   <string name="filtershow_preset_title">aangepast</string>
   <string name="filtershow_preset_rename">Naam wijzigen</string>
+  <string name="delete_before_exit">Filter verwijderen?</string>
+  <string name="rename_before_exit">Filternaam wijzigen</string>
+  <string name="filter_name">Filternaam</string>
+  <string name="filter_name_notification">Naam mag niet leeg zijn.</string>
+  <string name="filter_name_duplicate">Gebruikersnaam bestaat al. Kies een andere.</string>
   <string name="watermark_location">Locatie</string>
   <string name="watermark_time">Tijd</string>
   <string name="watermark_weather">Weer
 </string>
+  <string name="watermark_emotions">emoties</string>
+  <string name="watermark_food">Eten</string>
 </resources>

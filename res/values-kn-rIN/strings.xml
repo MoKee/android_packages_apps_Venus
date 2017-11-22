@@ -77,6 +77,7 @@
   <!-- Toast message prompted when the specified item is not found [CHAR LIMIT=40]-->
   <!-- String used as a menu label. The user can choose to edit the image
          [CHAR_LIMIT=20]-->
+  <string name="edit">ಪರಿಷ್ಕರಿಸಿ</string>
   <!-- String used as a menu label. The user can choose to edit the image
          [CHAR_LIMIT=20]-->
   <!-- String used as a title of a progress dialog. The user can
@@ -232,6 +233,7 @@
   <!-- Group by Tags tab on Action Bar. [CHAR LIMIT=12] -->
   <!-- Group by menu item. [CHAR LIMIT=20] -->
   <!-- The title of the menu item which enable the settings [CHAR LIMIT=20] -->
+  <string name="settings">ಸಂಯೋಜನೆಗಳು</string>
   <!-- The title of menu item where user can add a new account -->
   <!-- The label for the folder contains pictures taken by the camera. [CHAR LIMIT=20]-->
   <!-- The label for the folder contains downloaded pictures. [CHAR LIMIT=20]-->
@@ -240,6 +242,7 @@
   <!-- The label for the folder contains pictures that was imported from an
          external camera. [CHAR LIMIT=20]-->
   <!-- The label for the folder contains screenshot images. [CHAR LIMIT=20]-->
+  <string name="folder_screenshot">ತೆರೆಸೆರೆ</string>
   <!-- The title of the menu item which display online help in browser. [CHAR LIMIT=20]-->
   <!-- The tilte of a dialog showing there is no external storage. [CHAR LIMIT=20] -->
   <!-- The message of a dialog showing there is no external storage. [CHAR LIMIT=none] -->

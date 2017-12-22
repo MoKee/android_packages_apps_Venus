@@ -29,6 +29,7 @@
   <!-- Movie View Start Playing dialog title -->
   <!-- Movie View Start Playing button "Resume from bookmark" -->
   <!-- Displayed in the title of those albums that are being loaded -->
+  <string name="loading">Naglo-load \ u2026</string>
   <!-- Displayed in the title of those pictures that fails to be loaded
          [CHAR LIMIT=50]-->
   <!-- Used in a toast message when an image fails to be loaded
@@ -238,6 +239,7 @@
   <!-- The title of menu item where user can add a new account -->
   <!-- The label for the folder contains pictures taken by the camera. [CHAR LIMIT=20]-->
   <!-- The label for the folder contains downloaded pictures. [CHAR LIMIT=20]-->
+  <string name="folder_download">I-download</string>
   <!-- The label for the folder contains edited online pictures. [CHAR LIMIT=40]-->
   <!-- The label for the folder contains pictures that was imported from an
          external camera. [CHAR LIMIT=20]-->

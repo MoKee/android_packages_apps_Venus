@@ -37,8 +37,10 @@
   <!-- Movie View Start Playing button "Beginning" -->
   <!-- Title of a menu item to indicate performing the image crop operation
          [CHAR LIMIT=20] -->
+  <string name="crop_save_text">အိုကေ</string>
   <!-- Title of a menu item to indicate performing the image crop operation
          [CHAR LIMIT=20] -->
+  <string name="ok">အိုကေ</string>
   <!-- Button indicating that the cropped image should be reverted back to the original -->
   <!-- Hint that appears when cropping an image with more than one face -->
   <!-- Toast/alert that the image is being saved to the SD card -->
@@ -58,9 +60,11 @@
   <!-- Toast/alert after saving wallpaper -->
   <!-- Details dialog "OK" button. Dismisses dialog. -->
   <!-- String Delete the selected media item(s) [CHAR LIMIT=50] -->
+  <string name="cancel">မလုပ်တော့</string>
   <!-- The label shown after an image is deleted [CHAR LIMIT=16] -->
   <!-- The label on the button which when clicked will undo a deletion of image [CHAR LIMIT=16]-->
   <!-- String indicating more actions are available -->
+  <string name="close">ပိတ်သည်</string>
   <!-- Title of a menu item to switch from Gallery to Camera app [CHAR LIMIT=30] -->
   <!-- String indicating how many media item(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
@@ -125,6 +129,7 @@
   <!-- A label describing that the current screen is for the user to pick
          some albums to be viewable offline [CHAR LIMIT=30] -->
   <!-- A label of a menu item for user to sync the content [CHAR LIMIT=30] -->
+  <string name="sync_picasa_albums">ပြန်လည်ဆန်းသစ်</string>
   <!-- A label on a button. The user clicks this button after he has
          finished selection. [CHAR LIMIT=15] -->
   <string name="done">ရပြီ</string>
@@ -155,6 +160,7 @@
   <!-- String indicating the time units in seconds. [CHAR LIMIT=8] -->
   <!-- String indicating the length units in milli-meters. [CHAR LIMIT=8] -->
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
+  <string name="manual">တစ်ဆင့်ခြင်း</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
   <!-- String indicating camera flash is fired. [CHAR LIMIT=14] -->
   <!-- String indicating camera flash is not used. [CHAR LIMIT=14] -->
@@ -352,6 +358,7 @@
   <!-- switch camera label back [CHAR LIMIT=60] -->
   <!-- switch camera label front [CHAR LIMIT=60] -->
   <!-- Dialog "OK" button. Dismisses dialog. -->
+  <string name="dialog_ok">အိုကေ</string>
   <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <!-- Low-memory dialog message [CHAR LIMIT=NONE] -->
   <!-- Camera format string for new image files. Passed to java.text.SimpleDateFormat. -->

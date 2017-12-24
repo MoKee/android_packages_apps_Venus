@@ -92,8 +92,8 @@
   <!-- String Delete the selected media item(s) [CHAR LIMIT=50] -->
   <plurals name="delete_selection">
     <item quantity="one">Удалить выбранный файл?</item>
-    <item quantity="few">Удалить выбранные элементы?</item>
-    <item quantity="other">Удалить выбранные элементы?</item>
+    <item quantity="few">Удалить выбранные файлы?</item>
+    <item quantity="other">Удалить выбранные файлы?</item>
   </plurals>
   <string name="confirm">Подтвердите</string>
   <string name="cancel">Отмена</string>
@@ -165,7 +165,7 @@
   <!-- The title of the menu item to let user set the image as background etc. [CHAR LIMIT=15] -->
   <string name="set_as">Установить как</string>
   <!-- String indicating an error when muting the video. [CHAR LIMIT=30] -->
-  <string name="video_mute_err">Произошла ошибка</string>
+  <string name="video_mute_err">Невозможно отключить звук видео.</string>
   <!-- String indicating an error when playing the video. [CHAR LIMIT=30] -->
   <string name="video_err">Не удалось воспроизвести видео.</string>
   <!-- Strings for grouping operations in the menu. The photos can be grouped
@@ -204,7 +204,7 @@
   <!-- Title of a menu item to show videos only [CHAR LIMIT=30]-->
   <string name="show_videos_only">Только видео</string>
   <!-- Title of a menu item to show all (both images and videos) [CHAR LIMIT=30]-->
-  <string name="show_all">Изображения и видео</string>
+  <string name="show_all">Фото и видео</string>
   <!-- Title of the StackView AppWidget -->
   <string name="appwidget_title">Фотогалерея</string>
   <!-- Text for the empty state of the StackView AppWidget [CHAR LIMIT=30] -->

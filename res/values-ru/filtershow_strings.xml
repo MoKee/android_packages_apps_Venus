@@ -18,7 +18,7 @@
 -->
 <resources>
   <!--  Title for the image editor activity [CHAR LIMIT=NONE]-->
-  <string name="title_activity_filter_show">Графический редактор</string>
+  <string name="title_activity_filter_show">Фоторедактор</string>
   <!--  String shown when we cannot load the image when starting the activity [CHAR LIMIT=NONE] -->
   <string name="cannot_load_image">Не удалось загрузить изображение.</string>
   <!--  String shown when cannot load the original image. We will edit selected image [CHAR LIMIT=NONE] -->
@@ -143,9 +143,9 @@
   <!--  Label for the image curves filter button [CHAR LIMIT=10] -->
   <string name="curvesRGB">Кривые</string>
   <!--  Label for the image vignette filter (darkens photo around edges) button [CHAR LIMIT=10] -->
-  <string name="vignette">Виньетирование</string>
+  <string name="vignette">Виньетка</string>
   <!--  Label for the image vignette main parameter ui [CHAR LIMIT=15] -->
-  <string name="vignette_main">Виньетирование</string>
+  <string name="vignette_main">Виньетка</string>
   <!--  Label for the image vignette exposure parameter ui [CHAR LIMIT=15] -->
   <string name="vignette_exposure">Выдержка</string>
   <!--  Label for the image vignette saturation parameter ui [CHAR LIMIT=15] -->
@@ -243,7 +243,7 @@
   <!--  Label for the size to draw in in [CHAR LIMIT=14] -->
   <string name="draw_size">Размер</string>
   <!--  Label for the Hue to draw in [CHAR LIMIT=14] -->
-  <string name="draw_hue">Тон</string>
+  <string name="draw_hue">Оттенок</string>
   <!--  Label for the color to draw in [CHAR LIMIT=14] -->
   <string name="draw_saturation">Насыщенность</string>
   <!--  Label for the Brightness to draw in [CHAR LIMIT=14] -->
@@ -259,23 +259,23 @@
   <!--  Label for the removing drawing from screen [CHAR LIMIT=14] -->
   <string name="draw_clear">Очистить</string>
   <!--  Label for the with of the border[CHAR LIMIT=14] -->
-  <string name="color_border_size">Ширина</string>
+  <string name="color_border_size">Толщина</string>
   <!--  Label for the border corner size (or rounding) [CHAR LIMIT=14] -->
-  <string name="color_border_corner_size">Границы</string>
+  <string name="color_border_corner_size">Размер угла</string>
   <!--  Label for selecting the border color [CHAR LIMIT=14] -->
   <string name="color_border_color">Цвет</string>
   <!--  Label for the removing borders [CHAR LIMIT=14] -->
-  <string name="color_border_clear">Удалить</string>
+  <string name="color_border_clear">Очистить</string>
   <!--  Label for the select the color [CHAR LIMIT=35] -->
   <string name="color_pick_select">Выбрать свой цвет</string>
   <!--  The title for the color pick dialog [CHAR LIMIT=20] -->
-  <string name="color_pick_title">Выберите цвет</string>
+  <string name="color_pick_title">Выбрать цвет</string>
   <!--  The title for draw size [CHAR LIMIT=50] -->
-  <string name="draw_size_title">Выберите размер</string>
+  <string name="draw_size_title">Выбрать размер</string>
   <!--  The accept the draw size [CHAR LIMIT=20] -->
   <string name="draw_size_accept">ОК</string>
   <!--  Name used to indicate the original image in the state panel [CHAR LIMIT=20] -->
-  <string name="state_panel_original">Как в оригинале</string>
+  <string name="state_panel_original">Оригинал</string>
   <!--  Name used to indicate the final image in the state panel [CHAR LIMIT=20] -->
   <string name="state_panel_result">Результат</string>
   <!-- Label for the notification [CHAR LIMIT=50] -->
@@ -291,9 +291,9 @@
   <!-- Label for preset name [CHAR LIMIT=30] -->
   <string name="filtershow_preset_name">Название шаблона</string>
   <!-- Label for showing the image information panel [CHAR LIMIT=50] -->
-  <string name="filtershow_show_info_panel">О фото</string>
+  <string name="filtershow_show_info_panel">Сведения</string>
   <!-- Label for the information panel [CHAR LIMIT=30] -->
-  <string name="filtershow_show_info_panel_name">Название</string>
+  <string name="filtershow_show_info_panel_name">Имя изображения</string>
   <!-- Label for the information panel [CHAR LIMIT=30] -->
   <string name="filtershow_show_info_panel_size">Размер</string>
   <!-- Label for the information panel [CHAR LIMIT=30] -->
@@ -303,7 +303,7 @@
   <!-- Label for the add button in the category panel [CHAR LIMIT=30] -->
   <string name="filtershow_add_button_looks">Добавить</string>
   <!-- Label for the add button in the versions panel [CHAR LIMIT=30] -->
-  <string name="filtershow_add_button_versions">Добавить</string>
+  <string name="filtershow_add_button_versions">Версия</string>
   <!-- Label for the Original version in the versions panel [CHAR LIMIT=30] -->
   <string name="filtershow_version_original">Оригинал</string>
   <!-- Label for the Current version in the versions panel [CHAR LIMIT=30] -->

@@ -35,7 +35,7 @@
   <!-- Movie View Start Playing dialog title -->
   <string name="resume_playing_message">Продолжить воспроизведение с %s?</string>
   <!-- Movie View Start Playing button "Resume from bookmark" -->
-  <string name="resume_playing_resume">Продолжить воспроизведение</string>
+  <string name="resume_playing_resume">Продолжить просмотр</string>
   <!-- Displayed in the title of those albums that are being loaded -->
   <string name="loading">Загрузка…</string>
   <!-- Displayed in the title of those pictures that fails to be loaded
@@ -43,7 +43,7 @@
   <string name="fail_to_load">Не удалось загрузить</string>
   <!-- Used in a toast message when an image fails to be loaded
          [CHAR LIMIT=50]-->
-  <string name="fail_to_load_image">Не удалось загрузить изображение</string>
+  <string name="fail_to_load_image">Не удалось загрузить изображение.</string>
   <!-- Displayed in place of the picture when we fail to get the thumbnail of it.
          [CHAR LIMIT=50]-->
   <string name="no_thumbnail">Нет эскиза</string>
@@ -95,9 +95,9 @@
     <item quantity="few">Удалить выбранные файлы?</item>
     <item quantity="other">Удалить выбранные файлы?</item>
   </plurals>
-  <string name="confirm">Подтвердите</string>
+  <string name="confirm">Подтвердить</string>
   <string name="cancel">Отмена</string>
-  <string name="share">Поделится</string>
+  <string name="share">Поделиться</string>
   <string name="share_panorama">Поделиться панорамой</string>
   <string name="share_as_photo">Поделиться фото</string>
   <!-- The label shown after an image is deleted [CHAR LIMIT=16] -->
@@ -109,7 +109,7 @@
   <string name="deselect_all">Отменить все</string>
   <string name="slideshow">Слайд-шоу</string>
   <string name="details">Сведения</string>
-  <string name="details_title">Элементов %1$d из %2$d:</string>
+  <string name="details_title">Элемент %1$d из %2$d:</string>
   <string name="close">Закрыть</string>
   <!-- Title of a menu item to switch from Gallery to Camera app [CHAR LIMIT=30] -->
   <string name="switch_to_camera">Переключиться на камеру</string>
@@ -159,7 +159,7 @@
   <!-- The title of the menu item to let user crop the image. [CHAR LIMIT=15] -->
   <string name="crop_action">Кадрировать</string>
   <!-- The title of the menu item to let user trim the video. [CHAR LIMIT=15] -->
-  <string name="trim_action">Обрезка</string>
+  <string name="trim_action">Обрезать видео</string>
   <!-- The title of the menu item to let user mute the video. [CHAR LIMIT=15] -->
   <string name="mute_action">Отключить звук</string>
   <!-- The title of the menu item to let user set the image as background etc. [CHAR LIMIT=15] -->
@@ -229,7 +229,7 @@
   <string name="done">Готово</string>
   <!-- String indicating the sequence of currently selected item in the
             media set eg. 3 of 5 items [CHAR LIMIT=30] -->
-  <string name="sequence_in_set">%1$d из %2$d:</string>
+  <string name="sequence_in_set">Элемент %1$d из %2$d:</string>
   <!-- Text indicating the title of a media item in details window [CHAR LIMIT=14] -->
   <string name="title">Название</string>
   <!-- Text indicating the description of a media item in details window [CHAR LIMIT=14] -->
@@ -261,7 +261,7 @@
   <!-- Text indicating aperture of a media item in details window [CHAR LIMIT=14] -->
   <string name="aperture">Диафрагма</string>
   <!-- Text indicating the focal length of a media item in details window [CHAR LIMIT=14] -->
-  <string name="focal_length">Фокус. расст.</string>
+  <string name="focal_length">Фокусное расстояние</string>
   <!-- Text indicating the white balance of a media item in details window [CHAR LIMIT=14] -->
   <string name="white_balance">Баланс белого</string>
   <!-- Text indicating the exposure time of a media item in details window [CHAR LIMIT=14] -->
@@ -472,7 +472,7 @@
   <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
   <string name="preparing_sd" product="nosdcard">Подготовка USB-накопителя…</string>
   <!-- alert to the user that the SD card is being disk-checked -->
-  <string name="preparing_sd" product="default">Подготовка карты SD...</string>
+  <string name="preparing_sd" product="default">Подготовка SD-карты...</string>
   <!-- alert to the user that the camera fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
   <string name="access_sd_fail" product="nosdcard">Нет доступа к USB-накопителю.</string>
   <!-- alert to the user that the camera fails to read or write the SD card. -->
@@ -516,9 +516,9 @@
   <!-- Video quality setting entry. Videos will be recorded in 720p quality. [CHAR LIMIT=24] -->
   <!-- Video quality setting entry. Videos will be recorded in 480p quality. [CHAR LIMIT=24] -->
   <!-- Video quality setting entry. Videos will be recorded in the highest quality available on the device. [CHAR LIMIT=24] -->
-  <string name="pref_video_quality_entry_high">Высокое качество</string>
+  <string name="pref_video_quality_entry_high">Высокое</string>
   <!-- Video quality setting entry. Videos will be recorded in the lowest quality available on the device. [CHAR LIMIT=24] -->
-  <string name="pref_video_quality_entry_low">Низкое качество</string>
+  <string name="pref_video_quality_entry_low">Низкое</string>
   <!-- Describes the preference dialog for choosing interval between frame capture for
     time lapse recording. Appears at top of the dialog. [CHAR LIMIT=30] -->
   <string name="pref_video_time_lapse_frame_interval_title">Замедл. съемка</string>
@@ -529,7 +529,7 @@
   <!-- Settings screen, Picture size title -->
   <string name="pref_camera_picturesize_title">Размер фото</string>
   <!-- Settings screen, dialog choice for 13 megapixels picture size [CHAR LIMIT=15] -->
-  <string name="pref_camera_picturesize_entry_13mp">13 мегапикс.</string>
+  <string name="pref_camera_picturesize_entry_13mp">13,0 Мпикс.</string>
   <!-- Settings screen, dialog choice for 8 megapixels picture size [CHAR LIMIT=15] -->
   <string name="pref_camera_picturesize_entry_8mp">8 Мпикс.</string>
   <!-- Settings screen, dialog choice for 5 megapixels picture size [CHAR LIMIT=15] -->
@@ -878,7 +878,7 @@ CHAR LIMIT = NONE] -->
   <string name="tab_albums">Альбомы</string>
   <!-- Camera menu labels -->
   <!-- more options label [CHAR LIMIT=50] -->
-  <string name="camera_menu_more_label">ЕЩЁ</string>
+  <string name="camera_menu_more_label">ДРУГИЕ ОПЦИИ</string>
   <!-- settings label [CHAR LIMIT=50] -->
   <string name="camera_menu_settings_label">НАСТРОЙКИ</string>
   <!-- String indicating how many photos are in an album [CHAR LIMIT=15] -->

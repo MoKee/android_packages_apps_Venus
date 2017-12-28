@@ -19,17 +19,17 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">Галерея</string>
   <!-- Title for picture frame gadget to show in list of all available gadgets -->
-  <string name="gadget_title">Рамка фотографии</string>
+  <string name="gadget_title">Фоторамка</string>
   <!-- Used to format short video duration in Details dialog. minutes:seconds e.g. 00:30 -->
   <!-- Used to format video duration in Details dialog. hours:minutes:seconds e.g. 0:21:30 -->
   <!-- Activity label. This might show up in the activity-picker -->
   <string name="movie_view_label">Видеопроигрыватель</string>
   <!-- shown in the video player view while the video is being loaded, before it starts playing -->
   <string name="loading_video">Загрузка видео</string>
-  <string name="loading_image">Загрузка изображения</string>
+  <string name="loading_image">Загрузка изображения...</string>
   <!-- Message shown on the progress dialog to indicate we're loading the
             account info [CHAR LIMIT=30] -->
-  <string name="loading_account">Загрузка информации об аккаунте</string>
+  <string name="loading_account">Загрузка информации об аккаунте...</string>
   <!-- Movie View Resume Playing dialog title -->
   <string name="resume_playing_title">Продолжение просмотра видео</string>
   <!-- Movie View Start Playing dialog title -->
@@ -317,7 +317,7 @@
   <string name="set_label_all_albums">Все альбомы</string>
   <!-- A label shown on the action bar. It indicates that the user is
          viewing albums stored locally on the device [CHAR LIMIT=20] -->
-  <string name="set_label_local_albums">Офлайн-альбомы</string>
+  <string name="set_label_local_albums">Локальные альбомы</string>
   <!-- A label shown on the action bar. It indicates that the user is
          viewing MTP devices connected (like other digital cameras).
          [CHAR LIMIT=20] -->
@@ -329,19 +329,19 @@
          is a string representation of the amount of free space, eg. "20MB".
          [CHAR LIMIT=20]
     -->
-  <string name="free_space_format">Свободно: <xliff:g id="BYTES">%s</xliff:g></string>
+  <string name="free_space_format">Свободно: <xliff:g id="bytes">%s</xliff:g></string>
   <!-- Label of a group of pictures. The size of each picture in this group is
          less than a certain amount. The parameter is a string representation
          of that amount, eg. "10MB".
          [CHAR LIMIT=20]
     -->
-  <string name="size_below"><xliff:g id="SIZE">%1$s</xliff:g> или менее</string>
+  <string name="size_below"><xliff:g id="size">%1$s</xliff:g> или менее</string>
   <!-- Label of a group of pictures. The size of each picture in this group is
          more than a certain amount. The parameter is a string representation
          of that amount, eg. "10MB".
          [CHAR LIMIT=20]
     -->
-  <string name="size_above"><xliff:g id="SIZE">%1$s</xliff:g> или более</string>
+  <string name="size_above"><xliff:g id="size">%1$s</xliff:g> или более</string>
   <!-- Label of a group of pictures. The size of each picture in this group is
          between two amounts. The parameters are string representations of the two
          amounts, eg. "10MB", "100MB".
@@ -369,7 +369,7 @@
   <!-- The label on the radio button for the widget type that shows only one image. [CHAR LIMIT=30]-->
   <string name="widget_type_photo">Выберите изображение</string>
   <!-- The title of the dialog for choosing the type of widget. [CHAR LIMIT=20] -->
-  <string name="widget_type">Выбор изображений</string>
+  <string name="widget_type">Выбрать изображения</string>
   <!-- Title of the Android Dreams slideshow screensaver. [CHAR LIMIT=20] -->
   <string name="slideshow_dream_name">Слайд-шоу</string>
   <!-- Group by Albums tab on Action Bar. [CHAR LIMIT=12] -->
@@ -402,23 +402,23 @@
   <!-- The title of the menu item which display online help in browser. [CHAR LIMIT=20]-->
   <string name="help">Справка</string>
   <!-- The tilte of a dialog showing there is no external storage. [CHAR LIMIT=20] -->
-  <string name="no_external_storage_title">Накопитель не найден</string>
+  <string name="no_external_storage_title">Хранилище не доступно</string>
   <!-- The message of a dialog showing there is no external storage. [CHAR LIMIT=none] -->
   <string name="no_external_storage">Нет внешних накопителей</string>
   <!-- Label for album filmstrip button -->
   <string name="switch_photo_filmstrip">Лента</string>
   <!-- Label for album grid button -->
-  <string name="switch_photo_grid">Сетка</string>
+  <string name="switch_photo_grid">Отобразить в виде сетки</string>
   <!-- Label for fullscreen button. [CHAR LIMIT=20] -->
   <string name="switch_photo_fullscreen">Во весь экран</string>
   <!-- The tilte of a dialog showing trimming in progress. [CHAR LIMIT=20] -->
   <string name="trimming">Обрезка</string>
   <!-- The tilte of a dialog showing muting in progress. [CHAR LIMIT=20] -->
-  <string name="muting">Подождите…</string>
+  <string name="muting">Отключение звука…</string>
   <!-- The content of a dialog showing trimming in progress. [CHAR LIMIT=30] -->
-  <string name="please_wait">Подождите…</string>
+  <string name="please_wait">Пожалуйста, подождите...</string>
   <!-- Toast after the trimming / muting is done. [CHAR LIMIT=50] -->
-  <string name="save_into">Сохранение в альбом \"<xliff:g id="ALBUM_NAME">%1$s</xliff:g>\"…</string>
+  <string name="save_into">Сохранение видео в альбоме \"<xliff:g id="album_name">%1$s</xliff:g>\"...</string>
   <!-- Toast if the trimmed video is too short to trim. [CHAR LIMIT=80] -->
   <string name="trim_too_short">Нельзя обрезать видео: оно слишком короткое</string>
   <!-- Text to show with progress bar while stitching in Gallery -->
@@ -448,7 +448,7 @@
   <!--  Status message shown when content from an external camera is being imported -->
   <string name="ingest_importing">Импорт…</string>
   <!--  Status message shown when there is no content available to be imported -->
-  <string name="ingest_empty_device">Ничего не найдено</string>
+  <string name="ingest_empty_device">Нет контента для импорта на этом устройстве.</string>
   <!--  Status message shown when there is no MTP device connected  -->
   <string name="ingest_no_device">MTP-устройство не подключено</string>
   <!-- Label for album grid button -->
@@ -464,7 +464,7 @@
   <!-- label for the icon meaning 'show me all the images that were taken with the camera' -->
   <string name="camera_label">Камера</string>
   <!-- alert to the user to wait for some operation to complete -->
-  <string name="wait">Подождите...</string>
+  <string name="wait">Пожалуйста, подождите...</string>
   <!-- alert to the user that USB storage must be available before using the camera [CHAR LIMIT=NONE] -->
   <string name="no_storage" product="nosdcard">Подключите USB-накопитель перед использованием камеры.</string>
   <!-- alert to the user that an SD card must be installed before using the camera -->
@@ -547,19 +547,19 @@
   <!-- Settings screen, dialog choice for 1 megapixels picture size [CHAR LIMIT=15] -->
   <string name="pref_camera_picturesize_entry_1mp">1 Мпикс.</string>
   <!-- Settings screen, dialog choice for VGA picture size [CHAR LIMIT=15] -->
-  <string name="pref_camera_picturesize_entry_vga">640 х 480 пикс.</string>
+  <string name="pref_camera_picturesize_entry_vga">VGA (640 х 480 пикс.)</string>
   <!-- Settings screen, dialog choice for QVGA picture size [CHAR LIMIT=15] -->
-  <string name="pref_camera_picturesize_entry_qvga">320 x 240 пикс.</string>
+  <string name="pref_camera_picturesize_entry_qvga">QVGA (320 x 240 пикс.)</string>
   <!-- Settings screen, Focus mode title -->
   <string name="pref_camera_focusmode_title">Режим фокусировки</string>
   <!-- Settings screen, Focus mode dialog radio button choices -->
   <string name="pref_camera_focusmode_entry_auto">Авто</string>
   <string name="pref_camera_focusmode_entry_infinity">Бесконечность</string>
-  <string name="pref_camera_focusmode_entry_macro">Макро</string>
+  <string name="pref_camera_focusmode_entry_macro">Макросъёмка</string>
   <!-- Menu, focus mode labels [CHAR LIMIT=50] -->
   <string name="pref_camera_focusmode_label_auto">АВТО</string>
   <string name="pref_camera_focusmode_label_infinity">БЕСКОНЕЧНОСТЬ</string>
-  <string name="pref_camera_focusmode_label_macro">МАКРОСЪЕМКА</string>
+  <string name="pref_camera_focusmode_label_macro">МАКРОСЪЁМКА</string>
   <!-- Default flash mode setting.-->
   <!-- Value for flash off setting-->
   <!-- Settings screen, Flash mode title -->
@@ -594,7 +594,7 @@
   <string name="pref_camera_whitebalance_label_cloudy">ПАСМУРНО</string>
   <!-- Default scene mode setting. -->
   <!-- Settings screen, Select Scene mode -->
-  <string name="pref_camera_scenemode_title">Режим съемки</string>
+  <string name="pref_camera_scenemode_title">Режим съёмки</string>
   <!-- Settings menu, scene mode choices [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_auto">Авто</string>
   <!-- Scene mode that uses HDR (high dynamic range) [CHAR LIMIT=16] -->
@@ -630,7 +630,7 @@
   <!-- Settings menu countdown timer 15 seconds [CHAR LIMIT=50] -->
   <string name="pref_camera_countdown_label_fifteen">15 СЕКУНД</string>
   <!-- Toast after trying to select a setting that is not allowed to change in scene mode [CHAR LIMIT=NONE] -->
-  <string name="not_selectable_in_scene_mode">Недоступно в режиме съемки</string>
+  <string name="not_selectable_in_scene_mode">Недоступно в режиме съемки.</string>
   <!-- Exposure settings in preference -->
   <string name="pref_exposure_title">Экспозиция</string>
   <!--  menu label exposure compensation [CHAR LIMIT=50] -->
@@ -658,7 +658,7 @@
   <!-- The text shown in the progress dialog when panorama preview is generating in the background [CHAR LIMIT=30] -->
   <string name="pano_dialog_prepare_preview">Обработка...</string>
   <!-- The text shown in the dialog when panorama saving failed [CHAR LIMIT=40] -->
-  <string name="pano_dialog_panorama_failed">Не удалось сохранить файл.</string>
+  <string name="pano_dialog_panorama_failed">Не удалось сохранить панораму.</string>
   <!-- The text shown on the dialog title in the dialogs for Panorama [CHAR LIMIT=12] -->
   <string name="pano_dialog_title">Панорама</string>
   <!-- The text shown on the top-left corner of the screen to indicate the capturing is on going [CHAR LIMIT=27] -->
@@ -687,7 +687,7 @@
   <!-- Effect setting item that makes nose big. [CHAR LIMIT=14] -->
   <string name="effect_goofy_face_big_nose">Большой нос</string>
   <!-- Effect setting item that makes eyes small. [CHAR LIMIT=14] -->
-  <string name="effect_goofy_face_small_eyes">Глаза в точку</string>
+  <string name="effect_goofy_face_small_eyes">Маленькие глаза</string>
   <!-- Effect setting item that replaces background with Android in Space. [CHAR LIMIT=14] -->
   <string name="effect_backdropper_space">Космос</string>
   <!-- Effect setting item that replaces background with a sunset. [CHAR LIMIT=14] -->
@@ -752,16 +752,16 @@ CHAR LIMIT = NONE] -->
   <!-- The button to play the video. [CHAR LIMIT = NONE] -->
   <string name="accessibility_play_video">Воспроизвести видео</string>
   <!-- The button to pause the video. [CHAR LIMIT = NONE] -->
-  <string name="accessibility_pause_video">Пауза</string>
+  <string name="accessibility_pause_video">Приостановить видео</string>
   <!-- The button to reload the video. [CHAR LIMIT = NONE] -->
   <string name="accessibility_reload_video">Перезагрузить видео</string>
   <!-- The time bar of the media player. [CHAR LIMIT = NONE] -->
   <string name="accessibility_time_bar">Полоса прокрутки видеоплеера</string>
   <!-- TODO: remove the string as it is a work-around solution to bypass the default speak of the element type. -->
   <!-- Default text for a button that can be toggled on and off. -->
-  <string name="capital_on">I</string>
+  <string name="capital_on">ВКЛ.</string>
   <!-- Default text for a button that can be toggled on and off. -->
-  <string name="capital_off">O</string>
+  <string name="capital_off">ВЫКЛ.</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
   <string name="pref_video_time_lapse_frame_interval_off">Выкл.</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
@@ -773,7 +773,7 @@ CHAR LIMIT = NONE] -->
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
   <string name="pref_video_time_lapse_frame_interval_2000">2 сек.</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
-  <string name="pref_video_time_lapse_frame_interval_2500">2,5 мин.</string>
+  <string name="pref_video_time_lapse_frame_interval_2500">2,5 сек.</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
   <string name="pref_video_time_lapse_frame_interval_3000">3 сек.</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->

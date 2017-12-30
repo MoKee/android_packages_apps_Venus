@@ -27,6 +27,7 @@
   <!--  Text to label an image as "original" [CHAR LIMIT=20] -->
   <!--  Text for filters that apply a border to a picture [CHAR LIMIT=20] -->
   <!-- Text for the custom border filter [CHAR LIMIT=20] -->
+  <string name="custom_border">Custom</string>
   <!--  actionbar menu -->
   <!--  Text for the undo menu item [CHAR LIMIT=20] -->
   <!--  Text for redo menu item [CHAR LIMIT=20] -->
@@ -243,6 +244,7 @@
   <string name="color">Kulay</string>
   <!--Filtershow dialog -->
   <string name="filtershow_dialog_apply_photo">Ang mga kulay na angkop</string>
+  <string name="filtershow_preset_title">Custom</string>
   <string name="filtershow_preset_rename">Baguhin ang Pangalan</string>
   <string name="watermark_location">Lokasyon</string>
   <string name="watermark_weather">Lagay ng panahon</string>

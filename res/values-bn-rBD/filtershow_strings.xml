@@ -310,4 +310,5 @@
   <string name="color">রঙ</string>
   <string name="ok_continue">চালিয়ে যান</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_preset_title">কাস্টম</string>
 </resources>

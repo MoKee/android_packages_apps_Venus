@@ -305,6 +305,7 @@
   <string name="color">Боја</string>
   <string name="ok_continue">Наставити</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_preset_title">Прилагођено</string>
   <string name="filtershow_preset_rename">Преименуј</string>
   <string name="watermark_location">Локација</string>
   <string name="watermark_time">Време</string>

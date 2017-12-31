@@ -89,5 +89,6 @@
   <!-- Albums screen title -->
   <string name="albums_title">ألبومات</string>
   <!-- Videos screen title -->
+  <string name="truescanner_normal">عادي</string>
   <string name="trim_video_exit_title">هل تريد الحفظ قبل الخروج؟</string>
 </resources>

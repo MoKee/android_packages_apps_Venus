@@ -295,6 +295,7 @@
   <string name="ok_continue">Fortsæt</string>
   <!--Filtershow dialog -->
   <string name="filtershow_preset_title">Tilpasset</string>
+  <string name="filtershow_preset_rename">Omdøb</string>
   <string name="watermark_location">Lokation</string>
   <string name="watermark_time">Tid</string>
   <string name="watermark_weather">Vejr</string>

@@ -300,5 +300,6 @@
   <string name="filtershow_exif_copyright">Hak cipta</string>
   <string name="color">Warna</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_preset_title">Peribadi</string>
   <string name="watermark_time">Masa</string>
 </resources>

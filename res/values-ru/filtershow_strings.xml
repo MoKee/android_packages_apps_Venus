@@ -52,7 +52,7 @@
   <!--  Text for the dialog title to export a flattened photo[CHAR LIMIT=25] -->
   <string name="export_flattened">Экспорт с объединением слоев</string>
   <!--  Text for selecting export image quality [CHAR LIMIT=100] -->
-  <string name="select_output_settings">Экспортированное изображение будет копией без истории изменений</string>
+  <string name="select_output_settings">Экспортированное изображение будет копией без истории изменений.</string>
   <!--  Text for quality value tag [CHAR LIMIT=30] -->
   <string name="quality">Качество</string>
   <!--  Text for size value tag [CHAR LIMIT=30] -->
@@ -63,13 +63,13 @@
   <string name="menu_settings">Настройки</string>
   <!--  Exit Dialog -->
   <!--  String displayed when exiting with unsaved changes [CHAR LIMIT=NONE] -->
-  <string name="unsaved">У вас есть несохраненные изменения.</string>
+  <string name="unsaved">У вас есть несохраненные изменения. Вы действительно хотите выйти?</string>
   <!--  String displayed when exiting with unsaved changes [CHAR LIMIT=NONE] -->
-  <string name="save_before_exit">Сохранить изменения?</string>
+  <string name="save_before_exit">Отменить изменения?</string>
   <!--  String displayed when saving and exiting editor [CHAR LIMIT=NONE] -->
   <string name="save_and_exit">Сохранить и закрыть</string>
   <!--  String displayed when discard editor [CHAR LIMIT=NONE] -->
-  <string name="discard">Отменить</string>
+  <string name="discard">Выход</string>
   <!--  String displayed when saving and exiting editor [CHAR LIMIT=NONE] -->
   <string name="save_and_processing">Сохранение...</string>
   <!--  String displayed when exiting editor[CHAR LIMIT=NONE] -->
@@ -194,7 +194,7 @@
   <!--  Label for the "bw" dual camera effect  [CHAR LIMIT=15] -->
   <string name="bw">Ч/Б</string>
   <!--  Label for the "blackboard" dual camera effect  [CHAR LIMIT=15] -->
-  <string name="blackboard">Мелованная доска</string>
+  <string name="blackboard">Классная доска</string>
   <!--  Label for the "whiteboard" dual camera effect  [CHAR LIMIT=15] -->
   <string name="whiteboard">Белая доска</string>
   <!--  Label for the "posterize" dual camera effect  [CHAR LIMIT=15] -->
@@ -216,9 +216,9 @@
   <!--  Label for the red control for per channel saturation effect [CHAR LIMIT=20] -->
   <string name="editor_chan_sat_red">Красный</string>
   <!--  Label for the yellow control for per channel saturation effect [CHAR LIMIT=20] -->
-  <string name="editor_chan_sat_yellow">Желтый</string>
+  <string name="editor_chan_sat_yellow">Жёлтый</string>
   <!--  Label for the green control for per channel saturation effect [CHAR LIMIT=20] -->
-  <string name="editor_chan_sat_green">Зеленый</string>
+  <string name="editor_chan_sat_green">Зелёный</string>
   <!--  Label for the cyan control for per channel saturation effect [CHAR LIMIT=20] -->
   <string name="editor_chan_sat_cyan">Голубой</string>
   <!--  Label for the blue control for per channel saturation effect [CHAR LIMIT=20] -->
@@ -365,7 +365,7 @@
   <string name="filter_name">Название фильтра</string>
   <string name="filter_name_notification">Имя не может быть пустым.</string>
   <string name="filter_name_duplicate">Имя уже существует, пожалуйста, введите другое имя.</string>
-  <string name="watermark_location">Размещение</string>
+  <string name="watermark_location">Расположение</string>
   <string name="watermark_time">Время</string>
   <string name="watermark_weather">Погода</string>
   <string name="watermark_emotions">Эмоции</string>

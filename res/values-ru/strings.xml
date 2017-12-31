@@ -25,7 +25,7 @@
   <!-- Activity label. This might show up in the activity-picker -->
   <string name="movie_view_label">Видеопроигрыватель</string>
   <!-- shown in the video player view while the video is being loaded, before it starts playing -->
-  <string name="loading_video">Загрузка видео</string>
+  <string name="loading_video">Загрузка видео...</string>
   <string name="loading_image">Загрузка изображения...</string>
   <!-- Message shown on the progress dialog to indicate we're loading the
             account info [CHAR LIMIT=30] -->
@@ -237,7 +237,7 @@
   <!-- Text indicating the creation time of a media item in details window [CHAR LIMIT=14] -->
   <string name="time">Время</string>
   <!-- Text indicating the location of a media item in details window [CHAR LIMIT=14] -->
-  <string name="location">Место съемки</string>
+  <string name="location">Место съёмки</string>
   <!-- Text indicating the path of a media item in details window [CHAR LIMIT=14] -->
   <string name="path">Путь</string>
   <!-- Text indicating the width of a media item in details window [CHAR LIMIT=14] -->
@@ -482,13 +482,13 @@
   <!-- button in review mode indicating that the taken photo/video is OK to be attached/uploaded [CHAR LIMIT=10] -->
   <string name="review_ok">ГОТОВО</string>
   <!-- A label that overlays on top of the preview frame to indicate the camcorder is in time lapse mode [CHAR LIMIT=35] -->
-  <string name="time_lapse_title">Режим замедленной съемки</string>
+  <string name="time_lapse_title">Режим таймлапс</string>
   <!-- Settings screen, camera selection dialog title. Users can select a camera from the phone (front-facing or back-facing). [CHAR LIMIT=20] -->
   <string name="pref_camera_id_title">Выбор камеры</string>
   <!-- In select camera setting, back facing camera. [CHAR LIMIT=14] -->
   <string name="pref_camera_id_entry_back">Задняя</string>
   <!-- In select camera setting, front-facing camera. [CHAR LIMIT=14] -->
-  <string name="pref_camera_id_entry_front">Передняя</string>
+  <string name="pref_camera_id_entry_front">Фронтальная</string>
   <!-- Settings screen, setting title text -->
   <string name="pref_camera_recordlocation_title">Геотеги</string>
   <!--  Label for record location preference [CHAR LIMIT=50] -->
@@ -521,7 +521,7 @@
   <string name="pref_video_quality_entry_low">Низкое</string>
   <!-- Describes the preference dialog for choosing interval between frame capture for
     time lapse recording. Appears at top of the dialog. [CHAR LIMIT=30] -->
-  <string name="pref_video_time_lapse_frame_interval_title">Замедл. съемка</string>
+  <string name="pref_video_time_lapse_frame_interval_title">Таймлапс</string>
   <!-- Settings screen, Camera setting category title -->
   <string name="pref_camera_settings_category">Настройки камеры</string>
   <!-- Settings screen, Camcorder setting category title -->
@@ -554,11 +554,11 @@
   <string name="pref_camera_focusmode_title">Режим фокусировки</string>
   <!-- Settings screen, Focus mode dialog radio button choices -->
   <string name="pref_camera_focusmode_entry_auto">Авто</string>
-  <string name="pref_camera_focusmode_entry_infinity">Бесконечность</string>
+  <string name="pref_camera_focusmode_entry_infinity">Непрерывный</string>
   <string name="pref_camera_focusmode_entry_macro">Макросъёмка</string>
   <!-- Menu, focus mode labels [CHAR LIMIT=50] -->
   <string name="pref_camera_focusmode_label_auto">АВТО</string>
-  <string name="pref_camera_focusmode_label_infinity">БЕСКОНЕЧНОСТЬ</string>
+  <string name="pref_camera_focusmode_label_infinity">НЕПРЕРЫВНЫЙ</string>
   <string name="pref_camera_focusmode_label_macro">МАКРОСЪЁМКА</string>
   <!-- Default flash mode setting.-->
   <!-- Value for flash off setting-->
@@ -583,9 +583,9 @@
   <!-- Settings screen, White balance dialog radio button choices -->
   <string name="pref_camera_whitebalance_entry_auto">Авто</string>
   <string name="pref_camera_whitebalance_entry_incandescent">Лампа накаливания</string>
-  <string name="pref_camera_whitebalance_entry_daylight">Солнечный свет</string>
+  <string name="pref_camera_whitebalance_entry_daylight">Дневной свет</string>
   <string name="pref_camera_whitebalance_entry_fluorescent">Лампа дн. света</string>
-  <string name="pref_camera_whitebalance_entry_cloudy">Пасмурный день</string>
+  <string name="pref_camera_whitebalance_entry_cloudy">Облачно</string>
   <!-- Menu, White balance labels [CHAR LIMIT=50] -->
   <string name="pref_camera_whitebalance_label_auto">АВТО</string>
   <string name="pref_camera_whitebalance_label_incandescent">ЛАМПА НАКАЛИВАНИЯ</string>
@@ -725,7 +725,7 @@
   <!-- The button to back to the first-level indicators of the camera settings. [CHAR LIMIT = NONE] -->
   <string name="accessibility_back_to_first_level">Закрыть</string>
   <!-- The zoom control button. [CHAR LIMIT = NONE] -->
-  <string name="accessibility_zoom_control">Зум</string>
+  <string name="accessibility_zoom_control">Управление масштабированием</string>
   <!-- The decrement button in camera preference such as exposure, picture size. [CHAR LIMIT = NONE] -->
   <string name="accessibility_decrement">Уменьшить %1$s</string>
   <!-- The increment button in camera preference such as exposure, picture size. [CHAR LIMIT = NONE] -->

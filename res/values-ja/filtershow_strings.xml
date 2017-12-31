@@ -305,6 +305,7 @@
   <string name="color">色</string>
   <string name="ok_continue">継続</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_preset_title">カスタム</string>
   <string name="filtershow_preset_rename">名前を変更</string>
   <string name="watermark_location">場所</string>
   <string name="watermark_time">時刻</string>

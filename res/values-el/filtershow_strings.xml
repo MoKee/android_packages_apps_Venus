@@ -305,6 +305,7 @@
   <string name="color">Χρώμα</string>
   <string name="ok_continue">Συνέχεια</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_preset_title">Προσαρμοσμένο</string>
   <string name="filtershow_preset_rename">Μετονομασία</string>
   <string name="watermark_location">Τοποθεσία</string>
   <string name="watermark_time">Ώρα</string>

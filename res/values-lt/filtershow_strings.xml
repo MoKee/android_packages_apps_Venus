@@ -304,6 +304,7 @@
   <string name="filtershow_exif_copyright">Autorių teisės</string>
   <string name="color">Spalva</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_preset_title">Tinkintas</string>
   <string name="filtershow_preset_rename">Pervardinti</string>
   <string name="watermark_location">Vietovė</string>
   <string name="watermark_time">Laikas</string>

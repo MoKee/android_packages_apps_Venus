@@ -314,6 +314,7 @@
   <string name="color">اللون</string>
   <string name="ok_continue">متابعة</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_preset_title">تخصيص</string>
   <string name="filtershow_preset_rename">إعادة تسمية</string>
   <string name="watermark_location">الموقع الجغرافيّ</string>
   <string name="watermark_time">الوقت</string>

@@ -492,6 +492,7 @@ CHAR LIMIT = NONE] -->
   <string name="remember_location_yes">Oo</string>
   <!-- Menu item to launch the camera app [CHAR LIMIT=25] -->
   <!-- Menu item to search for photos [CHAR LIMIT=25] -->
+  <string name="menu_search">Hanapin</string>
   <!-- Title for the all photos tab [CHAR LIMIT=25] -->
   <!-- Title for the albums tab [CHAR LIMIT=25] -->
   <!-- Camera menu labels -->

@@ -106,7 +106,7 @@
   <string name="text_makeup_trimface">Обрезать по овалу лица</string>
   <string name="text_makeup_bigeye">Большие глаза</string>
   <string name="truescanner_normal">Нормальный</string>
-  <string name="truescanner_white">Доска</string>
+  <string name="truescanner_white">Белая доска</string>
   <string name="truescanner">TrueScanner</string>
   <string name="truescanner_remove_glare">Удалить блики</string>
   <string name="hazebuster_acts">Удалить дымку</string>

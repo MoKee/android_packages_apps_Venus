@@ -354,7 +354,7 @@
   <string name="brush_size">Размер кисти</string>
   <!--Filtershow dialog -->
   <string name="filtershow_dialog_title">Настраиваемый фильтр</string>
-  <string name="filtershow_dialog_content">Позволяет создавать фильтр.\n\nВыберите фотографию, которая вам нравиться и используйте её в качестве фильтра для других фотографий</string>
+  <string name="filtershow_dialog_content">Позволяет создавать фильтр.\n\nВыберите фотографию, которая вам нравится и используйте её в качестве фильтра для других фотографий</string>
   <string name="filtershow_dialog_original_photo">Исходная фотография</string>
   <string name="filtershow_dialog_apply_photo">Применить цвета</string>
   <string name="filtershow_dialog_checkbox">Не показывать снова</string>

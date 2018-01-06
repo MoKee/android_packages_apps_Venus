@@ -65,5 +65,11 @@
   <string name="tvEmptyVideos">Walang video na matatagpuan</string>
   <string name="text_makeup_whiten">Paputiin</string>
   <string name="truescanner_normal">Normal</string>
+  <string name="truescanner_white">Whiteboard</string>
+  <string name="truescanner">TrueScanner</string>
   <string name="seestraight_acts">Tingnan ng Straight</string>
+  <string name="seestraight_process_fail">Hindi maproseso ang larawan.</string>
+  <string name="trim_video_exit_title">Balewalain ang mga pagbabago?</string>
+  <string name="trim_video_exit_msg">Balewalain ang mga pagbabagong nagawa sa video na ito?</string>
+  <string name="trim_video_exit_discard">Balewalain</string>
 </resources>

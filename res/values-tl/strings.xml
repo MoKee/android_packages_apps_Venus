@@ -50,8 +50,10 @@
   <string name="resume_playing_restart">Magsimula na</string>
   <!-- Title of a menu item to indicate performing the image crop operation
          [CHAR LIMIT=20] -->
+  <string name="crop_save_text">OK</string>
   <!-- Title of a menu item to indicate performing the image crop operation
          [CHAR LIMIT=20] -->
+  <string name="ok">OK</string>
   <!-- Button indicating that the cropped image should be reverted back to the original -->
   <!-- Hint that appears when cropping an image with more than one face -->
   <string name="multiface_crop_help">Pumindot ng mukha upang magsimula.</string>
@@ -256,6 +258,7 @@
   <!-- String indicating the time units in seconds. [CHAR LIMIT=8] -->
   <!-- String indicating the length units in milli-meters. [CHAR LIMIT=8] -->
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
+  <string name="manual">Mano-mano</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
   <!-- String indicating camera flash is fired. [CHAR LIMIT=14] -->
   <!-- String indicating camera flash is not used. [CHAR LIMIT=14] -->
@@ -368,6 +371,7 @@
          external camera. [CHAR LIMIT=20]-->
   <string name="folder_imported">Na-import</string>
   <!-- The label for the folder contains screenshot images. [CHAR LIMIT=20]-->
+  <string name="folder_screenshot">Mga screenhot</string>
   <!-- The title of the menu item which display online help in browser. [CHAR LIMIT=20]-->
   <string name="help">Tulong</string>
   <!-- The tilte of a dialog showing there is no external storage. [CHAR LIMIT=20] -->
@@ -564,6 +568,7 @@
   <!-- switch camera label front [CHAR LIMIT=60] -->
   <string name="pref_camera_id_label_front">CAMERA SA LIKOD</string>
   <!-- Dialog "OK" button. Dismisses dialog. -->
+  <string name="dialog_ok">OK</string>
   <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content" product="nosdcard">Nauubusan na ng puwang ang iyong imbakan na USB. Baguhin ang setting ng kalidad o tanggalin ang ilan sa mga larawan o ibang mga file.</string>
   <!-- Low-memory dialog message [CHAR LIMIT=NONE] -->

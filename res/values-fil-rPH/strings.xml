@@ -204,16 +204,23 @@
   <string name="title">Pamagat</string>
   <!-- Text indicating the description of a media item in details window [CHAR LIMIT=14] -->
   <!-- Text indicating the creation time of a media item in details window [CHAR LIMIT=14] -->
+  <string name="time">Oras</string>
   <!-- Text indicating the location of a media item in details window [CHAR LIMIT=14] -->
   <string name="location">Lokasyon</string>
   <!-- Text indicating the path of a media item in details window [CHAR LIMIT=14] -->
+  <string name="path">Landas</string>
   <!-- Text indicating the width of a media item in details window [CHAR LIMIT=14] -->
+  <string name="width">Lapad</string>
   <!-- Text indicating the height of a media item in details window [CHAR LIMIT=14] -->
+  <string name="height">Taas</string>
   <!-- Text indicating the orientation of a media item in details window [CHAR LIMIT=14] -->
   <!-- Text indicating the duration of a video item in details window [CHAR LIMIT=14] -->
+  <string name="duration">Tagal</string>
   <!-- Text indicating the mime type of a media item in details window [CHAR LIMIT=14] -->
   <!-- Text indicating the file size of a media item in details window [CHAR LIMIT=14] -->
+  <string name="file_size">Laki ng file</string>
   <!-- Text indicating the maker of a media item in details window [CHAR LIMIT=14] -->
+  <string name="maker">Tagagawa</string>
   <!-- Text indicating the model of a media item in details window [CHAR LIMIT=14] -->
   <string name="model">Modelo</string>
   <!-- Text indicating flash info of a media item in details window [CHAR LIMIT=14] -->
@@ -235,6 +242,7 @@
   <!-- String indicating image width or height is unknown. [CHAR LIMIT=14] -->
   <string name="unknown">Hindi alam</string>
   <!-- String for the empty not filtered image [CHAR LIMIT=10] -->
+  <string name="ffx_original">Orihinal</string>
   <!-- String for brown-colored old-fashion looking filter (filtershow_fx_0000_vintage) [CHAR LIMIT=10] -->
   <!-- String for filter that brightens colors like instant cameras(filtershow_fx_0001_instant) [CHAR LIMIT=10] -->
   <!-- String for filter that washes out colors (filtershow_fx_0002_bleach) [CHAR LIMIT=10] -->
@@ -402,23 +410,35 @@ Ang item na ito ay lokal na naka-imbak at magagamit na offline.</string>
   <!-- label for the icon meaning 'show me all the images that were taken with the camera' -->
   <string name="camera_label">Kamera</string>
   <!-- alert to the user to wait for some operation to complete -->
+  <string name="wait">Mangyaring maghintay ng \u2026</string>
   <!-- alert to the user that USB storage must be available before using the camera [CHAR LIMIT=NONE] -->
   <!-- alert to the user that an SD card must be installed before using the camera -->
   <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
   <!-- alert to the user that the SD card is being disk-checked -->
   <!-- alert to the user that the camera fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
+  <string name="access_sd_fail" product="nosdcard">Hindi ma-access ang USB storage.</string>
   <!-- alert to the user that the camera fails to read or write the SD card. -->
+  <string name="access_sd_fail" product="default">Hindi ma-access ang SD card.</string>
   <!-- button in review mode indicating that the photo taking, video recording, and panorama saving session should be canceled [CHAR LIMIT=10] -->
+  <string name="review_cancel">KANSELAHIN</string>
   <!-- button in review mode indicating that the taken photo/video is OK to be attached/uploaded [CHAR LIMIT=10] -->
+  <string name="review_ok">TAPOS NA</string>
   <!-- A label that overlays on top of the preview frame to indicate the camcorder is in time lapse mode [CHAR LIMIT=35] -->
   <!-- Settings screen, camera selection dialog title. Users can select a camera from the phone (front-facing or back-facing). [CHAR LIMIT=20] -->
+  <string name="pref_camera_id_title">Pumili ng camera</string>
   <!-- In select camera setting, back facing camera. [CHAR LIMIT=14] -->
   <string name="pref_camera_id_entry_back">Bumalik</string>
   <!-- In select camera setting, front-facing camera. [CHAR LIMIT=14] -->
+  <string name="pref_camera_id_entry_front">Harapan</string>
   <!-- Settings screen, setting title text -->
   <!--  Label for record location preference [CHAR LIMIT=50] -->
+  <string name="pref_camera_location_label">Lokasyon</string>
   <!-- Title for countdown timer on camera settings screen [CHAR LIMIT=30]-->
   <!-- Entry for countdown timer setting. e.g. 1 second, 10 seconds, etc. [CHAR LIMIT=30]-->
+  <plurals name="pref_camera_timer_entry">
+    <item quantity="one">1 segundo</item>
+    <item quantity="other">%d segundo</item>
+  </plurals>
   <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT = 16]-->
   <!-- Entry of a on/off setting. The setting is turned off. [CHAR LIMIT=15] -->
   <string name="setting_off">Patay</string>

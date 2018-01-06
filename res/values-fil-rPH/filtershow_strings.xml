@@ -18,49 +18,71 @@
 -->
 <resources>
   <!--  Title for the image editor activity [CHAR LIMIT=NONE]-->
+  <string name="title_activity_filter_show">Editor ng Larawan</string>
   <!--  String shown when we cannot load the image when starting the activity [CHAR LIMIT=NONE] -->
+  <string name="cannot_load_image">Hindi mai-load ang larawan!</string>
   <!--  String shown when cannot load the original image. We will edit selected image [CHAR LIMIT=NONE] -->
+  <string name="cannot_edit_original">Hindi ma-edit ang orihinal</string>
   <!--  String displayed when showing the original image [CHAR LIMIT=NONE] -->
   <!--  String displayed when setting the homepage wallpaper in the background [CHAR LIMIT=NONE] -->
+  <string name="setting_wallpaper">Pagtakda ng wallpaper</string>
   <!--  generic strings -->
   <!--  Text for to display on a download failure [CHAR LIMIT=NONE] -->
+  <string name="download_failure">Hindi mai-download ang larawan. Hindi available ang network.</string>
   <!--  Text to label an image as "original" [CHAR LIMIT=20] -->
+  <string name="original">Orihinal</string>
   <!--  Text for filters that apply a border to a picture [CHAR LIMIT=20] -->
+  <string name="borders" msgid="4461692156695893616">Mga frame</string>
   <!-- Text for the custom border filter [CHAR LIMIT=20] -->
   <string name="custom_border">Custom</string>
   <!--  actionbar menu -->
   <!--  Text for the undo menu item [CHAR LIMIT=20] -->
+  <string name="filtershow_undo">Ibalik sa dati</string>
   <!--  Text for redo menu item [CHAR LIMIT=20] -->
+  <string name="filtershow_redo">Ulitin</string>
   <!--  Text for the image menu item showing the filters that have been applied [CHAR LIMIT=30] -->
+  <string name="show_imagestate_panel">Ipakita ang ginamit na mga effect</string>
   <!--  Text for the image state panel menu item [CHAR LIMIT=30] -->
+  <string name="hide_imagestate_panel">Itago ang ginamit na mga effect</string>
   <!--  Text for the menu item to export a flattened photo[CHAR LIMIT=30] -->
+  <string name="export_image">I-export</string>
   <!-- Text for the print menu item [CHAR LIMIT=20] -->
+  <string name="print_image">Imprentahin</string>
   <!-- Export Dialog-->
   <!--  Text for the dialog title to export a flattened photo[CHAR LIMIT=25] -->
+  <string name="export_flattened">I-export ang napatag na larawan</string>
   <!--  Text for selecting export image quality [CHAR LIMIT=100] -->
+  <string name="select_output_settings">Ang na-export na larawan ay magiging isang kopya, na walang kasaysayan.</string>
   <!--  Text for quality value tag [CHAR LIMIT=30] -->
   <string name="quality">Kalidad</string>
   <!--  Text for size value tag [CHAR LIMIT=30] -->
   <string name="size">Ang laki</string>
   <!--  Text for size x [CHAR LIMIT=1] -->
+  <string name="x">x</string>
   <!--  Name for the overflow menu item for settings [CHAR LIMIT=20] -->
   <string name="menu_settings">Mga setting</string>
   <!--  Exit Dialog -->
   <!--  String displayed when exiting with unsaved changes [CHAR LIMIT=NONE] -->
+  <string name="unsaved">Balewalain ang mga pagbabago na iyong nagawa sa larawang ito?</string>
   <!--  String displayed when exiting with unsaved changes [CHAR LIMIT=NONE] -->
+  <string name="save_before_exit">Balewalain ang mga pagbabago?</string>
   <!--  String displayed when saving and exiting editor [CHAR LIMIT=NONE] -->
+  <string name="save_and_exit">I-save at umalis</string>
   <!--  String displayed when discard editor [CHAR LIMIT=NONE] -->
   <string name="discard">Alisin</string>
   <!--  String displayed when saving and exiting editor [CHAR LIMIT=NONE] -->
+  <string name="save_and_processing">Pagproseso sa buong resolusyon ng larawan...</string>
   <!--  String displayed when exiting editor[CHAR LIMIT=NONE] -->
   <string name="exit">Labasan</string>
   <!--  History Panel -->
   <!--  Text for the history panel title [CHAR LIMIT=50] -->
   <string name="history">Kasaysayan</string>
   <!--  Text for the history panel reset button [CHAR LIMIT=20]-->
+  <string name="reset">Bumalik sa orihinal</string>
   <!--  Text for the original image[CHAR LIMIT=20]-->
   <!--  Image state panel -->
   <!--  Text for the image state panel title [CHAR LIMIT=50] -->
+  <string name="imageState">Ginamit na mga Effect</string>
   <!--  Additional filters buttons  -->
   <!--  Label for the compare original image filter button [CHAR LIMIT=15] -->
   <string name="compare_original">Ihambing</string>
@@ -129,6 +151,7 @@
   <!--  Label for the image flip effect [CHAR LIMIT=15] -->
   <!-- Name for the photo effect that inverts photo to negative images. [CHAR LIMIT=10] -->
   <!--  Label for having no filters applied to the image [CHAR LIMIT=10] -->
+  <string name="none" msgid="3601545724573307541">Wala</string>
   <!--  Label for the image edges effect (highlights edges in image) [CHAR LIMIT=10] -->
   <!--  Label for an image effect that replicates the "pop art" style of segmenting
           images into solid colors, as popularized by Andy Warhol [CHAR LIMIT=15] -->
@@ -205,18 +228,27 @@
   <!--  The accept the draw size [CHAR LIMIT=20] -->
   <string name="draw_size_accept">OK</string>
   <!--  Name used to indicate the original image in the state panel [CHAR LIMIT=20] -->
+  <string name="state_panel_original">Orihinal</string>
   <!--  Name used to indicate the final image in the state panel [CHAR LIMIT=20] -->
+  <string name="state_panel_result">Resulta</string>
   <!-- Label for the notification [CHAR LIMIT=50] -->
+  <string name="filtershow_notification_label">Sini-save ang Larawan</string>
   <!-- Label for the notification message [CHAR LIMIT=50] -->
   <string name="filtershow_notification_message">Pinoproseso...</string>
   <!-- Label for the save preset menu [CHAR LIMIT=30] -->
+  <string name="filtershow_save_preset">I-save ang kasalukuyang naka-set na</string>
   <!-- Label for the manage preset menu [CHAR LIMIT=42] -->
+  <string name="filtershow_manage_preset">Pamahalaan ang mga preset ng gumagamit</string>
   <!-- Label for newly created user preset [CHAR LIMIT=30] -->
+  <string name="filtershow_new_preset">Bagong Preset</string>
   <!-- Label for preset name [CHAR LIMIT=30] -->
+  <string name="filtershow_preset_name">Pangalan ng Preset</string>
   <!-- Label for showing the image information panel [CHAR LIMIT=50] -->
   <string name="filtershow_show_info_panel">Impormasyon</string>
   <!-- Label for the information panel [CHAR LIMIT=30] -->
+  <string name="filtershow_show_info_panel_name">Pangalan ng Larawan</string>
   <!-- Label for the information panel [CHAR LIMIT=30] -->
+  <string name="filtershow_show_info_panel_size">Laki ng Larawan</string>
   <!-- Label for the information panel [CHAR LIMIT=30] -->
   <!-- Label for the information panel [CHAR LIMIT=30] -->
   <!-- Label for the add button in the category panel [CHAR LIMIT=30] -->
@@ -241,12 +273,25 @@
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
+  <string name="trueportrait_edit_foreground_toast">Gamitin ang daliri upang pinatahan ang anumang lugar sa harapan na nalampasan.</string>
+  <string name="trueportrait_edit_background_toast">Gamitin ang daliri upang pinatahan ang anumang lugar sa likuran na nalampasan.</string>
+  <string name="do_not_show_again">Huwag ipakita pang muli</string>
   <string name="color">Kulay</string>
+  <string name="ok_continue">Magpatuloy</string>
+  <string name="beautify">Pagandahin</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_dialog_original_photo">Orihinal na Larawan</string>
   <string name="filtershow_dialog_apply_photo">Ang mga kulay na angkop</string>
+  <string name="filtershow_dialog_checkbox">Huwag ipakita pang muli</string>
   <string name="filtershow_preset_title">Custom</string>
   <string name="filtershow_preset_rename">Baguhin ang Pangalan</string>
+  <string name="delete_before_exit">Burahin ang Filter?</string>
+  <string name="rename_before_exit">Palitan ang Pangalan ng Filter</string>
+  <string name="filter_name">Pangalan ng Filter</string>
+  <string name="filter_name_notification">Ang pangalan ay hindi maaaring BLANGKO.</string>
+  <string name="filter_name_duplicate">Mayroon nang pangalan na ganito, mangyaring maglagay ng iba pa.</string>
   <string name="watermark_location">Lokasyon</string>
+  <string name="watermark_time">Oras</string>
   <string name="watermark_weather">Lagay ng panahon</string>
   <string name="watermark_emotions">Emosyon</string>
   <string name="watermark_food">Pagkain</string>

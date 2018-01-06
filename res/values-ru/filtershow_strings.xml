@@ -82,7 +82,7 @@
   <!--  Text for the original image[CHAR LIMIT=20]-->
   <!--  Image state panel -->
   <!--  Text for the image state panel title [CHAR LIMIT=50] -->
-  <string name="imageState">Эффекты</string>
+  <string name="imageState">Примененные эффекты</string>
   <!--  Additional filters buttons  -->
   <!--  Label for the compare original image filter button [CHAR LIMIT=15] -->
   <string name="compare_original">Сравнить</string>
@@ -334,7 +334,7 @@
   <string name="dualcam_filter_not_supported">Фильтры двойной камеры не поддерживаются для этого изображения</string>
   <string name="trueportrait_intro">Позволяет улучшать фотографии людей. Вы можете применить эффекты заднего плана, такие как \"размытие\" и \"эскиз\". Вы также можете объединить две фотографии вместе, чтобы создать интересные фоны для ваших портретных фотографий.</string>
   <string name="trueportrait_no_face">Реалистичный эффект портрета не может быть применен к этой фотографии. Лицо не обнаружено.</string>
-  <string name="trueportrait_edit_intro">С помощью инструмента Touch-Up, вы можете редактировать передний и задний план. Вы можете использовать свой палец, чтобы рисовать в любых областях, на переднем или заднем плане, которые были пропущены.</string>
+  <string name="trueportrait_edit_intro">С помощью инструмента подкраски, вы можете редактировать передний и задний план. Вы можете использовать свой палец, чтобы рисовать в любых областях, на переднем или заднем плане, которые были пропущены.</string>
   <string name="trueportrait_edit_foreground_toast">Используйте свой палец, чтобы рисовать в любых областях переднего плана, которые были пропущены.</string>
   <string name="trueportrait_edit_background_toast">Используйте свой палец, чтобы рисовать в любых областях заднего плана, которые были пропущены.</string>
   <string name="trueportrait_edit_help">Чтобы изменить масштаб, сведите или разведите пальцы. Вы также можете перемещать изображение. Так вы можете легко исправить любые проблемные области.</string>

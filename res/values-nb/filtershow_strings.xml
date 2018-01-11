@@ -298,6 +298,7 @@
   <string name="color">Farge</string>
   <string name="ok_continue">Fortsett</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_preset_title">Spesialtilpasset</string>
   <string name="watermark_location">Posisjon</string>
   <string name="watermark_time">Tid</string>
 </resources>

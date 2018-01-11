@@ -305,6 +305,7 @@
   <string name="color">צבע</string>
   <string name="ok_continue">המשך</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_preset_title">מותאם אישית</string>
   <string name="watermark_location">מיקום</string>
   <string name="watermark_time">שעה</string>
 </resources>

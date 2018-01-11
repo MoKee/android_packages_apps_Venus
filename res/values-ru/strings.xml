@@ -221,7 +221,7 @@
   <string name="picasa_posts">Записи</string>
   <!-- A label describing that the current screen is for the user to pick
          some albums to be viewable offline [CHAR LIMIT=30] -->
-  <string name="make_available_offline">Офлайн-доступ</string>
+  <string name="make_available_offline">Сделать доступным в автономном режиме</string>
   <!-- A label of a menu item for user to sync the content [CHAR LIMIT=30] -->
   <string name="sync_picasa_albums">Обновить</string>
   <!-- A label on a button. The user clicks this button after he has
@@ -311,7 +311,7 @@
   </plurals>
   <!-- Toast message shown after we try to make a local album available offline
          [CHAR LIMIT=150] -->
-  <string name="try_to_set_local_album_available_offline">Это содержание хранится на устройстве и доступно в автономном режиме.</string>
+  <string name="try_to_set_local_album_available_offline">Этот альбом хранится на устройстве и доступен в офлайн-режиме.</string>
   <!-- A label shown on the action bar. It indicates that the user is
          viewing all available albums [CHAR LIMIT=20] -->
   <string name="set_label_all_albums">Все альбомы</string>

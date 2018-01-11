@@ -200,4 +200,5 @@
   <string name="color">Colour</string>
   <string name="ok_continue">Continue</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_preset_title">Customise</string>
 </resources>

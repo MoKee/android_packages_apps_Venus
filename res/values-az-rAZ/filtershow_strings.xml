@@ -297,6 +297,7 @@
   <string name="filtershow_exif_copyright">Müəllif hüququ</string>
   <string name="color">Rəng</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_preset_title">Fərdi</string>
   <string name="watermark_location">Yer</string>
   <string name="watermark_time">Vaxt</string>
 </resources>

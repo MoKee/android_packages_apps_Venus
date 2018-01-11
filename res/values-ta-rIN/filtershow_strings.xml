@@ -303,5 +303,6 @@
   <string name="filtershow_exif_copyright">பதிப்புரிமை</string>
   <string name="color">நிறம்</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_preset_title">தனிப்பயன்</string>
   <string name="watermark_location">&quot;இருப்பிடம்&quot;</string>
 </resources>

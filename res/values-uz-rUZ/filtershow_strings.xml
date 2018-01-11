@@ -302,4 +302,5 @@
   <string name="filtershow_exif_copyright">Mualliflik huquqi</string>
   <string name="color">Rang</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_preset_title">Maxsus</string>
 </resources>

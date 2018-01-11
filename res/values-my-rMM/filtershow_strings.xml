@@ -304,4 +304,5 @@
   <string name="filtershow_exif_copyright">မူပိုင်ခွင့်</string>
   <string name="color">ရောင်စုံ</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_preset_title">မိမိစိတ်ကြိုက်</string>
 </resources>

@@ -293,6 +293,8 @@
   <string name="filtershow_exif_copyright">Drets d\'autor</string>
   <string name="ok_continue">Continua</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_preset_title">Personalitzat</string>
+  <string name="filtershow_preset_rename">Reanomena</string>
   <string name="watermark_location">Ubicació</string>
   <string name="watermark_time">Hora</string>
   <string name="watermark_weather">El temps</string>

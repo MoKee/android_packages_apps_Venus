@@ -304,6 +304,7 @@
   <string name="filtershow_exif_copyright">कॉपीराइट</string>
   <string name="color">रंग</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_preset_title">कस्टम</string>
   <string name="watermark_location">स्थान</string>
   <string name="watermark_time">समय</string>
 </resources>

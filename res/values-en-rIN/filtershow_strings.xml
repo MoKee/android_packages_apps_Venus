@@ -198,4 +198,5 @@
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="color">Colour</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_preset_title">Customise</string>
 </resources>

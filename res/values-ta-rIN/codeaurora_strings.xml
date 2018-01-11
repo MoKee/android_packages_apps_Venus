@@ -86,5 +86,6 @@
   <!-- Timeline screen title -->
   <!-- Albums screen title -->
   <!-- Videos screen title -->
+  <string name="truescanner_normal">இயல்பு</string>
   <string name="trim_video_exit_title">வெளியேறுவதற்கு முன் சேமிக்கவா?</string>
 </resources>

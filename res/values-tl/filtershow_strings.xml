@@ -67,6 +67,7 @@
   <!--  String displayed when saving and exiting editor [CHAR LIMIT=NONE] -->
   <string name="save_and_exit">I-save at Lumabas</string>
   <!--  String displayed when discard editor [CHAR LIMIT=NONE] -->
+  <string name="discard">I-discard</string>
   <!--  String displayed when saving and exiting editor [CHAR LIMIT=NONE] -->
   <string name="save_and_processing">Pinoproseso ang larawang buo ang resolusyon...</string>
   <!--  String displayed when exiting editor[CHAR LIMIT=NONE] -->
@@ -90,8 +91,11 @@
   <!--  Label for aspect [CHAR LIMIT=15] -->
   <string name="aspect">Aspeto</string>
   <!--  Label for the aspect 1:1 effect [CHAR LIMIT=15] -->
+  <string name="aspect1to1_effect">1:1</string>
   <!--  Label for the aspect 4:3 effect [CHAR LIMIT=15] -->
+  <string name="aspect4to3_effect">4:3</string>
   <!--  Label for the aspect 3:4 effect [CHAR LIMIT=15] -->
+  <string name="aspect3to4_effect">3:4</string>
   <!--  Label for the aspect 4:7 effect [CHAR LIMIT=15] -->
   <!--  Label for the aspect 5:7 effect [CHAR LIMIT=15] -->
   <!--  Label for the aspect 7:5 effect [CHAR LIMIT=15] -->
@@ -263,7 +267,10 @@
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
+  <string name="dual_camera_effects_intro">Nagpapahintulot sa iyo na i-apply ang background effects, katulad ng \"motion\" at \"Sketch\". Maaari mo ring pagsamahin ang dalawang larawan para sa nakakawiling mga effect. Ang feature na ito ay pinakamasuhay gumana kung mayroon kang maikling distansya sa pagitan ng iyong camera at ang pangunahing paksa ng iyong larawan.</string>
+  <string name="dualcam_no_segment_toast">Walang segment na natagpuan sa puntong ito</string>
   <string name="color">Kulay</string>
   <!--Filtershow dialog -->
+  <string name="watermark_location">Lokasyon</string>
   <string name="watermark_time">Oras</string>
 </resources>

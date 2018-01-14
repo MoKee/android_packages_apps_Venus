@@ -303,5 +303,6 @@
   <string name="filtershow_exif_copyright">Հեղինակային իրավունք</string>
   <string name="color">Գույն</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_preset_title">Հատուկ</string>
   <string name="watermark_time">Ժամանակը</string>
 </resources>

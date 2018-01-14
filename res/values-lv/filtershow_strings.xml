@@ -303,6 +303,7 @@
   <string name="filtershow_exif_copyright">Autortiesības</string>
   <string name="color">Krāsa</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_preset_title">Pielāgots</string>
   <string name="watermark_location">Atrašanās vieta</string>
   <string name="watermark_time">Laiks</string>
 </resources>

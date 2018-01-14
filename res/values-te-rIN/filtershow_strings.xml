@@ -303,5 +303,6 @@
   <string name="filtershow_exif_copyright">కాపీరైట్</string>
   <string name="color">రంగు</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_preset_title">అనుకూలం</string>
   <string name="watermark_location">&quot;స్థానం&quot;</string>
 </resources>

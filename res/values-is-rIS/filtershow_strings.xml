@@ -303,4 +303,5 @@
   <string name="filtershow_exif_copyright">Höfundarréttur</string>
   <string name="color">Litur</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_preset_title">Sérsniðinn</string>
 </resources>

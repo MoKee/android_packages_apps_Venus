@@ -84,5 +84,6 @@
   <!-- Albums screen title -->
   <string name="albums_title">Albumi</string>
   <!-- Videos screen title -->
+  <string name="truescanner_normal">Normalan</string>
   <string name="trim_video_exit_title">Želite li spremiti prije nego što iziđete?</string>
 </resources>

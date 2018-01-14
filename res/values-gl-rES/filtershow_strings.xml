@@ -303,5 +303,6 @@
   <string name="color">Cor</string>
   <string name="ok_continue">Continuar</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_preset_title">Personalizado</string>
   <string name="watermark_location">Localización</string>
 </resources>

@@ -86,5 +86,6 @@
   <!-- Timeline screen title -->
   <!-- Albums screen title -->
   <!-- Videos screen title -->
+  <string name="truescanner_normal">सामान्य</string>
   <string name="trim_video_exit_title">निर्गमन करण्यापूर्वी आपण जतन करु इच्छिता?</string>
 </resources>

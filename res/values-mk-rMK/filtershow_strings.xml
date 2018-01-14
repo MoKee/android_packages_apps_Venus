@@ -303,4 +303,5 @@
   <string name="filtershow_exif_copyright">Авторски права</string>
   <string name="color">Боја</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_preset_title">Прилагодено</string>
 </resources>

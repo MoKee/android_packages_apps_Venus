@@ -301,6 +301,7 @@
   <string name="color">Kleur</string>
   <string name="ok_continue">Gaan voort</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_preset_title">Gepasmaakte</string>
   <string name="watermark_location">Ligging</string>
   <string name="watermark_time">Tyd</string>
 </resources>

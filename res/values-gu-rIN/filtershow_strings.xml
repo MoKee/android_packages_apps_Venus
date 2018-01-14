@@ -302,5 +302,6 @@
   <string name="filtershow_exif_copyright">કોપિરાઇટ</string>
   <string name="color">રંગ</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_preset_title">કસ્ટમ</string>
   <string name="watermark_location">&quot;સ્થાન&quot;</string>
 </resources>

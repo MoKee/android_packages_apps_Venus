@@ -301,6 +301,8 @@
   <string name="filtershow_exif_copyright">Autorska prava</string>
   <string name="color">Boja</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_preset_title">Prilagođeno</string>
+  <string name="filtershow_preset_rename">Preimenuj</string>
   <string name="watermark_location">Lokacija</string>
   <string name="watermark_time">Vrijeme</string>
   <string name="watermark_weather">Vrijeme</string>

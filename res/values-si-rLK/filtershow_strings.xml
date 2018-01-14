@@ -304,6 +304,7 @@
   <string name="filtershow_exif_copyright">ප්‍රකාශන හිමිකම</string>
   <string name="color">වර්ණය</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_preset_title">අභිරුචි</string>
   <string name="watermark_location">ස්ථානය</string>
   <string name="watermark_time">කාලය</string>
 </resources>

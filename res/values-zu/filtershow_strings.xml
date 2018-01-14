@@ -304,5 +304,6 @@
   <string name="filtershow_exif_copyright">I-Copyright</string>
   <string name="color">Umbala</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_preset_title">Ngokwezifiso</string>
   <string name="watermark_time">Isikhathi</string>
 </resources>

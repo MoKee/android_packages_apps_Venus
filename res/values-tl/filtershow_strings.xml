@@ -271,6 +271,7 @@
   <string name="dualcam_no_segment_toast">Walang segment na natagpuan sa puntong ito</string>
   <string name="color">Kulay</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_preset_rename">Palitan ang pangalan</string>
   <string name="watermark_location">Lokasyon</string>
   <string name="watermark_time">Oras</string>
 </resources>

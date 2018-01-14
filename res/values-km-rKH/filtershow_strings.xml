@@ -310,5 +310,6 @@
   <string name="filtershow_exif_copyright">រក្សាសិទ្ធិ</string>
   <string name="color">ពណ៌</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_preset_title">តាម​តម្រូវ​ការ</string>
   <string name="watermark_time">ពេលវេលា</string>
 </resources>

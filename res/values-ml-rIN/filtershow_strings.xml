@@ -303,5 +303,6 @@
   <string name="filtershow_exif_copyright">പകര്‍പ്പവകാശം</string>
   <string name="color">വർണ്ണം</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_preset_title">ഇഷ്‌ടാനുസൃതം</string>
   <string name="watermark_location">&quot;ലൊക്കേഷൻ&quot;</string>
 </resources>

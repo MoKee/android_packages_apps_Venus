@@ -86,5 +86,6 @@
   <!-- Timeline screen title -->
   <!-- Albums screen title -->
   <!-- Videos screen title -->
+  <string name="truescanner_normal">సాధారణం</string>
   <string name="trim_video_exit_title">మీరు నిష్క్రమించే ముందు సేవ్ చేయాలనుకుంటున్నారా?</string>
 </resources>

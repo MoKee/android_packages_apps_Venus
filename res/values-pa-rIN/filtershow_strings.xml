@@ -303,4 +303,5 @@
   <string name="filtershow_exif_copyright">ਕਾਪੀਰਾਈਟ</string>
   <string name="color">ਰੰਗ</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_preset_title">ਕਸਟਮ</string>
 </resources>

@@ -303,6 +303,8 @@
   <string name="color">Kolorea</string>
   <string name="ok_continue">Jarraitu</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_preset_title">Pertsonalizatua</string>
+  <string name="filtershow_preset_rename">Aldatu izena</string>
   <string name="watermark_location">Kokalekua</string>
   <string name="watermark_weather">Eguraldia</string>
 </resources>

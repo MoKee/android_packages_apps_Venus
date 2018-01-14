@@ -303,5 +303,6 @@
   <string name="filtershow_exif_copyright">Hakimiliki</string>
   <string name="color">Rangi</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_preset_title">Maalum</string>
   <string name="watermark_time">Saa</string>
 </resources>

@@ -87,4 +87,5 @@
   <!-- Albums screen title -->
   <string name="albums_title">سۈرەت توپلىمى</string>
   <!-- Videos screen title -->
+  <string name="truescanner_normal">نورمال</string>
 </resources>

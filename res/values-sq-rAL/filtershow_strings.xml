@@ -303,5 +303,6 @@
   <string name="filtershow_exif_copyright">Të drejtat e autorit</string>
   <string name="color">Ngjyra</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_preset_title">I personalizuar</string>
   <string name="watermark_location">Vendndodhja</string>
 </resources>

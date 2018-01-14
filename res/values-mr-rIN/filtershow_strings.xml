@@ -304,5 +304,6 @@
   <string name="filtershow_exif_copyright">कॉपीराइट</string>
   <string name="color">रंग</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_preset_title">सानुकूल</string>
   <string name="watermark_location">&quot;स्थान&quot;</string>
 </resources>

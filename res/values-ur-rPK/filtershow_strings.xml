@@ -302,4 +302,5 @@
   <string name="filtershow_exif_copyright">کاپی رائٹ</string>
   <string name="color">رنگ</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_preset_title">حسب ضرورت</string>
 </resources>

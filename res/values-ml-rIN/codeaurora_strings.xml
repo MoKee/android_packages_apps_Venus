@@ -86,5 +86,6 @@
   <!-- Timeline screen title -->
   <!-- Albums screen title -->
   <!-- Videos screen title -->
+  <string name="truescanner_normal">സാധാരണ</string>
   <string name="trim_video_exit_title">പുറത്തുകടക്കുന്നതിന് മുമ്പ് നിങ്ങൾക്ക് സംരക്ഷിക്കേണ്ടത് ആവശ്യമാണോ?</string>
 </resources>

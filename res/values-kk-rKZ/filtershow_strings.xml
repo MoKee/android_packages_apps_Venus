@@ -304,4 +304,5 @@
   <string name="filtershow_exif_copyright">Авторлық құқықтар</string>
   <string name="color">Түс</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_preset_title">Қалыпты</string>
 </resources>

@@ -327,6 +327,7 @@
   <string name="filtershow_exif_copyright">Droits d\'auteur</string>
   <string name="fusion_pick_point">Choisir un Segment</string>
   <string name="fusion_pick_underlay">Choisir la sous-couche</string>
+  <string name="dual_camera_effects">Effets pour double capteur d\'appareils photo</string>
   <string name="dual_camera_effects_intro">Permet d\'appliquer des effets d\'arrière-plan, tels que \"Motion\" et \"Sketch\". Vous pouvez également fusionner deux photos pour obtenir des effets intéressants. Cette fonctionnalité marche mieux lorsqu\'il y a une courte distance entre votre appareil photo et le sujet principal de la photo.</string>
   <string name="dualcam_no_segment_toast">Aucun segment trouvé à ce stade</string>
   <string name="dualcam_filter_not_supported">Le Filtres double caméra ne sont pas pris en charge pour cette image</string>

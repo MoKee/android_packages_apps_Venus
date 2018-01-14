@@ -302,6 +302,7 @@
   <string name="filtershow_exif_copyright">Autoriõigus</string>
   <string name="color">Värv</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_preset_title">Kohandatud</string>
   <string name="watermark_location">Asukoht</string>
   <string name="watermark_time">Kellaaeg</string>
 </resources>

@@ -269,8 +269,26 @@
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="dual_camera_effects_intro">Nagpapahintulot sa iyo na i-apply ang background effects, katulad ng \"motion\" at \"Sketch\". Maaari mo ring pagsamahin ang dalawang larawan para sa nakakawiling mga effect. Ang feature na ito ay pinakamasuhay gumana kung mayroon kang maikling distansya sa pagitan ng iyong camera at ang pangunahing paksa ng iyong larawan.</string>
   <string name="dualcam_no_segment_toast">Walang segment na natagpuan sa puntong ito</string>
+  <string name="dualcam_filter_not_supported">Ang dual camera na mga filter ay hindi suportado para sa larawang ito</string>
+  <string name="trueportrait_intro">Nagpapahintulot sa iyo upang mapahusay ang mga larawan ng mga tao. Maaari mong i-apply ang mga effects sa background, katulad ng \"blur\" at \"sketch\". Maaari mo ring pagsamahin ang dalawang larawan upang gumawa ng nakakawiling mga background para sa iyong portrait na mga larawan.</string>
+  <string name="trueportrait_no_face">Ang True Portrait na mga effect ay hindi maaaring i-apply sa larawang ito. Ang mukha ay hindi nakita.</string>
+  <string name="trueportrait_edit_intro">Sa pamamagitan ng Touch-Up na tool, maaari mo nang i-edit ang foreground at ang background. Maaari mong gamitin ang iyong daliri upang magpinta sa kahit anong lugar sa foreground o background na nalaktawan.</string>
+  <string name="trueportrait_edit_foreground_toast">Gamitin ang iyong daliri upang magpinta sa kahit anong lugar ng foreground na nalaktawan.</string>
+  <string name="trueportrait_edit_background_toast">Gamitin ang iyong daliri upang magpinta sa kahit anong lugar ng background na nalaktawan.</string>
+  <string name="trueportrait_edit_help">Upang i-zoom, gamitin ang dalawang daliri upang buksan o isara. Maaari mo ring i-drag gamit ang dalawang daliri upang i-posisyong muli ang larawan. Mapapadali nito ang pag ayos sa kahit anong problema.</string>
+  <string name="trueportrait_fusion_intro">Ang iyong foreground na tao ay maaaring kopyahin at ilagay sa kahit anong larawan sa iyong Gallery. Maaari mong subukang gamitin ang iba\'t ibang background na mga larawan upang gumawa ng bago at kawili-wiling mga portrait.</string>
+  <string name="dualcam_fusion_intro">Ang iyong foreground na tao ay maaaring kopyahin at ilagay sa kahit anong larawan sa iyong Gallery. \n\nMaaari mong subukang gamitin ang iba\'t ibang background na mga larawan upang gumawa ng bago at kawili-wiling mga portrait.</string>
+  <string name="do_not_show_again">Huwag ipakitang muli</string>
+  <string name="fusion_pick_background">Pumili ng Background na Larawan</string>
   <string name="color">Kulay</string>
+  <string name="ok_continue">Magpatuloy</string>
+  <string name="frames">Mga Frame</string>
+  <string name="beautify">Pagandahin</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_dialog_content">Nagpapahintulot sa iyo upang gumawa ng isang filter ng larawan. \n\nPumili ng isang larawan na iyong gusto at gamitin ito bilang isang filter para sa ibang mga larawan</string>
+  <string name="filtershow_dialog_original_photo">Orihinal na Larawan</string>
+  <string name="filtershow_dialog_apply_photo">Mga Kulay na I-a-apply</string>
+  <string name="filtershow_dialog_checkbox">Huwag ipakitang muli</string>
   <string name="filtershow_preset_rename">Palitan ang pangalan</string>
   <string name="watermark_location">Lokasyon</string>
   <string name="watermark_time">Oras</string>

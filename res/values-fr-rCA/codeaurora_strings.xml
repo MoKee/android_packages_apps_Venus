@@ -40,7 +40,7 @@
   <string name="stereo">"Stéréo"</string>
   <string name="speaker_on">Haut-parleur activé</string>
   <string name="speaker_off">Haut-parleur désactivé</string>
-  <string name="speaker_need_headset">Brancher un casque pour utiliser cette fonctionnalité.</string>
+  <string name="speaker_need_headset">Brancher un casque pour utiliser cette fonction.</string>
   <string name="single_track">"Piste simple"</string>
   <string name="input_url">"Entrer l'URL"</string>
   <string name="streaming_settings">"Paramètres de transmission"</string>

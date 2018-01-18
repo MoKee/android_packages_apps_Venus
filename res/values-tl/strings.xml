@@ -261,6 +261,7 @@
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
   <string name="manual">Mano-mano</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
+  <string name="auto">Awtomatiko</string>
   <!-- String indicating camera flash is fired. [CHAR LIMIT=14] -->
   <!-- String indicating camera flash is not used. [CHAR LIMIT=14] -->
   <string name="flash_off">Walang flash</string>
@@ -507,6 +508,7 @@
   <!-- Settings screen, dialog choice for QVGA picture size [CHAR LIMIT=15] -->
   <!-- Settings screen, Focus mode title -->
   <!-- Settings screen, Focus mode dialog radio button choices -->
+  <string name="pref_camera_focusmode_entry_auto">Awtomatiko</string>
   <string name="pref_camera_focusmode_entry_infinity">Walang Katapusan</string>
   <!-- Menu, focus mode labels [CHAR LIMIT=50] -->
   <!-- Default flash mode setting.-->
@@ -514,6 +516,7 @@
   <!-- Settings screen, Flash mode title -->
   <!-- flash label [CHAR LIMIT=50] -->
   <!-- Settings screen, Flash mode dialog radio button choices -->
+  <string name="pref_camera_flashmode_entry_auto">Awtomatiko</string>
   <string name="pref_camera_flashmode_entry_on">Naka-on</string>
   <string name="pref_camera_flashmode_entry_off">Naka-off</string>
   <!-- Menu, flash mode labels [CHAR LIMIT=50] -->
@@ -524,6 +527,7 @@
   <!-- Settings screen, white balance title -->
   <!-- Menu, white balance label -->
   <!-- Settings screen, White balance dialog radio button choices -->
+  <string name="pref_camera_whitebalance_entry_auto">Awtomatiko</string>
   <string name="pref_camera_whitebalance_entry_incandescent">Napakaliwanag</string>
   <string name="pref_camera_whitebalance_entry_daylight">Liwanag ng araw</string>
   <string name="pref_camera_whitebalance_entry_cloudy">Maulap</string>
@@ -531,6 +535,7 @@
   <!-- Default scene mode setting. -->
   <!-- Settings screen, Select Scene mode -->
   <!-- Settings menu, scene mode choices [CHAR LIMIT=16] -->
+  <string name="pref_camera_scenemode_entry_auto">Awtomatiko</string>
   <!-- Scene mode that uses HDR (high dynamic range) [CHAR LIMIT=16] -->
   <!-- Scene mode that takes an image quickly with little motion blur. [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_action">Pagkilos</string>

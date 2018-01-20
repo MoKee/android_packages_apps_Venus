@@ -408,6 +408,10 @@
     <item quantity="other">%1$d (na) item ang na-scan</item>
   </plurals>
   <!-- String indicating how many media items from the camera have been selected -->
+  <plurals name="ingest_number_of_items_selected">
+    <item quantity="one">%1$d na item na napili</item>
+    <item quantity="other">%1$d na item na napili</item>
+  </plurals>
   <!--  Status message shown when content from the camera is being sorted -->
   <string name="ingest_sorting" msgid="624687230903648118">Pinagbubukud-bukod...</string>
   <!--  Status message shown when scanning the content from the camera has completed -->
@@ -429,6 +433,7 @@
   <!-- message for the dialog showing the camera is disabled because of security policies. Camera cannot be used. -->
   <string name="camera_disabled">Hindi na pinagana ang camera dahil sa mga patakaran sa seguridad.</string>
   <!-- label for the icon meaning 'show me all the images that were taken with the camera' -->
+  <string name="camera_label">Kamera</string>
   <!-- alert to the user to wait for some operation to complete -->
   <string name="wait">Pakihintay…</string>
   <!-- alert to the user that USB storage must be available before using the camera [CHAR LIMIT=NONE] -->

@@ -35,6 +35,8 @@
   <string name="step_option_desc">I-customize ang fast forward/rewind na hakbang</string>
   <string name="setp_option_three_second">3 na segundo</string>
   <string name="setp_option_six_second">6 na segundo</string>
+  <string name="speaker_need_headset">I-plug in ang headphones upang gumamit ng feature na ito.</string>
+  <string name="input_url">"Ilagay ang URL"</string>
   <string name="next">"Susunod"</string>
   <string name="setting">Mga setting</string>
   <string name="server_timeout_message">"I-connect muli sa server upang i-play ang video?"</string>
@@ -77,6 +79,9 @@
   <string name="videos_title">Mga video</string>
   <string name="tvEmptyAlbum">Walang natagpuan na mga larawan</string>
   <string name="tvEmptyVideos">Walang natagpuan na mga video</string>
+  <string name="text_makeup_whiten">Paputiin</string>
+  <string name="text_makeup_Soften">Palambutin</string>
+  <string name="truescanner_remove_glare">Tanggalin ang glare</string>
   <string name="seestraight_input_image_is_small">Ang input na larawan ay masyadong maliit upang i-proseso.</string>
   <string name="seestraight_process_fail">Hindi ma-proseso ang larawan.</string>
   <string name="trim_video_exit_title">Gusto mo bang mag-save bago lumabas?</string>

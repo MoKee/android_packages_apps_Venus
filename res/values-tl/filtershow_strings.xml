@@ -267,6 +267,8 @@
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
+  <string name="fusion_pick_point">Piliin ang Segment</string>
+  <string name="fusion_pick_underlay">Piliin ang Underlay</string>
   <string name="dual_camera_effects_intro">Nagpapahintulot sa iyo na i-apply ang background effects, katulad ng \"motion\" at \"Sketch\". Maaari mo ring pagsamahin ang dalawang larawan para sa nakakawiling mga effect. Ang feature na ito ay pinakamasuhay gumana kung mayroon kang maikling distansya sa pagitan ng iyong camera at ang pangunahing paksa ng iyong larawan.</string>
   <string name="dualcam_no_segment_toast">Walang segment na natagpuan sa puntong ito</string>
   <string name="dualcam_filter_not_supported">Ang dual camera na mga filter ay hindi suportado para sa larawang ito</string>
@@ -290,6 +292,12 @@
   <string name="filtershow_dialog_apply_photo">Mga Kulay na I-a-apply</string>
   <string name="filtershow_dialog_checkbox">Huwag ipakitang muli</string>
   <string name="filtershow_preset_rename">Palitan ang pangalan</string>
+  <string name="rename_before_exit">Palitan ang pangalan ng Filter</string>
+  <string name="filter_name">Pangalan ng Filter</string>
+  <string name="filter_name_notification">Hindi maaaring walang laman ang pangalan.</string>
+  <string name="filter_name_duplicate">Mayroon nang ganitong pangalan, mangyaring maglagay ng iba.</string>
   <string name="watermark_location">Lokasyon</string>
   <string name="watermark_time">Oras</string>
+  <string name="watermark_weather">Lagay ng panahon</string>
+  <string name="watermark_emotions">Mga emosyon</string>
 </resources>

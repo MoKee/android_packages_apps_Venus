@@ -153,6 +153,7 @@
   <!-- The title of the menu item to let user crop the image. [CHAR LIMIT=15] -->
   <string name="crop_action">I-crop</string>
   <!-- The title of the menu item to let user trim the video. [CHAR LIMIT=15] -->
+  <string name="trim_action">I-trim</string>
   <!-- The title of the menu item to let user mute the video. [CHAR LIMIT=15] -->
   <string name="mute_action">I-mute</string>
   <!-- The title of the menu item to let user set the image as background etc. [CHAR LIMIT=15] -->

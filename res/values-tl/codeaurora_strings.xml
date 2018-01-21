@@ -35,10 +35,24 @@
   <string name="step_option_desc">I-customize ang fast forward/rewind na hakbang</string>
   <string name="setp_option_three_second">3 na segundo</string>
   <string name="setp_option_six_second">6 na segundo</string>
+  <string name="speaker_on">Ang speaker ay naka-ON</string>
+  <string name="speaker_off">Ang speaker ay naka-OFF</string>
   <string name="speaker_need_headset">I-plug in ang headphones upang gumamit ng feature na ito.</string>
+  <string name="single_track">"Solo na track"</string>
   <string name="input_url">"Ilagay ang URL"</string>
+  <string name="streaming_settings">"Mga setting ng pag-stream"</string>
   <string name="next">"Susunod"</string>
+  <string name="previous">"Nakaraan"</string>
+  <string name="buffer_size">Sukat ng buffer</string>
+  <string name="apn">Ginustong APN</string>
+  <string name="rtp_min_port">Pinakamaliit na port</string>
+  <string name="rtp_max_port">Pinakamalaki na port</string>
+  <string name="set_rtp_min_port">Itakda ang pinakamaliit na port</string>
+  <string name="set_rtp_max_port">Itakda ang pinakamalaki na port</string>
+  <string name="set_buffer_size">Itakda ang sukat ng buffer</string>
+  <string name="set_apn">Pumili ng gustong APN</string>
   <string name="setting">Mga setting</string>
+  <string name="server_timeout_title">"Timeout ng server"</string>
   <string name="server_timeout_message">"I-connect muli sa server upang i-play ang video?"</string>
   <string name="videoview_error_text_cannot_connect_retry">"Nabigo ang connection, sinusubukang i-connect muli sa %1$d\u2026"</string>
   <string name="media_controller_live">Live</string>
@@ -65,6 +79,7 @@
     <item quantity="other">%1$d na mga video</item>
   </plurals>
   <!-- Toast message for share items -->
+  <string name="cannot_share_items">Ang pinakamalaking bilang ng napiling mga item para sa share ay 300</string>
   <string name="share_dialogue_title">Ipamahagi sa pamamagitan ng</string>
   <!-- When grouping photos by peoples, the label used for photos that don't
          have people information in them [CHAR LIMIT=20]-->

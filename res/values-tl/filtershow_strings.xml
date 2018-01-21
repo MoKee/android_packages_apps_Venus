@@ -128,6 +128,7 @@
   <!--  Label for the image vignette filter (darkens photo around edges) button [CHAR LIMIT=10] -->
   <!--  Label for the image vignette main parameter ui [CHAR LIMIT=15] -->
   <!--  Label for the image vignette exposure parameter ui [CHAR LIMIT=15] -->
+  <string name="vignette_exposure">Pagkalantad</string>
   <!--  Label for the image vignette saturation parameter ui [CHAR LIMIT=15] -->
   <!--  Label for the image vignette contrast fparameter ui [CHAR LIMIT=15] -->
   <!--  Label for the rate of change in brightness as it goes to the edge [CHAR LIMIT=15] -->
@@ -292,6 +293,7 @@
   <string name="filtershow_dialog_apply_photo">Mga Kulay na I-a-apply</string>
   <string name="filtershow_dialog_checkbox">Huwag ipakitang muli</string>
   <string name="filtershow_preset_rename">Palitan ang pangalan</string>
+  <string name="delete_before_exit">Burahin ang Filter?</string>
   <string name="rename_before_exit">Palitan ang pangalan ng Filter</string>
   <string name="filter_name">Pangalan ng Filter</string>
   <string name="filter_name_notification">Hindi maaaring walang laman ang pangalan.</string>
@@ -300,4 +302,5 @@
   <string name="watermark_time">Oras</string>
   <string name="watermark_weather">Lagay ng panahon</string>
   <string name="watermark_emotions">Mga emosyon</string>
+  <string name="watermark_food">Pagkain</string>
 </resources>

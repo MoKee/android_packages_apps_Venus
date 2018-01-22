@@ -115,7 +115,7 @@
   <string name="tinyplanet">Закругление</string>
   <!--  Filters buttons -->
   <!--  True Effect button -->
-  <string name="trueScanner">Реальный сканер</string>
+  <string name="trueScanner">Настоящий сканер</string>
   <!--  HazeBuster button -->
   <string name="hazeBuster">Haze Buster</string>
   <!--  SeeStraight button -->
@@ -348,7 +348,7 @@
   <string name="frames">Рамки</string>
   <string name="beautify">Автоулучшение</string>
   <string name="dualcam">Двойная камера</string>
-  <string name="trueportrait">Настоящий портрет</string>
+  <string name="trueportrait">Реалистичный портрет</string>
   <string name="foreground">Передний план</string>
   <string name="background">Фон</string>
   <string name="brush_size">Размер кисти</string>

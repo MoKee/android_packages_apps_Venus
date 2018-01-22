@@ -35,6 +35,8 @@
   <string name="step_option_desc">I-customize ang fast forward/rewind na hakbang</string>
   <string name="setp_option_three_second">3 na segundo</string>
   <string name="setp_option_six_second">6 na segundo</string>
+  <string name="loop">"Loop"</string>
+  <string name="single">"Iisa"</string>
   <string name="speaker_on">Ang speaker ay naka-ON</string>
   <string name="speaker_off">Ang speaker ay naka-OFF</string>
   <string name="speaker_need_headset">I-plug in ang headphones upang gumamit ng feature na ito.</string>
@@ -87,16 +89,22 @@
   <!-- The tips of trimming video -->
   <string name="fail_trim">Paumanhin, ang video file na ito ay hindi maaaring putulin</string>
   <string name="can_not_trim">Ang mga mp4 at 3gp na file lamang ang maaaring putulin</string>
+  <string name="drm_license_info">Impormasyon ng DRM lisensya</string>
   <!-- Timeline screen title -->
+  <string name="timeline_title">Timeline</string>
   <!-- Albums screen title -->
   <string name="albums_title">Mga Album</string>
   <!-- Videos screen title -->
   <string name="videos_title">Mga video</string>
+  <string name="action_viewtype_list">View na listahan</string>
   <string name="tvEmptyAlbum">Walang natagpuan na mga larawan</string>
   <string name="tvEmptyVideos">Walang natagpuan na mga video</string>
   <string name="text_makeup_whiten">Paputiin</string>
   <string name="text_makeup_Soften">Palambutin</string>
+  <string name="truescanner">TrueScanner</string>
   <string name="truescanner_remove_glare">Tanggalin ang glare</string>
+  <string name="hazebuster_acts">Haze Buster</string>
+  <string name="seestraight_acts">Tingnan ng Deretso</string>
   <string name="seestraight_input_image_is_small">Ang input na larawan ay masyadong maliit upang i-proseso.</string>
   <string name="seestraight_process_fail">Hindi ma-proseso ang larawan.</string>
   <string name="trim_video_exit_title">Gusto mo bang mag-save bago lumabas?</string>

@@ -30,7 +30,7 @@
   <!--  Text for to display on a download failure [CHAR LIMIT=NONE] -->
   <string name="download_failure">Impossible de télécharger la photo. Réseau indisponible.</string>
   <!--  Text to label an image as "original" [CHAR LIMIT=20] -->
-  <string name="original">Original</string>
+  <string name="original">Originale</string>
   <!--  Text for filters that apply a border to a picture [CHAR LIMIT=20] -->
   <string name="borders" msgid="4461692156695893616">Contours</string>
   <!-- Text for the custom border filter [CHAR LIMIT=20] -->

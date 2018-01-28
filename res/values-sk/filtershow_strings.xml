@@ -139,7 +139,7 @@
   <!--  Label for the image shadow recovery (lightens/darkens shadows) filter button [CHAR LIMIT=10] -->
   <string name="shadow_recovery">Tiene</string>
   <!--  Label for the image highlights recovery (lightens/darkens bright regions) filter button [CHAR LIMIT=15] -->
-  <string name="highlight_recovery">Svetlé miesta</string>
+  <string name="highlight_recovery">Prednosti</string>
   <!--  Label for the image curves filter button [CHAR LIMIT=10] -->
   <string name="curvesRGB">Krivky</string>
   <!--  Label for the image vignette filter (darkens photo around edges) button [CHAR LIMIT=10] -->

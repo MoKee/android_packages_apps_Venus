@@ -85,4 +85,5 @@
   <!-- Albums screen title -->
   <string name="albums_title">Alben</string>
   <!-- Videos screen title -->
+  <string name="truescanner_white">Wäiss Tafel</string>
 </resources>

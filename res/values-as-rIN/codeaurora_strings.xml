@@ -87,4 +87,5 @@
   <!-- Albums screen title -->
   <!-- Videos screen title -->
   <string name="truescanner_normal">সাধাৰণ</string>
+  <string name="truescanner_white">হোৱাইটবোর্ড</string>
 </resources>

@@ -65,7 +65,7 @@
   <!--  String displayed when exiting with unsaved changes [CHAR LIMIT=NONE] -->
   <string name="unsaved">У вас есть несохраненные изменения. Вы действительно хотите выйти?</string>
   <!--  String displayed when exiting with unsaved changes [CHAR LIMIT=NONE] -->
-  <string name="save_before_exit">Отменить изменения?</string>
+  <string name="save_before_exit">Сохранить изменения?</string>
   <!--  String displayed when saving and exiting editor [CHAR LIMIT=NONE] -->
   <string name="save_and_exit">Сохранить и закрыть</string>
   <!--  String displayed when saving and exiting editor [CHAR LIMIT=NONE] -->

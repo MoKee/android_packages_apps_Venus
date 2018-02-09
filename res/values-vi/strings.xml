@@ -505,7 +505,7 @@
   <string name="pref_video_quality_entry_low">Thấp</string>
   <!-- Describes the preference dialog for choosing interval between frame capture for
     time lapse recording. Appears at top of the dialog. [CHAR LIMIT=30] -->
-  <string name="pref_video_time_lapse_frame_interval_title">Chế độ thời gian trôi</string>
+  <string name="pref_video_time_lapse_frame_interval_title">Khoảng thời gian</string>
   <!-- Settings screen, Camera setting category title -->
   <string name="pref_camera_settings_category">Cài đặt máy ảnh</string>
   <!-- Settings screen, Camcorder setting category title -->
@@ -636,11 +636,11 @@
   <!-- Video Camera format string for new video files. Passed to java.text.SimpleDateFormat. -->
   <!-- Filename prefix for panorama output. -->
   <!-- The message shown when video record reaches size limit. -->
-  <string name="video_reach_size_limit">Đã đạt tới giới hạn kích thước.</string>
+  <string name="video_reach_size_limit">Đã đạt đến kích thước giới hạn.</string>
   <!-- The text shown when the panorama panning speed is to fast [CHAR LIMIT=12] -->
   <string name="pano_too_fast_prompt">Quá nhanh</string>
   <!-- The text shown in the progress dialog when panorama preview is generating in the background [CHAR LIMIT=30] -->
-  <string name="pano_dialog_prepare_preview">Đang tạo xem trước toàn cảnh</string>
+  <string name="pano_dialog_prepare_preview">Đang tạo ảnh chụp toàn cảnh</string>
   <!-- The text shown in the dialog when panorama saving failed [CHAR LIMIT=40] -->
   <string name="pano_dialog_panorama_failed">Không thể lưu toàn cảnh.</string>
   <!-- The text shown on the dialog title in the dialogs for Panorama [CHAR LIMIT=12] -->

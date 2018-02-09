@@ -95,7 +95,7 @@
   <string name="filter_name">Názov filtra</string>
   <string name="filter_name_notification">Názov nesmie byť prázdny.</string>
   <string name="filter_name_duplicate">Názov už existuje, Prosím zadajte iný.</string>
-  <string name="watermark_location">Miesto</string>
+  <string name="watermark_location">Poloha</string>
   <string name="watermark_time">Čas</string>
   <string name="watermark_weather">Počasie</string>
   <string name="watermark_emotions">Emócie</string>

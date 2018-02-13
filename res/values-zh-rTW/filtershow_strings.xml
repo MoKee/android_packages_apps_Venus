@@ -32,7 +32,7 @@
   <!--  Text to label an image as "original" [CHAR LIMIT=20] -->
   <string name="original">原始</string>
   <!--  Text for filters that apply a border to a picture [CHAR LIMIT=20] -->
-  <string name="borders" msgid="4461692156695893616">框架</string>
+  <string name="borders" msgid="4461692156695893616">邊框</string>
   <!-- Text for the custom border filter [CHAR LIMIT=20] -->
   <string name="custom_border">自訂</string>
   <!--  actionbar menu -->
@@ -63,9 +63,9 @@
   <string name="menu_settings">設定</string>
   <!--  Exit Dialog -->
   <!--  String displayed when exiting with unsaved changes [CHAR LIMIT=NONE] -->
-  <string name="unsaved">捨棄對此圖片所做的變更？</string>
+  <string name="unsaved">這張圖片的變更尚未儲存。</string>
   <!--  String displayed when exiting with unsaved changes [CHAR LIMIT=NONE] -->
-  <string name="save_before_exit">您要在結束前儲存變更嗎？</string>
+  <string name="save_before_exit">是否在結束前儲存變更？</string>
   <!--  String displayed when saving and exiting editor [CHAR LIMIT=NONE] -->
   <string name="save_and_exit">儲存並結束</string>
   <!--  String displayed when saving and exiting editor [CHAR LIMIT=NONE] -->

@@ -66,6 +66,7 @@
   <string name="trueportrait_edit_foreground_toast">您可以在任何错过的前景区域用手指涂抹。</string>
   <string name="trueportrait_edit_background_toast">您可以在任何错过的背景区域用手指涂抹。</string>
   <string name="trueportrait_fusion_intro">您的前景人物可以复制并粘贴到图库中的任何照片上。 您可以尝试使用不同的背景照片创建全新的有趣的肖像。</string>
+  <string name="dualcam_fusion_intro">您的前景可以复制并粘贴到图库中的任何图片上。\n\n建议您尝试使用不同的背景以创建全新而有趣的图片。</string>
   <string name="do_not_show_again">不再显示</string>
   <string name="trueportrait_touch_up">修改</string>
   <string name="fusion_pick_background">选择背景图片</string>

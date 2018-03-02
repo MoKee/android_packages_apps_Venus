@@ -166,7 +166,7 @@
          pressed, a submenu will shown and user can choose one grouping rule
          from the submenu. -->
   <!-- Title of a menu item to group photo by location [CHAR LIMIT=30] -->
-  <string name="group_by_location">Theo vị trí</string>
+  <string name="group_by_location">Theo dõi vị trí</string>
   <!-- Title of a menu tiem to group photo by taken date [CHAR LIMIT=30]-->
   <string name="group_by_time">Theo thời gian</string>
   <!-- Title of a menu item to group photo by tags [CHAR LIMIT=30]-->
@@ -697,7 +697,7 @@
   <!-- The shutter button. [CHAR LIMIT = NONE] -->
   <string name="accessibility_shutter_button">Nút chụp</string>
   <!-- The menu button. [CHAR LIMIT = NONE] -->
-  <string name="accessibility_menu_button">Nút trình đơn</string>
+  <string name="accessibility_menu_button">Phím menu</string>
   <!-- The button to review the thumbnail. [CHAR LIMIT = NONE] -->
   <string name="accessibility_review_thumbnail">Ảnh gần đây nhất</string>
   <!-- The front/back camera switch. [CHAR LIMIT = NONE] -->

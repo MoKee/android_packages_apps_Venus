@@ -79,7 +79,8 @@
   <string name="map_activity_not_found_err">Není nainstalována žádná mapová aplikace pro zobrazení polohy.</string>
   <plurals name="number_of_videos">
     <item quantity="one">%1$d video</item>
-    <item quantity="few">%1$d videí</item>
+    <item quantity="few">%1$d videa</item>
+    <item quantity="many">%1$d videí</item>
     <item quantity="other">%1$d videí</item>
   </plurals>
   <!-- Toast message for share items -->

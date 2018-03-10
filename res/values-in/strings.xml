@@ -106,7 +106,7 @@
   <string name="select_all">Pilih semua</string>
   <string name="deselect_all">Batalkan semua pilihan</string>
   <string name="slideshow">Rangkai slide</string>
-  <string name="details">Detail</string>
+  <string name="details">Rincian</string>
   <string name="details_title">%1$d dari %2$d item:</string>
   <string name="close">Tutup</string>
   <!-- Title of a menu item to switch from Gallery to Camera app [CHAR LIMIT=30] -->
@@ -147,7 +147,7 @@
          It means the pictures of the Picasa album is currently being
          transferred to local storage, so the pictures can later be viewed
          offline. [CHAR LIMIT=15] -->
-  <string name="caching_label">Smpn ke tmbolok</string>
+  <string name="caching_label">Caching\u2026</string>
   <!-- The title of the menu item to let user crop the image. [CHAR LIMIT=15] -->
   <string name="crop_action">Pangkas</string>
   <!-- The title of the menu item to let user trim the video. [CHAR LIMIT=15] -->
@@ -355,7 +355,7 @@
   <!-- The label on the radio button for the widget type that shows the images randomly. [CHAR LIMIT=30]-->
   <string name="widget_type_album">Pilih album</string>
   <!-- The label on the radio button for the widget type that shows the images in an album. [CHAR LIMIT=30]-->
-  <string name="widget_type_shuffle">Kocok semua gambar</string>
+  <string name="widget_type_shuffle">Acak semua gambar</string>
   <!-- The label on the radio button for the widget type that shows only one image. [CHAR LIMIT=30]-->
   <string name="widget_type_photo">Pilih gambar</string>
   <!-- The title of the dialog for choosing the type of widget. [CHAR LIMIT=20] -->

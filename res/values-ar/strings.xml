@@ -316,6 +316,14 @@
          (filtershow_fx_0008_washout_color) [CHAR LIMIT=10] -->
   <string name="ffx_washout_color">صخري</string>
   <!-- Toast message shown after we make some album(s) available offline [CHAR LIMIT=50] -->
+  <plurals name="make_albums_available_offline">
+    <item quantity="zero">جارٍ جعل الألبوم متاحًا في وضع عدم الاتصال.</item>
+    <item quantity="one">جارٍ جعل الألبومات متاحة في وضع عدم الاتصال.</item>
+    <item quantity="two">جارٍ جعل الألبومات متاحة في وضع عدم الاتصال.</item>
+    <item quantity="few">جارٍ جعل الألبوم متاحًا في وضع عدم الاتصال.</item>
+    <item quantity="many">جارٍ جعل الألبومات متاحة في وضع عدم الاتصال.</item>
+    <item quantity="other">جارٍ جعل الألبومات متاحة في وضع عدم الاتصال.</item>
+  </plurals>
   <!-- Toast message shown after we try to make a local album available offline
          [CHAR LIMIT=150] -->
   <string name="try_to_set_local_album_available_offline">هذا العنصر مخزن محليًا ومتاح في وضع عدم الاتصال.</string>

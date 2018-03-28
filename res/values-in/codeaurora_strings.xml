@@ -70,7 +70,7 @@
   <string name="bookmark_title">"Judul"</string>
   <string name="bookmark_location">"Lokasi"</string>
   <string name="delete_all">"Hapus semua"</string>
-  <string name="default_title">"Judul standar"</string>
+  <string name="default_title">"Judul bawaan"</string>
   <!-- A label describing to link website [CHAR LIMIT=30] -->
   <string name="more_image">Lebih banyak gambar</string>
   <!-- Toast if the muted video is not supported. [CHAR LIMIT=80] -->

@@ -63,10 +63,14 @@
   <string name="dual_camera_effects_intro">Lehetővé teszi, hogy alkalmazza a háttér hatásokat, mint a \"Mozgás\" és a \"Vázlat\". Két fotót egyesíthet, érdekes hatás. Ez a szolgáltatás akkor működik a legjobban, ha van egy rövid távolság a kamera és a fő tárgy között a képen.</string>
   <string name="dualcam_no_segment_toast">Nem található szegmens ezen a ponton</string>
   <string name="dualcam_filter_not_supported">Kettős kamera szűrők nem támogatottak ezen a képen</string>
+  <string name="trueportrait_intro">Lehetővé teszi az emberek fotóinak javítását. Hatásokat alkalmazhat a háttérre, mint például a \"Homályosítás\" és a \"Vázlat\". Két fényképet is összeolvaszthat, hogy érdekes hátteret hozhasson létre a portréfotókhoz.</string>
   <string name="trueportrait_no_face">A TruePortrait effekt nem alkalmazható ezen a fotón. Nincs felismerhető arc.</string>
+  <string name="trueportrait_edit_intro">A retusálóeszközzel szerkesztheti az előteret és a hátteret is. Csak használja az ujját, hogy az előtérben vagy a háttérben \"megfesthesse\" bármelyik hiányzó részt.</string>
   <string name="trueportrait_edit_foreground_toast">Az ujjával festhet a kihagyott előtér bármely területére.</string>
   <string name="trueportrait_edit_background_toast">Az ujjával festhet a kihagyott háttér bármely területére.</string>
   <string name="trueportrait_edit_help">Nagyításhoz húzza egymástól szét két ujját. Két ujjal húzhatja és visszaméretezheti a képet. Ez megkönnyítheti a problémák megoldását.</string>
+  <string name="trueportrait_fusion_intro">A fotón előtérben lévő személyt átmásolhatja és beillesztheti a Galériában lévő bármelyik fényképre. Megpróbálhat más háttérképeket használni új érdekes portrék létrehozásához.</string>
+  <string name="dualcam_fusion_intro">A fotó előterét átmásolhatja és beillesztheti a Galériában lévő bármelyik fényképre.\n\nMegpróbálhat más háttérképeket használni új érdekes portrék létrehozásához.</string>
   <string name="do_not_show_again">Ne mutassa újra</string>
   <string name="trueportrait_touch_up">Retusálás</string>
   <string name="fusion_pick_background">Háttérkép kiválasztása</string>
@@ -80,6 +84,7 @@
   <string name="brush_size">Ecset méret</string>
   <!--Filtershow dialog -->
   <string name="filtershow_dialog_title">Egyéni szűrő</string>
+  <string name="filtershow_dialog_content">Lehetővé teszi, hogy létrehozzon egy fénykép-filtert.\n\nVálasszon egy kedvenc fotót, és használja azt, mint egy szűrőt a többi képhez</string>
   <string name="filtershow_dialog_original_photo">Eredeti fotó</string>
   <string name="filtershow_dialog_apply_photo">Alkalmazható színek</string>
   <string name="filtershow_dialog_checkbox">Ne mutassa újra</string>

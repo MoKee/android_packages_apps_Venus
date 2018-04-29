@@ -413,7 +413,7 @@
          external camera. [CHAR LIMIT=20]-->
   <string name="folder_imported">المستوردة</string>
   <!-- The label for the folder contains screenshot images. [CHAR LIMIT=20]-->
-  <string name="folder_screenshot">لقطة شاشة</string>
+  <string name="folder_screenshot">لقطة الشاشة</string>
   <!-- The title of the menu item which display online help in browser. [CHAR LIMIT=20]-->
   <string name="help">المساعدة</string>
   <!-- The tilte of a dialog showing there is no external storage. [CHAR LIMIT=20] -->

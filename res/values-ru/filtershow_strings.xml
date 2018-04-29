@@ -201,7 +201,7 @@
   <!--  Label for the curves tool, Red color channel [CHAR LIMIT=14] -->
   <string name="curves_channel_red">Красный</string>
   <!--  Label for the curves tool, Green color channel [CHAR LIMIT=14] -->
-  <string name="curves_channel_green">Зеленый</string>
+  <string name="curves_channel_green">Зелёный</string>
   <!--  Label for the curves tool, Blue color channel [CHAR LIMIT=14] -->
   <string name="curves_channel_blue">Синий</string>
   <!--  Label for the The style to draw in [CHAR LIMIT=14] -->

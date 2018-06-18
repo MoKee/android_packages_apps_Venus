@@ -21,6 +21,7 @@
   <!--  String displayed when exiting with unsaved changes [CHAR LIMIT=NONE] -->
   <string name="discard_title">Vill du spara innan du avslutar?</string>
   <!--  String displayed when discard editor [CHAR LIMIT=NONE] -->
+  <string name="discard">Avfärda</string>
   <!--  Text for the history panel reset button [CHAR LIMIT=20]-->
   <string name="back_to_original">Återställ</string>
   <!--  Label for the aspect None effect [CHAR LIMIT=15] -->
@@ -56,12 +57,16 @@
   <string name="do_not_show_again">Visa inte igen</string>
   <string name="color">Färg</string>
   <string name="ok_continue">Fortsätt</string>
+  <string name="beautify">Försköna</string>
   <string name="foreground">Förgrund</string>
   <string name="background">Bakgrund</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_dialog_original_photo">Originalfoto</string>
+  <string name="filtershow_dialog_apply_photo">Färger att applicera</string>
   <string name="filtershow_dialog_checkbox">Visa inte igen</string>
   <string name="filtershow_preset_title">Anpassat</string>
   <string name="filtershow_preset_rename">Byt namn</string>
+  <string name="delete_before_exit">Ta bort filter?</string>
   <string name="rename_before_exit">Byt namn på filter</string>
   <string name="filter_name">Filternamn</string>
   <string name="watermark_location">Plats</string>

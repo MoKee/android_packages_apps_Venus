@@ -61,6 +61,7 @@
   <string name="fusion_pick_underlay">Izberi podlogo</string>
   <string name="dual_camera_effects">Učinki dvojne kamere</string>
   <string name="dual_camera_effects_intro">Omogoča uporabo učinkiov, kot so \"Gibanja\" in \"Skica\". Prav tako lahko združite dve fotografiji skupaj za zanimive učinke. Ta funkcija deluje najbolje, ko je glavni predmet na sliki blizu fotoaparata.</string>
+  <string name="dualcam_no_segment_toast">Na tej točki ni najdenih segmentov</string>
   <string name="dualcam_filter_not_supported">Za to sliko filtri za dvojno kamero niso podprti</string>
   <string name="do_not_show_again">Ne prikaži ponovno</string>
   <string name="fusion_pick_background">Izberite sliko za ozadje</string>

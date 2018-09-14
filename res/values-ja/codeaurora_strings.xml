@@ -38,9 +38,9 @@
   <string name="loop">"ループ"</string>
   <string name="single">"シングル"</string>
   <string name="stereo">"ステレオ"</string>
-  <string name="speaker_on">スピーカーON</string>
-  <string name="speaker_off">スピーカーOFF</string>
-  <string name="speaker_need_headset">この機能を使用するにはヘッドホンを接続してください。</string>
+  <string name="speaker_on">スピーカー オン</string>
+  <string name="speaker_off">スピーカー オフ</string>
+  <string name="speaker_need_headset">この機能を使用するにはヘッドホンを接続して下さい</string>
   <string name="single_track">"シングルトラック"</string>
   <string name="input_url">"URLを入力"</string>
   <string name="streaming_settings">"ストリーミングの設定"</string>
@@ -69,14 +69,14 @@
   <string name="bookmark_list">"ブックマーク"</string>
   <string name="bookmark_title">"タイトル"</string>
   <string name="bookmark_location">"場所"</string>
-  <string name="delete_all">"すべて削除"</string>
+  <string name="delete_all">"全て削除"</string>
   <string name="default_title">"デフォルトのタイトル"</string>
   <!-- A label describing to link website [CHAR LIMIT=30] -->
   <string name="more_image">他の画像</string>
   <!-- Toast if the muted video is not supported. [CHAR LIMIT=80] -->
   <string name="mute_nosupport">ミュートにできません: 動画がサポートされていません</string>
   <!-- The message is shown in toast when click showOnMap Menu and there is no map app -->
-  <string name="map_activity_not_found_err">位置情報を表示するマップアプリがインストールされていません。</string>
+  <string name="map_activity_not_found_err">位置情報を表示するマップアプリがインストールされていません</string>
   <plurals name="number_of_videos">
     <item quantity="other">%1$d 個の動画</item>
   </plurals>
@@ -103,8 +103,8 @@
   <string name="text_makeup_Soften">ソフトにする</string>
   <string name="truescanner_normal">標準</string>
   <string name="truescanner_white">ホワイトボード</string>
-  <string name="seestraight_input_image_is_small">入力された画像が小さすぎます。</string>
-  <string name="seestraight_process_fail">画像を処理できませんでした。</string>
+  <string name="seestraight_input_image_is_small">入力された画像が小さすぎます</string>
+  <string name="seestraight_process_fail">画像を処理できませんでした</string>
   <string name="trim_video_exit_title">変更を破棄しますか？</string>
   <string name="trim_video_exit_msg">この動画に加えられた変更を破棄しますか？</string>
   <string name="trim_video_exit_discard">破棄</string>

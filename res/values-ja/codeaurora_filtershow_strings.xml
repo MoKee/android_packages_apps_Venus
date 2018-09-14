@@ -17,7 +17,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!--  Text for filters that apply a frame to a picture [CHAR LIMIT=20] -->
   <!--  String displayed when exiting with unsaved changes [CHAR LIMIT=NONE] -->
-  <string name="discard_message">この画像には保存されていない変更があります。</string>
+  <string name="discard_message">この画像には保存されていない変更があります</string>
   <!--  String displayed when exiting with unsaved changes [CHAR LIMIT=NONE] -->
   <string name="discard_title">変更を破棄しますか？</string>
   <!--  String displayed when discard editor [CHAR LIMIT=NONE] -->
@@ -48,11 +48,13 @@
   <string name="dc_negative">白黒反転</string>
   <!--  Label for the "blur" true portrait effect  [CHAR LIMIT=15] -->
   <!--  Label for the "motion blur" true portrait effect  [CHAR LIMIT=15] -->
+  <string name="do_not_show_again">再び表示しない</string>
   <string name="color">色</string>
   <string name="ok_continue">続行</string>
   <string name="beautify">ビューティーモード</string>
   <string name="background">バックグラウンド</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_dialog_checkbox">再び表示しない</string>
   <string name="filtershow_preset_title">カスタム</string>
   <string name="filtershow_preset_rename">名前の変更</string>
   <string name="watermark_location">場所</string>

@@ -49,6 +49,7 @@
   <!--  Label for the "blur" true portrait effect  [CHAR LIMIT=15] -->
   <!--  Label for the "motion blur" true portrait effect  [CHAR LIMIT=15] -->
   <string name="color">สี</string>
+  <string name="background">พื้นหลัง</string>
   <!--Filtershow dialog -->
   <string name="filtershow_preset_title">กำหนดเอง</string>
   <string name="watermark_location">ตำแหน่งที่ตั้ง</string>

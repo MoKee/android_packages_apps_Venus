@@ -48,13 +48,19 @@
   <string name="dc_negative">Αρνητικό</string>
   <!--  Label for the "blur" true portrait effect  [CHAR LIMIT=15] -->
   <!--  Label for the "motion blur" true portrait effect  [CHAR LIMIT=15] -->
+  <string name="dual_camera_effects">Εφέ διπλής κάμερας</string>
+  <string name="dualcam_filter_not_supported">Τα φίλτρα διπλής κάμερας δεν υποστηρίζονται για αυτήν την εικόνα</string>
+  <string name="fusion_pick_background">Επιλέξτε εικόνα για φόντο</string>
   <string name="color">Χρώμα</string>
   <string name="ok_continue">Συνέχεια</string>
   <string name="beautify">Ωραιοποίηση</string>
+  <string name="dualcam">Διπλή κάμερα</string>
   <string name="background">Παρασκήνιο</string>
   <!--Filtershow dialog -->
   <string name="filtershow_preset_title">Προσαρμοσμένο</string>
   <string name="filtershow_preset_rename">Μετονομασία</string>
+  <string name="delete_before_exit">Διαγραφή φίλτρου;</string>
+  <string name="rename_before_exit">Μετονομασία φίλτρου</string>
   <string name="watermark_location">Τοποθεσία</string>
   <string name="watermark_time">Ώρα</string>
 </resources>

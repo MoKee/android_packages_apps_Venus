@@ -16,11 +16,13 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!--  Text for filters that apply a frame to a picture [CHAR LIMIT=20] -->
+  <string name="frame">フレーム <xliff:g id="number" example="1">%d</xliff:g></string>
   <!--  String displayed when exiting with unsaved changes [CHAR LIMIT=NONE] -->
   <string name="discard_message">この画像には保存されていない変更があります</string>
   <!--  String displayed when exiting with unsaved changes [CHAR LIMIT=NONE] -->
   <string name="discard_title">変更を破棄しますか？</string>
   <!--  String displayed when discard editor [CHAR LIMIT=NONE] -->
+  <string name="discard">破棄</string>
   <!--  Text for the history panel reset button [CHAR LIMIT=20]-->
   <string name="back_to_original">リセット</string>
   <!--  Label for the aspect None effect [CHAR LIMIT=15] -->
@@ -30,16 +32,21 @@
   <!--  HazeBuster button -->
   <!--  SeeStraight button -->
   <!--  Label for the "refocus" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="focus">フォーカス</string>
   <!--  Label for the "fusion" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="fusion">合成</string>
   <!--  Label for the "sketch" dual camera effect  [CHAR LIMIT=15] -->
   <string name="sketch">スケッチ</string>
   <!--  Label for the "halo" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="halo">後光</string>
   <!--  Label for the "zoom" dual camera effect  [CHAR LIMIT=15] -->
   <string name="zoom">ズーム</string>
   <!--  Label for the "motion" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="motion">動作</string>
   <!--  Label for the "bw" dual camera effect  [CHAR LIMIT=15] -->
   <string name="bw">モノクロ</string>
   <!--  Label for the "blackboard" dual camera effect  [CHAR LIMIT=15] -->
+  <string name="blackboard">黒板</string>
   <!--  Label for the "whiteboard" dual camera effect  [CHAR LIMIT=15] -->
   <string name="whiteboard">ホワイトボード</string>
   <!--  Label for the "posterize" dual camera effect  [CHAR LIMIT=15] -->
@@ -47,17 +54,35 @@
   <!--  Label for the "negative" dual camera effect  [CHAR LIMIT=15] -->
   <string name="dc_negative">白黒反転</string>
   <!--  Label for the "blur" true portrait effect  [CHAR LIMIT=15] -->
+  <string name="blur">ぼかし</string>
   <!--  Label for the "motion blur" true portrait effect  [CHAR LIMIT=15] -->
+  <string name="motion_blur">モーションブラー</string>
+  <string name="fusion_pick_point">セグメントを選択</string>
+  <string name="fusion_pick_underlay">アンダーレイを選択</string>
+  <string name="dual_camera_effects">デュアルカメラの効果</string>
   <string name="do_not_show_again">再び表示しない</string>
   <string name="color">色</string>
   <string name="ok_continue">続行</string>
+  <string name="frames">フレーム</string>
   <string name="beautify">ビューティーモード</string>
+  <string name="dualcam">デュアルカメラ</string>
+  <string name="foreground">フォアグラウンド</string>
   <string name="background">バックグラウンド</string>
   <!--Filtershow dialog -->
+  <string name="filtershow_dialog_title">カスタムフィルター</string>
+  <string name="filtershow_dialog_original_photo">オリジナルの写真</string>
+  <string name="filtershow_dialog_apply_photo">色を適用</string>
   <string name="filtershow_dialog_checkbox">再び表示しない</string>
   <string name="filtershow_preset_title">カスタム</string>
   <string name="filtershow_preset_rename">名前の変更</string>
+  <string name="delete_before_exit">フィルターを削除しますか？</string>
+  <string name="rename_before_exit">フィルター名を変更</string>
+  <string name="filter_name">フィルター名</string>
+  <string name="filter_name_notification">名前を空にすることはできません</string>
+  <string name="filter_name_duplicate">この名前は既に存在します。異なる名前を入力して下さい。</string>
   <string name="watermark_location">場所</string>
   <string name="watermark_time">時刻</string>
   <string name="watermark_weather">天気</string>
+  <string name="watermark_emotions">感情</string>
+  <string name="watermark_food">食品</string>
 </resources>

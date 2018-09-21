@@ -58,6 +58,7 @@
   <!--  Text for size value tag [CHAR LIMIT=30] -->
   <string name="size">ಗಾತ್ರ</string>
   <!--  Text for size x [CHAR LIMIT=1] -->
+  <string name="x">x</string>
   <!--  Name for the overflow menu item for settings [CHAR LIMIT=20] -->
   <string name="menu_settings">ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
   <!--  Exit Dialog -->
@@ -90,7 +91,9 @@
   <!--  Label for aspect [CHAR LIMIT=15] -->
   <string name="aspect">ಆಕಾರ</string>
   <!--  Label for the aspect 1:1 effect [CHAR LIMIT=15] -->
+  <string name="aspect1to1_effect">1:1</string>
   <!--  Label for the aspect 4:3 effect [CHAR LIMIT=15] -->
+  <string name="aspect4to3_effect">4:3</string>
   <!--  Label for the aspect 3:4 effect [CHAR LIMIT=15] -->
   <!--  Label for the aspect 4:7 effect [CHAR LIMIT=15] -->
   <!--  Label for the aspect 5:7 effect [CHAR LIMIT=15] -->

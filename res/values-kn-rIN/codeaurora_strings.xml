@@ -78,15 +78,37 @@
   <!-- The message is shown in toast when click showOnMap Menu and there is no map app -->
   <string name="map_activity_not_found_err">ಸ್ಥಳವನ್ನು ಪ್ರದರ್ಶಿಸಲು ಯಾವುದೇ ನಕ್ಷೆ ಆಪ್ ಸ್ಥಾಪಿತವಾಗಿಲ್ಲ.</string>
   <!-- Toast message for share items -->
+  <string name="cannot_share_items">ಗರಿಷ್ಠ ಹಂಚಿಕೆಗೆ ಆಯ್ಕೆ ಮಾಡುವ ಅಂಶಗಳು 300 ಮಾತ್ರ</string>
+  <string name="share_dialogue_title">ಇದರ ಮೂಲಕ ಹಂಚಿಕೊಳ್ಳಿ</string>
   <!-- When grouping photos by peoples, the label used for photos that don't
          have people information in them [CHAR LIMIT=20]-->
+  <string name="no_faces">ಮುಖಗಳು ಇಲ್ಲ</string>
   <!-- The tips of trimming video -->
   <string name="fail_trim">ಕ್ಷಮಿಸಿ, ಈ ವೀಡಿಯೋ ಕಡತವನ್ನು ಕತ್ತರಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ</string>
+  <string name="can_not_trim">ಕೇವಲ mp4 ಮತ್ತು 3gp ದಾಖಲೆಗಳನ್ನು ಮಾತ್ರ ಕತ್ತರಿಸಬಹುದು</string>
   <string name="drm_license_info">DRM ಪರವಾನಗಿ ಮಾಹಿತಿ</string>
   <!-- Timeline screen title -->
+  <string name="timeline_title">ಸಮಯಾವಧಿ</string>
   <!-- Albums screen title -->
+  <string name="albums_title">ಆಲ್ಬಮ್ ಗಳು</string>
   <!-- Videos screen title -->
+  <string name="videos_title">ದೃಶ್ಯಗಳು</string>
+  <string name="action_viewtype_list">ಪಟ್ಟಿ ವೀಕ್ಷಿಸು</string>
+  <string name="tvEmptyAlbum">ಯಾವುದೇ ಚಿತ್ರಗಳು ಕಂಡುಬಂದಿಲ್ಲ</string>
+  <string name="tvEmptyVideos">ಯಾವುದೇ ದೃಶ್ಯಗಳು ಕಂಡುಬಂದಿಲ್ಲ</string>
+  <string name="text_makeup_whiten">ಬಿಳಿಯಾಗಿಸು</string>
+  <string name="text_makeup_Soften">ಮೃದುವಾಗಿಸು</string>
+  <string name="text_makeup_trimface">ಮುಖ ಕತ್ತರಿಸಿ</string>
+  <string name="text_makeup_bigeye">ದೊಡ್ಡ ಕಣ್ಣು</string>
   <string name="truescanner_normal">ಸಾಮಾನ್ಯ</string>
   <string name="truescanner_white">ವೈಟ್‌ಬೋರ್ಡ್</string>
+  <string name="truescanner">TrueScanner</string>
+  <string name="truescanner_remove_glare">ತೀಕ್ಷ್ಣಪ್ರಕಾಶ ತೆಗೆಯಿರಿ</string>
+  <string name="hazebuster_acts">ಮಬ್ಬು ತೆಗೆಯುವಿಕೆ</string>
+  <string name="seestraight_acts">ನೇರ ನೋಡಿ</string>
+  <string name="seestraight_input_image_is_small">ಇನ್ಪುಟ್ ಚಿತ್ರವು ಪ್ರಕ್ರಿಯಿಸಲು ತುಂಬ ಚಿಕ್ಕದಾಗಿದೆ.</string>
+  <string name="seestraight_process_fail">ಚಿತ್ರವನ್ನು ಪ್ರಕ್ರಿಯಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ.</string>
   <string name="trim_video_exit_title">ನೀವು ನಿರ್ಗಮಿಸುವುದಕ್ಕೂ ಮೊದಲು ಉಳಿಸಲು ಬಯಸುತ್ತೀರಾ?</string>
+  <string name="trim_video_exit_msg">ಈ ದೃಶ್ಯಕ್ಕೆ ಮಾಡಿದ ಬದಲಾವಣೆಗಳನ್ನು ತ್ಯಜಿಸಬೇಕೆ?</string>
+  <string name="trim_video_exit_discard">ತ್ಯಜಿಸಿ</string>
 </resources>

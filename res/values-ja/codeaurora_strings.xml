@@ -101,8 +101,14 @@
   <string name="tvEmptyVideos">動画が見つかりません</string>
   <string name="text_makeup_whiten">白くする</string>
   <string name="text_makeup_Soften">ソフトにする</string>
+  <string name="text_makeup_trimface">顔をトリミング</string>
+  <string name="text_makeup_bigeye">大きな目</string>
   <string name="truescanner_normal">標準</string>
   <string name="truescanner_white">ホワイトボード</string>
+  <string name="truescanner">実際のスキャン</string>
+  <string name="truescanner_remove_glare">グレア除去</string>
+  <string name="hazebuster_acts">ミスト除去</string>
+  <string name="seestraight_acts">直視</string>
   <string name="seestraight_input_image_is_small">入力された画像が小さすぎます</string>
   <string name="seestraight_process_fail">画像を処理できませんでした</string>
   <string name="trim_video_exit_title">変更を破棄しますか？</string>

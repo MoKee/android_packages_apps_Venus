@@ -96,9 +96,13 @@
   <string name="aspect4to3_effect">4:3</string>
   <!--  Label for the aspect 3:4 effect [CHAR LIMIT=15] -->
   <!--  Label for the aspect 4:7 effect [CHAR LIMIT=15] -->
+  <string name="aspect4to6_effect">4:6</string>
   <!--  Label for the aspect 5:7 effect [CHAR LIMIT=15] -->
+  <string name="aspect5to7_effect">5:7</string>
   <!--  Label for the aspect 7:5 effect [CHAR LIMIT=15] -->
+  <string name="aspect7to5_effect">7:5</string>
   <!--  Label for the aspect 1:1 effect [CHAR LIMIT=15] -->
+  <string name="aspect9to16_effect">16:9</string>
   <!--  Label for the aspect None effect [CHAR LIMIT=15] -->
   <string name="aspectNone_effect">ಯಾವುದೂ ಇಲ್ಲ</string>
   <!--  Label for the aspect None effect [CHAR LIMIT=15] -->
@@ -192,6 +196,7 @@
   <string name="editor_grad_new">ಹೊಸತು</string>
   <!--  Labels for the curves tool -->
   <!--  Label for the curves tool, all channels (RGB) [CHAR LIMIT=3] -->
+  <string name="curves_channel_rgb">RGB</string>
   <!--  Label for the curves tool, Red color channel [CHAR LIMIT=14] -->
   <string name="curves_channel_red">ಕೆಂಪು</string>
   <!--  Label for the curves tool, Green color channel [CHAR LIMIT=14] -->
@@ -275,6 +280,7 @@
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="filtershow_exif_focal_length">ಕೇಂದ್ರೀಕರಣದ ದೂರ</string>
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
+  <string name="filtershow_exif_iso">ISO</string>
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->
   <string name="filtershow_exif_subject_distance">ವಿಷಯದ ಅಂತರ</string>
   <!-- Label for exif tags in the information panel [CHAR LIMIT=50] -->

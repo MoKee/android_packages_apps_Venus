@@ -60,7 +60,20 @@
   <string name="fusion_pick_point">セグメントを選択</string>
   <string name="fusion_pick_underlay">アンダーレイを選択</string>
   <string name="dual_camera_effects">デュアルカメラの効果</string>
+  <string name="dual_camera_effects_intro">「モーション」や「スケッチ」などの背景効果を適用できます。興味のある効果を2枚の写真をマージすることもできます。この機能はカメラと主被写体が近距離にあるときに最も効果的です。</string>
+  <string name="dualcam_no_segment_toast">この点でセグメントが見つかりませんでした</string>
+  <string name="dualcam_filter_not_supported">この画像ではデュアルカメラフィルターはサポートされていません</string>
+  <string name="trueportrait_intro">人々の写真を向上させることができます。「ぼかし」や「スケッチ」など背景に効果を適用することができます。2枚の写真を結合してポートレート写真の興味深い背景を作成することもできます。</string>
+  <string name="trueportrait_no_face">TruePortrait効果はこの写真に適用できません。顔が検出されません。</string>
+  <string name="trueportrait_edit_intro">タッチアップツールを使用すると前景と背景を編集できます。見逃していた前景と背景の任意の領域で指でペイントすることができます。</string>
+  <string name="trueportrait_edit_foreground_toast">あなたの指を使って前景で見逃した部分にペイントして下さい</string>
+  <string name="trueportrait_edit_background_toast">あなたの指を使って背景で見逃した部分にペイントして下さい</string>
+  <string name="trueportrait_edit_help">ズームするには2本の指で挟みます。2本の指でドラッグして画像の位置を変更することもできます。これにより問題のある領域を修正しやすくなります。</string>
+  <string name="trueportrait_fusion_intro">あなたの前景の人物をコピーしてギャラリーの写真に貼り付けることができます。異なる背景写真を使用して興味深く新しいポートレートを作成できます。</string>
+  <string name="dualcam_fusion_intro">あなたの前景をコピーしてギャラリーの写真に貼り付けることができます。\n\n異なる背景写真を使用して興味深く新しいポートレートを作成できます。</string>
   <string name="do_not_show_again">再び表示しない</string>
+  <string name="trueportrait_touch_up">修正</string>
+  <string name="fusion_pick_background">背景の写真を選択</string>
   <string name="color">色</string>
   <string name="ok_continue">続行</string>
   <string name="frames">フレーム</string>
@@ -68,8 +81,10 @@
   <string name="dualcam">デュアルカメラ</string>
   <string name="foreground">フォアグラウンド</string>
   <string name="background">バックグラウンド</string>
+  <string name="brush_size">ビルドエリアサイズ</string>
   <!--Filtershow dialog -->
   <string name="filtershow_dialog_title">カスタムフィルター</string>
+  <string name="filtershow_dialog_content">フォトフィルターを作成できます。\n\n好きな写真を選択して他の写真のフィルターとして使用して下さい。</string>
   <string name="filtershow_dialog_original_photo">オリジナルの写真</string>
   <string name="filtershow_dialog_apply_photo">色を適用</string>
   <string name="filtershow_dialog_checkbox">再び表示しない</string>

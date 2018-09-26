@@ -19,24 +19,36 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">ಗ್ಯಾಲರಿ</string>
   <!-- Title for picture frame gadget to show in list of all available gadgets -->
+  <string name="gadget_title">ಚಿತ್ರ ಚೌಕಟ್ಟು</string>
   <!-- Used to format short video duration in Details dialog. minutes:seconds e.g. 00:30 -->
   <!-- Used to format video duration in Details dialog. hours:minutes:seconds e.g. 0:21:30 -->
   <!-- Activity label. This might show up in the activity-picker -->
+  <string name="movie_view_label">ದೃಶ್ಯ ಚಾಲಕ</string>
   <!-- shown in the video player view while the video is being loaded, before it starts playing -->
+  <string name="loading_video">ದೃಶ್ಯವನ್ನು ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ\u2026</string>
+  <string name="loading_image">ಚಿತ್ರವನ್ನು ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ\u2026</string>
   <!-- Message shown on the progress dialog to indicate we're loading the
             account info [CHAR LIMIT=30] -->
+  <string name="loading_account">ಖಾತೆಯನ್ನು ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ\u2026</string>
   <!-- Movie View Resume Playing dialog title -->
+  <string name="resume_playing_title">ದೃಶ್ಯವನ್ನು ಮುಂದುವರೆಸಿ</string>
   <!-- Movie View Start Playing dialog title -->
+  <string name="resume_playing_message">%s ನಿಂದ ಚಲಾಯಿಸಲು ಮುಂದುವರೆಯಿಸಬೇಕೆ?</string>
   <!-- Movie View Start Playing button "Resume from bookmark" -->
+  <string name="resume_playing_resume">ಚಲಾಯಿಸಲು ಮುಂದುವರೆಯಿಸಿ</string>
   <!-- Displayed in the title of those albums that are being loaded -->
   <string name="loading">ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ\u2026</string>
   <!-- Displayed in the title of those pictures that fails to be loaded
          [CHAR LIMIT=50]-->
+  <string name="fail_to_load">ಲೋಡ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
   <!-- Used in a toast message when an image fails to be loaded
          [CHAR LIMIT=50]-->
+  <string name="fail_to_load_image">ಚಿತ್ರವನ್ನು ಲೋಡ್‌ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
   <!-- Displayed in place of the picture when we fail to get the thumbnail of it.
          [CHAR LIMIT=50]-->
+  <string name="no_thumbnail">ತೀರ ಚಿಕ್ಕ ಚಿತ್ರವಿಲ್ಲ</string>
   <!-- Movie View Start Playing button "Beginning" -->
+  <string name="resume_playing_restart">ಪುನರಾರಂಭಿಸು</string>
   <!-- Title of a menu item to indicate performing the image crop operation
          [CHAR LIMIT=20] -->
   <string name="crop_save_text">ಸರಿ</string>
@@ -45,17 +57,28 @@
   <string name="ok">ಸರಿ</string>
   <!-- Button indicating that the cropped image should be reverted back to the original -->
   <!-- Hint that appears when cropping an image with more than one face -->
+  <string name="multiface_crop_help">ಪ್ರಾರಂಭಿಸಲು ಒಂದು ಮುಖವನ್ನು ಸ್ಪರ್ಶಿಸಿ.</string>
   <!-- Toast/alert that the image is being saved to the SD card -->
+  <string name="saving_image">ಚಿತ್ರವನ್ನು ಉಳಿಸಲಾಗುತ್ತಿದೆ\u2026</string>
   <!-- Toast/alert that the image is being saved after editing in filtershow [CHAR LIMIT=40]-->
+  <string name="filtershow_saving_image"><xliff:g id="ಆಲ್ಬಮ್_ಹೆಸರು">%1$s</xliff:g> \u2026 ಗೆ ಚಿತ್ರವನ್ನು ಉಳಿಸಲಾಗುತ್ತಿದೆ</string>
   <!-- Eorror toast message that the image cannot be saved [CHAR LIMIT=40]-->
+  <string name="save_error">ಕತ್ತರಿಸಿದ ಚಿತ್ರವನ್ನು ಉಳಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.</string>
   <!-- menu pick: crop the currently selected image [CHAR LIMIT=30]-->
+  <string name="crop_label">ಚಿತ್ರವನ್ನು ಕತ್ತರಿಸಿ</string>
   <!-- menu pick: trim the currently selected video [CHAR LIMIT=30]-->
+  <string name="trim_label">ದೃಶ್ಯವನ್ನು ಕತ್ತರಿಸಿ</string>
   <!-- Toast/alert that the face detection is being run -->
   <!-- Title prompted for user to choose a photo item [CHAR LIMIT=20] -->
+  <string name="select_image">ಚಿತ್ರವನ್ನು ಆರಿಸಿ</string>
   <!-- Title prompted for user to choose a video item [CHAR LIMIT=20] -->
+  <string name="select_video">ದೃಶ್ಯವನ್ನು ಆರಿಸಿ</string>
   <!-- Title prompted for user to choose a media object [CHAR LIMIT=20] -->
+  <string name="select_item">ಅಂಶವನ್ನು ಆರಿಸಿ</string>
   <!-- Title prompted for user to choose an album [CHAR LIMIT=20] -->
+  <string name="select_album">ಆಲ್ಬಮ್ ಆರಿಸಿ</string>
   <!-- Title prompted for user to choose a group [CHAR LIMIT=20] -->
+  <string name="select_group">ಗುಂಪನ್ನು ಆರಿಸಿ</string>
   <!-- Displayed in the title of the dialog for things to do with a picture
              that is to be "set as" (e.g. set as contact photo or set as wallpaper) -->
   <string name="set_image">ಚಿತ್ರವನ್ನು ಹೀಗೆ ಹೊಂದಿಸಿ</string>
@@ -142,11 +165,14 @@
   <string name="group_by_size">ಗಾತ್ರದಿಂದ</string>
   <!-- When grouping photos by tags, the label used for photos without tags
          [CHAR LIMIT=20]-->
+  <string name="untagged">ಟ್ಯಾಗ್ ಮಾಡದ</string>
   <!-- When grouping photos by locations, the label used for photos that don't
          have location information in them [CHAR LIMIT=20]-->
   <string name="no_location">ಸ್ಥಳ ಇಲ್ಲ</string>
   <!-- This toast message is shown when network connection is lost while doing clustering -->
+  <string name="no_connectivity">ಜಾಲಬಂಧದ ತೊಂದರೆಗಳಿಂದ ಕೆಲವು ಸ್ಥಳಗಳನ್ನು ಗುರುತಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.</string>
   <!-- This toast message is shown when failed to load the album data. [CHAR LIMIT=NONE] -->
+  <string name="sync_album_error">ಈ ಆಲ್ಬಮ್ ಗೆ ಚಿತ್ರಗಳನ್ನು ಡೌನ್ಲೋಡ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ನಂತರ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.</string>
   <!-- The title of the menu item to let user choose the which portion of
          the media items the user wants to see. When pressed, a submenu will
          appear and user can choose one of "show images only",
@@ -163,13 +189,18 @@
   <string name="appwidget_empty_text">ಯಾವುದೇ ಫೋಟೊಗಳು ಇಲ್ಲ.</string>
   <!-- Toast message shown when the cropped image has been saved in the
          %s folder (string: folder_download) [CHAR LIMIT=50]-->
+  <string name="crop_saved">
+ಕತ್ತರಿಸಿದ ಚಿತ್ರವನ್ನು <xliff:g id="folder_name">%s</xliff:g> ರಲ್ಲಿ ಉಳಿಸಲಾಗಿದೆ.</string>
   <!-- Toast message shown when there is no albums available [CHAR LIMIT=50]-->
   <string name="no_albums_alert">ಯಾವುದೇ ಆಲ್ಬಮ್ ಗಳು ಲಭ್ಯವಿಲ್ಲ.</string>
   <!-- Toast message shown when we close the AlbumPage because it is empty
             [CHAR LIMIT=50] -->
+  <string name="empty_album">O ಚಿತ್ರಗಳು/ದೃಶ್ಯಗಳು ಲಭ್ಯವಿವೆ.</string>
   <!-- Album label used to indicate the collection of PWA Buzz/Post photos -->
+  <string name="picasa_posts">ಅಂಚೆಗಳು</string>
   <!-- A label describing that the current screen is for the user to pick
          some albums to be viewable offline [CHAR LIMIT=30] -->
+  <string name="make_available_offline">ಆಫ್ ಲೈನ್ ನಲ್ಲಿ ಲಭ್ಯವಿರುವಂತೆ ಮಾಡಿ</string>
   <!-- A label of a menu item for user to sync the content [CHAR LIMIT=30] -->
   <string name="sync_picasa_albums">ಹೊಸತಾಗಿಸಿ</string>
   <!-- A label on a button. The user clicks this button after he has
@@ -181,27 +212,40 @@
   <!-- Text indicating the title of a media item in details window [CHAR LIMIT=14] -->
   <string name="title">ಶೀರ್ಷಿಕೆ</string>
   <!-- Text indicating the description of a media item in details window [CHAR LIMIT=14] -->
+  <string name="description">ವಿವರಣೆ</string>
   <!-- Text indicating the creation time of a media item in details window [CHAR LIMIT=14] -->
+  <string name="time">ಸಮಯ</string>
   <!-- Text indicating the location of a media item in details window [CHAR LIMIT=14] -->
   <string name="location">ಸ್ಥಳ</string>
   <!-- Text indicating the path of a media item in details window [CHAR LIMIT=14] -->
+  <string name="path">ಪಥ</string>
   <!-- Text indicating the width of a media item in details window [CHAR LIMIT=14] -->
+  <string name="width">ಅಗಲ</string>
   <!-- Text indicating the height of a media item in details window [CHAR LIMIT=14] -->
+  <string name="height">ಎತ್ತರ</string>
   <!-- Text indicating the orientation of a media item in details window [CHAR LIMIT=14] -->
+  <string name="orientation">ದೃಷ್ಟಿಕೋನ</string>
   <!-- Text indicating the duration of a video item in details window [CHAR LIMIT=14] -->
+  <string name="duration">ಅವಧಿ</string>
   <!-- Text indicating the mime type of a media item in details window [CHAR LIMIT=14] -->
+  <string name="mimetype">MIME ವಿಧ</string>
   <!-- Text indicating the file size of a media item in details window [CHAR LIMIT=14] -->
+  <string name="file_size">ಕಡತ ಗಾತ್ರ</string>
   <!-- Text indicating the maker of a media item in details window [CHAR LIMIT=14] -->
+  <string name="maker">ಮೇಕರ್</string>
   <!-- Text indicating the model of a media item in details window [CHAR LIMIT=14] -->
   <string name="model">ಮಾದರಿ</string>
   <!-- Text indicating flash info of a media item in details window [CHAR LIMIT=14] -->
+  <string name="flash">ಫ್ಲ್ಯಾಶ್</string>
   <!-- Text indicating aperture of a media item in details window [CHAR LIMIT=14] -->
   <string name="aperture">ಅಪರ್ಚರ್‌‌</string>
   <!-- Text indicating the focal length of a media item in details window [CHAR LIMIT=14] -->
   <string name="focal_length">ಕೇಂದ್ರೀಕರಣದ ದೂರ</string>
   <!-- Text indicating the white balance of a media item in details window [CHAR LIMIT=14] -->
+  <string name="white_balance">ಬಿಳುಪು ಸಮತೋಲನ</string>
   <!-- Text indicating the exposure time of a media item in details window [CHAR LIMIT=14] -->
   <!-- Text indicating the ISO speed rating of a media item in details window [CHAR LIMIT=14] -->
+  <string name="iso">ISO</string>
   <!-- String indicating the time units in seconds. [CHAR LIMIT=8] -->
   <!-- String indicating the length units in milli-meters. [CHAR LIMIT=8] -->
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
@@ -371,13 +415,20 @@
   <!--  Label for record location preference [CHAR LIMIT=50] -->
   <!-- Title for countdown timer on camera settings screen [CHAR LIMIT=30]-->
   <!-- Entry for countdown timer setting. e.g. 1 second, 10 seconds, etc. [CHAR LIMIT=30]-->
+  <plurals name="pref_camera_timer_entry">
+    <item quantity="one">%d ಸೆಕೆಂಡು</item>
+    <item quantity="other">%d ಸೆಕೆಂಡುಗಳು</item>
+  </plurals>
   <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT = 16]-->
+  <string name="pref_camera_timer_sound_title">ಕ್ಷಣಗಣನೆ ವೇಳೆ ಬೀಪ್ ಮಾಡು</string>
   <!-- Entry of a on/off setting. The setting is turned off. [CHAR LIMIT=15] -->
   <string name="setting_off">ಆರಿಸು</string>
   <!-- Entry of a on/off setting. The setting is turned on. [CHAR LIMIT=15] -->
+  <string name="setting_on">ಆರಂಭಿಸು</string>
   <!-- The value of a camera preference indicating the setting is off. -->
   <!-- The value of a camera preference indicating the setting is on. -->
   <!-- The Video quality settings in preference [CHAR LIMIT=21] -->
+  <string name="pref_video_quality_title">ದೃಶ್ಯ ಗುಣಮಟ್ಟ</string>
   <!-- The default quality value is 5 (720p) -->
   <!-- Video quality setting entry. Videos will be recorded in 1080p quality. [CHAR LIMIT=24] -->
   <!-- Video quality setting entry. Videos will be recorded in 720p quality. [CHAR LIMIT=24] -->
@@ -388,28 +439,54 @@
   <string name="pref_video_quality_entry_low">ಕಡಿಮೆ</string>
   <!-- Describes the preference dialog for choosing interval between frame capture for
     time lapse recording. Appears at top of the dialog. [CHAR LIMIT=30] -->
+  <string name="pref_video_time_lapse_frame_interval_title">ಸಮಯ ನಷ್ಟ</string>
   <!-- Settings screen, Camera setting category title -->
+  <string name="pref_camera_settings_category">ಕ್ಯಾಮರಾ ಸಂಯೋಜನೆಗಳು</string>
   <!-- Settings screen, Camcorder setting category title -->
+  <string name="pref_camcorder_settings_category">ಕ್ಯಾಮ್‌ಕಾರ್ಡರ್ ಸಂಯೋಜನೆಗಳು</string>
   <!-- Settings screen, Picture size title -->
+  <string name="pref_camera_picturesize_title">ಚಿತ್ರದ ಗಾತ್ರ</string>
   <!-- Settings screen, dialog choice for 13 megapixels picture size [CHAR LIMIT=15] -->
+  <string name="pref_camera_picturesize_entry_13mp">13M ಪಿಕ್ಸೆಲ್ ಗಳು</string>
   <!-- Settings screen, dialog choice for 8 megapixels picture size [CHAR LIMIT=15] -->
+  <string name="pref_camera_picturesize_entry_8mp">8M ಪಿಕ್ಸೆಲ್ ಗಳು</string>
   <!-- Settings screen, dialog choice for 5 megapixels picture size [CHAR LIMIT=15] -->
+  <string name="pref_camera_picturesize_entry_5mp">5M ಪಿಕ್ಸೆಲ್ ಗಳು</string>
   <!-- Settings screen, dialog choice for 4 megapixels picture size [CHAR LIMIT=15] -->
+  <string name="pref_camera_picturesize_entry_4mp">4M ಪಿಕ್ಸೆಲ್ ಗಳು</string>
   <!-- Settings screen, dialog choice for 3 megapixels picture size [CHAR LIMIT=15] -->
+  <string name="pref_camera_picturesize_entry_3mp">3M ಪಿಕ್ಸೆಲ್ ಗಳು</string>
   <!-- Settings screen, dialog choice for 2 megapixels picture size [CHAR LIMIT=15] -->
+  <string name="pref_camera_picturesize_entry_2mp">2M ಪಿಕ್ಸೆಲ್ ಗಳು</string>
   <!-- Settings screen, dialog choice for 2 megapixels picture size [CHAR LIMIT=15] -->
+  <string name="pref_camera_picturesize_entry_2mp_wide">2M ಪಿಕ್ಸೆಲ್ ಗಳು (16:9)</string>
   <!-- Settings screen, dialog choice for 1.3 megapixels picture size [CHAR LIMIT=15] -->
+  <string name="pref_camera_picturesize_entry_1_3mp">1.3M ಪಿಕ್ಸೆಲ್ ಗಳು</string>
   <!-- Settings screen, dialog choice for 1 megapixels picture size [CHAR LIMIT=15] -->
+  <string name="pref_camera_picturesize_entry_1mp">1M ಪಿಕ್ಸೆಲ್ ಗಳು</string>
   <!-- Settings screen, dialog choice for VGA picture size [CHAR LIMIT=15] -->
+  <string name="pref_camera_picturesize_entry_vga">VGA</string>
   <!-- Settings screen, dialog choice for QVGA picture size [CHAR LIMIT=15] -->
+  <string name="pref_camera_picturesize_entry_qvga">QVGA</string>
   <!-- Settings screen, Focus mode title -->
+  <string name="pref_camera_focusmode_title">ಕೇಂದ್ರಿಕರಣ ಮಾದರಿ</string>
   <!-- Settings screen, Focus mode dialog radio button choices -->
+  <string name="pref_camera_focusmode_entry_auto">ಸ್ವಯಂ</string>
+  <string name="pref_camera_focusmode_entry_infinity">ಅನಂತ</string>
+  <string name="pref_camera_focusmode_entry_macro">ಮ್ಯಾಕ್ರೋ</string>
   <!-- Menu, focus mode labels [CHAR LIMIT=50] -->
+  <string name="pref_camera_focusmode_label_auto">ಸ್ವಯಂ</string>
+  <string name="pref_camera_focusmode_label_infinity">ಅನಂತ</string>
+  <string name="pref_camera_focusmode_label_macro">ಮ್ಯಾಕ್ರೊ</string>
   <!-- Default flash mode setting.-->
   <!-- Value for flash off setting-->
   <!-- Settings screen, Flash mode title -->
+  <string name="pref_camera_flashmode_title">ಫ್ಲ್ಯಾಶ್ ಮಾದರಿ</string>
   <!-- flash label [CHAR LIMIT=50] -->
+  <string name="pref_camera_flashmode_label">ಫ್ಲ್ಯಾಶ್ ಮಾದರಿ</string>
   <!-- Settings screen, Flash mode dialog radio button choices -->
+  <string name="pref_camera_flashmode_entry_auto">ಸ್ವಯಂ</string>
+  <string name="pref_camera_flashmode_entry_on">ಆರಂಭಿಸು</string>
   <string name="pref_camera_flashmode_entry_off">ಆರಿಸು</string>
   <!-- Menu, flash mode labels [CHAR LIMIT=50] -->
   <string name="pref_camera_flashmode_label_auto">ಫ್ಲ್ಯಾಶ್ ಸ್ವಯಂ</string>
@@ -425,11 +502,13 @@
   <string name="pref_camera_whitebalance_entry_auto">ಸ್ವಯಂ</string>
   <string name="pref_camera_whitebalance_entry_incandescent">ಪ್ರಕಾಶಮಾನ</string>
   <string name="pref_camera_whitebalance_entry_daylight">ದಿನಬೆಳಗು</string>
+  <string name="pref_camera_whitebalance_entry_fluorescent">ಪ್ರತಿದೀಪಕ</string>
   <string name="pref_camera_whitebalance_entry_cloudy">ಮೋಡ ಕವಿದಿರುವ</string>
   <!-- Menu, White balance labels [CHAR LIMIT=50] -->
   <string name="pref_camera_whitebalance_label_auto">ಸ್ವಯಂ</string>
   <string name="pref_camera_whitebalance_label_incandescent">ಪ್ರಕಾಶಮಾನ</string>
   <string name="pref_camera_whitebalance_label_daylight">ದಿನಬೆಳಗು</string>
+  <string name="pref_camera_whitebalance_label_fluorescent">ಪ್ರತಿದೀಪಕ</string>
   <string name="pref_camera_whitebalance_label_cloudy">ಮೋಡಮಯ</string>
   <!-- Default scene mode setting. -->
   <!-- Settings screen, Select Scene mode -->
@@ -469,56 +548,92 @@
   <!-- Settings menu countdown timer 15 seconds [CHAR LIMIT=50] -->
   <string name="pref_camera_countdown_label_fifteen">15 ಸೆಕೆಂಡುಗಳು</string>
   <!-- Toast after trying to select a setting that is not allowed to change in scene mode [CHAR LIMIT=NONE] -->
+  <string name="not_selectable_in_scene_mode">ದೃಶ್ಯ ಮೋಡ್‌ನಲ್ಲಿ ಆಯ್ಕೆ ಮಾಡಬಹುದಾಗಿರುವುದಲ್ಲ.</string>
   <!-- Exposure settings in preference -->
   <string name="pref_exposure_title">ಎಕ್ಸ್‌ಪೋಸರ್‌‌</string>
   <!--  menu label exposure compensation [CHAR LIMIT=50] -->
+  <string name="pref_exposure_label">ತೆರೆತ</string>
   <!-- Default HDR entry value -->
   <!-- HDR label ON [CHAR LIMIT=60] -->
   <string name="pref_camera_hdr_label">HDR</string>
   <!-- switch camera label back [CHAR LIMIT=60] -->
+  <string name="pref_camera_id_label_back">ಮುಂದಿನ ಕ್ಯಾಮರಾ</string>
   <!-- switch camera label front [CHAR LIMIT=60] -->
+  <string name="pref_camera_id_label_front">ಹಿಂದಿನ ಕ್ಯಾಮರಾ</string>
   <!-- Dialog "OK" button. Dismisses dialog. -->
   <string name="dialog_ok">ಸರಿ</string>
   <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
+  <string name="spaceIsLow_content" product="nosdcard">ನಿಮ್ಮ USB ಸಂಗ್ರಹಣೆಯ ಸ್ಥಳಾವಕಾಶದ ಕೊರತೆಯಿದೆ. ಗುಣಮಟ್ಟದ ಸಂಯೋಜನೆಗಳನ್ನು ಬದಲಾಯಿಸಿ ಅಥವಾ ಕೆಲವು ಚಿತ್ರಗಳನ್ನು ಅಥವಾ ಇತರೆ ಕಡತಗಳನ್ನು ಅಳಿಸಿ.</string>
   <!-- Low-memory dialog message [CHAR LIMIT=NONE] -->
+  <string name="spaceIsLow_content" product="default">ನಿಮ್ಮ SD ಕಾರ್ಡ್ ನಲ್ಲಿ ಸಂಗ್ರಹಣೆಯ ಸ್ಥಳಾವಕಾಶದ ಕೊರತೆಯಿದೆ. ಗುಣಮಟ್ಟದ ಸಂಯೋಜನೆಗಳನ್ನು ಬದಲಾಯಿಸಿ ಅಥವಾ ಕೆಲವು ಚಿತ್ರಗಳನ್ನು ಅಥವಾ ಇತರೆ ಕಡತಗಳನ್ನು ಅಳಿಸಿ.</string>
   <!-- Camera format string for new image files. Passed to java.text.SimpleDateFormat. -->
   <!-- Video Camera format string for new video files. Passed to java.text.SimpleDateFormat. -->
   <!-- Filename prefix for panorama output. -->
   <!-- The message shown when video record reaches size limit. -->
+  <string name="video_reach_size_limit">ಗಾತ್ರದ ಮಿತಿ ತಲುಪಿದೆ.</string>
   <!-- The text shown when the panorama panning speed is to fast [CHAR LIMIT=12] -->
+  <string name="pano_too_fast_prompt">ಅತೀ ವೇಗ</string>
   <!-- The text shown in the progress dialog when panorama preview is generating in the background [CHAR LIMIT=30] -->
+  <string name="pano_dialog_prepare_preview">ಪನೋರಮಾ ಸಿದ್ಧಗೊಳ್ಳುತ್ತಿದೆ</string>
   <!-- The text shown in the dialog when panorama saving failed [CHAR LIMIT=40] -->
+  <string name="pano_dialog_panorama_failed">ಪನೋರಮಾ ಉಳಿಸಿಕೊಳ್ಳಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.</string>
   <!-- The text shown on the dialog title in the dialogs for Panorama [CHAR LIMIT=12] -->
+  <string name="pano_dialog_title">ಪನೋರಮಾ</string>
   <!-- The text shown on the top-left corner of the screen to indicate the capturing is on going [CHAR LIMIT=27] -->
+  <string name="pano_capture_indication">ಪನೋರಮಾ ಸೆರೆಹಿಡಿಯಲಾಗುತ್ತಿದೆ</string>
   <!-- The text shown in the progress dialog when waiting for previous panorama finishing [CHAR LIMIT=40] -->
+  <string name="pano_dialog_waiting_previous">ಹಿಂದಿನ ಪನೋರಮಾಗಾಗಿ ನಿರೀಕ್ಷಿಸಲಾಗುತ್ತಿದೆ</string>
   <!-- The text shown on the bottom-left corner of the screen to indicate that the saving is in process [CHAR LIMIT=13] -->
+  <string name="pano_review_saving_indication_str">ಉಳಿಸಲಾಗುತ್ತಿದೆ\u2026</string>
   <!-- The text shown on the screen to indicate that the panorama is rendering [CHAR LIMIT=27] -->
+  <string name="pano_review_rendering">ಪನೋರಮಾ ರೆಂಡರಿಂಗ್ ಮಾಡಲಾಗುತ್ತಿದೆ</string>
   <!-- Toast telling users tapping on the viewfinder will trigger autofocus [CHAR LIMIT=28] -->
+  <string name="tap_to_focus">ಫೋಕಸ್‌ಗೆ ಸ್ಪರ್ಶಿಸಿ.</string>
   <!-- Default effect setting that clears the effect. -->
   <!-- Title of video effect setting popup window -->
+  <string name="pref_video_effect_title">ಪರಿಣಾಮಗಳು</string>
   <!-- Effect setting item that clear the effect. [CHAR LIMIT=14] -->
   <string name="effect_none">ಯಾವುದೂ ಇಲ್ಲ</string>
   <!-- Effect setting item that squeezes the face. [CHAR LIMIT=14] -->
+  <string name="effect_goofy_face_squeeze">ಕಿವುಚಿ</string>
   <!-- Effect setting item that makes eyes big. [CHAR LIMIT=14] -->
+  <string name="effect_goofy_face_big_eyes">ದೊಡ್ಡ ಕಣ್ಣುಗಳು</string>
   <!-- Effect setting item that makes mouth big. [CHAR LIMIT=14] -->
+  <string name="effect_goofy_face_big_mouth">ದೊಡ್ಡ ಬಾಯಿ</string>
   <!-- Effect setting item that makes mouth small. [CHAR LIMIT=14] -->
+  <string name="effect_goofy_face_small_mouth">ಸಣ್ಣ ಬಾಯಿ</string>
   <!-- Effect setting item that makes nose big. [CHAR LIMIT=14] -->
+  <string name="effect_goofy_face_big_nose">ದೊಡ್ಡ ಮೂಗು</string>
   <!-- Effect setting item that makes eyes small. [CHAR LIMIT=14] -->
+  <string name="effect_goofy_face_small_eyes">ಸಣ್ಣ ಕಣ್ಣುಗಳು</string>
   <!-- Effect setting item that replaces background with Android in Space. [CHAR LIMIT=14] -->
+  <string name="effect_backdropper_space">ಜಾಗದಲ್ಲಿ</string>
   <!-- Effect setting item that replaces background with a sunset. [CHAR LIMIT=14] -->
   <string name="effect_backdropper_sunset">ಸೂರ್ಯಾಸ್ತ</string>
   <!-- Effect setting item that replaces background with video from gallery. [CHAR LIMIT=14] -->
+  <string name="effect_backdropper_gallery">ನಿಮ್ಮ ದೃಶ್ಯ</string>
   <!-- Message displayed in overlay during background replacement training [CHAR LIMIT=180]-->
+  <string name="bg_replacement_message">ನಿಮ್ಮ ಸಾಧನವನ್ನು ಕೆಳಗಿಳಿಸಿ.\nಕೆಲವು ಕ್ಷಣಗಳವರೆಗೆ ವೀಕ್ಷಣೆಯಿಂದ ಹೊರಬನ್ನಿ.</string>
   <!-- Toast telling users tapping on the viewfinder will take a picture [CHAR LIMIT=54] -->
+  <string name="video_snapshot_hint">ದಾಖಲಿಸುವಾಗ ಚಿತ್ರವನ್ನು ತೆಗೆಯಲಯ ಸ್ಪರ್ಶಿಸಿ.</string>
   <!-- Announcement telling users video recording has just started [CHAR LIMIT=NONE] -->
+  <string name="video_recording_started">ದೃಶ್ಯ ದಾಖಲೆಯು ಪ್ರಾರಂಭಗೊಂಡಿದೆ.</string>
   <!-- Announcement telling users video recording has just stopped [CHAR LIMIT=NONE] -->
+  <string name="video_recording_stopped">ದೃಶ್ಯ ದಾಖಲೆಯು ನಿಂತಿದೆ.</string>
   <!-- Toast telling users video snapshot is disabled when the effects are on and a user tries to tap on the viewfinder [CHAR LIMIT=65] -->
+  <string name="disable_video_snapshot_hint">ವಿಶೇಷ ಪರಿಣಾಮಗಳು ಆರಂಭಗೊಂಡಾಗ ದೃಶ್ಯ ಚಿತ್ರೀಕರಣವು ನಿಷ್ಕ್ರಿಯಗೊಂಡಿರುತ್ತದೆ.</string>
   <!-- A button in effect setting popup to clear the effect. [CHAR LIMIT=26] -->
+  <string name="clear_effects">ಪರಿಣಾಮಗಳನ್ನು ತೆರವುಗೊಳಿಸಿ</string>
   <!-- Title of category for silly face effects. [CHAR LIMIT=26] -->
+  <string name="effect_silly_faces">ಬೆಪ್ಪು ಮುಖಗಳು</string>
   <!-- Title of category for background replacement effects. [CHAR LIMIT=26] -->
+  <string name="effect_background">ಹಿನ್ನೆಲೆ</string>
   <!-- The shutter button. [CHAR LIMIT = NONE] -->
+  <string name="accessibility_shutter_button">ಮುಚ್ಚುವ ಗುಂಡಿ</string>
   <!-- The menu button. [CHAR LIMIT = NONE] -->
+  <string name="accessibility_menu_button">ಮೆನು ಗುಂಡಿ</string>
   <!-- The button to review the thumbnail. [CHAR LIMIT = NONE] -->
+  <string name="accessibility_review_thumbnail">ಅತೀ ಇತ್ತೀಚಿನ ಚಿತ್ರ</string>
   <!-- The front/back camera switch. [CHAR LIMIT = NONE] -->
   <!-- The mode picker to switch between camera, video and panorama. [CHAR LIMIT = NONE] -->
   <!-- The button to switch to the second-level indicators of the camera settings. [CHAR LIMIT = NONE] -->
@@ -558,57 +673,99 @@ CHAR LIMIT = NONE] -->
   <string name="pref_video_time_lapse_frame_interval_6000">6 ಸೆಕೆಂಡ್‍ಗಳು</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_12000">12 ಸೆಕೆಂಡುಗಳು</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_15000">15 ಸೆಕೆಂಡುಗಳು</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_24000">24 ಸೆಕೆಂಡುಗಳು</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_30000">0.5 ನಿಮಿಷಗಳು</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_60000">1 ನಿಮಿಷ</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_90000">1.5 ನಿಮಿಷಗಳು</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_120000">2 ನಿಮಿಷಗಳು</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_150000">2.5 ನಿಮಿಷಗಳು</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_180000">3 ನಿಮಿಷಗಳು</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_240000">4 ನಿಮಿಷಗಳು</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_300000">5 ನಿಮಿಷಗಳು</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_360000">6 ನಿಮಿಷಗಳು</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_600000">10 ನಿಮಿಷಗಳು</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_720000">12 ನಿಮಿಷಗಳು</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_900000">15 ನಿಮಿಷಗಳು</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_1440000">24 ನಿಮಿಷಗಳು</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_1800000">0.5 ಗಂಟೆಗಳು</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_3600000">1 ಗಂಟೆ</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_5400000">1.5 ಗಂಟೆ</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_7200000">2 ಗಂಟೆಗಳು</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_9000000">2.5 ಗಂಟೆಗಳು</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_10800000">3 ಗಂಟೆಗಳು</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_14400000">4 ಗಂಟೆಗಳು</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_18000000">5 ಗಂಟೆಗಳು</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_21600000">6 ಗಂಟೆಗಳು</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_36000000">10 ಗಂಟೆಗಳು</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_43200000">12 ಗಂಟೆಗಳು</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_54000000">15 ಗಂಟೆಗಳು</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
+  <string name="pref_video_time_lapse_frame_interval_86400000">24 ಗಂಟೆಗಳು</string>
   <!-- Seconds: a unit of time for time lapse intervals. [CHAR LIMIT = 20] -->
+  <string name="time_lapse_seconds">ಸೆಕೆಂಡುಗಳು</string>
   <!-- Minutes: a unit of time for time lapse intervals. [CHAR LIMIT = 20] -->
+  <string name="time_lapse_minutes">ನಿಮಿಷಗಳು</string>
   <!-- Hours: a unit of time for time lapse intervals. [CHAR LIMIT = 20] -->
+  <string name="time_lapse_hours">ಗಂಟೆಗಳು</string>
   <!-- The button to confirm time-lapse setting changes. [CHAR LIMIT = 20] -->
   <string name="time_lapse_interval_set">ಮುಗಿಯಿತು</string>
   <!-- Title in time interval picker for setting time interval. [CHAR LIMIT = 30]-->
+  <string name="set_time_interval">ಸಮಯ ವಿರಾಮವನ್ನು ಹೊಂದಿಸಿ</string>
   <!-- Help text that is shown when the time lapse feature is turned off. [CHAR LIMIT = 180]-->
   <!-- Help text that is shown when the countdown timer is turned off. [CHAR LIMIT = 180]-->
   <!-- Title in timer setting for setting the duration for the countdown timer. [CHAR LIMIT = 50]-->
+  <string name="set_duration">ಅವಧಿಯನ್ನು ಸೆಕೆಂಡ್‌ಗಳಲ್ಲಿ ಹೊಂದಿಸಿ</string>
   <!-- On-screen hint during timer countdown for taking a photo. [CHAR LIMIT = 60]-->
+  <string name="count_down_title_text">ಫೋಟೋ ತೆಗೆಯಲು ಕ್ಷಣ ಗಣನೆ</string>
   <!-- Title for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 50] -->
+  <string name="remember_location_title">ಫೋಟೋ ಸ್ಥಳಗಳನ್ನು ನೆನಪಿಡಬೇಕೇ?</string>
   <!-- Message for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = None] -->
+  <string name="remember_location_prompt">ಸ್ಥಳದೊಂದಿಗೆ ತೆಗೆಯಲಾದ ನಿಮ್ಮ ಚಿತ್ರಗಳು ಮತ್ತು ದೃಶ್ಯಗಳನ್ನು ಅವುಗಳನ್ನು ತೆಗೆದಾಗಿನಿಂದ ಟ್ಯಾಗ್ ಮಾಡಿ.\n\nಬೇರೆ ತಂತ್ರಾಂಶಗಳು ನಿಮ್ಮ ಉಳಿಸಿದ ಚಿತ್ರಗಳೊಂದಿಗೆ ಈ ಮಾಹಿತಿಯನ್ನು ಬಳಸಬಲ್ಲವು.</string>
   <!-- Negative answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
+  <string name="remember_location_no">ಬೇಡ ಧನ್ಯವಾದಗಳು</string>
   <!-- Positive answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
+  <string name="remember_location_yes">ಹೌದು</string>
   <!-- Menu item to launch the camera app [CHAR LIMIT=25] -->
   <string name="menu_camera">ಕ್ಯಾಮರಾ</string>
   <!-- Menu item to search for photos [CHAR LIMIT=25] -->
   <string name="menu_search">ಹುಡುಕಿ</string>
   <!-- Title for the all photos tab [CHAR LIMIT=25] -->
+  <string name="tab_photos">ಚಿತ್ರಗಳು</string>
   <!-- Title for the albums tab [CHAR LIMIT=25] -->
   <string name="tab_albums">ಆಲ್ಬಮ್ ಗಳು</string>
   <!-- Camera menu labels -->
   <!-- more options label [CHAR LIMIT=50] -->
+  <string name="camera_menu_more_label">ಹೆಚ್ಚಿನ ಆಯ್ಕೆಗಳು</string>
   <!-- settings label [CHAR LIMIT=50] -->
+  <string name="camera_menu_settings_label">ಸಂಯೋಜನೆಗಳು</string>
   <!-- String indicating how many photos are in an album [CHAR LIMIT=15] -->
 </resources>

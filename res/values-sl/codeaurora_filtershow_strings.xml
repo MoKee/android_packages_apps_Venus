@@ -63,7 +63,17 @@
   <string name="dual_camera_effects_intro">Omogoča uporabo učinkiov, kot so \"Gibanja\" in \"Skica\". Prav tako lahko združite dve fotografiji skupaj za zanimive učinke. Ta funkcija deluje najbolje, ko je glavni predmet na sliki blizu fotoaparata.</string>
   <string name="dualcam_no_segment_toast">Na tej točki ni najdenih segmentov</string>
   <string name="dualcam_filter_not_supported">Za to sliko filtri za dvojno kamero niso podprti</string>
+  <string name="trueportrait_intro">Omogoča vam izboljšanje fotografij ljudi. V ozadju lahko uporabite učinke, kot so \"Zamegli in \"Skica\". Prav tako lahko združite dve fotografiji skupaj, da ustvarite zanimivo ozadje za svoje portretetne fotografije.</string>
+  <string name="trueportrait_no_face">Za to fotografijo ni mogoče uporabiti učinkov pravi portret. Obraz ni zaznan.</string>
+  <string name="trueportrait_edit_intro">Z orodjem na dotik, lahko urejate v ospredju in ozadju. S prstom lahko barvete na katerem koli območju v ospredju ali ozadju, ki ste ga zgrešili.</string>
+  <string name="trueportrait_edit_foreground_toast">Uporabite prst za barvanje na vseh področjih v ospredju, ki ste jih zgrešili.</string>
+  <string name="trueportrait_edit_background_toast">Uporabite prst za barvanje na vseh področjih v ozadju, ki ste jih zgrešili.</string>
+  <string name="trueportrait_edit_help">Za povečavo uporabite dva prsta. Sliko lahko prav tako povlečete z dvema prstoma, da jo premestite. To lahko olajša popravljanje morebitnih problematičnih področij.</string>
+  <string name="trueportrait_fusion_intro">Osebo v ospredju lahko kopirate in prilepite na katero koli fotografijo v vaši galeriji. Poskusite uporabiti različne fotografije v ozadju, da ustvarite nove in zanimive portrete.</string>
+  <string name="dualcam_fusion_intro">Ozadje je mogoče kopirati in prilepiti na katero koli fotografijo v vaši galeriji.\n\n 
+Poskusite uporabiti različne fotografije v ozadju za ustvarjanje novih in zanimivih portretov.</string>
   <string name="do_not_show_again">Ne prikaži ponovno</string>
+  <string name="trueportrait_touch_up">Na dotrik</string>
   <string name="fusion_pick_background">Izberite sliko za ozadje</string>
   <string name="color">Barva</string>
   <string name="ok_continue">Nadaljuj</string>
